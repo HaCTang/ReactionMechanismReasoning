@@ -1,0 +1,223 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C=COC(C)=O",
+                    "label": "substrate",
+                    "electron_number": 34,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "Br2",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "solvent",
+                    "text": "EtOH",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "temperature",
+                    "text": "10°C",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CCOC(CBr)OCC",
+                    "label": "product",
+                    "electron_number": 56,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C=COC(C)=O",
+                    "label": "substrate",
+                    "electron_number": 34,
+                    "charge": 0
+                },
+                {
+                    "smiles": "BrBr",
+                    "label": "reagent",
+                    "electron_number": 14,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(=O)[O+]=CCBr",
+                    "label": "intermediate",
+                    "electron_number": 40,
+                    "charge": 1
+                },
+                {
+                    "smiles": "[Br-]",
+                    "label": "leaving",
+                    "electron_number": 8,
+                    "charge": -1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "CC(=O)[O+]=CCBr",
+                    "label": "intermediate",
+                    "electron_number": 40,
+                    "charge": 1
+                },
+                {
+                    "smiles": "CCO",
+                    "label": "reagent",
+                    "electron_number": 20,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(=O)OC(CBr)[OH+]CC",
+                    "label": "intermediate",
+                    "electron_number": 60,
+                    "charge": 1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "CC(=O)OC(CBr)[OH+]CC",
+                    "label": "intermediate",
+                    "electron_number": 60,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(=O)OC(CBr)OCC",
+                    "label": "intermediate",
+                    "electron_number": 60,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[H+]",
+                    "label": "leaving",
+                    "electron_number": 0,
+                    "charge": 1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "CC(=O)OC(CBr)OCC",
+                    "label": "intermediate",
+                    "electron_number": 60,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[H+]",
+                    "label": "reagent",
+                    "electron_number": 0,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CCOC(CBr)OC(C)=[OH+]",
+                    "label": "intermediate",
+                    "electron_number": 60,
+                    "charge": 1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "5",
+            "reactants": [
+                {
+                    "smiles": "CCOC(CBr)OC(C)=[OH+]",
+                    "label": "intermediate",
+                    "electron_number": 60,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC[O+]=CCBr",
+                    "label": "intermediate",
+                    "electron_number": 36,
+                    "charge": 1
+                },
+                {
+                    "smiles": "CC(=O)O",
+                    "label": "leaving",
+                    "electron_number": 24,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "6",
+            "reactants": [
+                {
+                    "smiles": "CC[O+]=CCBr",
+                    "label": "intermediate",
+                    "electron_number": 36,
+                    "charge": 1
+                },
+                {
+                    "smiles": "CCO",
+                    "label": "reagent",
+                    "electron_number": 20,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC[OH+]C(CBr)OCC",
+                    "label": "intermediate",
+                    "electron_number": 56,
+                    "charge": 1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "7",
+            "reactants": [
+                {
+                    "smiles": "CC[OH+]C(CBr)OCC",
+                    "label": "intermediate",
+                    "electron_number": 56,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CCOC(CBr)OCC",
+                    "label": "product",
+                    "electron_number": 56,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[H+]",
+                    "label": "leaving",
+                    "electron_number": 0,
+                    "charge": 1
+                }
+            ]
+        }
+    ]
+}

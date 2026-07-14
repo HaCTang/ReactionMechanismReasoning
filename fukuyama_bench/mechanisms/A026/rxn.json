@@ -1,0 +1,44 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "[H][C@@]12CC=C3C[C@@H](O)CC[C@]3(C)[C@@]1([H])CC[C@]1(C)[C@@H](C(C)=O)CC[C@@]21[H].c1ccncc1>>[H][C@@]12CC=C3C[C@@H](O)CC[C@]3(C)[C@@]1([H])CC[C@]1(C)[C@@H](C(=C)[O-])CC[C@@]21[H].[nH+]1ccccc1"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[H][C@@]12CC=C3C[C@@H](O)CC[C@]3(C)[C@@]1([H])CC[C@]1(C)[C@@H](C(=C)[O-])CC[C@@]21[H].II>>[H][C@@]12CC=C3C[C@@H](O)CC[C@]3(C)[C@@]1([H])CC[C@]1(C)[C@@H](C(=O)CI)CC[C@@]21[H].[I-]"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "[H][C@@]12CC=C3C[C@@H](O)CC[C@]3(C)[C@@]1([H])CC[C@]1(C)[C@@H](C(=O)CI)CC[C@@]21[H].c1ccncc1>>[H][C@@]12CC=C3C[C@@H](O)CC[C@]3(C)[C@@]1([H])CC[C@]1(C)[C@@H](C(=C(I))[O-])CC[C@@]21[H].[nH+]1ccccc1"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "[H][C@@]12CC=C3C[C@@H](O)CC[C@]3(C)[C@@]1([H])CC[C@]1(C)[C@@H](C(=C(I))[O-])CC[C@@]21[H].II>>[H][C@@]12CC=C3C[C@@H](O)CC[C@]3(C)[C@@]1([H])CC[C@]1(C)[C@@H](C(=O)C(I)I)CC[C@@]21[H].[I-]"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "[H][C@@]12CC=C3C[C@@H](O)CC[C@]3(C)[C@@]1([H])CC[C@]1(C)[C@@H](C(=O)C(I)I)CC[C@@]21[H].c1ccncc1>>[H][C@@]12CC=C3C[C@@H](O)CC[C@]3(C)[C@@]1([H])CC[C@]1(C)[C@@H](C(=C(I)I)[O-])CC[C@@]21[H].[nH+]1ccccc1"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "[H][C@@]12CC=C3C[C@@H](O)CC[C@]3(C)[C@@]1([H])CC[C@]1(C)[C@@H](C(=C(I)I)[O-])CC[C@@]21[H].II>>[H][C@@]12CC=C3C[C@@H](O)CC[C@]3(C)[C@@]1([H])CC[C@]1(C)[C@@H](C(=O)C(I)(I)I)CC[C@@]21[H].[I-]"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "[H][C@@]12CC=C3C[C@@H](O)CC[C@]3(C)[C@@]1([H])CC[C@]1(C)[C@@H](C(=O)C(I)(I)I)CC[C@@]21[H].[OH-]>>[H][C@@]12CC=C3C[C@@H](O)CC[C@]3(C)[C@@]1([H])CC[C@]1(C)[C@@H](C([O-])(O)C(I)(I)I)CC[C@@]21[H]"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "[H][C@@]12CC=C3C[C@@H](O)CC[C@]3(C)[C@@]1([H])CC[C@]1(C)[C@@H](C([O-])(O)C(I)(I)I)CC[C@@]21[H]>>[H][C@@]12CC=C3C[C@@H](O)CC[C@]3(C)[C@@]1([H])CC[C@]1(C)[C@@H](C(=O)O)CC[C@@]21[H].[C-](I)(I)I"
+        },
+        {
+            "step": "9",
+            "rxn_smiles": "[H][C@@]12CC=C3C[C@@H](O)CC[C@]3(C)[C@@]1([H])CC[C@]1(C)[C@@H](C(=O)O)CC[C@@]21[H].[C-](I)(I)I>>[H][C@@]12CC=C3C[C@@H](O)CC[C@]3(C)[C@@]1([H])CC[C@]1(C)[C@@H](C(=O)[O-])CC[C@@]21[H].IC(I)I"
+        },
+        {
+            "step": "10",
+            "rxn_smiles": "[H][C@@]12CC=C3C[C@@H](O)CC[C@]3(C)[C@@]1([H])CC[C@]1(C)[C@@H](C(=O)[O-])CC[C@@]21[H].[H+]>>[H][C@@]12CC=C3C[C@@H](O)CC[C@]3(C)[C@@]1([H])CC[C@]1(C)[C@@H](C(=O)O)CC[C@@]21[H]"
+        }
+    ]
+}

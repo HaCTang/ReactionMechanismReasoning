@@ -1,0 +1,32 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "Brc1ccccc1C2=NCCO2.[Pd]>>Br[Pd]c1ccccc1C2=NCCO2"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "Br[Pd]c1ccccc1C2=NCCO2.[C-]#[O+]>>O#C[Pd](Br)c1ccccc1C2=NCCO2"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "O#C[Pd](Br)c1ccccc1C2=NCCO2>>O=C([Pd]Br)c1ccccc1C2=NCCO2"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "O=C([Pd]Br)c1ccccc1C2=NCCO2>>[O-]C1([Pd]Br)c2ccccc2C3=[N+]1CCO3"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "[O-]C1([Pd]Br)c2ccccc2C3=[N+]1CCO3>>O=C1c2ccccc2C3=[N+]1CCO3.[Br-].[Pd]"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "O=C1c2ccccc2C3=[N+]1CCO3.CCO>>CC[OH+]C12c3ccccc3C(=O)N1CCO2"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "CC[OH+]C12c3ccccc3C(=O)N1CCO2>>CCOC12c3ccccc3C(=O)N1CCO2.[H+]"
+        }
+    ]
+}

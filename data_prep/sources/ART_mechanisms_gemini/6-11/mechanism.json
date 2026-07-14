@@ -1,0 +1,233 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "Brc1ccccc1C2=NCCO2",
+                    "label": "None",
+                    "electron_number": 104,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Pd]",
+                    "label": "None",
+                    "electron_number": 46,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "2% (Ph3P)2PdCl2",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "8% PPh3",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "CO",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "1.3 Et3N",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "EtOH",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CCOC12c3ccccc3C(=O)N1CCO2",
+                    "label": "None",
+                    "electron_number": 103,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[H+]",
+                    "label": "None",
+                    "electron_number": 0,
+                    "charge": 1
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "Brc1ccccc1C2=NCCO2",
+                    "label": "None",
+                    "electron_number": 104,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Pd]",
+                    "label": "None",
+                    "electron_number": 46,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "Br[Pd]c1ccccc1C2=NCCO2",
+                    "label": "None",
+                    "electron_number": 150,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "Br[Pd]c1ccccc1C2=NCCO2",
+                    "label": "None",
+                    "electron_number": 150,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[C-]#[O+]",
+                    "label": "None",
+                    "electron_number": 14,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O#C[Pd](Br)c1ccccc1C2=NCCO2",
+                    "label": "None",
+                    "electron_number": 0,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "O#C[Pd](Br)c1ccccc1C2=NCCO2",
+                    "label": "None",
+                    "electron_number": 0,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=C([Pd]Br)c1ccccc1C2=NCCO2",
+                    "label": "None",
+                    "electron_number": 164,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "O=C([Pd]Br)c1ccccc1C2=NCCO2",
+                    "label": "None",
+                    "electron_number": 164,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[O-]C1([Pd]Br)c2ccccc2C3=[N+]1CCO3",
+                    "label": "None",
+                    "electron_number": 164,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "5",
+            "reactants": [
+                {
+                    "smiles": "[O-]C1([Pd]Br)c2ccccc2C3=[N+]1CCO3",
+                    "label": "None",
+                    "electron_number": 164,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=C1c2ccccc2C3=[N+]1CCO3",
+                    "label": "None",
+                    "electron_number": 82,
+                    "charge": 1
+                },
+                {
+                    "smiles": "[Br-]",
+                    "label": "None",
+                    "electron_number": 36,
+                    "charge": -1
+                },
+                {
+                    "smiles": "[Pd]",
+                    "label": "None",
+                    "electron_number": 46,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "6",
+            "reactants": [
+                {
+                    "smiles": "O=C1c2ccccc2C3=[N+]1CCO3",
+                    "label": "None",
+                    "electron_number": 82,
+                    "charge": 1
+                },
+                {
+                    "smiles": "CCO",
+                    "label": "None",
+                    "electron_number": 20,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC[OH+]C12c3ccccc3C(=O)N1CCO2",
+                    "label": "None",
+                    "electron_number": 102,
+                    "charge": 1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "7",
+            "reactants": [
+                {
+                    "smiles": "CC[OH+]C12c3ccccc3C(=O)N1CCO2",
+                    "label": "None",
+                    "electron_number": 102,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CCOC12c3ccccc3C(=O)N1CCO2",
+                    "label": "None",
+                    "electron_number": 103,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[H+]",
+                    "label": "None",
+                    "electron_number": 0,
+                    "charge": 1
+                }
+            ]
+        }
+    ]
+}

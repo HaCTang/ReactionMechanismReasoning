@@ -1,0 +1,48 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "NCC1CCCC1.C=[OH+]>>C1CCCC1C[NH2+]CO"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "C1CCCC1C[NH2+]CO>>C1CCCC1CNC[OH2+]"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "C1CCCC1CNC[OH2+]>>C1CCCC1C[NH+]=C.O"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "C1CCCC1C[NH+]=C.[O-]C=O>>C1CCCC1CNC.O=C=O"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "C1CCCC1CNC.C=[OH+]>>C1CCCC1C[NH+](C)CO"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "C1CCCC1C[NH+](C)CO>>C1CCCC1CN(C)C[OH2+]"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "C1CCCC1CN(C)C[OH2+]>>C1CCCC1C[N+](C)=C.O"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "C1CCCC1C[N+](C)=C.[O-]C=O>>C1CCCC1CN(C)C.O=C=O"
+        },
+        {
+            "step": "9",
+            "rxn_smiles": "C1CCCC1CN(C)C.OO>>C1CCCC1C[N+](C)(C)O.[OH-]"
+        },
+        {
+            "step": "10",
+            "rxn_smiles": "C1CCCC1C[N+](C)(C)O.[OH-]>>C1CCCC1C[N+](C)(C)[O-].O"
+        },
+        {
+            "step": "11",
+            "rxn_smiles": "C1CCCC1C[N+](C)(C)[O-]>>C=C1CCCC1.CN(C)O"
+        }
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C1C2C(C(=O)OC)(C(=C)O[Si](C)(C)C)CC1C(CC(Br)=C)=C2",
+                    "label": "None",
+                    "electron_number": 175,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "Δ",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=C1C(C(=O)OC)CC2CC=CC(CC(Br)=C)2C1",
+                    "label": "None",
+                    "electron_number": 143,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C1C2C(C(=O)OC)(C(=C)O[Si](C)(C)C)CC1C(CC(Br)=C)=C2",
+                    "label": "None",
+                    "electron_number": 175,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C1(O[Si](C)(C)C)=C(C(=O)OC)CC2CC=CC(CC(Br)=C)2C1",
+                    "label": "None",
+                    "electron_number": 175,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "C1(O[Si](C)(C)C)=C(C(=O)OC)CC2CC=CC(CC(Br)=C)2C1",
+                    "label": "None",
+                    "electron_number": 175,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C1(O)=C(C(=O)OC)CC2CC=CC(CC(Br)=C)2C1",
+                    "label": "None",
+                    "electron_number": 143,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "C1(O)=C(C(=O)OC)CC2CC=CC(CC(Br)=C)2C1",
+                    "label": "None",
+                    "electron_number": 143,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=C1C(C(=O)OC)CC2CC=CC(CC(Br)=C)2C1",
+                    "label": "None",
+                    "electron_number": 143,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "O=C1CCCC1Cl.C=C[Mg]Br>>C=C[C@]1([O-])CCC[C@H]1Cl.[Mg+]Br"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "C=C[C@]1([O-])CCC[C@H]1Cl>>C=CC1CCCC1=O.[Cl-]"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "C=CC1CCCC1=O.C=C[Mg]Br>>C=C[C@]1([O-])CCC[C@H]1C=C.[Mg+]Br"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "C=C[C@]1([O-])CCC[C@H]1C=C>>[O-]C1=CCC/C=C/CCC1"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "[O-]C1=CCC/C=C/CCC1.[H+]>>O=C1CCC/C=C/CCC1"
+        }
+    ]
+}

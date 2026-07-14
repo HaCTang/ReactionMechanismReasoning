@@ -1,0 +1,89 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C=CC1C=CC1=O",
+                    "label": "None",
+                    "electron_number": 44,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "Δ",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "Oc1ccccc1",
+                    "label": "None",
+                    "electron_number": 44,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C=CC1C=CC1=O",
+                    "label": "None",
+                    "electron_number": 44,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C=CC=CC=C=O",
+                    "label": "None",
+                    "electron_number": 44,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "C=CC=CC=C=O",
+                    "label": "None",
+                    "electron_number": 44,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=C1C=CC=CC1",
+                    "label": "None",
+                    "electron_number": 44,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "O=C1C=CC=CC1",
+                    "label": "None",
+                    "electron_number": 44,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "Oc1ccccc1",
+                    "label": "None",
+                    "electron_number": 44,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

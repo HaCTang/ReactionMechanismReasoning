@@ -1,0 +1,24 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C=C1CCC(=O)O1.CCOP(=O)([CH2-])OCC>>CCOP(=O)(CC1(CCC(=C)O1)[O-])OCC"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CCOP(=O)(CC1(CCC(=C)O1)[O-])OCC>>C=C([O-])CCC(=O)CP(=O)(OCC)OCC"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "C=C([O-])CCC(=O)CP(=O)(OCC)OCC>>CC(=O)CCC(=O)[CH-]P(=O)(OCC)OCC"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CC(=O)CCC(=O)[CH-]P(=O)(OCC)OCC>>CCOP(=O)(C1C(=O)CCC1(C)[O-])OCC"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CCOP(=O)(C1C(=O)CCC1(C)[O-])OCC>>CC1=CC(=O)CC1.CCOP(=O)([O-])OCC"
+        }
+    ]
+}

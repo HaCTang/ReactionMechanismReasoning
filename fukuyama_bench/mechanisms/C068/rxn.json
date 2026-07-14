@@ -1,0 +1,44 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C=CC1CCCC(CO[Si](C)(C)C(C)(C)C)S1.ClC(Cl)=C=O>>[O-]C(=C(Cl)Cl)[S+]1C(C=C)CCCC1CO[Si](C)(C)C(C)(C)C"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[O-]C(=C(Cl)Cl)[S+]1C(C=C)CCCC1CO[Si](C)(C)C(C)(C)C>>CC(C)(C)[Si](C)(C)OCC1CCC/C=C/CC(Cl)(Cl)C(=O)S1"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CC(C)(C)[Si](C)(C)OCC1CCC/C=C/CC(Cl)(Cl)C(=O)S1.[Zn].[Zn].CC(=O)O.CC(=O)O>>CC(C)(C)[Si](C)(C)OCC1CCC/C=C/CCC(=O)S1.[Zn+2].[Zn+2].[Cl-].[Cl-].CC(=O)[O-].CC(=O)[O-]"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CC(C)(C)[Si](C)(C)OCC1CCC/C=C/CCC(=O)S1.[H+]>>CC(C)(C)[Si](C)(C)[OH+]CC1CCC/C=C/CCC(=O)S1"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CC(C)(C)[Si](C)(C)[OH+]CC1CCC/C=C/CCC(=O)S1.[F-]>>OCC1CCC/C=C/CCC(=O)S1.CC(C)(C)[Si](F)(C)C"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "OCC1CCC/C=C/CCC(=O)S1.[H+]>>OCC1CCC/C=C/CCC(=[OH+])S1"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "OCC1CCC/C=C/CCC(=[OH+])S1>>OC12SC(C[OH+]2)CCC/C=C/CC1"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "OC12SC(C[OH+]2)CCC/C=C/CC1>>OC12[SH+]C(CCC/C=C/CC2)CO1"
+        },
+        {
+            "step": "9",
+            "rxn_smiles": "OC12[SH+]C(CCC/C=C/CC2)CO1>>[OH+]=C1CC/C=C/CCCC(CO1)S"
+        },
+        {
+            "step": "10",
+            "rxn_smiles": "[OH+]=C1CC/C=C/CCCC(CO1)S>>O=C1CC/C=C/CCCC(S)CO1.[H+]"
+        }
+    ]
+}

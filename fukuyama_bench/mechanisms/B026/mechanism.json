@@ -1,0 +1,142 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C[Si](C)(C)/C=C/C(=O)C1=CCCCC1",
+                    "label": "None",
+                    "electron_number": 78,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "FeCl3",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "solvent",
+                    "text": "CH2Cl2",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "temperature",
+                    "text": "0 °C",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[H][C@]12C=CC(=O)C1CCCC2",
+                    "label": "None",
+                    "electron_number": 54,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C[Si](C)(C)/C=C/C(=O)C1=CCCCC1",
+                    "label": "substrate",
+                    "electron_number": 78,
+                    "charge": 0
+                },
+                {
+                    "smiles": "Cl[Fe](Cl)Cl",
+                    "label": "reagent",
+                    "electron_number": 29,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C[Si](C)(C)/C=C/C(=[O+][Fe-](Cl)(Cl)Cl)C1=CCCCC1",
+                    "label": "intermediate",
+                    "electron_number": 107,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "C[Si](C)(C)/C=C/C(=[O+][Fe-](Cl)(Cl)Cl)C1=CCCCC1",
+                    "label": "intermediate",
+                    "electron_number": 107,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "Cl[Fe-](Cl)(Cl)OC1=C2CCCC[C@@H]2C([Si](C)(C)C)[CH+]1",
+                    "label": "intermediate",
+                    "electron_number": 107,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "Cl[Fe-](Cl)(Cl)OC1=C2CCCC[C@@H]2C([Si](C)(C)C)[CH+]1",
+                    "label": "intermediate",
+                    "electron_number": 107,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "Cl[Fe](Cl)OC1=C2CCCC[C@@H]2C=C1",
+                    "label": "intermediate",
+                    "electron_number": 75,
+                    "charge": 0
+                },
+                {
+                    "smiles": "C[Si](C)(C)Cl",
+                    "label": "leaving",
+                    "electron_number": 32,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "Cl[Fe](Cl)OC1=C2CCCC[C@@H]2C=C1",
+                    "label": "intermediate",
+                    "electron_number": 75,
+                    "charge": 0
+                },
+                {
+                    "smiles": "O",
+                    "label": "reagent",
+                    "electron_number": 8,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[H][C@]12C=CC(=O)C1CCCC2",
+                    "label": "product",
+                    "electron_number": 54,
+                    "charge": 0
+                },
+                {
+                    "smiles": "Cl[Fe](Cl)O",
+                    "label": "leaving",
+                    "electron_number": 29,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

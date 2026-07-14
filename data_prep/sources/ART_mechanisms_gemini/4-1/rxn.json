@@ -1,0 +1,36 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "[H]/C(C)=C(/C)Br>>[H]/C(C)=[C](/C)[Mg][Br]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[H]/C(C)=[C](/C)[Mg][Br]>>[O-]C(OCC)(/C(C)=C(C)\\[H])C.[Mg+][Br]"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "[O-]C(OCC)(/C(C)=C(C)\\[H])C>>[O-]CC.[H]/C(C)=C(/C)C(C)=O"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "[H]/C(C)=C(/C)C(C)=O.[H]/C(C)=[C](/C)[Mg][Br]>>[H]/C(C)=C(/C)C(C)([O-])/C(C)=C(\\[H])C.[Mg+][Br]"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "[H]/C(C)=C(/C)C(C)([O-])/C(C)=C(\\[H])C.[H+].[H+]>>[H]/C(C)=C(/C)C(C)([OH2+])/C(C)=C(\\[H])C"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "[H]/C(C)=C(/C)C(C)([OH2+])/C(C)=C(\\[H])C>>[H]/C(C)=C(/C)[C+](C)/C(C)=C(\\[H])C.O"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "[H]/C(C)=C(/C)[C+](C)/C(C)=C(\\[H])C>>[H]C1(C(C)=C([C+](C1(C)[H])C)C)C"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "[H]C1(C(C)=C([C+](C1(C)[H])C)C)C>>[H]C1(C(C)=C(C(C1(C)[H])C)C)C"
+        }
+    ]
+}

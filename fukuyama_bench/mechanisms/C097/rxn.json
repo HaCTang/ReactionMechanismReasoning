@@ -1,0 +1,44 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "COC(=O)C1C2C=CC(C1C(=O)OC)C2[Si](C)(C)C.BrBr>>COC(C1C2C([Br+]3)C3C(C2[Si](C)(C)C)C1C(OC)=O)=O.[Br-]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "COC(C1C2C([Br+]3)C3C(C2[Si](C)(C)C)C1C(OC)=O)=O>>C[Si](C)(C)C1C2C(Br)C(O/C3=[O+]/C)C1C3C2C(OC)=O"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "C[Si](C)(C)C1C2C(Br)C(O/C3=[O+]/C)C1C3C2C(OC)=O.[Br-]>>C[Si](C)(C)C1C2C(Br)C(OC3=O)C1C3C2C(OC)=O.CBr"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "C[Si](C)(C)C1C2C(Br)C(OC3=O)C1C3C2C(OC)=O.[Ag+]>>C[Si](C)(C1C2[CH+]C(C1C3C2C(OC)=O)OC3=O)C.[Ag]Br"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "C[Si](C)(C1C2[CH+]C(C1C3C2C(OC)=O)OC3=O)C>>O=C1C(C2C(OC)=O)C3C(O1)C2C=C3.[Si+](C)(C)C"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "O=C1C(C2C(OC)=O)C3C(O1)C2C=C3.CO>>O=C(OC)C(C1C(O)C2C=C1)C2C(OC)=O"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "CS(=O)C.FC(F)(F)C(=O)OC(=O)C(F)(F)F>>C[S+](C)OC(=O)C(F)(F)F.FC(F)(F)C(=O)[O-]"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "O=C(OC)C(C1C(O)C2C=C1)C2C(OC)=O.C[S+](C)OC(=O)C(F)(F)F>>O=C(C(C1C(OC)=O)C2C(C1C=C2)O[S+](C)C)OC.FC(F)(F)C(=O)O"
+        },
+        {
+            "step": "9",
+            "rxn_smiles": "O=C(C(C1C(OC)=O)C2C(C1C=C2)O[S+](C)C)OC.CCN(CC)(CC)>>O=C(OC)C(C1C(O[S+](C)[CH2-])C2C=C1)C2C(OC)=O.CC[NH+](CC)CC"
+        },
+        {
+            "step": "10",
+            "rxn_smiles": "O=C(OC)C(C1C(O[S+](C)[CH2-])C2C=C1)C2C(OC)=O>>COC(=O)C1C2C=CC(C2=O)C1C(=O)OC.CSC"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "OC1(C2(O)CCCC2)CCCC1.[H+]>>[OH2+]C1(C2(O)CCCC2)CCCC1"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[OH2+]C1(C2(O)CCCC2)CCCC1>>OC1(CCCC1)[C+]2CCCC2.O"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "OC1(CCCC1)[C+]2CCCC2>>[OH+]=C1CCCCC12CCCC2"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "[OH+]=C1CCCCC12CCCC2>>O=C1CCCCC12CCCC2.[H+]"
+        }
+    ]
+}

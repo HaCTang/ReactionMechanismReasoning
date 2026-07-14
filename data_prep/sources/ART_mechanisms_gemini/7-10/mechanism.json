@@ -1,0 +1,135 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "O=C1C=C(C)[C@]2(CCCI)CCC[C@@H]12",
+                    "label": "None",
+                    "electron_number": 133,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CCCC[Sn](CCCC)CCCC",
+                    "label": "None",
+                    "electron_number": 122,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "AIBN",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "HSnBu3",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "hv",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=C1C[C@@]2(C)[C@]3(CCC2)CCC[C@@H]13",
+                    "label": "None",
+                    "electron_number": 80,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CCCC[Sn](CCCC)CCCC",
+                    "label": "None",
+                    "electron_number": 122,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "O=C1C=C(C)[C@]2(CCCI)CCC[C@@H]12",
+                    "label": "None",
+                    "electron_number": 133,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CCCC[Sn](CCCC)CCCC",
+                    "label": "None",
+                    "electron_number": 122,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=C1C=C(C)[C@]2(CC[CH2])CCC[C@@H]12",
+                    "label": "None",
+                    "electron_number": 80,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CCCC[Sn](I)(CCCC)CCCC",
+                    "label": "None",
+                    "electron_number": 175,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "O=C1C=C(C)[C@]2(CC[CH2])CCC[C@@H]12",
+                    "label": "None",
+                    "electron_number": 80,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=C1[CH][C@@]2(C)[C@]3(CCC2)CCC[C@@H]13",
+                    "label": "None",
+                    "electron_number": 80,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "O=C1[CH][C@@]2(C)[C@]3(CCC2)CCC[C@@H]13",
+                    "label": "None",
+                    "electron_number": 80,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CCCC[SnH](CCCC)CCCC",
+                    "label": "None",
+                    "electron_number": 122,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=C1C[C@@]2(C)[C@]3(CCC2)CCC[C@@H]13",
+                    "label": "None",
+                    "electron_number": 80,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CCCC[Sn](CCCC)CCCC",
+                    "label": "None",
+                    "electron_number": 122,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

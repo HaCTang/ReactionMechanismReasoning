@@ -1,0 +1,58 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "c1ccc(CN2Cc3ccccc3C2)cc1.CC(Cl)OC(=O)Cl>>CC(Cl)OC(=O)[N+]1(Cc2ccccc2)Cc3ccccc3C1.[Cl-]",
+            "mapped_rxn": "[CH3:1][CH:2]([Cl:3])[O:4][C:5](=[O:6])[Cl:23].[N:7]1([CH2:8][c:9]2[cH:10][cH:11][cH:12][cH:13][cH:14]2)[CH2:15][c:16]2[cH:17][cH:18][cH:19][cH:20][c:21]2[CH2:22]1>>[CH3:1][CH:2]([Cl:3])[O:4][C:5](=[O:6])[N+:7]1([CH2:8][c:9]2[cH:10][cH:11][cH:12][cH:13][cH:14]2)[CH2:15][c:16]2[cH:17][cH:18][cH:19][cH:20][c:21]2[CH2:22]1.[Cl-:23]",
+            "confidence": 0.7823705227994363
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CC(Cl)OC(=O)[N+]1(Cc2ccccc2)Cc3ccccc3C1.[Cl-]>>CC(Cl)OC(=O)N1Cc2ccccc2C1.ClCc1ccccc1",
+            "mapped_rxn": "[CH3:1][CH:2]([Cl:3])[O:4][C:5](=[O:6])[N+:7]1([CH2:17][c:18]2[cH:19][cH:20][cH:21][cH:22][cH:23]2)[CH2:8][c:9]2[cH:10][cH:11][cH:12][cH:13][c:14]2[CH2:15]1.[Cl-:16]>>[CH3:1][CH:2]([Cl:3])[O:4][C:5](=[O:6])[N:7]1[CH2:8][c:9]2[cH:10][cH:11][cH:12][cH:13][c:14]2[CH2:15]1.[Cl:16][CH2:17][c:18]1[cH:19][cH:20][cH:21][cH:22][cH:23]1",
+            "confidence": 0.8339953830757162
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CC(Cl)OC(=O)N1Cc2ccccc2C1>>CC=[O+]C(=O)N1Cc2ccccc2C1.[Cl-]",
+            "mapped_rxn": "[CH3:1][CH:2]([O:3][C:4](=[O:5])[N:6]1[CH2:7][c:8]2[cH:9][cH:10][cH:11][cH:12][c:13]2[CH2:14]1)[Cl:15]>>[CH3:1][CH:2]=[O+:3][C:4](=[O:5])[N:6]1[CH2:7][c:8]2[cH:9][cH:10][cH:11][cH:12][c:13]2[CH2:14]1.[Cl-:15]",
+            "confidence": 0.9284493404029305
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CC=[O+]C(=O)N1Cc2ccccc2C1.CO>>C[CH]([OH+]C)OC(=O)N1Cc2ccccc2C1",
+            "mapped_rxn": "[CH:3]([CH3:4])=[O+:5][C:6](=[O:7])[N:8]1[CH2:9][c:10]2[cH:11][cH:12][cH:13][cH:14][c:15]2[CH2:16]1.[CH3:1][OH:2]>>[CH3:1][OH+:2][CH:3]([CH3:4])[O:5][C:6](=[O:7])[N:8]1[CH2:9][c:10]2[cH:11][cH:12][cH:13][cH:14][c:15]2[CH2:16]1",
+            "confidence": 0.9338697373420127
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "C[CH]([OH+]C)OC(=O)N1Cc2ccccc2C1>>CC(OC)OC(=O)N1Cc2ccccc2C1.[H+]",
+            "mapped_rxn": "[CH3:1][OH+:2][CH:3]([CH3:4])[O:5][C:6](=[O:7])[N:8]1[CH2:9][c:10]2[cH:11][cH:12][cH:13][cH:14][c:15]2[CH2:16]1>>[CH3:1][O:2][CH:3]([CH3:4])[O:5][C:6](=[O:7])[N:8]1[CH2:9][c:10]2[cH:11][cH:12][cH:13][cH:14][c:15]2[CH2:16]1.[H+:17]",
+            "confidence": 0.9183739228997542
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "CC(OC)OC(=O)N1Cc2ccccc2C1.[H+]>>CC(OC)[OH+]C(=O)N1Cc2ccccc2C1",
+            "mapped_rxn": "[CH3:1][O:2][CH:3]([CH3:4])[O:5][C:6](=[O:7])[N:8]1[CH2:9][c:10]2[cH:11][cH:12][cH:13][cH:14][c:15]2[CH2:16]1.[H+]>>[CH3:1][O:2][CH:3]([CH3:4])[OH+:5][C:6](=[O:7])[N:8]1[CH2:9][c:10]2[cH:11][cH:12][cH:13][cH:14][c:15]2[CH2:16]1",
+            "confidence": 0.9373503721525445
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "CC(OC)[OH+]C(=O)N1Cc2ccccc2C1>>OC(=O)N1Cc2ccccc2C1.C[CH]=[O+]C",
+            "mapped_rxn": "[CH3:1][CH:2]([O:3][CH3:4])[OH+:7][C:6](=[O:5])[N:8]1[CH2:9][c:10]2[cH:11][cH:12][cH:13][cH:14][c:15]2[CH2:16]1>>[CH3:1][CH:2]=[O+:3][CH3:4].[O:5]=[C:6]([OH:7])[N:8]1[CH2:9][c:10]2[cH:11][cH:12][cH:13][cH:14][c:15]2[CH2:16]1",
+            "confidence": 0.9627910161309144
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "OC(=O)N1Cc2ccccc2C1>>N1Cc2ccccc2C1.O=C=O",
+            "mapped_rxn": "[O:1]=[C:2]([OH:3])[N:11]1[CH2:10][c:8]2[c:7]([cH:6][cH:5][cH:4][cH:9]2)[CH2:12]1>>[O:1]=[C:2]=[O:3].[cH:4]1[cH:5][cH:6][c:7]2[c:8]([cH:9]1)[CH2:10][NH:11][CH2:12]2",
+            "confidence": 0.5272737741652853
+        },
+        {
+            "step": "9",
+            "rxn_smiles": "N1Cc2ccccc2C1.Cl>>[NH2+]1Cc2ccccc2C1.[Cl-]",
+            "mapped_rxn": "[ClH:1].[cH:2]1[cH:3][cH:4][c:5]2[c:6]([cH:7]1)[CH2:8][NH:9][CH2:10]2>>[Cl-:1].[cH:2]1[cH:3][cH:4][c:5]2[c:6]([cH:7]1)[CH2:8][NH2+:9][CH2:10]2",
+            "confidence": 0.9470558838211891
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "Cc1ccc(S(=O)(=O)NN=CC23CCC(CC2)C3)cc1.[CH2-]CCC>>Cc1ccc(S(=O)(=O)[N-]N=CC23CCC(CC2)C3)cc1.CCCC",
+            "mapped_rxn": "[CH3:5][c:6]1[cH:7][cH:8][c:9]([S:10](=[O:11])(=[O:12])[NH:13][N:14]=[CH:15][C:16]23[CH2:17][CH2:18][CH:19]([CH2:20][CH2:21]2)[CH2:22]3)[cH:23][cH:24]1.[CH2-:1][CH2:2][CH2:3][CH3:4]>>[CH3:1][CH2:2][CH2:3][CH3:4].[CH3:5][c:6]1[cH:7][cH:8][c:9]([S:10](=[O:11])(=[O:12])[N-:13][N:14]=[CH:15][C:16]23[CH2:17][CH2:18][CH:19]([CH2:20][CH2:21]2)[CH2:22]3)[cH:23][cH:24]1",
+            "confidence": 0.40189682550071754
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "Cc1ccc(S(=O)(=O)[N-]N=CC23CCC(CC2)C3)cc1>>[N-]=[N+]=CC12CCC(CC1)C2.Cc1ccc(S(=O)[O-])cc1",
+            "mapped_rxn": "[CH3:1][c:2]1[cH:3][cH:4][c:5]([S:6](=[O:7])(=[O:8])[N-:11][N:12]=[CH:13][C:14]23[CH2:15][CH2:16][CH:17]([CH2:18][CH2:19]2)[CH2:20]3)[cH:9][cH:10]1>>[CH3:1][c:2]1[cH:3][cH:4][c:5]([S:6](=[O:7])[O-:8])[cH:9][cH:10]1.[N-:11]=[N+:12]=[CH:13][C:14]12[CH2:15][CH2:16][CH:17]([CH2:18][CH2:19]1)[CH2:20]2",
+            "confidence": 0.4774200096816885
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "[N-]=[N+]=CC12CCC(CC1)C2>>[CH]C12CCC(CC1)C2.N#N",
+            "mapped_rxn": "[N-:1]=[N+:2]=[CH:3][C:4]12[CH2:5][CH2:6][CH:7]([CH2:8][CH2:9]1)[CH2:10]2>>[N:1]#[N:2].[CH:3][C:4]12[CH2:5][CH2:6][CH:7]([CH2:8][CH2:9]1)[CH2:10]2",
+            "confidence": 0.803704096403516
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "[CH]C12CCC(CC1)C2>>C1CC2CCC=1CC2",
+            "mapped_rxn": "[CH:1][C:2]12[CH2:3][CH2:4][CH:5]([CH2:6]1)[CH2:7][CH2:8]2>>[CH:1]1=[C:2]2[CH2:3][CH2:4][CH:5]([CH2:6]1)[CH2:7][CH2:8]2",
+            "confidence": 0.5835336131111953
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "C1CC2CCC=1CC2>>C=CCCC(=C)C=C",
+            "mapped_rxn": "[CH:1]1=[C:2]2[CH2:3][CH2:4][CH:5]([CH2:6][CH2:8]2)[CH2:7]1>>[CH2:1]=[CH:2][CH2:3][CH2:4][C:5](=[CH2:6])[CH:7]=[CH2:8]",
+            "confidence": 0.5269156715386369
+        }
+    ]
+}

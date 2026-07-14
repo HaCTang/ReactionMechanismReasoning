@@ -1,0 +1,24 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "O=C1CCCCCCCCCCC1.C1CCNC1>>C1CCCCCCCCCC=C1N1CCCC1.O"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "C1CCCCCCCCCC=C1N1CCCC1.[N-]=[N+]=NP(=O)(Oc1ccccc1)Oc2ccccc2>>O=P(Oc1ccccc1)(Oc2ccccc2)N1N=NC2CCCCCCCCCCC21N3CCCC3"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "O=P(Oc1ccccc1)(Oc2ccccc2)N1N=NC2CCCCCCCCCCC21N3CCCC3>>[N-](P(=O)(Oc1ccccc1)Oc2ccccc2)C1(N2CCCC2)C([N+]#N)CCCCCCCCCC1"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "[N-](P(=O)(Oc1ccccc1)Oc2ccccc2)C1(N2CCCC2)C([N+]#N)CCCCCCCCCC1>>O=P(Oc1ccccc1)(Oc2ccccc2)N=C(C1CCCCCCCCCC1)N2CCCC2.N#N"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "O=P(Oc1ccccc1)(Oc2ccccc2)N=C(C1CCCCCCCCCC1)N2CCCC2.O.O>>OC(=O)C1CCCCCCCCCC1.C1CCNC1.NP(=O)(Oc1ccccc1)Oc2ccccc2"
+        }
+    ]
+}

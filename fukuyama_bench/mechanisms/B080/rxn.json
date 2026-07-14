@@ -1,0 +1,36 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "O=Cc1ccccc1[N+](=O)[O-].CCOC(=O)C=[P](c1ccccc1)(c1ccccc1)c1ccccc1>>CCOC(=O)C([P+](c1ccccc1)(c1ccccc1)c1ccccc1)C([O-])c1ccccc1[N+](=O)[O-]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CCOC(=O)C([P+](c1ccccc1)(c1ccccc1)c1ccccc1)C([O-])c1ccccc1[N+](=O)[O-]>>CCOC(=O)C1[P](c2ccccc2)(c2ccccc2)(c2ccccc2)OC1c1ccccc1[N+](=O)[O-]"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CCOC(=O)C1[P](c2ccccc2)(c2ccccc2)(c2ccccc2)OC1c1ccccc1[N+](=O)[O-]>>CCOC(=O)/C=C/c1ccccc1[N+](=O)[O-].O=P(c1ccccc1)(c1ccccc1)c1ccccc1"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CCOC(=O)/C=C/c1ccccc1[N+](=O)[O-].CCOP(OCC)OCC>>CCOC(=O)/C=C/c1ccccc1N([O-])O[P+](OCC)(OCC)OCC"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CCOC(=O)/C=C/c1ccccc1N([O-])O[P+](OCC)(OCC)OCC>>CCOC(=O)/C=C/c1ccccc1N=O.O=P(OCC)(OCC)OCC"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "CCOC(=O)/C=C/c1ccccc1N=O.CCOP(OCC)OCC>>CCOC(=O)/C=C/c1ccccc1[N-]O[P+](OCC)(OCC)OCC"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "CCOC(=O)/C=C/c1ccccc1[N-]O[P+](OCC)(OCC)OCC>>CCOC(=O)/C=C/c1ccccc1[N].O=P(OCC)(OCC)OCC"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "CCOC(=O)/C=C/c1ccccc1[N]>>CCOC(=O)c1cc2ccccc2[nH]1"
+        }
+    ]
+}

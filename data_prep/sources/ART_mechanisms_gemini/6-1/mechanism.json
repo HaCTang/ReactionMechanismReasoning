@@ -1,0 +1,176 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C=CCC(C(C)C)O[SiH](c1ccccc1)c1ccccc1",
+                    "label": "None",
+                    "electron_number": 136,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Rh]",
+                    "label": "None",
+                    "electron_number": 45,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "[Rh] catalyst",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=CCC1CC(C(C)C)O[Si]1(c1ccccc1)c1ccccc1",
+                    "label": "None",
+                    "electron_number": 150,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Rh]",
+                    "label": "None",
+                    "electron_number": 45,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C=CCC(C(C)C)O[SiH](c1ccccc1)c1ccccc1",
+                    "label": "None",
+                    "electron_number": 136,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Rh]",
+                    "label": "None",
+                    "electron_number": 45,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C=CCC(C(C)C)O[Si]([RhH])(c1ccccc1)c1ccccc1",
+                    "label": "None",
+                    "electron_number": 181,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "C=CCC(C(C)C)O[Si]([RhH])(c1ccccc1)c1ccccc1",
+                    "label": "None",
+                    "electron_number": 181,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(C1CC2C[RhH]2[Si](c3ccccc3)(O1)c4ccccc4)C",
+                    "label": "None",
+                    "electron_number": 181,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "CC(C1CC2C[RhH]2[Si](c3ccccc3)(O1)c4ccccc4)C",
+                    "label": "None",
+                    "electron_number": 181,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(C1CC([Si](c2ccccc2)(O1)c3ccccc3)C[RhH])C",
+                    "label": "None",
+                    "electron_number": 181,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "CC(C1CC([Si](c2ccccc2)(O1)c3ccccc3)C[RhH])C",
+                    "label": "None",
+                    "electron_number": 181,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[C-]#[O+]",
+                    "label": "None",
+                    "electron_number": 14,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(C1CC([Si](c2ccccc2)(O1)c3ccccc3)C[RhH]C#O)C",
+                    "label": "None",
+                    "electron_number": 0,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "5",
+            "reactants": [
+                {
+                    "smiles": "CC(C1CC([Si](c2ccccc2)(O1)c3ccccc3)C[RhH]C#O)C",
+                    "label": "None",
+                    "electron_number": 0,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(C)C1CC(CC([RhH])=O)[Si](O1)(c2ccccc2)c3ccccc3",
+                    "label": "None",
+                    "electron_number": 195,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "6",
+            "reactants": [
+                {
+                    "smiles": "CC(C)C1CC(CC([RhH])=O)[Si](O1)(c2ccccc2)c3ccccc3",
+                    "label": "None",
+                    "electron_number": 195,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=CCC1CC(C(C)C)O[Si]1(c1ccccc1)c1ccccc1",
+                    "label": "None",
+                    "electron_number": 150,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Rh]",
+                    "label": "None",
+                    "electron_number": 45,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CC(C)=C.[H+]>>C[C+](C)C",
+            "mapped_rxn": "[CH2:1]=[C:2]([CH3:3])[CH3:4].[H+]>>[CH3:1][C+:2]([CH3:3])[CH3:4]",
+            "confidence": 0.809801806847025
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "C[C+](C)C.O=C(O)CC(=O)O>>CC(C)(C)OC(=[OH+])CC(=O)O",
+            "mapped_rxn": "[CH3:1][C+:2]([CH3:3])[CH3:4].[OH:5][C:6](=[O:7])[CH2:8][C:9](=[O:10])[OH:11]>>[CH3:1][C:2]([CH3:3])([CH3:4])[O:7][C:6](=[OH+:5])[CH2:8][C:9](=[O:10])[OH:11]",
+            "confidence": 0.4084019452727896
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CC(C)(C)OC(=[OH+])CC(=O)O>>CC(C)(C)OC(=O)CC(=O)O.[H+]",
+            "mapped_rxn": "[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[OH+:7])[CH2:8][C:9](=[O:10])[OH:11]>>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[CH2:8][C:9](=[O:10])[OH:11].[H+:12]",
+            "confidence": 0.497103645926408
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CC(C)=C.[H+]>>C[C+](C)C",
+            "mapped_rxn": "[CH2:1]=[C:2]([CH3:3])[CH3:4].[H+]>>[CH3:1][C+:2]([CH3:3])[CH3:4]",
+            "confidence": 0.809801806847025
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "C[C+](C)C.CC(C)(C)OC(=O)CC(=O)O>>CC(C)(C)OC(=[OH+])CC(=O)OC(C)(C)C",
+            "mapped_rxn": "[CH3:1][C:12]([O:11][C:9]([CH2:8][C:2]([OH:5])=[O:7])=[O:10])([CH3:13])[CH3:15].[C+:3]([CH3:4])([CH3:6])[CH3:14]>>[CH3:1][C:2]([CH3:3])([CH3:4])[O:7][C:6](=[OH+:5])[CH2:8][C:9](=[O:10])[O:11][C:12]([CH3:13])([CH3:14])[CH3:15]",
+            "confidence": 0.1925022775461656
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "CC(C)(C)OC(=[OH+])CC(=O)OC(C)(C)C>>CC(C)(C)OC(=O)CC(=O)OC(C)(C)C.[H+]",
+            "mapped_rxn": "[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[OH+:7])[CH2:8][C:9](=[O:10])[O:11][C:12]([CH3:13])([CH3:14])[CH3:15]>>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[CH2:8][C:9](=[O:10])[O:11][C:12]([CH3:13])([CH3:14])[CH3:15].[H+:16]",
+            "confidence": 0.14549582070814635
+        }
+    ]
+}

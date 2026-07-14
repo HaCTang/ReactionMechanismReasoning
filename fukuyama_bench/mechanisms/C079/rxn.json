@@ -1,0 +1,32 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C=C(C)[C@H](CC[C@H](CO[Si](C)(C)C(C)(C)C)C(O)c1ccco1)O[Si](C)(C)C(C)(C)C.O=O>>CC(=C)[C@H](CC[C@H](CO[Si](C)(C)C(C)(C)C)[C@H](O)[C@@]12C=C[C@@H](OO1)O2)O[Si](C)(C)C(C)(C)C"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CC(=C)[C@H](CC[C@H](CO[Si](C)(C)C(C)(C)C)[C@H](O)[C@@]12C=C[C@@H](OO1)O2)O[Si](C)(C)C(C)(C)C.CSC>>CC(=C)[C@H](CC[C@H](CO[Si](C)(C)C(C)(C)C)[C@H](O)C(=O)/C=C\\C([O-])O[S+](C)C)O[Si](C)(C)C(C)(C)C"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CC(=C)[C@H](CC[C@H](CO[Si](C)(C)C(C)(C)C)[C@H](O)C(=O)/C=C\\C([O-])O[S+](C)C)O[Si](C)(C)C(C)(C)C>>CC(=C)[C@H](CC[C@H](CO[Si](C)(C)C(C)(C)C)[C@H](O)C(=O)/C=C\\C=O)O[Si](C)(C)C(C)(C)C.CS(C)=O"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CC(=C)[C@H](CC[C@H](CO[Si](C)(C)C(C)(C)C)[C@H](O)C(=O)/C=C\\C=O)O[Si](C)(C)C(C)(C)C>>CC(=C)[C@H](CC[C@H](CO[Si](C)(C)C(C)(C)C)[C@@H]1OC(O)C=CC1=O)O[Si](C)(C)C(C)(C)C"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CC(=C)[C@H](CC[C@H](CO[Si](C)(C)C(C)(C)C)[C@@H]1OC(O)C=CC1=O)O[Si](C)(C)C(C)(C)C.CC(=O)OC(C)=O.CCN(CC)CC>>CC(=C)[C@H](CC[C@H](CO[Si](C)(C)C(C)(C)C)[C@@H]1OC(OC(=O)C)C=CC1=O)O[Si](C)(C)C(C)(C)C.CC(=O)[O-].CC[NH+](CC)CC"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "CC(=C)[C@H](CC[C@H](CO[Si](C)(C)C(C)(C)C)[C@@H]1OC(OC(=O)C)C=CC1=O)O[Si](C)(C)C(C)(C)C.N1=C2N(CCCC2)CCC1>>[O-]c1c([C@@H](CO[Si](C)(C(C)(C)C)C)CC[C@H](O[Si](C)(C(C)(C)C)C)C(C)=C)[o+]ccc1.[H][N+]1=C2N(CCCC2)CCC1.CC(=O)[O-]"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "[O-]c1c([C@@H](CO[Si](C)(C(C)(C)C)C)CC[C@H](O[Si](C)(C(C)(C)C)C)C(C)=C)[o+]ccc1>>C[C@]12C[C@H](C=CC3=O)O[C@@]13[C@H](CC[C@@H]2O[Si](C(C)(C)C)(C)C)CO[Si](C(C)(C)C)(C)C"
+        }
+    ]
+}

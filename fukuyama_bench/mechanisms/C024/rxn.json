@@ -1,0 +1,28 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C=COC(C)CCCC(O)C=C.Br[Se]c1ccccc1>>C=CC(O)CCCC(C)[O+]=C[CH2][Se]c1ccccc1.[Br-]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "C=CC(O)CCCC(C)[O+]=C[CH2][Se]c1ccccc1>>[H][O+]1C(C=C)CCCC(C)OC1[CH2][Se]c2ccccc2"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "[H][O+]1C(C=C)CCCC(C)OC1[CH2][Se]c2ccccc2>>C=CC1CCCC(C)OC([CH2][Se]c2ccccc2)O1.[H+]"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "C=CC1CCCC(C)OC([CH2][Se]c2ccccc2)O1.[O-][I](=O)(=O)=O>>C=CC1CCCC(C)OC(C[Se](=O)c2ccccc2)O1.[O-][I](=O)=O"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "C=CC1CCCC(C)OC(C[Se](=O)c2ccccc2)O1>>C=CC1CCCC(C)OC(=C)O1.O[Se]c1ccccc1"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "C=CC1CCCC(C)OC(=C)O1>>CC1CCCC=CCCC(=O)O1"
+        }
+    ]
+}

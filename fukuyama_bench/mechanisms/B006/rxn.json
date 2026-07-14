@@ -1,0 +1,28 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "Cc1c(CCO)sc[n+]1Cc1ccccc1.CCN(CC)CC.[Cl-]>>Cc1c(CCO)s[c-]([n+]1Cc1ccccc1).CC[NH+](CC)CC.[Cl-]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "Cc1c(CCO)s[c-]([n+]1Cc1ccccc1).CCCCCCC=O>>CCCCCCC(C1=[N+](Cc2ccccc2)C(C)=C(CCO)S1)[O-]"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CCCCCCC(C1=[N+](Cc2ccccc2)C(C)=C(CCO)S1)[O-]>>CCCCCC[C-](O)(c1sc(CCO)c(C)[n+]1Cc1ccccc1)"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CCCCCC[C-](O)(c1sc(CCO)c(C)[n+]1Cc1ccccc1).CC(=O)C=C>>CC([O-])=CCC(O)(CCCCCC)c1sc(CCO)c(C)[n+]1Cc1ccccc1"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CC([O-])=CCC(O)(CCCCCC)c1sc(CCO)c(C)[n+]1Cc1ccccc1>>CC(=O)CCC([O-])(CCCCCC)c1sc(CCO)c(C)[n+]1Cc1ccccc1"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "CC(=O)CCC([O-])(CCCCCC)c1sc(CCO)c(C)[n+]1Cc1ccccc1>>CCCCCCC(=O)CCC(=O)C.Cc1c(CCO)s[c-]([n+]1Cc1ccccc1)"
+        }
+    ]
+}

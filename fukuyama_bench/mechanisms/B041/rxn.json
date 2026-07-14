@@ -1,0 +1,20 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C/C=C/CBr.Cl[Cr]Cl>>[CH2]/C=C/C.Cl[Cr](Cl)Br"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[CH2]/C=C/C.Cl[Cr]Cl>>C/C=C/C[Cr](Cl)Cl"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "C/C=C/C[Cr](Cl)Cl.O=Cc1ccccc1>>C=C[C@H](C)[C@@H](O[Cr](Cl)Cl)c1ccccc1"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "C=C[C@H](C)[C@@H](O[Cr](Cl)Cl)c1ccccc1.[H+]>>C=C[C@H](C)[C@@H](O)c1ccccc1.Cl[Cr+](Cl)"
+        }
+    ]
+}

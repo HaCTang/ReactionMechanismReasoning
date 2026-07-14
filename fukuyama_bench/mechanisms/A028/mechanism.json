@@ -1,0 +1,394 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "CCCCC=C",
+                    "label": "None",
+                    "electron_number": 36,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "BH3-THF (0.33 eq)",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "solvent",
+                    "text": "THF",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "temperature",
+                    "text": "rt",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "NaOH",
+                    "reaction_step": "2"
+                },
+                {
+                    "role": "reagent",
+                    "text": "aq H2O2",
+                    "reaction_step": "2"
+                },
+                {
+                    "role": "temperature",
+                    "text": "rt",
+                    "reaction_step": "2"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CCCCCCO",
+                    "label": "None",
+                    "electron_number": 44,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "CCCCC=C",
+                    "label": "substrate",
+                    "electron_number": 36,
+                    "charge": 0
+                },
+                {
+                    "smiles": "B",
+                    "label": "reagent",
+                    "electron_number": 6,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CCCCCCB",
+                    "label": "intermediate",
+                    "electron_number": 42,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "CCCCCCB",
+                    "label": "intermediate",
+                    "electron_number": 42,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CCCCC=C",
+                    "label": "substrate",
+                    "electron_number": 36,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CCCCCCBCCCCCC",
+                    "label": "intermediate",
+                    "electron_number": 78,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "CCCCCCBCCCCCC",
+                    "label": "intermediate",
+                    "electron_number": 78,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CCCCC=C",
+                    "label": "substrate",
+                    "electron_number": 36,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CCCCCCB(CCCCCC)CCCCCC",
+                    "label": "intermediate",
+                    "electron_number": 114,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "OO",
+                    "label": "reagent",
+                    "electron_number": 14,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[OH-]",
+                    "label": "reagent",
+                    "electron_number": 8,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[O-]O",
+                    "label": "intermediate",
+                    "electron_number": 14,
+                    "charge": -1
+                },
+                {
+                    "smiles": "O",
+                    "label": "leaving",
+                    "electron_number": 8,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "5",
+            "reactants": [
+                {
+                    "smiles": "CCCCCCB(CCCCCC)CCCCCC",
+                    "label": "intermediate",
+                    "electron_number": 114,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[O-]O",
+                    "label": "intermediate",
+                    "electron_number": 14,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CCCCCC[B-](OO)(CCCCCC)CCCCCC",
+                    "label": "intermediate",
+                    "electron_number": 128,
+                    "charge": -1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "6",
+            "reactants": [
+                {
+                    "smiles": "CCCCCC[B-](OO)(CCCCCC)CCCCCC",
+                    "label": "intermediate",
+                    "electron_number": 128,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CCCCCCOB(CCCCCC)CCCCCC",
+                    "label": "intermediate",
+                    "electron_number": 120,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[OH-]",
+                    "label": "leaving",
+                    "electron_number": 8,
+                    "charge": -1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "7",
+            "reactants": [
+                {
+                    "smiles": "CCCCCCOB(CCCCCC)CCCCCC",
+                    "label": "intermediate",
+                    "electron_number": 120,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[O-]O",
+                    "label": "intermediate",
+                    "electron_number": 14,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CCCCCC[B-](OO)(OCCCCCC)CCCCCC",
+                    "label": "intermediate",
+                    "electron_number": 134,
+                    "charge": -1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "8",
+            "reactants": [
+                {
+                    "smiles": "CCCCCC[B-](OO)(OCCCCCC)CCCCCC",
+                    "label": "intermediate",
+                    "electron_number": 134,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CCCCCCOB(OCCCCCC)CCCCCC",
+                    "label": "intermediate",
+                    "electron_number": 126,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[OH-]",
+                    "label": "leaving",
+                    "electron_number": 8,
+                    "charge": -1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "9",
+            "reactants": [
+                {
+                    "smiles": "CCCCCCOB(OCCCCCC)CCCCCC",
+                    "label": "intermediate",
+                    "electron_number": 126,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[O-]O",
+                    "label": "intermediate",
+                    "electron_number": 14,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CCCCCC[B-](OO)(OCCCCCC)OCCCCCC",
+                    "label": "intermediate",
+                    "electron_number": 140,
+                    "charge": -1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "10",
+            "reactants": [
+                {
+                    "smiles": "CCCCCC[B-](OO)(OCCCCCC)OCCCCCC",
+                    "label": "intermediate",
+                    "electron_number": 140,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CCCCCCOB(OCCCCCC)OCCCCCC",
+                    "label": "intermediate",
+                    "electron_number": 132,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[OH-]",
+                    "label": "leaving",
+                    "electron_number": 8,
+                    "charge": -1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "11",
+            "reactants": [
+                {
+                    "smiles": "CCCCCCOB(OCCCCCC)OCCCCCC",
+                    "label": "intermediate",
+                    "electron_number": 132,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[OH-]",
+                    "label": "reagent",
+                    "electron_number": 8,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CCCCCCO[B-](O)(OCCCCCC)OCCCCCC",
+                    "label": "intermediate",
+                    "electron_number": 140,
+                    "charge": -1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "12",
+            "reactants": [
+                {
+                    "smiles": "CCCCCCO[B-](O)(OCCCCCC)OCCCCCC",
+                    "label": "intermediate",
+                    "electron_number": 140,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "OB(OCCCCCC)OCCCCCC",
+                    "label": "intermediate",
+                    "electron_number": 96,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CCCCCC[O-]",
+                    "label": "intermediate",
+                    "electron_number": 44,
+                    "charge": -1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "13",
+            "reactants": [
+                {
+                    "smiles": "CCCCCC[O-]",
+                    "label": "intermediate",
+                    "electron_number": 44,
+                    "charge": -1
+                },
+                {
+                    "smiles": "O",
+                    "label": "reagent",
+                    "electron_number": 8,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CCCCCCO",
+                    "label": "product",
+                    "electron_number": 44,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[OH-]",
+                    "label": "leaving",
+                    "electron_number": 8,
+                    "charge": -1
+                }
+            ]
+        }
+    ]
+}

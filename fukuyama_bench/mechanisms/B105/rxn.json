@@ -1,0 +1,28 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C=C(OCOC)C(O[SiH](C)C)CCCCCC.[Pd]>>CCCCCCC(O[Si](C)(C)[Pd][H])C(=C)OCOC"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CCCCCCC(O[Si](C)(C)[Pd][H])C(=C)OCOC>>CCCCCCC1O[Si](C)(C)CC1(OCOC)[Pd][H]"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CCCCCCC1O[Si](C)(C)CC1(OCOC)[Pd][H]>>CCCCCC[C@@H]1O[Si](C)(C)C[C@@H]1OCOC.[Pd]"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CCCCCC[C@@H]1O[Si](C)(C)C[C@@H]1OCOC.O[O-]>>CCCCCC[C@@H]1O[Si-](C)(C)(OO)C[C@@H]1OCOC"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CCCCCC[C@@H]1O[Si-](C)(C)(OO)C[C@@H]1OCOC>>CCCCCC[C@@H]1O[Si](C)(C)OC[C@@H]1OCOC.[OH-]"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "CCCCCC[C@@H]1O[Si](C)(C)OC[C@@H]1OCOC.O.O>>O[C@H]([C@@H](OCOC)CO)CCCCCC.O[Si](C)(C)O"
+        }
+    ]
+}

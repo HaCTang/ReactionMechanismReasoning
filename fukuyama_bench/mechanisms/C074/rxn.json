@@ -1,0 +1,36 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "S=C1CCCN1.[OH-]>>S=C1CCC[N-]1.O"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "S=C1CCC[N-]1.C=CC(=O)C=[N+]=[N-]>>[N-]=[N+]=CC([O-])=CCN1CCCC1=S"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "[N-]=[N+]=CC([O-])=CCN1CCCC1=S.O>>S=C1CCCN1CCC(=O)C=[N+]=[N-].[OH-]"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "S=C1CCCN1CCC(=O)C=[N+]=[N-].[Rh]>>S=C1CCCN1CCC(=O)C=[Rh].N#N"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "S=C1CCCN1CCC(=O)C=[Rh]>>O=C1CCN2CCCC2(S3)C31.[Rh]"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "O=C1CCN2CCCC2(S3)C31>>[S-]C1C(=O)CC[N+]2=C1CCC2"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "[S-]C1C(=O)CC[N+]2=C1CCC2>>SC1=C2CCCN2CCC1=O"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "SC1=C2CCCN2CCC1=O>>O=C1C=C2CCCN2CC1.[S]"
+        }
+    ]
+}

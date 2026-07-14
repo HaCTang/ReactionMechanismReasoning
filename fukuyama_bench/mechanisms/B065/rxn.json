@@ -1,0 +1,40 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "Nc1ccccc1C(=O)O.CC(C)(C)ON=O>>O=NNc1ccccc1C(=O)O.CC(C)(C)O"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "O=NNc1ccccc1C(=O)O>>ON=Nc1ccccc1C(=O)[O-].[H+]"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "ON=Nc1ccccc1C(=O)[O-].[H+]>>[O-]C(=O)c1ccccc1N=N[OH2+]"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "[O-]C(=O)c1ccccc1N=N[OH2+]>>[O-]C(=O)c1ccccc1[N+]#N.O"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "[O-]C(=O)c1ccccc1[N+]#N>>C1#CC=CC=C1.N#N.O=C=O"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "C1#CC=CC=C1.[C-]#[N+]c1ccccc1Br>>Brc1c([N+]#CC2=CC=CC=[C-]2)cccc1"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "Brc1c([N+]#CC2=CC=CC=[C-]2)cccc1.O>>Brc1ccccc1[N+]#Cc1ccccc1.[OH-]"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "Brc1ccccc1[N+]#Cc1ccccc1.[OH-]>>OC(=Nc1ccccc1Br)c1ccccc1"
+        },
+        {
+            "step": "9",
+            "rxn_smiles": "OC(=Nc1ccccc1Br)c1ccccc1>>O=C(Nc1ccccc1Br)c1ccccc1"
+        }
+    ]
+}

@@ -1,0 +1,128 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "O=C(c1ccccc1)c1ccccc1",
+                    "label": "None",
+                    "electron_number": 68,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "Al(i-OPr)3",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "solvent",
+                    "text": "i-PrOH",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "temperature",
+                    "text": "reflux",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "aq HCl",
+                    "reaction_step": "2"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "OC(c1ccccc1)c1ccccc1",
+                    "label": "None",
+                    "electron_number": 70,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "O=C(c1ccccc1)c1ccccc1",
+                    "label": "substrate",
+                    "electron_number": 68,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CC(C)O[Al](OC(C)C)OC(C)C",
+                    "label": "reagent",
+                    "electron_number": 78,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(C)O[Al-](OC(C)C)(OC(C)C)[O+]=C(c1ccccc1)c1ccccc1",
+                    "label": "intermediate",
+                    "electron_number": 146,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "CC(C)O[Al-](OC(C)C)(OC(C)C)[O+]=C(c1ccccc1)c1ccccc1",
+                    "label": "intermediate",
+                    "electron_number": 146,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(C)O[Al](OC(C)C)OC(c1ccccc1)c1ccccc1",
+                    "label": "intermediate",
+                    "electron_number": 122,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CC(C)=O",
+                    "label": "leaving",
+                    "electron_number": 24,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "CC(C)O[Al](OC(C)C)OC(c1ccccc1)c1ccccc1",
+                    "label": "intermediate",
+                    "electron_number": 122,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[H+]",
+                    "label": "reagent",
+                    "electron_number": 0,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "OC(c1ccccc1)c1ccccc1",
+                    "label": "product",
+                    "electron_number": 70,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CC(C)O[Al+](OC(C)C)",
+                    "label": "leaving",
+                    "electron_number": 52,
+                    "charge": 1
+                }
+            ]
+        }
+    ]
+}

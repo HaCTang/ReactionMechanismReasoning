@@ -1,0 +1,131 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "O=c1cccco1",
+                    "label": "None",
+                    "electron_number": 36,
+                    "charge": 0
+                },
+                {
+                    "smiles": "C=CCCC(=O)C=C",
+                    "label": "None",
+                    "electron_number": 44,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "temperature",
+                    "text": "230 °C",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "pressure",
+                    "text": "102 mmHg",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=C1CCC2CC3C=CC12CC3",
+                    "label": "None",
+                    "electron_number": 64,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "O=c1cccco1",
+                    "label": "substrate",
+                    "electron_number": 36,
+                    "charge": 0
+                },
+                {
+                    "smiles": "C=CCCC(=O)C=C",
+                    "label": "reagent",
+                    "electron_number": 44,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=C1OC2C(C(=O)CCC=C)CC1C=C2",
+                    "label": "intermediate",
+                    "electron_number": 80,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "O=C1OC2C(C(=O)CCC=C)CC1C=C2",
+                    "label": "intermediate",
+                    "electron_number": 80,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C=CCCC(C1C=CC=CC1)=O",
+                    "label": "intermediate",
+                    "electron_number": 64,
+                    "charge": 0
+                },
+                {
+                    "smiles": "O=C=O",
+                    "label": "leaving",
+                    "electron_number": 16,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "C=CCCC(C1C=CC=CC1)=O",
+                    "label": "intermediate",
+                    "electron_number": 64,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C=CCCC(=O)C1=CC=CCC1",
+                    "label": "intermediate",
+                    "electron_number": 64,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "C=CCCC(=O)C1=CC=CCC1",
+                    "label": "intermediate",
+                    "electron_number": 64,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=C1CCC2CC3C=CC12CC3",
+                    "label": "product",
+                    "electron_number": 64,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

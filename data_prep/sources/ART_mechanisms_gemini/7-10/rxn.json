@@ -1,0 +1,16 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "O=C1C=C(C)[C@]2(CCCI)CCC[C@@H]12.CCCC[Sn](CCCC)CCCC>>O=C1C=C(C)[C@]2(CC[CH2])CCC[C@@H]12.CCCC[Sn](I)(CCCC)CCCC"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "O=C1C=C(C)[C@]2(CC[CH2])CCC[C@@H]12>>O=C1[CH][C@@]2(C)[C@]3(CCC2)CCC[C@@H]13"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "O=C1[CH][C@@]2(C)[C@]3(CCC2)CCC[C@@H]13.CCCC[SnH](CCCC)CCCC>>O=C1C[C@@]2(C)[C@]3(CCC2)CCC[C@@H]13.CCCC[Sn](CCCC)CCCC"
+        }
+    ]
+}

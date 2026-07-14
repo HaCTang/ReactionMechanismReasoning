@@ -1,0 +1,34 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CC(=O)CCCCCC(N=[N+]=[N-])c1ccccc1.[H+]>>CC(=O)CCCCCC(N[N+]#N)c1ccccc1",
+            "mapped_rxn": "[CH3:1][C:2](=[O:3])[CH2:4][CH2:5][CH2:6][CH2:7][CH2:8][CH:9]([N:10]=[N+:11]=[N-:12])[c:13]1[cH:14][cH:15][cH:16][cH:17][cH:18]1.[H+]>>[CH3:1][C:2](=[O:3])[CH2:4][CH2:5][CH2:6][CH2:7][CH2:8][CH:9]([NH:10][N+:11]#[N:12])[c:13]1[cH:14][cH:15][cH:16][cH:17][cH:18]1",
+            "confidence": 0.9411795046216834
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CC(=O)CCCCCC(N[N+]#N)c1ccccc1>>CC(=O)CCCCCC=[NH+]c1ccccc1.N#N",
+            "mapped_rxn": "[CH3:1][C:2](=[O:3])[CH2:4][CH2:5][CH2:6][CH2:7][CH2:8][CH:9]([NH:10][N+:18]#[N:17])[c:11]1[cH:12][cH:13][cH:14][cH:15][cH:16]1>>[CH3:1][C:2](=[O:3])[CH2:4][CH2:5][CH2:6][CH2:7][CH2:8][CH:9]=[NH+:10][c:11]1[cH:12][cH:13][cH:14][cH:15][cH:16]1.[N:17]#[N:18]",
+            "confidence": 0.7870297765503224
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CC(=O)CCCCCC=[NH+]c1ccccc1>>CC(O)=CCCCCC=[NH+]c1ccccc1",
+            "mapped_rxn": "[CH3:1][C:2](=[O:3])[CH2:4][CH2:5][CH2:6][CH2:7][CH2:8][CH:9]=[NH+:10][c:11]1[cH:12][cH:13][cH:14][cH:15][cH:16]1>>[CH3:1][C:2]([OH:3])=[CH:4][CH2:5][CH2:6][CH2:7][CH2:8][CH:9]=[NH+:10][c:11]1[cH:12][cH:13][cH:14][cH:15][cH:16]1",
+            "confidence": 0.8825082433803305
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CC(O)=CCCCCC=[NH+]c1ccccc1>>CC(=[OH+])C1CCCCC1Nc1ccccc1",
+            "mapped_rxn": "[CH3:1][C:2]([OH:3])=[CH:4][CH2:5][CH2:6][CH2:7][CH2:8][CH:9]=[NH+:10][c:11]1[cH:12][cH:13][cH:14][cH:15][cH:16]1>>[CH3:1][C:2](=[OH+:3])[CH:4]1[CH2:5][CH2:6][CH2:7][CH2:8][CH:9]1[NH:10][c:11]1[cH:12][cH:13][cH:14][cH:15][cH:16]1",
+            "confidence": 0.8896894151892444
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CC(=[OH+])C1CCCCC1Nc1ccccc1>>CC(=O)C1CCCCC1Nc1ccccc1.[H+]",
+            "mapped_rxn": "[CH3:1][C:2](=[OH+:3])[CH:4]1[CH2:5][CH2:6][CH2:7][CH2:8][CH:9]1[NH:10][c:11]1[cH:12][cH:13][cH:14][cH:15][cH:16]1>>[CH3:1][C:2](=[O:3])[CH:4]1[CH2:5][CH2:6][CH2:7][CH2:8][CH:9]1[NH:10][c:11]1[cH:12][cH:13][cH:14][cH:15][cH:16]1.[H+:17]",
+            "confidence": 0.9273137980759807
+        }
+    ]
+}

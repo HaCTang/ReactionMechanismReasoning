@@ -1,0 +1,25 @@
+# Core ML dependencies
+torch>=2.4.0
+transformers>=4.45.0
+datasets>=2.16.0
+accelerate>=0.25.0
+
+# TRL for training
+trl>=0.12.0
+
+# Data handling
+pandas>=2.0.0
+pyarrow>=14.0.0
+pillow>=10.0.0
+
+# Molecular representations
+selfies>=2.1.1
+
+# Utilities
+pyyaml>=6.0
+python-dotenv>=1.0.0
+wandb>=0.16.0
+tqdm>=4.66.0
+
+# Flash attention for faster training
+flash-attn>=2.5.0

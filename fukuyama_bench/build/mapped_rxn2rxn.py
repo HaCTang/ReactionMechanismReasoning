@@ -1,0 +1,1 @@
+#将mapped_rxn.json中的mapped_rxn转换为rxn

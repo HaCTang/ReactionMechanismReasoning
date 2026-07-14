@@ -1,0 +1,113 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C#CCCC1(CCC#C)CCC(=O)C1",
+                    "label": "None",
+                    "electron_number": 74,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "solvent",
+                    "text": "decalin",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "temperature",
+                    "text": "290 °C",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C=C1CC[C@]23CCC(=C)[C@]12C(=O)CC3",
+                    "label": "None",
+                    "electron_number": 74,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C#CCCC1(CCC#C)CCC(=O)C1",
+                    "label": "substrate",
+                    "electron_number": 74,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C#CCCC1(CCC#C)C=C(O)CC1",
+                    "label": "intermediate",
+                    "electron_number": 74,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "C#CCCC1(CCC#C)C=C(O)CC1",
+                    "label": "intermediate",
+                    "electron_number": 74,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C=C1CC[C@@]2(CCC#C)CCC(=O)[C@@H]12",
+                    "label": "intermediate",
+                    "electron_number": 74,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "C=C1CC[C@@]2(CCC#C)CCC(=O)[C@@H]12",
+                    "label": "intermediate",
+                    "electron_number": 74,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C=C1CC[C@]2(CCC(O)=C12)CCC#C",
+                    "label": "intermediate",
+                    "electron_number": 74,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "C=C1CC[C@]2(CCC(O)=C12)CCC#C",
+                    "label": "intermediate",
+                    "electron_number": 74,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C=C1CC[C@]23CCC(=C)[C@]12C(=O)CC3",
+                    "label": "product",
+                    "electron_number": 74,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

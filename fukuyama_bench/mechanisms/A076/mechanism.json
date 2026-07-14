@@ -1,0 +1,139 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "O=Cc1ccc(Br)cc1",
+                    "label": "None",
+                    "electron_number": 46,
+                    "charge": 0
+                },
+                {
+                    "smiles": "O[B-](O)(O)c1ccccc1",
+                    "label": "None",
+                    "electron_number": 54,
+                    "charge": -1
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "Pd(OAc)2 (cat)",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "Ph3P (cat)",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "Na2CO3",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "solvent",
+                    "text": "n-PrOH-H2O",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "temperature",
+                    "text": "reflux",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=Cc1ccc(-c2ccccc2)cc1",
+                    "label": "None",
+                    "electron_number": 68,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "O=Cc1ccc(Br)cc1",
+                    "label": "substrate",
+                    "electron_number": 46,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Pd]",
+                    "label": "reagent",
+                    "electron_number": 10,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=Cc1ccc([Pd]Br)cc1",
+                    "label": "intermediate",
+                    "electron_number": 56,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "O=Cc1ccc([Pd]Br)cc1",
+                    "label": "intermediate",
+                    "electron_number": 56,
+                    "charge": 0
+                },
+                {
+                    "smiles": "O[B-](O)(O)c1ccccc1",
+                    "label": "reagent",
+                    "electron_number": 54,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=Cc1ccc([Pd]c2ccccc2)cc1",
+                    "label": "intermediate",
+                    "electron_number": 78,
+                    "charge": 0
+                },
+                {
+                    "smiles": "O[B-](O)(O)Br",
+                    "label": "leaving",
+                    "electron_number": 32,
+                    "charge": -1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "O=Cc1ccc([Pd]c2ccccc2)cc1",
+                    "label": "intermediate",
+                    "electron_number": 78,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=Cc1ccc(-c2ccccc2)cc1",
+                    "label": "product",
+                    "electron_number": 68,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Pd]",
+                    "label": "leaving",
+                    "electron_number": 10,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

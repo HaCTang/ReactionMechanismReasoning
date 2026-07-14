@@ -1,0 +1,36 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CC(=O)OC(C)=O.OS(=O)(=O)O>>CC(=O)OS(=O)(=O)O.CC(=O)O"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CC(=O)OS(=O)(=O)O>>O=S(=O)=O.CC(=O)O"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "O=S(=O)=O.[H+]>>O=S(=O)=[OH+]"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CC12CCC(CC1=O)C2(C)C.[H+]>>CC1(C)C2CCC1(C)C(=[OH+])C2"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CC1(C)C2CCC1(C)C(=[OH+])C2>>CC1(C2CC[C+](C(C2)1O)C)C"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "CC1(C2CC[C+](C(C2)1O)C)C>>CC1(C2CCC(C(C2)1O)=C)C.[H+]"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "CC1(C2CCC(C(C2)1O)=C)C.O=S(=O)=[OH+]>>CC1(C2CC[C+](C(C2)1O)CS(=O)(O)=O)C"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "CC1(C2CC[C+](C(C2)1O)CS(=O)(O)=O)C>>CC1(C)C2CCC1(CS(=O)(=O)O)C(=O)C2.[H+]"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C=CC(C)(C)CCCC1(C#N)Cc2ccccc21>>C=C1C(=C(C#N)CCCC(C)(C)C=C)C=CC=C1"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "C=C1C(=C(C#N)CCCC(C)(C)C=C)C=CC=C1>>[H][C@]12CCC3=C([C@]1(CCCC2(C)C)C#N)C=CC=C3"
+        }
+    ]
+}

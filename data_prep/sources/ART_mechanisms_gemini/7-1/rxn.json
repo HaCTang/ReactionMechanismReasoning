@@ -1,0 +1,20 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "Brc1c(C[C@@H]2[C@@H]3C(=CCCC3)CCN2[*])cncc1.[Pd]>>Br[Pd]c1c(C[C@@H]2[C@@H]3C(=CCCC3)CCN2[*])cncc1"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "Br[Pd]c1c(C[C@@H]2[C@@H]3C(=CCCC3)CCN2[*])cncc1>>[*]N1CCC2(c3c(C[C@@H]1[C@@H]42)cncc3)C([Pd]Br)CCC4"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "[*]N1CCC2(c3c(C[C@@H]1[C@@H]42)cncc3)C([Pd]Br)CCC4>>[*]N1CCC2(c3c(C[C@@H]1[C@@H]42)cncc3)C=CCC4.Br[PdH]"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "Br[PdH].CCN(C(C)C)C(C)C>>[Pd].CC[NH+](C(C)C)C(C)C.[Br-]"
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C=C(C)[C@H]1C[N](C(=O)OC(C)(C)C)[C@H](C(=O)OC(C)(C)C)[C@@H]1OS(=O)(=O)c1ccc(C)cc1.COC(=O)CSCl>>COC(=O)C[S+]1CC1(C)[C@H]2C[N](C(=O)OC(C)(C)C)[C@H](C(=O)OC(C)(C)C)[C@@H]2OS(=O)(=O)c1ccc(C)cc1.[Cl-]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "COC(=O)C[S+]1CC1(C)[C@H]2C[N](C(=O)OC(C)(C)C)[C@H](C(=O)OC(C)(C)C)[C@@H]2OS(=O)(=O)c1ccc(C)cc1.[Cl-]>>COC(=O)CSC(C)(CCl)[C@H]1C[N](C(=O)OC(C)(C)C)[C@H](C(=O)OC(C)(C)C)[C@@H]1OS(=O)(=O)c1ccc(C)cc1"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "COC(=O)CSC(C)(CCl)[C@H]1C[N](C(=O)OC(C)(C)C)[C@H](C(=O)OC(C)(C)C)[C@@H]1OS(=O)(=O)c1ccc(C)cc1.O=C(OO)c1cccc(Cl)c1.O=C(OO)c1cccc(Cl)c1>>COC(=O)CS(=O)(=O)C(C)(CCl)[C@H]1C[N](C(=O)OC(C)(C)C)[C@H](C(=O)OC(C)(C)C)[C@@H]1OS(=O)(=O)c1ccc(C)cc1.OC(=O)c1cccc(Cl)c1.OC(=O)c1cccc(Cl)c1"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "COC(=O)CS(=O)(=O)C(C)(CCl)[C@H]1C[N](C(=O)OC(C)(C)C)[C@H](C(=O)OC(C)(C)C)[C@@H]1OS(=O)(=O)c1ccc(C)cc1.C[O-]>>COC(=O)[CH-]S(=O)(=O)C(C)(CCl)[C@H]1C[N](C(=O)OC(C)(C)C)[C@H](C(=O)OC(C)(C)C)[C@@H]1OS(=O)(=O)c1ccc(C)cc1.CO"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "COC(=O)[CH-]S(=O)(=O)C(C)(CCl)[C@H]1C[N](C(=O)OC(C)(C)C)[C@H](C(=O)OC(C)(C)C)[C@@H]1OS(=O)(=O)c1ccc(C)cc1>>CC(C)(C)OC(=O)N1CC2C(C)(CCl)S(=O)(=O)C(C(=O)OC)[C@@H]2[C@H]1C(=O)OC(C)(C)C.Cc1ccc(S(=O)(=O)[O-])cc1"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "CC(C)(C)OC(=O)N1CC2C(C)(CCl)S(=O)(=O)C(C(=O)OC)[C@@H]2[C@H]1C(=O)OC(C)(C)C.I[Sm]I>>CC(C)(OC(N1CC2C(CCl)(S(=O)([C@H]([C@@H]2[C@H]1C(OC(C)(C)C)=O)[C](OC)O[Sm](I)I)=O)C)=O)C"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "CC(C)(OC(N1CC2C(CCl)(S(=O)([C@H]([C@@H]2[C@H]1C(OC(C)(C)C)=O)[C](OC)O[Sm](I)I)=O)C)=O)C>>CO/C(O[Sm](I)I)=C/C1[C@H](N(C[C@H]1C(C)=C)C(OC(C)(C)C)=O)C(OC(C)(C)C)=O.[Cl].O=S=O"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "CO/C(O[Sm](I)I)=C/C1[C@H](N(C[C@H]1C(C)=C)C(OC(C)(C)C)=O)C(OC(C)(C)C)=O.[H+]>>COC(=O)CC1[C@@H](C(=O)OC(C)(C)C)N(C(=O)OC(C)(C)C)C[C@H]1C(C)=C.I[Sm+]I"
+        }
+    ]
+}

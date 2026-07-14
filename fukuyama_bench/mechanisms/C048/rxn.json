@@ -1,0 +1,28 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C1=CCC=C1.COC(=O)N=S=O>>COC(=O)N1[C@@H]2C=C[C@H](C2)[S+]1[O-]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "COC(=O)N1[C@@H]2C=C[C@H](C2)[S+]1[O-].[c-]1ccccc1>>COC([N-][C@H]1C=C[C@@H]([S+]([O-])c2ccccc2)C1)=O"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "COC([N-][C@H]1C=C[C@@H]([S+]([O-])c2ccccc2)C1)=O.[H+]>>COC(N[C@H]1C=C[C@@H]([S+]([O-])c2ccccc2)C1)=O"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "COC(N[C@H]1C=C[C@@H]([S+]([O-])c2ccccc2)C1)=O>>COC(N[C@@H]1CC=C[C@@H]1OSc2ccccc2)=O"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "COC(N[C@@H]1CC=C[C@@H]1OSc2ccccc2)=O.CN(C)P(N(C)C)N(C)C>>COC(N[C@@H]1CC=C[C@@H]1[O-])=O.C[N](C)[P+](Sc1ccccc1)(N(C)C)N(C)C"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "COC(N[C@@H]1CC=C[C@@H]1[O-])=O>>[H][C@@]12CC=C[C@]1([H])OC(=O)N2.C[O-]"
+        }
+    ]
+}

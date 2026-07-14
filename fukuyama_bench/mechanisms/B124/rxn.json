@@ -1,0 +1,28 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C=C(O[C@H]1CCC=C1C)O[Si](C)(C)C(C)(C)C>>O=C(O[Si](C)(C(C)(C)C)C)C[C@@H]1CCC=C1C"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "O=C(O[Si](C)(C(C)(C)C)C)C[C@@H]1CCC=C1C.Cl[Se]c1ccccc1>>C[Si](C(C)(C)C)(C)[O+]=C1O[C@@]2(C)[C@H]([Se]c3ccccc3)CC[C@H]2C1.[Cl-]"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "C[Si](C(C)(C)C)(C)[O+]=C1O[C@@]2(C)[C@H]([Se]c3ccccc3)CC[C@H]2C1.[Cl-]>>O=C1O[C@]2([C@@H](CC[C@H]2C1)[Se]c3ccccc3)C.CC(C)(C)[Si](C)(C)Cl"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "O=C1O[C@]2([C@@H](CC[C@H]2C1)[Se]c3ccccc3)C.OO>>O=C1O[C@@]2(C)[C@H]([Se+](O)c3ccccc3)CC[C@H]2C1.[OH-]"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "O=C1O[C@@]2(C)[C@H]([Se+](O)c3ccccc3)CC[C@H]2C1.[OH-]>>O=C1O[C@]2([C@@H](CC[C@H]2C1)[Se](c3ccccc3)=O)C.O"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "O=C1O[C@]2([C@@H](CC[C@H]2C1)[Se](c3ccccc3)=O)C>>[H][C@@]12CC=C[C@]1(C)CC(=O)O2.O[Se]c1ccccc1"
+        }
+    ]
+}

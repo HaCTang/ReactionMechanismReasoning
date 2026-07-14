@@ -1,0 +1,145 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "COC(=[Cr](C#O)(C#O)(C#O)(C#O)C#O)c1n(C)c2ccccc2c1C",
+                    "label": "None",
+                    "electron_number": 0,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CCCC#C",
+                    "label": "None",
+                    "electron_number": 30,
+                    "charge": 0
+                }
+            ],
+            "conditions": [],
+            "products": [
+                {
+                    "smiles": "O=C1C=C(CCC)C(OC)=C2N(C)c3ccccc3C12C",
+                    "label": "None",
+                    "electron_number": 131,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Cr](C#O)(C#O)(C#O)(C#O)(C#O)",
+                    "label": "None",
+                    "electron_number": 0,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "COC(=[Cr](C#O)(C#O)(C#O)(C#O)C#O)c1n(C)c2ccccc2c1C",
+                    "label": "None",
+                    "electron_number": 0,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CCCC#C",
+                    "label": "None",
+                    "electron_number": 30,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "COC1(c2n(C)c3ccccc3c2C)C(CCC)=C[Cr]1(C#O)(C#O)(C#O)(C#O)C#O",
+                    "label": "None",
+                    "electron_number": 0,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "COC1(c2n(C)c3ccccc3c2C)C(CCC)=C[Cr]1(C#O)(C#O)(C#O)(C#O)C#O",
+                    "label": "None",
+                    "electron_number": 0,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[Cr](=CC(CCC)=C(OC)c1n(C)c2ccccc2c1C)(C#O)(C#O)(C#O)(C#O)C#O",
+                    "label": "None",
+                    "electron_number": 0,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "[Cr](=CC(CCC)=C(OC)c1n(C)c2ccccc2c1C)(C#O)(C#O)(C#O)(C#O)C#O",
+                    "label": "None",
+                    "electron_number": 0,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "COC1=C2N(C)c3ccccc3C2(C)[Cr](C#O)(C#O)(C#O)(C#O)(C#O)C=C(CCC)1",
+                    "label": "None",
+                    "electron_number": 0,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "COC1=C2N(C)c3ccccc3C2(C)[Cr](C#O)(C#O)(C#O)(C#O)(C#O)C=C(CCC)1",
+                    "label": "None",
+                    "electron_number": 0,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "COC1=C2N(C)c3ccccc3C2(C)C(=O)[Cr](C#O)(C#O)(C#O)(C#O)(C#O)C=C(CCC)1",
+                    "label": "None",
+                    "electron_number": 0,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "5",
+            "reactants": [
+                {
+                    "smiles": "COC1=C2N(C)c3ccccc3C2(C)C(=O)[Cr](C#O)(C#O)(C#O)(C#O)(C#O)C=C(CCC)1",
+                    "label": "None",
+                    "electron_number": 0,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=C1C=C(CCC)C(OC)=C2N(C)c3ccccc3C12C",
+                    "label": "None",
+                    "electron_number": 131,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Cr](C#O)(C#O)(C#O)(C#O)(C#O)",
+                    "label": "None",
+                    "electron_number": 0,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

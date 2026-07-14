@@ -1,0 +1,70 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "O=C(CC1C=CCS1(=O)=O)N(Cc2ccccc2)/C=C/c3ccccc3",
+                    "label": "None",
+                    "electron_number": 173,
+                    "charge": 0
+                }
+            ],
+            "conditions": [],
+            "products": [
+                {
+                    "smiles": "O=C1C[C@H]2C=CC[C@H](c3ccccc3)[C@@H]2N1Cc4ccccc4",
+                    "label": "None",
+                    "electron_number": 141,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "O=C(CC1C=CCS1(=O)=O)N(Cc2ccccc2)/C=C/c3ccccc3",
+                    "label": "None",
+                    "electron_number": 173,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C=C/C=C/CC(=O)N(Cc1ccccc1)/C=C/c2ccccc2",
+                    "label": "None",
+                    "electron_number": 141,
+                    "charge": 0
+                },
+                {
+                    "smiles": "O=S=O",
+                    "label": "None",
+                    "electron_number": 32,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "C=C/C=C/CC(=O)N(Cc1ccccc1)/C=C/c2ccccc2",
+                    "label": "None",
+                    "electron_number": 141,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=C1C[C@H]2C=CC[C@H](c3ccccc3)[C@@H]2N1Cc4ccccc4",
+                    "label": "None",
+                    "electron_number": 141,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

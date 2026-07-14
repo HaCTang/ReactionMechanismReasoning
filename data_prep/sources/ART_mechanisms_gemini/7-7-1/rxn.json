@@ -1,0 +1,16 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C[S+](C)C.[CH2-]CCC>>C[S+](C)[CH2-].CCCC"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "C[S+](C)[CH2-].O=C1C=C(C)C2(CCC=C)CCCC12[Se]c3ccccc3>>[O-]C1=CC(C)(C[S+](C)C)C2(CCC=C)CCCC12[Se]c3ccccc3"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "[O-]C1=CC(C)(C[S+](C)C)C2(CCC=C)CCCC12[Se]c3ccccc3>>O=C1C2CC2(C)C3(CCC=C)CCCC13[Se]c4ccccc4.CSC"
+        }
+    ]
+}

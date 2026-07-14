@@ -1,0 +1,48 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CCCCCC(=O)O.ClP(Cl)Cl>>CCCCCC(=[OH+])OP(Cl)Cl.[Cl-]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CCCCCC(=[OH+])OP(Cl)Cl.[Cl-]>>CCCCCC(Cl)(O)OP(Cl)Cl"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CCCCCC(Cl)(O)OP(Cl)Cl>>CCCCCC(=[OH+])Cl.[O-]P(Cl)Cl"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CCCCCC(=[OH+])Cl.[O-]P(Cl)Cl>>CCCCC=C(O)Cl.[OH]P(Cl)Cl"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CCCCC=C(O)Cl.BrBr>>CCCCC(Br)C(=[OH+])Cl.[Br-]"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "CCCCC(Br)C(=[OH+])Cl.[Br-]>>CCCCC(Br)C(=O)Cl.Br"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "CCCCC(Br)C(=O)Cl.[H+]>>CCCCC(Br)C(=[OH+])Cl"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "CCCCC(Br)C(=[OH+])Cl.O>>CCCCC(Br)C(O)(Cl)[OH2+]"
+        },
+        {
+            "step": "9",
+            "rxn_smiles": "CCCCC(Br)C(O)(Cl)[OH2+]>>CCCCC(Br)C(O)(O)Cl.[H+]"
+        },
+        {
+            "step": "10",
+            "rxn_smiles": "CCCCC(Br)C(O)(O)Cl>>CCCCC(Br)C(=[OH+])O.[Cl-]"
+        },
+        {
+            "step": "11",
+            "rxn_smiles": "CCCCC(Br)C(=[OH+])O>>CCCCC(Br)C(=O)O.[H+]"
+        }
+    ]
+}

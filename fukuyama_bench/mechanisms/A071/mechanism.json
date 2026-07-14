@@ -1,0 +1,140 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "O=C1CCCCC1",
+                    "label": "None",
+                    "electron_number": 40,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "CCOC(=O)C*=O",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "NaH",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "solvent",
+                    "text": "benzene",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "temperature",
+                    "text": "rt to 200 °C",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CCOC(=O)C=C1CCCCC1",
+                    "label": "None",
+                    "electron_number": 68,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "O=C1CCCCC1",
+                    "label": "substrate",
+                    "electron_number": 40,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CCOC(=O)CP(=O)(OCC)OCC",
+                    "label": "reagent",
+                    "electron_number": 84,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[H-]",
+                    "label": "reagent",
+                    "electron_number": 2,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=C1CCCCC1",
+                    "label": "intermediate",
+                    "electron_number": 40,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CCOC(=O)[CH-]P(=O)(OCC)OCC",
+                    "label": "intermediate",
+                    "electron_number": 84,
+                    "charge": -1
+                },
+                {
+                    "smiles": "[H][H]",
+                    "label": "leaving",
+                    "electron_number": 2,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "O=C1CCCCC1",
+                    "label": "intermediate",
+                    "electron_number": 40,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CCOC(=O)[CH-]P(=O)(OCC)OCC",
+                    "label": "intermediate",
+                    "electron_number": 84,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CCOC(=O)C(P(=O)(OCC)OCC)C1([O-])CCCCC1",
+                    "label": "intermediate",
+                    "electron_number": 124,
+                    "charge": -1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "CCOC(=O)C(P(=O)(OCC)OCC)C1([O-])CCCCC1",
+                    "label": "intermediate",
+                    "electron_number": 124,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CCOC(=O)C=C1CCCCC1",
+                    "label": "product",
+                    "electron_number": 68,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CCOP(=O)([O-])OCC",
+                    "label": "leaving",
+                    "electron_number": 56,
+                    "charge": -1
+                }
+            ]
+        }
+    ]
+}

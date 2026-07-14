@@ -1,0 +1,36 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C[Si](C)(C)C=[N+]=[N-].[CH2-]CCC>>C[Si](C)(C)[C-]=[N+]=[N-].CCCC"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "C[Si](C)(C)[C-]=[N+]=[N-].CC(=O)C1(C)OCCCO1>>C[Si](C)(C)[C-]([N+]#N)C(C)([O-])C1(C)OCCCO1"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "C[Si](C)(C)[C-]([N+]#N)C(C)([O-])C1(C)OCCCO1>>CC(=C=[N+]=[N-])C1(C)OCCCO1.C[Si](C)(C)[O-]"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CC(=C=[N+]=[N-])C1(C)OCCCO1>>CC(=[C])C1(C)OCCCO1.N#N"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CC(=[C])C1(C)OCCCO1>>CC12OC(CCO2)C=C1C"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "CC12OC(CCO2)C=C1C.[H+]>>CC12OC(CC[OH+]2)C=C1C"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "CC12OC(CC[OH+]2)C=C1C>>CC1=[O+]C(CCO)C=C1C"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "CC1=[O+]C(CCO)C=C1C>>CC1=C(C)OC(CCO)=C1.[H+]"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "COC(=O)C(O)(CC=O)C(C)=O.[H+]>>COC(=O)C(O)(CC=[OH+])C(C)=O"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "COC(=O)C(O)(CC=[OH+])C(C)=O>>CC1=[O+]C(O)CC(O)(C(=O)OC)1"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CC1=[O+]C(O)CC(O)(C(=O)OC)1.CO>>CC1([OH+]C)OC(O)CC(O)(C(=O)OC)1"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CC1([OH+]C)OC(O)CC(O)(C(=O)OC)1>>COC1(C)OC([OH2+])CC(O)(C(=O)OC)1"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "COC1(C)OC([OH2+])CC(O)(C(=O)OC)1>>COC1(C)C(O)(C(=O)OC)CC=[O+]1.O"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "COC1(C)C(O)(C(=O)OC)CC=[O+]1.CO>>COC1(C)C(O)(C(=O)OC)CC([OH+]C)O1"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "COC1(C)C(O)(C(=O)OC)CC([OH+]C)O1>>COC1(C)C(O)(C(=O)OC)CC(OC)O1.[H+]"
+        }
+    ]
+}

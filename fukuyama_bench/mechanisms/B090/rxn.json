@@ -1,0 +1,20 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CC[N+](=O)[O-].CCN(CC)CC>>CC=[N+]([O-])[O-].CC[NH+](CC)CC"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CC=[N+]([O-])[O-].O=C=Nc1ccccc1>>CC=[N+]([O-])OC(=O)[N-]c1ccccc1"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CC=[N+]([O-])OC(=O)[N-]c1ccccc1>>CC#[N+][O-].O=C([O-])Nc1ccccc1"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CC#[N+][O-].C=COC(C)=O>>CC(=O)OC1CC(C)=NO1"
+        }
+    ]
+}

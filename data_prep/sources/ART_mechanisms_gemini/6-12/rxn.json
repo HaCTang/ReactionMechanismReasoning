@@ -1,0 +1,44 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C#CCCCC/C=C/COC(C)=O.[Pd]>>C#CCCCC/C=C/C[Pd+].CC(=O)[O-]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "C#CCCCC/C=C/C[Pd+]>>C#CCCCC([Pd+])C=C"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "C#CCCCC([Pd+])C=C>>[Pd+]C=C1CCCC(C=C)1"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "[Pd+]C=C1CCCC(C=C)1.C#O>>[Pd+]C(=O)C=C1CCCC(C=C)1"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "[Pd+]C(=O)C=C1CCCC(C=C)1>>O=C1C=C2CCCC2C1C[Pd+]"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "O=C1C=C2CCCC2C1C[Pd+].C#O>>O=C1C=C2CCCC2C1CC(=O)[Pd+]"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "O=C1C=C2CCCC2C1CC(=O)[Pd+].[H+]>>O=C1C=C2CCCC2C1CC(=[OH+])[Pd+]"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "O=C1C=C2CCCC2C1CC(=[OH+])[Pd+].CO>>O=C1C=C2CCCC2C1CC(O)([Pd+])[OH+]C"
+        },
+        {
+            "step": "9",
+            "rxn_smiles": "O=C1C=C2CCCC2C1CC(O)([Pd+])[OH+]C>>O=C1C=C2CCCC2C1CC(O)(OC)[Pd+].[H+]"
+        },
+        {
+            "step": "10",
+            "rxn_smiles": "O=C1C=C2CCCC2C1CC(O)(OC)[Pd+]>>O=C1C=C2CCCC2C1CC(=O)OC.[Pd].[H+]"
+        }
+    ]
+}

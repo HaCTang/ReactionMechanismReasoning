@@ -1,0 +1,16 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "O=Cc1ccc(Br)cc1.[Pd]>>O=Cc1ccc([Pd]Br)cc1"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "O=Cc1ccc([Pd]Br)cc1.O[B-](O)(O)c1ccccc1>>O=Cc1ccc([Pd]c2ccccc2)cc1.O[B-](O)(O)Br"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "O=Cc1ccc([Pd]c2ccccc2)cc1>>O=Cc1ccc(-c2ccccc2)cc1.[Pd]"
+        }
+    ]
+}

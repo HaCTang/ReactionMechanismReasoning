@@ -1,0 +1,34 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C[S+](C)[O-].ClC(=O)C(=O)Cl>>C[S+](C)OC(=O)C(=O)Cl.[Cl-]",
+            "mapped_rxn": "[CH3:1][S+:2]([CH3:3])[O-:4].[C:5](=[O:6])([C:7](=[O:8])[Cl:9])[Cl:10]>>[CH3:1][S+:2]([CH3:3])[O:4][C:5](=[O:6])[C:7](=[O:8])[Cl:9].[Cl-:10]",
+            "confidence": 0.6674442084250878
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "C[S+](C)OC(=O)C(=O)Cl.[Cl-]>>C[S+](C)Cl.O=C=O.[C-]#[O+].[Cl-]",
+            "mapped_rxn": "[CH3:1][S+:2]([CH3:3])[O:7][C:6](=[O:5])[C:8]([Cl:10])=[O:9].[Cl-:4]>>[CH3:1][S+:2]([CH3:3])[Cl:4].[O:5]=[C:6]=[O:7].[C-:8]#[O+:9].[Cl-:10]",
+            "confidence": 0.6009722778882938
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "C[S+](C)Cl.CC(C)=CCC/C(C)=C/CO>>CC(C)=CCC/C(C)=C/CO[S+](C)C.[H+].[Cl-]",
+            "mapped_rxn": "[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6]/[C:7]([CH3:8])=[CH:9]/[CH2:10][OH:11].[S+:12]([CH3:13])([CH3:14])[Cl:15]>>[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6]/[C:7]([CH3:8])=[CH:9]/[CH2:10][O:11][S+:12]([CH3:13])[CH3:14].[Cl-:15].[H+:16]",
+            "confidence": 0.6339579674024989
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CC(C)=CCC/C(C)=C/CO[S+](C)C.CCN(CC)CC>>CC(C)=CCC/C(C)=C/CO[S+](C)[CH2-].CC[NH+](CC)CC",
+            "mapped_rxn": "[CH3:8][S+:9]([CH3:10])[O:11][CH2:12]/[CH:13]=[C:14](\\[CH3:15])[CH2:16][CH2:17][CH:18]=[C:19]([CH3:20])[CH3:21].[CH3:1][CH2:2][N:3]([CH2:4][CH3:5])[CH2:6][CH3:7]>>[CH3:1][CH2:2][NH+:3]([CH2:4][CH3:5])[CH2:6][CH3:7].[CH2-:8][S+:9]([CH3:10])[O:11][CH2:12]/[CH:13]=[C:14](\\[CH3:15])[CH2:16][CH2:17][CH:18]=[C:19]([CH3:20])[CH3:21]",
+            "confidence": 0.24662958011388078
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CC(C)=CCC/C(C)=C/CO[S+](C)[CH2-]>>CC(C)=CCC/C(C)=C/C=O.CSC",
+            "mapped_rxn": "[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6]/[C:7]([CH3:8])=[CH:9]/[CH2:10][O:11][S+:13]([CH2-:12])[CH3:14]>>[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6]/[C:7]([CH3:8])=[CH:9]/[CH:10]=[O:11].[CH3:12][S:13][CH3:14]",
+            "confidence": 0.7153009943361751
+        }
+    ]
+}

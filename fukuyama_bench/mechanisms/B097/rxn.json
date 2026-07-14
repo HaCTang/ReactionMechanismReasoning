@@ -1,0 +1,28 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "[H][C@]12[C@H](C)[C@@H](OC(C)=O)[C@H](OC(C)=O)C[C@]1(C)CC[C@@H]([C@H](C)COC(C)=O)[C@H]2O.O=NCl>>[H][C@]12[C@H](C)[C@@H](OC(C)=O)[C@H](OC(C)=O)C[C@]1(C)CC[C@@H]([C@H](C)COC(C)=O)[C@H]2ON=O.[H+].[Cl-]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[H][C@]12[C@H](C)[C@@H](OC(C)=O)[C@H](OC(C)=O)C[C@]1(C)CC[C@@H]([C@H](C)COC(C)=O)[C@H]2ON=O>>[H][C@]12[C@H](C)[C@@H](OC(C)=O)[C@H](OC(C)=O)C[C@]1(C)CC[C@@H]([C@H](C)COC(C)=O)[C@H]2[O].[N]=O"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "[H][C@]12[C@H](C)[C@@H](OC(C)=O)[C@H](OC(C)=O)C[C@]1(C)CC[C@@H]([C@H](C)COC(C)=O)[C@H]2[O]>>[H][C@]12[C@H](C)[C@@H](OC(C)=O)[C@H](OC(C)=O)C[C@]1([CH2])CC[C@@H]([C@H](C)COC(C)=O)[C@H]2O"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "[H][C@]12[C@H](C)[C@@H](OC(C)=O)[C@H](OC(C)=O)C[C@]1([CH2])CC[C@@H]([C@H](C)COC(C)=O)[C@H]2O.[N]=O>>[H][C@]12[C@H](C)[C@@H](OC(C)=O)[C@H](OC(C)=O)C[C@]1(CN=O)CC[C@@H]([C@H](C)COC(C)=O)[C@H]2O"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "[H][C@]12[C@H](C)[C@@H](OC(C)=O)[C@H](OC(C)=O)C[C@]1(CN=O)CC[C@@H]([C@H](C)COC(C)=O)[C@H]2O>>[H][C@]12[C@H](C)[C@@H](OC(C)=O)[C@H](OC(C)=O)C[C@]1(C=N[O-])CC[C@@H]([C@H](C)COC(C)=O)[C@H]2O.[H+]"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "[H][C@]12[C@H](C)[C@@H](OC(C)=O)[C@H](OC(C)=O)C[C@]1(C=N[O-])CC[C@@H]([C@H](C)COC(C)=O)[C@H]2O.[H+]>>[H][C@]12[C@H](C)[C@@H](OC(C)=O)[C@H](OC(C)=O)C[C@]1(C=NO)CC[C@@H]([C@H](C)COC(C)=O)[C@H]2O"
+        }
+    ]
+}

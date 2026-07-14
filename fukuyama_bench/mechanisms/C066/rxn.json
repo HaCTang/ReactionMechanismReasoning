@@ -1,0 +1,36 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "Cc1ccccc1[N+](=O)[O-].C=C[Mg]Br>>C=CON([O-])c1ccccc1C.[Mg+]Br"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "C=CON([O-])c1ccccc1C.[Mg+]Br>>Cc1ccccc1N=O.C=CO[Mg]Br"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "Cc1ccccc1N=O.C=C[Mg]Br>>C=CON([Mg]Br)c1ccccc1C"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "C=CON([Mg]Br)c1ccccc1C>>CC1=CC=CC(CC=O)C1=N[Mg]Br"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CC1=CC=CC(CC=O)C1=N[Mg]Br>>CC1=CC=CC2CC(O[Mg]Br)N=C12"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "CC1=CC=CC2CC(O[Mg]Br)N=C12.C=C[Mg]Br>>Cc1c2c(CC(O[Mg]Br)[N-]2)ccc1.C=C.[Mg+2].[Br-]"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "Cc1c2c(CC(O[Mg]Br)[N-]2)ccc1.C=C[Mg]Br>>Cc1cccc2ccn([Mg]Br)c12.C=C.Br[Mg][O-]"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "Cc1cccc2ccn([Mg]Br)c12.[H+]>>Cc1cccc2cc[nH]c12.[Mg+2].[Br-]"
+        }
+    ]
+}

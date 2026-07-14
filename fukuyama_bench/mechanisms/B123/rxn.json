@@ -1,0 +1,24 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C=CC[P+](c1ccccc1)(c1ccccc1)c1ccccc1.[Br-].CC(C)(C)[O-].[K+]>>C=C[CH-][P+](c1ccccc1)(c1ccccc1)c1ccccc1.CC(C)(C)O.[K+].[Br-]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "O=C1C=CCCC1.C=C[CH-][P+](c1ccccc1)(c1ccccc1)c1ccccc1>>[O-]C1=CC(CC=C[P+](c2ccccc2)(c3ccccc3)c4ccccc4)CCC1"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "[O-]C1=CC(CC=C[P+](c2ccccc2)(c3ccccc3)c4ccccc4)CCC1>>O=C1CC(C=CC=[P](c2ccccc2)(c3ccccc3)c4ccccc4)CCC1"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "O=C1CCC(C=CC=[P](c2ccccc2)(c2ccccc2)c2ccccc2)CC1>>C12C=CC(P3(c4ccccc4)(c5ccccc5)c6ccccc6)C(C2)(O3)CCC1"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "C12C=CC(P3(c4ccccc4)(c5ccccc5)c6ccccc6)C(C2)(O3)CCC1>>C1=CC2CCCC(=C1)C2.O=P(c1ccccc1)(c1ccccc1)c1ccccc1"
+        }
+    ]
+}

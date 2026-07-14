@@ -1,0 +1,113 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "CCCCCCCCC(O)CC=C",
+                    "label": "None",
+                    "electron_number": 80,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CCC=O",
+                    "label": "None",
+                    "electron_number": 26,
+                    "charge": 0
+                }
+            ],
+            "conditions": [],
+            "products": [
+                {
+                    "smiles": "CCCCCCCCC1CC(C[Hg]OC(=O)C)OC(CC)O1",
+                    "label": "None",
+                    "electron_number": 214,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CC(=O)O",
+                    "label": "None",
+                    "electron_number": 28,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "CCCCCCCCC(O)CC=C",
+                    "label": "None",
+                    "electron_number": 80,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CCC=O",
+                    "label": "None",
+                    "electron_number": 26,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CCCCCCCCC(CC=C)OC(O)CC",
+                    "label": "None",
+                    "electron_number": 106,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "CCCCCCCCC(CC=C)OC(O)CC",
+                    "label": "None",
+                    "electron_number": 106,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CC(=O)O[Hg]OC(=O)C",
+                    "label": "None",
+                    "electron_number": 136,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CCCCCCCCC1CC(C[Hg-](OC(=O)C)OC(=O)C)[OH+]C(CC)O1",
+                    "label": "None",
+                    "electron_number": 242,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "CCCCCCCCC1CC(C[Hg-](OC(=O)C)OC(=O)C)[OH+]C(CC)O1",
+                    "label": "None",
+                    "electron_number": 242,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CCCCCCCCC1CC(C[Hg]OC(=O)C)OC(CC)O1",
+                    "label": "None",
+                    "electron_number": 214,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CC(=O)O",
+                    "label": "None",
+                    "electron_number": 28,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

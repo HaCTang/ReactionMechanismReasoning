@@ -1,0 +1,36 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CCOC(=O)C(C)(Br)Br.C[C-](C)C>>CCOC([O-])=C(C)Br.CC(C)(C)Br"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CCOC([O-])=C(C)Br.C[C-](C)C>>CC#C[O-].CC[O-].CC(C)(C)Br"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CC#C[O-].CCOC(=O)Cc1ccccc1C(C)=O>>CCOC(=O)Cc1ccccc1C(C)([O-])C(C)=C=O"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CCOC(=O)Cc1ccccc1C(C)([O-])C(C)=C=O>>[O-]C1=C(C)C(C)(c2ccccc2CC(=O)OCC)O1"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "[O-]C1=C(C)C(C)(c2ccccc2CC(=O)OCC)O1>>CC12C(=O)Cc3ccccc3C1(C)OC2=O.CC[O-]"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "CC12C(=O)Cc3ccccc3C1(C)OC2=O.CC[O-]>>CC12C([O-])=Cc3c(C1(OC2=O)C)cccc3.CCO"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "CC12C([O-])=Cc3c(C1(OC2=O)C)cccc3>>CC1=C(C)c2ccccc2C=C1[O-].O=C=O"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "CC1=C(C)c2ccccc2C=C1[O-].[H+]>>CC1=C(C)c2ccccc2C=C1O"
+        }
+    ]
+}

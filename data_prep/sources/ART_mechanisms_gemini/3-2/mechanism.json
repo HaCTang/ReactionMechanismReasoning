@@ -1,0 +1,162 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "CCC(C)(Cl)CCCC(C)(C)c1ccccc1",
+                    "label": "None",
+                    "electron_number": 113,
+                    "charge": 0
+                },
+                {
+                    "smiles": "Cl[Al](Cl)Cl",
+                    "label": "None",
+                    "electron_number": 64,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "AlCl3",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "CS2",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CCC(C)C1CCC(C)(C)c2ccccc12",
+                    "label": "None",
+                    "electron_number": 96,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[H+]",
+                    "label": "None",
+                    "electron_number": 0,
+                    "charge": 1
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "CCC(C)(Cl)CCCC(C)(C)c1ccccc1",
+                    "label": "None",
+                    "electron_number": 113,
+                    "charge": 0
+                },
+                {
+                    "smiles": "Cl[Al](Cl)Cl",
+                    "label": "None",
+                    "electron_number": 64,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CCC(C)([Cl+][Al-](Cl)(Cl)Cl)CCCC(C)(C)c1ccccc1",
+                    "label": "None",
+                    "electron_number": 177,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "CCC(C)([Cl+][Al-](Cl)(Cl)Cl)CCCC(C)(C)c1ccccc1",
+                    "label": "None",
+                    "electron_number": 177,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC[C+](C)CCCC(C)(C)c1ccccc1",
+                    "label": "None",
+                    "electron_number": 95,
+                    "charge": 1
+                },
+                {
+                    "smiles": "Cl[Al-](Cl)(Cl)Cl",
+                    "label": "None",
+                    "electron_number": 82,
+                    "charge": -1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "CC[C+](C)CCCC(C)(C)c1ccccc1",
+                    "label": "None",
+                    "electron_number": 95,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CCC(C)[CH+]CCC(C)(C)c1ccccc1",
+                    "label": "None",
+                    "electron_number": 95,
+                    "charge": 1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "CCC(C)[CH+]CCC(C)(C)c1ccccc1",
+                    "label": "None",
+                    "electron_number": 95,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CCC(C)C1CCC(C)(C)[C+]2C=CC=CC12",
+                    "label": "None",
+                    "electron_number": 95,
+                    "charge": 1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "5",
+            "reactants": [
+                {
+                    "smiles": "CCC(C)C1CCC(C)(C)[C+]2C=CC=CC12",
+                    "label": "None",
+                    "electron_number": 95,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CCC(C)C1CCC(C)(C)c2ccccc12",
+                    "label": "None",
+                    "electron_number": 96,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[H+]",
+                    "label": "None",
+                    "electron_number": 0,
+                    "charge": 1
+                }
+            ]
+        }
+    ]
+}

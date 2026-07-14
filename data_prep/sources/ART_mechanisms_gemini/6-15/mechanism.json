@@ -1,0 +1,230 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "CC(C)O[Ti](OC(C)C)(OC(C)C)OC(C)C",
+                    "label": "None",
+                    "electron_number": 126,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CC(C)[Mg]Cl",
+                    "label": "None",
+                    "electron_number": 47,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CC(C)[Mg]Cl",
+                    "label": "None",
+                    "electron_number": 47,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "Ti(O-i-Pr)4",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "i-PrMgCl",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CCC(O)C/C=C\\C1CCOC1=O",
+                    "label": "None",
+                    "electron_number": 84,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "CC(C)O[Ti](OC(C)C)(OC(C)C)OC(C)C",
+                    "label": "None",
+                    "electron_number": 126,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CC(C)[Mg]Cl",
+                    "label": "None",
+                    "electron_number": 47,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CC(C)[Mg]Cl",
+                    "label": "None",
+                    "electron_number": 47,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(C)O[Ti](OC(C)C)(C(C)C)C(C)C",
+                    "label": "None",
+                    "electron_number": 110,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CC(C)O[Mg]Cl",
+                    "label": "None",
+                    "electron_number": 55,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CC(C)O[Mg]Cl",
+                    "label": "None",
+                    "electron_number": 55,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "CC(C)O[Ti](OC(C)C)(C(C)C)C(C)C",
+                    "label": "None",
+                    "electron_number": 110,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(C)O[Ti]1(OC(C)C)CC1C",
+                    "label": "None",
+                    "electron_number": 92,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CCC",
+                    "label": "None",
+                    "electron_number": 18,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "CCOC(=O)OCC/C=C/C=C",
+                    "label": "None",
+                    "electron_number": 78,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CC(C)O[Ti]1(OC(C)C)CC1C",
+                    "label": "None",
+                    "electron_number": 92,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(O[Ti]1(C(C1CCOC(OCC)=O)C=C)OC(C)C)C",
+                    "label": "None",
+                    "electron_number": 152,
+                    "charge": 0
+                },
+                {
+                    "smiles": "C=CC",
+                    "label": "None",
+                    "electron_number": 18,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "CC(O[Ti]1(C(C1CCOC(OCC)=O)C=C)OC(C)C)C",
+                    "label": "None",
+                    "electron_number": 152,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(O[Ti]1(C(C2CCOC(OCC)2O1)C=C)OC(C)C)C",
+                    "label": "None",
+                    "electron_number": 152,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "5",
+            "reactants": [
+                {
+                    "smiles": "CC(O[Ti]1(C(C2CCOC(OCC)2O1)C=C)OC(C)C)C",
+                    "label": "None",
+                    "electron_number": 152,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CCO[Ti](OC(C)C)(C(C1CCOC1=O)C=C)OC(C)C",
+                    "label": "None",
+                    "electron_number": 152,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "6",
+            "reactants": [
+                {
+                    "smiles": "CCO[Ti](OC(C)C)(C(C1CCOC1=O)C=C)OC(C)C",
+                    "label": "None",
+                    "electron_number": 152,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CCC=O",
+                    "label": "None",
+                    "electron_number": 26,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CCO[Ti](OC(C)C)(OC(C)C)OC(CC)C/C=C\\C1CCOC1=O",
+                    "label": "None",
+                    "electron_number": 178,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "7",
+            "reactants": [
+                {
+                    "smiles": "CCO[Ti](OC(C)C)(OC(C)C)OC(CC)C/C=C\\C1CCOC1=O",
+                    "label": "None",
+                    "electron_number": 178,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CCC(O)C/C=C\\C1CCOC1=O",
+                    "label": "None",
+                    "electron_number": 84,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

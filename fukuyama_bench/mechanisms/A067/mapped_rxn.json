@@ -1,0 +1,10 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C=CCc1ccccc1.O=C1C=CC(=O)O1>>O=C1CC(C/C=C/c2ccccc2)C(=O)O1",
+            "mapped_rxn": "[CH2:5]=[CH:6][CH2:7][c:8]1[cH:9][cH:10][cH:11][cH:12][cH:13]1.[O:1]=[C:2]1[CH:3]=[CH:4][C:14](=[O:15])[O:16]1>>[O:1]=[C:2]1[CH2:3][CH:4]([CH2:5]/[CH:6]=[CH:7]/[c:8]2[cH:9][cH:10][cH:11][cH:12][cH:13]2)[C:14](=[O:15])[O:16]1",
+            "confidence": 0.7513883988577796
+        }
+    ]
+}

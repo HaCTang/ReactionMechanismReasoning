@@ -1,0 +1,160 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C#CCCC#CC(CCC#CCCC=CC)(CCC=C)O[Si](C)(C)C(C)(C)C",
+                    "label": "None",
+                    "electron_number": 154,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "[Ru](=Cc1ccccc1)",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "solvent",
+                    "text": "benzene",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "temperature",
+                    "text": "rt",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "time",
+                    "text": "4h",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(C)(C)[Si](C)(C)OC12CCC=C1C1=C(CC2)C2=C(C=CCC2)CC1",
+                    "label": "None",
+                    "electron_number": 136,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C#CCCC#CC(CCC#CCCC=CC)(CCC=C)O[Si](C)(C)C(C)(C)C",
+                    "label": "substrate",
+                    "electron_number": 154,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Ru]=Cc1ccccc1",
+                    "label": "reagent",
+                    "electron_number": 42,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[Ru]=CCCC(C#CCCC#C)(CCC#CCCC=CC)O[Si](C)(C)C(C)(C)C",
+                    "label": "intermediate",
+                    "electron_number": 156,
+                    "charge": 0
+                },
+                {
+                    "smiles": "C=Cc1ccccc1",
+                    "label": "leaving",
+                    "electron_number": 40,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "[Ru]=CCCC(C#CCCC#C)(CCC#CCCC=CC)O[Si](C)(C)C(C)(C)C",
+                    "label": "intermediate",
+                    "electron_number": 156,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[Ru]=C(CCC#C)C1=CCCC1(CCC#CCCC=CC)O[Si](C)(C)C(C)(C)C",
+                    "label": "intermediate",
+                    "electron_number": 156,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "[Ru]=C(CCC#C)C1=CCCC1(CCC#CCCC=CC)O[Si](C)(C)C(C)(C)C",
+                    "label": "intermediate",
+                    "electron_number": 156,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C#CCCC1=C(C(CCC=CC)=[Ru])CC[C@@]2(O[Si](C)(C(C)(C)C)C)CCC=C12",
+                    "label": "intermediate",
+                    "electron_number": 156,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "C#CCCC1=C(C(CCC=CC)=[Ru])CC[C@@]2(O[Si](C)(C(C)(C)C)C)CCC=C12",
+                    "label": "intermediate",
+                    "electron_number": 156,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC=CCCC1=C(C=[Ru])CCC2=C1CC[C@@]3(O[Si](C)(C(C)(C)C)C)CCC=C23",
+                    "label": "product",
+                    "electron_number": 156,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "5",
+            "reactants": [
+                {
+                    "smiles": "CC=CCCC1=C(C=[Ru])CCC2=C1CC[C@@]3(O[Si](C)(C(C)(C)C)C)CCC=C23",
+                    "label": "intermediate",
+                    "electron_number": 156,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(C)(C)[Si](C)(C)OC12CCC=C1C1=C(CC2)C2=C(C=CCC2)CC1",
+                    "label": "product",
+                    "electron_number": 136,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CC=[Ru]",
+                    "label": "leaving",
+                    "electron_number": 20,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

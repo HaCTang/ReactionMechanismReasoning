@@ -1,0 +1,40 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "P(c1ccccc1)(c2ccccc2)c3ccccc3.C(Br)(Br)(Br)Br>>[P+](c1ccccc1)(c2ccccc2)(c3ccccc3)Br.[C-](Br)(Br)Br"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[C-](Br)(Br)Br.CCCCCCCC=O>>CCCCCCCC([O-])C(Br)(Br)Br"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CCCCCCCC([O-])C(Br)(Br)Br.[P+](c1ccccc1)(c2ccccc2)(c3ccccc3)Br>>CCCCCCCC(O[P+](c1ccccc1)(c2ccccc2)c3ccccc3)C(Br)(Br)Br.[Br-]"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CCCCCCCC(O[P+](c1ccccc1)(c2ccccc2)c3ccccc3)C(Br)(Br)Br.P(c1ccccc1)(c2ccccc2)c3ccccc3>>CCCCCCCC=C(Br)Br.O=P(c1ccccc1)(c2ccccc2)c3ccccc3.[P+](c1ccccc1)(c2ccccc2)(c3ccccc3)Br"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CCCCCCCC=C(Br)Br.[CH2-]CCC>>CCCCCCCC=[C-](Br).CCCCBr"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "CCCCCCCC=[C-](Br)>>CCCCCCCC=[C].[Br-]"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "CCCCCCCC=[C]>>CCCCCCCC#C"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "CCCCCCCC#C.[CH2-]CCC>>CCCCCCCC#[C-].CCCC"
+        },
+        {
+            "step": "9",
+            "rxn_smiles": "CCCCCCCC#[C-].[H+]>>CCCCCCCC#C"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "COC(=O)C1(C)c2nc(Cl)c(C)cc2CS1(=O)=O>>O=S=O.COC(=O)C(C)=C1C(=C)C=C(C)C(Cl)=N1"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "COC(=O)C(C)=C1C(=C)C=C(C)C(Cl)=N1>>C=C(C(=O)OC)c1nc(Cl)c(C)cc1C"
+        }
+    ]
+}

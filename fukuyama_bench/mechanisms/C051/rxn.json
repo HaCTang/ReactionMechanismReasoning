@@ -1,0 +1,64 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CCCC(N)CC(=O)OCC.O=C1CCC(=O)O1>>CCOC(=O)CC(CCC)NC(=O)CCC(=O)O"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CCOC(=O)CC(CCC)NC(=O)CCC(=O)O.CC(=O)Cl>>CCOC(=O)CC(CCC)NC(=O)CCC(=O)OC(C)=O.[Cl-].[H+]"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CCOC(=O)CC(CCC)NC(=O)CCC(=O)OC(C)=O>>CCOC(=O)CC(CCC)N1C(=O)CCC1=O.CC(=O)O"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CCOC(=O)CC(CCC)N1C(=O)CCC1=O.[BH4-]>>CCOC(=O)CC(CCC)N1C(=O)CCC1[O-].B"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CCOC(=O)CC(CCC)N1C(=O)CCC1[O-].[H+]>>CCOC(=O)CC(CCC)N1C(=O)CCC1O"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "CCOC(=O)CC(CCC)N1C(=O)CCC1O.[H+]>>CCOC(=O)CC(CCC)N1C(=O)CCC1[OH2+]"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "CCOC(=O)CC(CCC)N1C(=O)CCC1[OH2+]>>CCOC(=O)CC(CCC)[N+]1=C(CCC1=O).O"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "CCOC(=O)CC(CCC)[N+]1=C(CCC1=O).CCO>>CCOC(=O)CC(CCC)N1C(=O)CCC1[OH+](CC)"
+        },
+        {
+            "step": "9",
+            "rxn_smiles": "CCOC(=O)CC(CCC)N1C(=O)CCC1[OH+](CC)>>CCOC(=O)CC(CCC)N1C(=O)CCC1OCC.[H+]"
+        },
+        {
+            "step": "10",
+            "rxn_smiles": "CCOC(=O)CC(CCC)N1C(=O)CCC1OCC.C[Si](C)(C)[CH2-]>>CCCC(CC(=O)C[Si](C)(C)C)N1C(=O)CCC1OCC.[O-]CC"
+        },
+        {
+            "step": "11",
+            "rxn_smiles": "CCCC(CC(=O)C[Si](C)(C)C)N1C(=O)CCC1OCC.C[Si](C)(C)[CH2-]>>CCCC(CC([O-])(C[Si](C)(C)C)C[Si](C)(C)C)N1C(=O)CCC1OCC"
+        },
+        {
+            "step": "12",
+            "rxn_smiles": "CCCC(CC([O-])(C[Si](C)(C)C)C[Si](C)(C)C)N1C(=O)CCC1OCC>>CCCC(CC(=C)C[Si](C)(C)C)N1C(=O)CCC1OCC.C[Si](C)(C)[O-]"
+        },
+        {
+            "step": "13",
+            "rxn_smiles": "CCCC(CC(=C)C[Si](C)(C)C)N1C(=O)CCC1OCC.[H+]>>CCCC(CC(=C)C[Si](C)(C)C)N1C(=O)CCC1[OH+](CC)"
+        },
+        {
+            "step": "14",
+            "rxn_smiles": "CCCC(CC(=C)C[Si](C)(C)C)N1C(=O)CCC1[OH+](CC)>>CCCC(CC(=C)C[Si](C)(C)C)[N+]1=C(CCC1=O).CCO"
+        },
+        {
+            "step": "15",
+            "rxn_smiles": "CCCC(CC(=C)C[Si](C)(C)C)[N+]1=C(CCC1=O)>>[H]C12CCC(=O)N1[C@H](CCC)CC(=C)C2.[Si+](C)(C)C"
+        }
+    ]
+}

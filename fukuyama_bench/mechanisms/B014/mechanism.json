@@ -1,0 +1,165 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "CC(C)CO",
+                    "label": "None",
+                    "electron_number": 32,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "DCC, TFA",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "pyridine",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "solvent",
+                    "text": "DMSO",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "temperature",
+                    "text": "rt",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[H]C(=O)C(C)C",
+                    "label": "None",
+                    "electron_number": 30,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C1CCCCC1N=C=NC2CCCCC2",
+                    "label": "reagent",
+                    "electron_number": 84,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[H+]",
+                    "label": "reagent",
+                    "electron_number": 0,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C1CCCCC1[NH+]=C=NC2CCCCC2",
+                    "label": "intermediate",
+                    "electron_number": 84,
+                    "charge": 1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "C1CCCCC1[NH+]=C=NC2CCCCC2",
+                    "label": "intermediate",
+                    "electron_number": 84,
+                    "charge": 1
+                },
+                {
+                    "smiles": "CS(=O)C",
+                    "label": "reagent",
+                    "electron_number": 26,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C1CCCCC1NC(=NC2CCCCC2)O[S+](C)C",
+                    "label": "intermediate",
+                    "electron_number": 110,
+                    "charge": 1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "C1CCCCC1NC(=NC2CCCCC2)O[S+](C)C",
+                    "label": "intermediate",
+                    "electron_number": 110,
+                    "charge": 1
+                },
+                {
+                    "smiles": "CC(C)CO",
+                    "label": "substrate",
+                    "electron_number": 32,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C1CCCCC1NC(=O)NC2CCCCC2",
+                    "label": "leaving",
+                    "electron_number": 92,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CC(C)CO[S+](C)C",
+                    "label": "intermediate",
+                    "electron_number": 50,
+                    "charge": 1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "CC(C)CO[S+](C)C",
+                    "label": "intermediate",
+                    "electron_number": 50,
+                    "charge": 1
+                },
+                {
+                    "smiles": "c1ccncc1",
+                    "label": "reagent",
+                    "electron_number": 30,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(C)C=O",
+                    "label": "product",
+                    "electron_number": 30,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CSC",
+                    "label": "leaving",
+                    "electron_number": 20,
+                    "charge": 0
+                },
+                {
+                    "smiles": "c1cc[nH+]cc1",
+                    "label": "leaving",
+                    "electron_number": 30,
+                    "charge": 1
+                }
+            ]
+        }
+    ]
+}

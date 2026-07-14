@@ -1,0 +1,82 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CCCCC=C.B>>CCCCCCB",
+            "mapped_rxn": "[BH3:1].[CH2:2]=[CH:3][CH2:4][CH2:5][CH2:6][CH3:7]>>[BH2:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][CH3:7]",
+            "confidence": 0.8864744627620635
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CCCCCCB.CCCCC=C>>CCCCCCBCCCCCC",
+            "mapped_rxn": "[BH2:7][CH2:8][CH2:9][CH2:10][CH2:11][CH2:12][CH3:13].[CH3:1][CH2:2][CH2:3][CH2:4][CH:5]=[CH2:6]>>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][BH:7][CH2:8][CH2:9][CH2:10][CH2:11][CH2:12][CH3:13]",
+            "confidence": 0.7823869112502956
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CCCCCCBCCCCCC.CCCCC=C>>CCCCCCB(CCCCCC)CCCCCC",
+            "mapped_rxn": "[CH2:14]=[CH:15][CH2:16][CH2:17][CH2:18][CH3:19].[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][BH:7][CH2:8][CH2:9][CH2:10][CH2:11][CH2:12][CH3:13]>>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][B:7]([CH2:8][CH2:9][CH2:10][CH2:11][CH2:12][CH3:13])[CH2:14][CH2:15][CH2:16][CH2:17][CH2:18][CH3:19]",
+            "confidence": 0.6162068014174839
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "OO.[OH-]>>[O-]O.O",
+            "mapped_rxn": "[OH:2][OH:3].[OH-:1]>>[OH2:1].[O-:2][OH:3]",
+            "confidence": 0.8048553732598682
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CCCCCCB(CCCCCC)CCCCCC.[O-]O>>CCCCCC[B-](OO)(CCCCCC)CCCCCC",
+            "mapped_rxn": "[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][B:7]([CH2:8][CH2:9][CH2:10][CH2:11][CH2:12][CH3:13])[CH2:14][CH2:15][CH2:16][CH2:17][CH2:18][CH3:19].[O-:20][OH:21]>>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][B-:7]([CH2:8][CH2:9][CH2:10][CH2:11][CH2:12][CH3:13])([CH2:14][CH2:15][CH2:16][CH2:17][CH2:18][CH3:19])[O:20][OH:21]",
+            "confidence": 0.27536750145614625
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "CCCCCC[B-](OO)(CCCCCC)CCCCCC>>CCCCCCOB(CCCCCC)CCCCCC.[OH-]",
+            "mapped_rxn": "[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][B-:8]([O:7][OH:21])([CH2:9][CH2:10][CH2:11][CH2:12][CH2:13][CH3:14])[CH2:15][CH2:16][CH2:17][CH2:18][CH2:19][CH3:20]>>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][O:7][B:8]([CH2:9][CH2:10][CH2:11][CH2:12][CH2:13][CH3:14])[CH2:15][CH2:16][CH2:17][CH2:18][CH2:19][CH3:20].[OH-:21]",
+            "confidence": 0.1837144622422209
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "CCCCCCOB(CCCCCC)CCCCCC.[O-]O>>CCCCCC[B-](OO)(OCCCCCC)CCCCCC",
+            "mapped_rxn": "[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][O:7][B:8]([CH2:9][CH2:10][CH2:11][CH2:12][CH2:13][CH3:14])[CH2:15][CH2:16][CH2:17][CH2:18][CH2:19][CH3:20].[O-:21][OH:22]>>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][O:7][B-:8]([CH2:9][CH2:10][CH2:11][CH2:12][CH2:13][CH3:14])([CH2:15][CH2:16][CH2:17][CH2:18][CH2:19][CH3:20])[O:21][OH:22]",
+            "confidence": 0.4242832837789822
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "CCCCCC[B-](OO)(OCCCCCC)CCCCCC>>CCCCCCOB(OCCCCCC)CCCCCC.[OH-]",
+            "mapped_rxn": "[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][O:7][B-:8]([CH2:9][CH2:10][CH2:11][CH2:12][CH2:13][CH3:14])([O:15][OH:22])[CH2:16][CH2:17][CH2:18][CH2:19][CH2:20][CH3:21]>>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][O:7][B:8]([CH2:9][CH2:10][CH2:11][CH2:12][CH2:13][CH3:14])[O:15][CH2:16][CH2:17][CH2:18][CH2:19][CH2:20][CH3:21].[OH-:22]",
+            "confidence": 0.4718504634662193
+        },
+        {
+            "step": "9",
+            "rxn_smiles": "CCCCCCOB(OCCCCCC)CCCCCC.[O-]O>>CCCCCC[B-](OO)(OCCCCCC)OCCCCCC",
+            "mapped_rxn": "[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][O:7][B:8]([CH2:9][CH2:10][CH2:11][CH2:12][CH2:13][CH3:14])[O:17][CH2:18][CH2:19][CH2:20][CH2:21][CH2:22][CH3:23].[O-:15][OH:16]>>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][O:7][B-:8]([CH2:9][CH2:10][CH2:11][CH2:12][CH2:13][CH3:14])([O:15][OH:16])[O:17][CH2:18][CH2:19][CH2:20][CH2:21][CH2:22][CH3:23]",
+            "confidence": 0.7672931951254215
+        },
+        {
+            "step": "10",
+            "rxn_smiles": "CCCCCC[B-](OO)(OCCCCCC)OCCCCCC>>CCCCCCOB(OCCCCCC)OCCCCCC.[OH-]",
+            "mapped_rxn": "[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][O:7][B-:8]([O:9][OH:23])([CH2:10][CH2:11][CH2:12][CH2:13][CH2:14][CH3:15])[O:16][CH2:17][CH2:18][CH2:19][CH2:20][CH2:21][CH3:22]>>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][O:7][B:8]([O:9][CH2:10][CH2:11][CH2:12][CH2:13][CH2:14][CH3:15])[O:16][CH2:17][CH2:18][CH2:19][CH2:20][CH2:21][CH3:22].[OH-:23]",
+            "confidence": 0.7069313928196809
+        },
+        {
+            "step": "11",
+            "rxn_smiles": "CCCCCCOB(OCCCCCC)OCCCCCC.[OH-]>>CCCCCCO[B-](O)(OCCCCCC)OCCCCCC",
+            "mapped_rxn": "[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][O:7][B:8]([O:9][CH2:11][CH2:12][CH2:13][CH2:14][CH2:15][CH3:16])[O:17][CH2:18][CH2:19][CH2:20][CH2:21][CH2:22][CH3:23].[OH-:10]>>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][O:7][B-:8]([OH:9])([O:10][CH2:11][CH2:12][CH2:13][CH2:14][CH2:15][CH3:16])[O:17][CH2:18][CH2:19][CH2:20][CH2:21][CH2:22][CH3:23]",
+            "confidence": 0.45109195015253517
+        },
+        {
+            "step": "12",
+            "rxn_smiles": "CCCCCCO[B-](O)(OCCCCCC)OCCCCCC>>OB(OCCCCCC)OCCCCCC.CCCCCCO[O-]",
+            "mapped_rxn": "[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][O:7][B-:8]([OH:9])([O:10][CH2:11][CH2:12][CH2:13][CH2:14][CH2:15][CH3:16])[O:24][CH2:22][CH2:21][CH2:20][CH2:19][CH2:18][CH3:17]>>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][O:7][B:8]([OH:9])[O:10][CH2:11][CH2:12][CH2:13][CH2:14][CH2:15][CH3:16].[CH3:17][CH2:18][CH2:19][CH2:20][CH2:21][CH2:22][O:23][O-:24]",
+            "confidence": 0.35434001307393365
+        },
+        {
+            "step": "13",
+            "rxn_smiles": "CCCCCC[O-].O>>CCCCCCO.[OH-]",
+            "mapped_rxn": "[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][O-:7].[OH2:8]>>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][OH:7].[OH-:8]",
+            "confidence": 0.843124382891703
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "O=C(O)C1CCCCC1.CC(=O)O[Pb](OC(C)=O)(OC(C)=O)OC(C)=O>>CC(=O)O[Pb](OC(C)=O)(OC(C)=O)OC(=O)C1CCCCC1.CC(=O)O"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CC(=O)O[Pb](OC(C)=O)(OC(C)=O)OC(=O)C1CCCCC1>>[O]C(=O)C1CCCCC1.CC(=O)O[Pb](OC(C)=O)OC(C)=O"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "[O]C(=O)C1CCCCC1>>[CH]1CCCCC1.O=C=O"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "[CH]1CCCCC1.CC(=O)O[Cu]OC(C)=O>>[CH+]1CCCCC1.CC(=O)O[Cu].CC(=O)[O-]"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "[CH+]1CCCCC1.CC(=O)[O-]>>C1=CCCCC1.CC(=O)O"
+        }
+    ]
+}

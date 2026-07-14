@@ -1,0 +1,197 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "O=C(SC(C(=O)O)c1ccccc1)c1ccccc1",
+                    "label": "None",
+                    "electron_number": 96,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "CC(C)N=C=NC(C)C",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "solvent",
+                    "text": "benzene",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "temperature",
+                    "text": "reflux",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "C1=CCCC=CCC1",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C12C3C4(c5ccccc5)SC1(c6ccccc6)C(CC2)C4CC3",
+                    "label": "None",
+                    "electron_number": 116,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "O=C(SC(C(=O)O)c1ccccc1)c1ccccc1",
+                    "label": "substrate",
+                    "electron_number": 96,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CC(C)N=C=NC(C)C",
+                    "label": "reagent",
+                    "electron_number": 52,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[O-]C(=O)C(SC(=O)c1ccccc1)c1ccccc1",
+                    "label": "intermediate",
+                    "electron_number": 96,
+                    "charge": -1
+                },
+                {
+                    "smiles": "CC(C)N=C=[NH+]C(C)C",
+                    "label": "intermediate",
+                    "electron_number": 52,
+                    "charge": 1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "[O-]C(=O)C(SC(=O)c1ccccc1)c1ccccc1",
+                    "label": "intermediate",
+                    "electron_number": 96,
+                    "charge": -1
+                },
+                {
+                    "smiles": "CC(C)N=C=[NH+]C(C)C",
+                    "label": "intermediate",
+                    "electron_number": 52,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(C)NC(=NC(C)C)OC(=O)C(SC(=O)c1ccccc1)c1ccccc1",
+                    "label": "intermediate",
+                    "electron_number": 148,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "CC(C)NC(=NC(C)C)OC(=O)C(SC(=O)c1ccccc1)c1ccccc1",
+                    "label": "intermediate",
+                    "electron_number": 148,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[O-]c1c(c2ccccc2)[s+]c(o1)c3ccccc3",
+                    "label": "intermediate",
+                    "electron_number": 88,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CC(C)NC(=O)NC(C)C",
+                    "label": "leaving",
+                    "electron_number": 60,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "[O-]c1c(c2ccccc2)[s+]c(o1)c3ccccc3",
+                    "label": "intermediate",
+                    "electron_number": 88,
+                    "charge": 0
+                },
+                {
+                    "smiles": "C1=CCCC=CCC1",
+                    "label": "reagent",
+                    "electron_number": 44,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=C1OC2(SC1(C3C2CCC=CCC3)c4ccccc4)c5ccccc5",
+                    "label": "intermediate",
+                    "electron_number": 132,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "5",
+            "reactants": [
+                {
+                    "smiles": "O=C1OC2(SC1(C3C2CCC=CCC3)c4ccccc4)c5ccccc5",
+                    "label": "intermediate",
+                    "electron_number": 132,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[C-]1([S+]=C(C2C1CCC=CCC2)c3ccccc3)c4ccccc4",
+                    "label": "intermediate",
+                    "electron_number": 116,
+                    "charge": 0
+                },
+                {
+                    "smiles": "O=C=O",
+                    "label": "leaving",
+                    "electron_number": 16,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "6",
+            "reactants": [
+                {
+                    "smiles": "[C-]1([S+]=C(C2C1CCC=CCC2)c3ccccc3)c4ccccc4",
+                    "label": "intermediate",
+                    "electron_number": 116,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C12C3C4(c5ccccc5)SC1(c6ccccc6)C(CC2)C4CC3",
+                    "label": "product",
+                    "electron_number": 116,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

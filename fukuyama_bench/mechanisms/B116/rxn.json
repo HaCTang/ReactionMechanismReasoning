@@ -1,0 +1,52 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C1=CCCCC1.[O-][O+]=O>>O1OC2CCCCC2O1"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "O1OC2CCCCC2O1>>[O-][O+]=CCCCCC=O"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "[O-][O+]=CCCCCC=O.CO>>[O-]OC([OH+]C)CCCCC=O"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "[O-]OC([OH+]C)CCCCC=O>>COC(OO)CCCCC=O"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "COC(OO)CCCCC=O.[H+]>>COC(OO)CCCCC=[OH+]"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "COC(OO)CCCCC=[OH+].CO>>COC(OO)CCCCC(O)[OH+]C"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "COC(OO)CCCCC(O)[OH+]C>>COC(OO)CCCCC([OH2+])OC"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "COC(OO)CCCCC([OH2+])OC>>COC(OO)CCCCC=[O+]C.O"
+        },
+        {
+            "step": "9",
+            "rxn_smiles": "COC(OO)CCCCC=[O+]C.CO>>COC(OO)CCCCC(OC)[OH+]C"
+        },
+        {
+            "step": "10",
+            "rxn_smiles": "COC(OO)CCCCC(OC)[OH+]C>>COC(OO)CCCCC(OC)OC.[H+]"
+        },
+        {
+            "step": "11",
+            "rxn_smiles": "COC(OO)CCCCC(OC)OC.CSC>>COC(O)CCCCC(OC)OC.CS(C)=O"
+        },
+        {
+            "step": "12",
+            "rxn_smiles": "COC(O)CCCCC(OC)OC>>COC(CCCCC=O)OC.CO"
+        }
+    ]
+}

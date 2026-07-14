@@ -1,0 +1,58 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C=O.[H+]>>C=[OH+]",
+            "mapped_rxn": "[CH2:1]=[O:2].[H+]>>[CH2:1]=[OH+:2]",
+            "confidence": 1.0
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "C=[OH+].CNC>>C[NH+](C)CO",
+            "mapped_rxn": "[CH2:4]=[OH+:5].[CH3:1][NH:2][CH3:3]>>[CH3:1][NH+:2]([CH3:3])[CH2:4][OH:5]",
+            "confidence": 0.47533267455483874
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "C[NH+](C)CO>>CN(C)CO.[H+]",
+            "mapped_rxn": "[CH3:1][NH+:2]([CH3:3])[CH2:4][OH:5]>>[CH3:1][N:2]([CH3:3])[CH2:4][OH:5].[H+:6]",
+            "confidence": 0.8796752747151158
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CN(C)CO.[H+]>>CN(C)C[OH2+]",
+            "mapped_rxn": "[CH3:1][N:2]([CH3:3])[CH2:4][OH:5].[H+]>>[CH3:1][N:2]([CH3:3])[CH2:4][OH2+:5]",
+            "confidence": 0.8941435137497712
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CN(C)C[OH2+]>>C=[N+](C)C.O",
+            "mapped_rxn": "[CH2:1]([N:2]([CH3:3])[CH3:4])[OH2+:5]>>[CH2:1]=[N+:2]([CH3:3])[CH3:4].[OH2:5]",
+            "confidence": 0.7301330593263946
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "CC(=O)c1ccccc1.[H+]>>CC(=[OH+])c1ccccc1",
+            "mapped_rxn": "[CH3:1][C:2](=[O:3])[c:4]1[cH:5][cH:6][cH:7][cH:8][cH:9]1.[H+]>>[CH3:1][C:2](=[OH+:3])[c:4]1[cH:5][cH:6][cH:7][cH:8][cH:9]1",
+            "confidence": 0.9550298267847063
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "CC(=[OH+])c1ccccc1>>C=C(O)c1ccccc1.[H+]",
+            "mapped_rxn": "[CH3:1][C:2](=[OH+:3])[c:4]1[cH:5][cH:6][cH:7][cH:8][cH:9]1>>[CH2:1]=[C:2]([OH:3])[c:4]1[cH:5][cH:6][cH:7][cH:8][cH:9]1.[H+:10]",
+            "confidence": 0.9153252680389575
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "C=C(O)c1ccccc1.C=[N+](C)C>>CN(C)CCC(=[OH+])c1ccccc1",
+            "mapped_rxn": "[CH2:5]=[C:6]([OH:7])[c:8]1[cH:9][cH:10][cH:11][cH:12][cH:13]1.[CH3:1][N+:2]([CH3:3])=[CH2:4]>>[CH3:1][N:2]([CH3:3])[CH2:4][CH2:5][C:6](=[OH+:7])[c:8]1[cH:9][cH:10][cH:11][cH:12][cH:13]1",
+            "confidence": 0.5349721187082134
+        },
+        {
+            "step": "9",
+            "rxn_smiles": "CN(C)CCC(=[OH+])c1ccccc1>>CN(C)CCC(=O)c1ccccc1.[H+]",
+            "mapped_rxn": "[CH3:1][N:2]([CH3:3])[CH2:4][CH2:5][C:6](=[OH+:7])[c:8]1[cH:9][cH:10][cH:11][cH:12][cH:13]1>>[CH3:1][N:2]([CH3:3])[CH2:4][CH2:5][C:6](=[O:7])[c:8]1[cH:9][cH:10][cH:11][cH:12][cH:13]1.[H+:14]",
+            "confidence": 0.8426815730173595
+        }
+    ]
+}

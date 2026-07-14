@@ -1,0 +1,20 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C[Si](C)(C)/C=C/C(=O)C1=CCCCC1.Cl[Fe](Cl)Cl>>C[Si](C)(C)/C=C/C(=[O+][Fe-](Cl)(Cl)Cl)C1=CCCCC1"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "C[Si](C)(C)/C=C/C(=[O+][Fe-](Cl)(Cl)Cl)C1=CCCCC1>>Cl[Fe-](Cl)(Cl)OC1=C2CCCC[C@@H]2C([Si](C)(C)C)[CH+]1"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "Cl[Fe-](Cl)(Cl)OC1=C2CCCC[C@@H]2C([Si](C)(C)C)[CH+]1>>Cl[Fe](Cl)OC1=C2CCCC[C@@H]2C=C1.C[Si](C)(C)Cl"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "Cl[Fe](Cl)OC1=C2CCCC[C@@H]2C=C1.O>>[H][C@]12C=CC(=O)C1CCCC2.Cl[Fe](Cl)O"
+        }
+    ]
+}

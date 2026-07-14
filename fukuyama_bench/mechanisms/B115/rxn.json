@@ -1,0 +1,48 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CCOC(=O)CCC(=O)OCC.[Na]>>CCO[C]([O-])CCC(=O)OCC.[Na+]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CCO[C]([O-])CCC(=O)OCC>>CCO[C]1CCC([O-])(OCC)O1"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CCO[C]1CCC([O-])(OCC)O1>>CCO[C]1CCC(=O)O1.CC[O-]"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CCO[C]1CCC(=O)O1.[Na]>>CCO[C-]1CCC(=O)O1.[Na+]"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CCO[C-]1CCC(=O)O1>>CCOC1([O-])C(=O)CC1"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "CCOC1([O-])C(=O)CC1>>O=C1CCC1=O.CC[O-]"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "O=C1CCC1=O.[Na]>>[O-][C]1C(=O)CC1.[Na+]"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "[O-][C]1C(=O)CC1.C[Si](C)(C)Cl>>C[Si](C)(C)O[C]1C(=O)CC1.[Cl-]"
+        },
+        {
+            "step": "9",
+            "rxn_smiles": "C[Si](C)(C)O[C]1C(=O)CC1.[Na]>>C[Si](C)(C)O[C-]1C(=O)CC1.[Na+]"
+        },
+        {
+            "step": "10",
+            "rxn_smiles": "C[Si](C)(C)O[C-]1C(=O)CC1>>C[Si](C)(C)OC1=C([O-])CC1"
+        },
+        {
+            "step": "11",
+            "rxn_smiles": "C[Si](C)(C)OC1=C([O-])CC1.C[Si](C)(C)Cl>>C[Si](C)(C)OC1=C(O[Si](C)(C)C)CC1.[Cl-]"
+        }
+    ]
+}

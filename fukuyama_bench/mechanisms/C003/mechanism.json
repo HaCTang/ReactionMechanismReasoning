@@ -1,0 +1,130 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "CC=C(CC)C(=O)/C(C)=C/CC/C(C)=C/CCc1ccccc1",
+                    "label": "None",
+                    "electron_number": 124,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "TiCl4",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "solvent",
+                    "text": "CH2Cl2",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "temperature",
+                    "text": "-78 °C",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[H][C@]12CCc3ccccc3[C@]1(C)CC[C@]1([H])[C@@H](C)C(CC)C(=O)[C@]21C",
+                    "label": "None",
+                    "electron_number": 124,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "CC=C(CC)C(=O)/C(C)=C/CC/C(C)=C/CCc1ccccc1",
+                    "label": "substrate",
+                    "electron_number": 124,
+                    "charge": 0
+                },
+                {
+                    "smiles": "Cl[Ti](Cl)(Cl)Cl",
+                    "label": "reagent",
+                    "electron_number": 32,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC=C(CC)C(=[O+][Ti-](Cl)(Cl)(Cl)Cl)/C(C)=C/CC/C(C)=C/CCc1ccccc1",
+                    "label": "intermediate",
+                    "electron_number": 156,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "CC=C(CC)C(=[O+][Ti-](Cl)(Cl)(Cl)Cl)/C(C)=C/CC/C(C)=C/CCc1ccccc1",
+                    "label": "intermediate",
+                    "electron_number": 156,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "Cl[Ti-](Cl)(Cl)(Cl)OC1=C(CC)[C@@H](C)[C@H](CC/C(C)=C/CCc2ccccc2)[C+]1C",
+                    "label": "intermediate",
+                    "electron_number": 156,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "Cl[Ti-](Cl)(Cl)(Cl)OC1=C(CC)[C@@H](C)[C@H](CC/C(C)=C/CCc2ccccc2)[C+]1C",
+                    "label": "intermediate",
+                    "electron_number": 156,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "Cl[Ti-](Cl)(Cl)(OC1=C([C@H]([C@]2(CC[C@@]3(C4(C=C[CH+]C=C4CC[C@]3([C@]12C)[H])[H])C)[H])C)CC)Cl",
+                    "label": "intermediate",
+                    "electron_number": 156,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "Cl[Ti-](Cl)(Cl)(OC1=C([C@H]([C@]2(CC[C@@]3(C4(C=C[CH+]C=C4CC[C@]3([C@]12C)[H])[H])C)[H])C)CC)Cl",
+                    "label": "intermediate",
+                    "electron_number": 156,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[H][C@]12CCc3ccccc3[C@]1(C)CC[C@]1([H])[C@@H](C)C(CC)C(=O)[C@]21C",
+                    "label": "product",
+                    "electron_number": 124,
+                    "charge": 0
+                },
+                {
+                    "smiles": "Cl[Ti](Cl)(Cl)Cl",
+                    "label": "leaving",
+                    "electron_number": 32,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

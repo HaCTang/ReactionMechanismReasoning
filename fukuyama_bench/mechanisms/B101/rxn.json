@@ -1,0 +1,24 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "[N-]=[N+]=NC(c1ccccc1)[C@@H](O)c1ccccc1.c1ccccc1P(c1ccccc1)c1ccccc1>>O[C@@H](C(N1N=NP(c2ccccc2)(c3ccccc3)1c4ccccc4)c5ccccc5)c6ccccc6"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "O[C@@H](C(N1N=NP(c2ccccc2)(c3ccccc3)1c4ccccc4)c5ccccc5)c6ccccc6>>c1ccccc1[C@@H](O)C(c1ccccc1)N=P(c1ccccc1)(c1ccccc1)c1ccccc1.N#N"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "c1ccccc1[C@@H](O)C(c1ccccc1)N=P(c1ccccc1)(c1ccccc1)c1ccccc1>>c1ccccc1[C@@H]1O[P](c2ccccc2)(c2ccccc2)(c2ccccc2)NC1c1ccccc1"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "c1ccccc1[C@@H]1O[P](c2ccccc2)(c2ccccc2)(c2ccccc2)NC1c1ccccc1.[H+]>>[NH2]C(c1ccccc1)[C@@H](c1ccccc1)O[P+](c1ccccc1)(c1ccccc1)c1ccccc1"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "[NH2]C(c1ccccc1)[C@@H](c1ccccc1)O[P+](c1ccccc1)(c1ccccc1)c1ccccc1>>[H][C@@]1(c2ccccc2)N[C@@]1([H])c1ccccc1.O=P(c1ccccc1)(c1ccccc1)c1ccccc1.[H+]"
+        }
+    ]
+}

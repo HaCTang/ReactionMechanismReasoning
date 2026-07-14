@@ -1,0 +1,24 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CCC(C)(Cl)CCCC(C)(C)c1ccccc1.Cl[Al](Cl)Cl>>CCC(C)([Cl+][Al-](Cl)(Cl)Cl)CCCC(C)(C)c1ccccc1"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CCC(C)([Cl+][Al-](Cl)(Cl)Cl)CCCC(C)(C)c1ccccc1>>CC[C+](C)CCCC(C)(C)c1ccccc1.Cl[Al-](Cl)(Cl)Cl"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CC[C+](C)CCCC(C)(C)c1ccccc1>>CCC(C)[CH+]CCC(C)(C)c1ccccc1"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CCC(C)[CH+]CCC(C)(C)c1ccccc1>>CCC(C)C1CCC(C)(C)[C+]2C=CC=CC12"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CCC(C)C1CCC(C)(C)[C+]2C=CC=CC12>>CCC(C)C1CCC(C)(C)c2ccccc12.[H+]"
+        }
+    ]
+}

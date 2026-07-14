@@ -1,0 +1,52 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C=CCC1=CCCCC1.B[C@@H]1C[C@@H]2C[C@H]([C@H]1C)C2(C)C>>[H]B(CCCC1=CCCCC1)[C@@H]1C[C@@H]2C[C@H]([C@H]1C)C2(C)C"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[H]B(CCCC1=CCCCC1)[C@@H]1C[C@@H]2C[C@H]([C@H]1C)C2(C)C>>[H][C@@]12CCCC[C@@]1([H])B([C@@H]1C[C@@H]3C[C@H]([C@H]1C)C3(C)C)CCC2"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "[H][C@@]12CCCC[C@@]1([H])B([C@@H]1C[C@@H]3C[C@H]([C@H]1C)C3(C)C)CCC2.CC=O>>[H][C@@]12CCCC[C@@]1([H])B(OCC)CCC2.CC1=CCC2C(C)(C)[C@H]1C2"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "COC(Cl)Cl.CC(C)(C)[O-]>>CO[C-](Cl)Cl.CC(C)(C)O"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "[H][C@@]12CCCC[C@@]1([H])B(OCC)CCC2.CO[C-](Cl)Cl>>[H][C@@]12CCCC[C@@]1([H])[B-](OCC)(C(Cl)(Cl)OC)CCC2"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "[H][C@@]12CCCC[C@@]1([H])[B-](OCC)(C(Cl)(Cl)OC)CCC2>>[H][C@@]12CCCC[C@@H]1C(Cl)(OC)[B](OCC)CCC2.[Cl-]"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "[H][C@@]12CCCC[C@@H]1C(Cl)(OC)[B](OCC)CCC2>>[H][C@@]12CCCC[C@@H]1C([O+]3C)([B-](CCC2)3OCC)Cl"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "[H][C@@]12CCCC[C@@H]1C([O+]3C)([B-](CCC2)3OCC)Cl>>[H][C@@]12CCCC[C@@H]1C(B(OC)OCC)(CCC2)Cl"
+        },
+        {
+            "step": "9",
+            "rxn_smiles": "[H][C@@]12CCCC[C@@H]1C(B(OC)OCC)(CCC2)Cl.O.O>>[H][C@@]12CCCC[C@@]1([H])C(B(O)O)(Cl)CCC2.CCO.CO"
+        },
+        {
+            "step": "10",
+            "rxn_smiles": "[H][C@@]12CCCC[C@@]1([H])C(B(O)O)(Cl)CCC2.O[O-]>>OO[B-](C(CCC1)(Cl)[C@]2([H])CCCC[C@]21[H])(O)O"
+        },
+        {
+            "step": "11",
+            "rxn_smiles": "OO[B-](C(CCC1)(Cl)[C@]2([H])CCCC[C@]21[H])(O)O>>[H][C@@]12CCCC[C@@]1([H])C(OB(O)O)(Cl)CCC2.[OH-]"
+        },
+        {
+            "step": "12",
+            "rxn_smiles": "[H][C@@]12CCCC[C@@]1([H])C(OB(O)O)(Cl)CCC2.[OH-]>>[H][C@@]12CCCC[C@]1(C(CCC2)=O)[H].OB(O)O.[Cl-]"
+        }
+    ]
+}

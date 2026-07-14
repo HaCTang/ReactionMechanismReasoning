@@ -1,0 +1,32 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "O[C@H](c1ccccc1)[C@@H](O)c1ccccc1.S=C(n1ccnc1)n1ccnc1>>[S-]C(n1ccnc1)(n1cc[nH+]c1)O[C@H](c2ccccc2)[C@@H](O)c3ccccc3"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[S-]C(n1ccnc1)(n1cc[nH+]c1)O[C@H](c2ccccc2)[C@@H](O)c3ccccc3>>S=C(n1ccnc1)O[C@H](c2ccccc2)[C@@H](O)c3ccccc3.c1cn[nH]c1"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "S=C(n1ccnc1)O[C@H](c2ccccc2)[C@H](O)c3ccccc3>>[S-]C1(n2cc[nH+]c2)O[C@H](c3ccccc3)[C@H](c4ccccc4)O1"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "[S-]C1(n2cc[nH+]c2)O[C@H](c3ccccc3)[C@H](c4ccccc4)O1>>S=C1O[C@H](c2ccccc2)[C@H](c3ccccc3)O1.c1cn[nH]c1"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "S=C1O[C@H](c2ccccc2)[C@H](c3ccccc3)O1.COP(OC)OC>>CO[P+](OC)(OC)S[C-]1O[C@H](c2ccccc2)[C@H](c3ccccc3)O1"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "CO[P+](OC)(OC)S[C-]1O[C@H](c2ccccc2)[C@H](c3ccccc3)O1>>[C]1O[C@H](c2ccccc2)[C@H](c3ccccc3)O1.COP(=S)(OC)OC"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "[C]1O[C@H](c2ccccc2)[C@H](c3ccccc3)O1>>c1(/C=C\\c2ccccc2)ccccc1.O=C=O"
+        }
+    ]
+}

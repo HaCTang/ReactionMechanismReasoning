@@ -1,0 +1,138 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C1(CCC/C=C(\\C[Si](C)(C)C)C(C)(C)OC(=O)C(F)(F)F)=CC=CC1",
+                    "label": "None",
+                    "electron_number": 171,
+                    "charge": 0
+                },
+                {
+                    "smiles": "Cl[Zn]Cl",
+                    "label": "None",
+                    "electron_number": 64,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "ZnCl2",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C12(CCC3)C3C(=C)C(C)(C)C(C1)C=C2",
+                    "label": "None",
+                    "electron_number": 84,
+                    "charge": 0
+                },
+                {
+                    "smiles": "C[Si+](C)C",
+                    "label": "None",
+                    "electron_number": 31,
+                    "charge": 1
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C1(CCC/C=C(\\C[Si](C)(C)C)C(C)(C)OC(=O)C(F)(F)F)=CC=CC1",
+                    "label": "None",
+                    "electron_number": 171,
+                    "charge": 0
+                },
+                {
+                    "smiles": "Cl[Zn]Cl",
+                    "label": "None",
+                    "electron_number": 64,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C1(CCC/C=C(\\C[Si](C)(C)C)C(C)(C)OC(C(F)(F)F)=[O+][Zn-](Cl)Cl)=CC=CC1",
+                    "label": "None",
+                    "electron_number": 235,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "C1(CCC/C=C(\\C[Si](C)(C)C)C(C)(C)OC(C(F)(F)F)=[O+][Zn-](Cl)Cl)=CC=CC1",
+                    "label": "None",
+                    "electron_number": 235,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C1(CCC/C=C(\\C[Si](C)(C)C)[C+](C)C)=CC=CC1",
+                    "label": "None",
+                    "electron_number": 115,
+                    "charge": 1
+                },
+                {
+                    "smiles": "O=C(O[Zn-](Cl)Cl)C(F)(F)F",
+                    "label": "None",
+                    "electron_number": 120,
+                    "charge": -1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "C1(CCC/C=C(\\C[Si](C)(C)C)[C+](C)C)=CC=CC1",
+                    "label": "None",
+                    "electron_number": 115,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C12(CCC3)C3[C+](C[Si](C)(C)C)C(C)(C)C(C1)C=C2",
+                    "label": "None",
+                    "electron_number": 115,
+                    "charge": 1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "C12(CCC3)C3[C+](C[Si](C)(C)C)C(C)(C)C(C1)C=C2",
+                    "label": "None",
+                    "electron_number": 115,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C12(CCC3)C3C(=C)C(C)(C)C(C1)C=C2",
+                    "label": "None",
+                    "electron_number": 84,
+                    "charge": 0
+                },
+                {
+                    "smiles": "C[Si+](C)C",
+                    "label": "None",
+                    "electron_number": 31,
+                    "charge": 1
+                }
+            ]
+        }
+    ]
+}

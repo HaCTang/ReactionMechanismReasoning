@@ -1,0 +1,112 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "CC12CCC(CC1O)C2(C)CBr",
+                    "label": "None",
+                    "electron_number": 70,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "aq H2SO4",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "temperature",
+                    "text": "reflux",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C=C1C2CCC(C2)C1(C)CBr",
+                    "label": "None",
+                    "electron_number": 62,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "CC12CCC(CC1O)C2(C)CBr",
+                    "label": "substrate",
+                    "electron_number": 70,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[H+]",
+                    "label": "reagent",
+                    "electron_number": 0,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC12CCC(CC1[OH2+])C2(C)CBr",
+                    "label": "intermediate",
+                    "electron_number": 70,
+                    "charge": 1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "CC12CCC(CC1[OH2+])C2(C)CBr",
+                    "label": "intermediate",
+                    "electron_number": 70,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C[C+]1C2CCC(C2)C1(C)CBr",
+                    "label": "intermediate",
+                    "electron_number": 62,
+                    "charge": 1
+                },
+                {
+                    "smiles": "O",
+                    "label": "leaving",
+                    "electron_number": 8,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "C[C+]1C2CCC(C2)C1(C)CBr",
+                    "label": "intermediate",
+                    "electron_number": 62,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C=C1C2CCC(C2)C1(C)CBr",
+                    "label": "product",
+                    "electron_number": 62,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[H+]",
+                    "label": "leaving",
+                    "electron_number": 0,
+                    "charge": 1
+                }
+            ]
+        }
+    ]
+}

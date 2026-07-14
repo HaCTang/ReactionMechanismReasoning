@@ -1,0 +1,24 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "ON=C(Cl)c1ccccc1.CCN(CC)CC>>[O-]N=C(Cl)c1ccccc1.CC[NH+](CC)CC"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[O-]N=C(Cl)c1ccccc1>>[O-][N+]#Cc1ccccc1.[Cl-]"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "[O-][N+]#Cc1ccccc1.C[N+]1(CCOCC1)[O-]>>[O-]N=C(c1ccccc1)O[N+]2(C)CCOCC2"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "[O-]N=C(c1ccccc1)O[N+]2(C)CCOCC2>>O=NC(=O)c1ccccc1.CN1CCOCC1"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "O=NC(=O)c1ccccc1.C1=CCCC=C1>>O=C(c1ccccc1)N1OC2C=CC1CC2"
+        }
+    ]
+}

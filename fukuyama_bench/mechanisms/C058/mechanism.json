@@ -1,0 +1,110 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "CCCC1(OCCO1)CC/C(c2c(N(C(OC(C)(C)C)=O)C(OC(C)(C)C)=O)cccc2)=C\\[S@@+]([O-])C3=CC=C(C)C=C3",
+                    "label": "None",
+                    "electron_number": 230,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "Zn(Cu)",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "Cl3CCOCl",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "solvent",
+                    "text": "THF",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "temperature",
+                    "text": "-45 °C",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=C1O[C@H](SC2=CC=C(C)C=C2)[C@@](CCC3(OCCO3)CCC)(c4c(N(C(OC(C)(C)C)=O)C(OC(C)(C)C)=O)cccc4)C1(Cl)Cl",
+                    "label": "None",
+                    "electron_number": 258,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "CCCC1(OCCO1)CC/C(c2c(N(C(OC(C)(C)C)=O)C(OC(C)(C)C)=O)cccc2)=C\\[S@@+]([O-])C3=CC=C(C)C=C3",
+                    "label": "substrate",
+                    "electron_number": 230,
+                    "charge": 0
+                },
+                {
+                    "smiles": "ClC(Cl)=C=O",
+                    "label": "reagent",
+                    "electron_number": 28,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CCCC1(OCCO1)CC/C(c2c(N(C(OC(C)(C)C)=O)C(OC(C)(C)C)=O)cccc2)=C\\[S@@+](C3=CC=C(C)C=C3)OC(=C(Cl)Cl)[O-]",
+                    "label": "intermediate",
+                    "electron_number": 258,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "CCCC1(OCCO1)CC/C(c2c(N(C(OC(C)(C)C)=O)C(OC(C)(C)C)=O)cccc2)=C\\[S@@+](C3=CC=C(C)C=C3)OC(=C(Cl)Cl)[O-]",
+                    "label": "intermediate",
+                    "electron_number": 258,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[O-]C(=O)C(Cl)(Cl)[C@@](CCC3(OCCO3)CCC)(c4c(N(C(OC(C)(C)C)=O)C(OC(C)(C)C)=O)cccc4)C=[S+]c5ccc(C)cc5",
+                    "label": "intermediate",
+                    "electron_number": 258,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "[O-]C(=O)C(Cl)(Cl)[C@@](CCC3(OCCO3)CCC)(c4c(N(C(OC(C)(C)C)=O)C(OC(C)(C)C)=O)cccc4)C=[S+]c5ccc(C)cc5",
+                    "label": "intermediate",
+                    "electron_number": 258,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=C1O[C@H](SC2=CC=C(C)C=C2)[C@@](CCC3(OCCO3)CCC)(c4c(N(C(OC(C)(C)C)=O)C(OC(C)(C)C)=O)cccc4)C1(Cl)Cl",
+                    "label": "product",
+                    "electron_number": 258,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

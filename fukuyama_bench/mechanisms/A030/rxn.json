@@ -1,0 +1,28 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CC(C)=C.[H+]>>C[C+](C)C"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "C[C+](C)C.O=C(O)CC(=O)O>>CC(C)(C)OC(=[OH+])CC(=O)O"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CC(C)(C)OC(=[OH+])CC(=O)O>>CC(C)(C)OC(=O)CC(=O)O.[H+]"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CC(C)=C.[H+]>>C[C+](C)C"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "C[C+](C)C.CC(C)(C)OC(=O)CC(=O)O>>CC(C)(C)OC(=[OH+])CC(=O)OC(C)(C)C"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "CC(C)(C)OC(=[OH+])CC(=O)OC(C)(C)C>>CC(C)(C)OC(=O)CC(=O)OC(C)(C)C.[H+]"
+        }
+    ]
+}

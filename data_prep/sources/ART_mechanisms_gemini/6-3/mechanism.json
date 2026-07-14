@@ -1,0 +1,144 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "[Cu+2]",
+                    "label": "None",
+                    "electron_number": 27,
+                    "charge": 2
+                },
+                {
+                    "smiles": "CC1=CC=C(C=C1)S(=O)(=O)[N-][I+]C2=CC=CC=C2",
+                    "label": "None",
+                    "electron_number": 170,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "Cu(II)",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[Cu+2]",
+                    "label": "None",
+                    "electron_number": 27,
+                    "charge": 2
+                },
+                {
+                    "smiles": "[1*][C@H]1[C@@H]([2*])N1S(=O)(=O)C2=CC=C(C)C=C2",
+                    "label": "None",
+                    "electron_number": 93,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "[Cu+2]",
+                    "label": "None",
+                    "electron_number": 27,
+                    "charge": 2
+                },
+                {
+                    "smiles": "CC1=CC=C(C=C1)S(=O)(=O)[N-][I+]C2=CC=CC=C2",
+                    "label": "None",
+                    "electron_number": 170,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC1=CC=C(C=C1)S(=O)(=O)N([Cu+2])[I+]C2=CC=CC=C2",
+                    "label": "None",
+                    "electron_number": 196,
+                    "charge": 3
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "CC1=CC=C(C=C1)S(=O)(=O)N([Cu+2])[I+]C2=CC=CC=C2",
+                    "label": "None",
+                    "electron_number": 196,
+                    "charge": 3
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC1=CC=C(C=C1)S(=O)(=O)N=[Cu+4]",
+                    "label": "None",
+                    "electron_number": 106,
+                    "charge": 4
+                },
+                {
+                    "smiles": "IC1=CC=CC=C1",
+                    "label": "None",
+                    "electron_number": 89,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "CC1=CC=C(C=C1)S(=O)(=O)N=[Cu+4]",
+                    "label": "None",
+                    "electron_number": 106,
+                    "charge": 4
+                },
+                {
+                    "smiles": "[1*]/C=C\\[2*]",
+                    "label": "None",
+                    "electron_number": 12,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[1*][C@H]1[C@@H]([2*])[Cu+4]N1S(=O)(=O)C2=CC=C(C)C=C2",
+                    "label": "None",
+                    "electron_number": 118,
+                    "charge": 4
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "[1*][C@H]1[C@@H]([2*])[Cu+4]N1S(=O)(=O)C2=CC=C(C)C=C2",
+                    "label": "None",
+                    "electron_number": 118,
+                    "charge": 4
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[Cu+2]",
+                    "label": "None",
+                    "electron_number": 27,
+                    "charge": 2
+                },
+                {
+                    "smiles": "[1*][C@H]1[C@@H]([2*])N1S(=O)(=O)C2=CC=C(C)C=C2",
+                    "label": "None",
+                    "electron_number": 93,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

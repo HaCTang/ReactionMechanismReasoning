@@ -1,0 +1,36 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "ClCCOCCl.CC1(C)CCCC(C)(C)[N-]1>>[CH-](Cl)OCCCl.CC1(C)CCCC(C)(C)N1"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[CH-](Cl)OCCCl>>[CH]OCCCl.[Cl-]"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "[CH]OCCCl.C=CC(=C)c1ccccc1>>ClCCOC1CC1C(=C)c2ccccc2"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "ClCCOC1CC1C(=C)c2ccccc2.[CH2-]CCC>>[CH2-]COC1CC1C(=C)c2ccccc2.CCCCCl"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "[CH2-]COC1CC1C(=C)c2ccccc2>>[O-]C1CC1C(=C)c2ccccc2.C=C"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "[O-]C1CC1C(=C)c2ccccc2>>[O-][CH]C[CH]C(c1ccccc1)=C"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "[O-][CH]C[CH]C(c1ccccc1)=C>>[O-]C1CC=C(c2ccccc2)C1"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "[O-]C1CC=C(c2ccccc2)C1.[H+]>>OC1CC=C(c2ccccc2)C1"
+        }
+    ]
+}

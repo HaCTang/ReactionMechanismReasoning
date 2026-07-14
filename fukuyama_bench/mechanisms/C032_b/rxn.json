@@ -1,0 +1,16 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CC/C=C/COc1ccc(C)cc1>>C=CC(CC)C1C(=O)C=CC(C)=C1"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "C=CC(CC)C1C(=O)C=CC(C)=C1>>CCC1C(C)C12C(C=CC(C)=C2)=O"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CCC1C(C)C12C(C=CC(C)=C2)=O>>CC=CC(C)c1cc(C)ccc1O"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "COCCOCOC/C=C/C=C/C(C)(C)C(O)c1ccco1.CC(C)(C)OO>>COCCOCOC/C=C/C=C/C(C)(C)[C@H](O)[C@]12O[C@@H]2C=CO1.CC(C)(C)O"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "COCCOCOC/C=C/C=C/C(C)(C)[C@H](O)[C@]12O[C@@H]2C=CO1.[H+]>>COCCOCOC/C=C/C=C/C(C)([C@@H]([C@]1(C=CC=[O+]1)O)O)C"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "COCCOCOC/C=C/C=C/C(C)([C@@H]([C@]1(C=CC=[O+]1)O)O)C>>COCCOCOC/C=C/C=C/C([C@H](O)C(/C=C\\C=O)=O)(C)C.[H+]"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "COCCOCOC/C=C/C=C/C([C@H](O)C(/C=C\\C=O)=O)(C)C>>COCCOCOC/C=C/C=C/C(C)(C)[C@@H]1C(=O)C=C[C@@H](O)O1"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "COCCOCOC/C=C/C=C/C(C)(C)[C@@H]1C(=O)C=C[C@@H](O)O1>>CC1(C)[C@]2([H])C=C[C@H](COCOCCOC)[C@@](C(O)OC31)([H])[C@]2([H])C3=O"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "CC1(C)[C@]2([H])C=C[C@H](COCOCCOC)[C@@](C(O)OC31)([H])[C@]2([H])C3=O>>COCCOCOC[C@H]1C=C[C@@]2([H])C(C)(C)[C@@H](O)C(=O)[C@@]2([H])[C@H]1C=O"
+        }
+    ]
+}

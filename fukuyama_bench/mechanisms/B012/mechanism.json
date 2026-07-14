@@ -1,0 +1,160 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "N#CCCc1ccccc1Cl",
+                    "label": "substrate",
+                    "electron_number": 56,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "NaNH2",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "solvent",
+                    "text": "liq NH3",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "temperature",
+                    "text": "-78 °C",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "N#CC1Cc2ccccc21",
+                    "label": "product",
+                    "electron_number": 48,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "N#CCCc1ccccc1Cl",
+                    "label": "substrate",
+                    "electron_number": 56,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[NH2-]",
+                    "label": "reagent",
+                    "electron_number": 8,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "N#C[CH-]Cc1ccccc1Cl",
+                    "label": "intermediate",
+                    "electron_number": 56,
+                    "charge": -1
+                },
+                {
+                    "smiles": "N",
+                    "label": "product",
+                    "electron_number": 8,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "N#C[CH-]Cc1ccccc1Cl",
+                    "label": "intermediate",
+                    "electron_number": 56,
+                    "charge": -1
+                },
+                {
+                    "smiles": "[NH2-]",
+                    "label": "reagent",
+                    "electron_number": 8,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "N#C[CH-]Cc1c#cccc1",
+                    "label": "intermediate",
+                    "electron_number": 48,
+                    "charge": -1
+                },
+                {
+                    "smiles": "[Cl-]",
+                    "label": "leaving",
+                    "electron_number": 8,
+                    "charge": -1
+                },
+                {
+                    "smiles": "N",
+                    "label": "product",
+                    "electron_number": 8,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "N#C[CH-]Cc1c#cccc1",
+                    "label": "intermediate",
+                    "electron_number": 48,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "N#CC1Cc2ccc[c-]c21",
+                    "label": "intermediate",
+                    "electron_number": 48,
+                    "charge": -1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "N#CC1Cc2ccc[c-]c21",
+                    "label": "intermediate",
+                    "electron_number": 48,
+                    "charge": -1
+                },
+                {
+                    "smiles": "N",
+                    "label": "reagent",
+                    "electron_number": 8,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "N#CC1Cc2ccccc21",
+                    "label": "product",
+                    "electron_number": 48,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[NH2-]",
+                    "label": "leaving",
+                    "electron_number": 8,
+                    "charge": -1
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CCOC(=O)CCCCC(=O)OCC.[H-]>>CCOC(=O)CCCC=C([O-])OCC.[H][H]",
+            "mapped_rxn": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][CH2:7][CH2:8][CH2:9][C:10](=[O:11])[O:12][CH2:13][CH3:14].[H-:15]>>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][CH2:7][CH2:8][CH:9]=[C:10]([O-:11])[O:12][CH2:13][CH3:14].[H:15][H:16]",
+            "confidence": 0.7421576729940552
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CCOC(=O)CCCC=C([O-])OCC>>CCOC(=O)C1CCCC1([O-])OCC",
+            "mapped_rxn": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][CH2:7][CH2:8][CH:9]=[C:10]([O-:11])[O:12][CH2:13][CH3:14]>>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]1[CH2:7][CH2:8][CH2:9][C:10]1([O-:11])[O:12][CH2:13][CH3:14]",
+            "confidence": 0.8835862518686635
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CCOC(=O)C1CCCC1([O-])OCC>>CCOC(=O)C1CCCC1=O.CC[O-]",
+            "mapped_rxn": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]1[CH2:7][CH2:8][CH2:9][C:10]1([O-:11])[O:14][CH2:13][CH3:12]>>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]1[CH2:7][CH2:8][CH2:9][C:10]1=[O:11].[CH3:12][CH2:13][O-:14]",
+            "confidence": 0.980157875110304
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CCOC(=O)C1CCCC1=O.CC[O-]>>CCOC(=O)C1=C([O-])CCC1.CCO",
+            "mapped_rxn": "[CH3:4][CH2:5][O:6][C:7](=[O:8])[CH:9]1[C:10](=[O:11])[CH2:12][CH2:13][CH2:14]1.[CH3:1][CH2:2][O-:3]>>[CH3:1][CH2:2][OH:3].[CH3:4][CH2:5][O:6][C:7](=[O:8])[C:9]1=[C:10]([O-:11])[CH2:12][CH2:13][CH2:14]1",
+            "confidence": 0.9522500550323049
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CCOC(=O)C1=C([O-])CCC1.[OH3+]>>CCOC(=O)C1CCCC1=O.O",
+            "mapped_rxn": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[C:6]1=[C:10]([O-:11])[CH2:9][CH2:8][CH2:7]1.[OH3+:12]>>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]1[CH2:7][CH2:8][CH2:9][C:10]1=[O:11].[OH2:12]",
+            "confidence": 0.9809906578129504
+        }
+    ]
+}

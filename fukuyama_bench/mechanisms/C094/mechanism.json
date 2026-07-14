@@ -1,0 +1,266 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C=C(CBr)[C@@H]1CC(=O)C(C)=C(C)C1(C)C",
+                    "label": "None",
+                    "electron_number": 84,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "t-BuOK, t-BuOH",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "temperature",
+                    "text": "-5 °C to rt",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "O3, NaHCO3",
+                    "reaction_step": "2"
+                },
+                {
+                    "role": "solvent",
+                    "text": "MeOH-CH2Cl2",
+                    "reaction_step": "2"
+                },
+                {
+                    "role": "temperature",
+                    "text": "-70 °C",
+                    "reaction_step": "2"
+                },
+                {
+                    "role": "reagent",
+                    "text": "Ac2O, Et3N, DMAP",
+                    "reaction_step": "3"
+                },
+                {
+                    "role": "solvent",
+                    "text": "benzene",
+                    "reaction_step": "3"
+                },
+                {
+                    "role": "temperature",
+                    "text": "reflux",
+                    "reaction_step": "3"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C=C1C(C)(C)C=CC(=O)[C@@]1(C)CC(=O)OC",
+                    "label": "None",
+                    "electron_number": 88,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C=C(CBr)[C@@H]1CC(=O)C(C)=C(C)C1(C)C",
+                    "label": "substrate",
+                    "electron_number": 84,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CC(C)(C)[O-]",
+                    "label": "reagent",
+                    "electron_number": 32,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C=C([C@@H]1CC([O-])=C(C(C1(C)C)=C)C)CBr",
+                    "label": "intermediate",
+                    "electron_number": 84,
+                    "charge": -1
+                },
+                {
+                    "smiles": "CC(C)(C)O",
+                    "label": "leaving",
+                    "electron_number": 32,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "C=C([C@@H]1CC([O-])=C(C(C1(C)C)=C)C)CBr",
+                    "label": "intermediate",
+                    "electron_number": 84,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C[C@@]12CC([C@H](CC2=O)C(C)(C)C1=C)=C",
+                    "label": "intermediate",
+                    "electron_number": 76,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Br-]",
+                    "label": "leaving",
+                    "electron_number": 8,
+                    "charge": -1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "C[C@@]12CC([C@H](CC2=O)C(C)(C)C1=C)=C",
+                    "label": "intermediate",
+                    "electron_number": 76,
+                    "charge": 0
+                },
+                {
+                    "smiles": "O=[O+][O-]",
+                    "label": "reagent",
+                    "electron_number": 18,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C[C@@]12CC([C@H](CC2=O)C(C1=C)(C)C)=[O+][O-]",
+                    "label": "intermediate",
+                    "electron_number": 82,
+                    "charge": 0
+                },
+                {
+                    "smiles": "C=O",
+                    "label": "leaving",
+                    "electron_number": 12,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "C[C@@]12CC([C@H](CC2=O)C(C1=C)(C)C)=[O+][O-]",
+                    "label": "intermediate",
+                    "electron_number": 82,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CO",
+                    "label": "reagent",
+                    "electron_number": 14,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C[C@@]12CC(OO)(OC)[C@H](CC2=O)C(C1=C)(C)C",
+                    "label": "intermediate",
+                    "electron_number": 96,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "5",
+            "reactants": [
+                {
+                    "smiles": "C[C@@]12CC(OO)(OC)[C@H](CC2=O)C(C1=C)(C)C",
+                    "label": "intermediate",
+                    "electron_number": 96,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CC(=O)OC(C)=O",
+                    "label": "reagent",
+                    "electron_number": 40,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C[C@]12CC(OC)([C@@H](C(C)(C)C2=C)CC1=O)OOC(C)=O",
+                    "label": "intermediate",
+                    "electron_number": 112,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CC(=O)O",
+                    "label": "leaving",
+                    "electron_number": 24,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "6",
+            "reactants": [
+                {
+                    "smiles": "C[C@]12CC(OC)([C@@H](C(C)(C)C2=C)CC1=O)OOC(C)=O",
+                    "label": "intermediate",
+                    "electron_number": 112,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CCN(CC)CC",
+                    "label": "reagent",
+                    "electron_number": 44,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C[C@]12CC(OC)([C@@H](C(C)(C)C2=C)C=C1[O-])OOC(C)=O",
+                    "label": "intermediate",
+                    "electron_number": 112,
+                    "charge": -1
+                },
+                {
+                    "smiles": "CC[NH+](CC)CC",
+                    "label": "leaving",
+                    "electron_number": 44,
+                    "charge": 1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "7",
+            "reactants": [
+                {
+                    "smiles": "C[C@]12CC(OC)([C@@H](C(C)(C)C2=C)C=C1[O-])OOC(C)=O",
+                    "label": "intermediate",
+                    "electron_number": 112,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C=C1C(C)(C)C=CC(=O)[C@@]1(C)CC(=O)OC",
+                    "label": "product",
+                    "electron_number": 88,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CC(=O)[O-]",
+                    "label": "leaving",
+                    "electron_number": 24,
+                    "charge": -1
+                }
+            ]
+        }
+    ]
+}

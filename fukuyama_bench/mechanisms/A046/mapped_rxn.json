@@ -1,0 +1,22 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CC12CCC(CC1O)C2(C)CBr.[H+]>>CC12CCC(CC1[OH2+])C2(C)CBr",
+            "mapped_rxn": "[CH3:1][C:2]12[CH2:3][CH2:4][CH:5]([CH2:6][CH:7]1[OH:8])[C:9]2([CH3:10])[CH2:11][Br:12].[H+]>>[CH3:1][C:2]12[CH2:3][CH2:4][CH:5]([CH2:6][CH:7]1[OH2+:8])[C:9]2([CH3:10])[CH2:11][Br:12]",
+            "confidence": 0.9956922010701525
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CC12CCC(CC1[OH2+])C2(C)CBr>>C[C+]1C2CCC(C2)C1(C)CBr.O",
+            "mapped_rxn": "[CH3:1][C:2]12[CH:3]([OH2+:12])[CH2:7][CH:6]([CH2:5][CH2:4]1)[C:8]2([CH3:9])[CH2:10][Br:11]>>[CH3:1][C+:2]1[CH:3]2[CH2:4][CH2:5][CH:6]([CH2:7]2)[C:8]1([CH3:9])[CH2:10][Br:11].[OH2:12]",
+            "confidence": 0.9376450559341231
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "C[C+]1C2CCC(C2)C1(C)CBr>>C=C1C2CCC(C2)C1(C)CBr.[H+]",
+            "mapped_rxn": "[CH3:1][C+:2]1[CH:3]2[CH2:4][CH2:5][CH:6]([CH2:7]2)[C:8]1([CH3:9])[CH2:10][Br:11]>>[CH2:1]=[C:2]1[CH:3]2[CH2:4][CH2:5][CH:6]([CH2:7]2)[C:8]1([CH3:9])[CH2:10][Br:11].[H+:12]",
+            "confidence": 0.9599924498886642
+        }
+    ]
+}

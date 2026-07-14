@@ -1,0 +1,20 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CC(=O)c1ccc(Br)cc1.[H+]>>CC(=[OH+])c1ccc(Br)cc1"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CC(=[OH+])c1ccc(Br)cc1>>C=C(O)c1ccc(Br)cc1.[H+]"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "C=C(O)c1ccc(Br)cc1.BrBr>>BrCC(=[OH+])c1ccc(Br)cc1.[Br-]"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "BrCC(=[OH+])c1ccc(Br)cc1.[Br-]>>O=C(CBr)c1ccc(Br)cc1.Br"
+        }
+    ]
+}

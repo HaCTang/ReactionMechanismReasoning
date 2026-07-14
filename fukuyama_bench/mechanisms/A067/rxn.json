@@ -1,0 +1,8 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C=CCc1ccccc1.O=C1C=CC(=O)O1>>O=C1CC(C/C=C/c2ccccc2)C(=O)O1"
+        }
+    ]
+}

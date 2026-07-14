@@ -1,0 +1,36 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "[H]/C(Cl)=C(/C)CC[C@H](CCOCc1ccccc1)c1ccc(OC)c(OC)c1.C[Si](C)(C)[N-][Si](C)(C)C>>[C-](Cl)=C(C)CC[C@H](CCOCc1ccccc1)c1ccc(OC)c(OC)c1.C[Si](C)(C)N[Si](C)(C)C"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[C-](Cl)=C(C)CC[C@H](CCOCc1ccccc1)c1ccc(OC)c(OC)c1>>[C]=C(C)CC[C@H](CCOCc1ccccc1)c1ccc(OC)c(OC)c1.[Cl-]"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "[C]=C(C)CC[C@H](CCOCc1ccccc1)c1ccc(OC)c(OC)c1>>COc1c(OC)cc([C@@]2(C=C(CC2)C)CCOCc3ccccc3)cc1"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "COc1c(OC)cc([C@@]2(C=C(CC2)C)CCOCc3ccccc3)cc1.O=[O+][O-]>>COc1ccc([C@]2(CCOCc3ccccc3)C3OOC(C)(CC2)O3)cc1OC"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "COc1ccc([C@]2(CCOCc3ccccc3)C3OOC(C)(CC2)O3)cc1OC.c1ccccc1P(c1ccccc1)c1ccccc1>>COc1ccc([C@](C=O)(CCC(C)=O)CCOCc2ccccc2)cc1OC.O=P(c1ccccc1)(c1ccccc1)c1ccccc1"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "COc1ccc([C@](C=O)(CCC(C)=O)CCOCc2ccccc2)cc1OC>>COc1ccc([C@](C=O)(CCC(O)=C)CCOCc2ccccc2)cc1OC"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "COc1ccc([C@](C=O)(CCC(O)=C)CCOCc2ccccc2)cc1OC>>COc1ccc([C@@]2(CCOCc3ccccc3)CCC(=O)CC2O)cc1OC"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "COc1ccc([C@@]2(CCOCc3ccccc3)CCC(=O)CC2O)cc1OC>>COc1ccc([C@]2(CCOCc3ccccc3)C=CC(=O)CC2)cc1OC.O"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "COC(=O)C=CCCC#Cc1ccccc1C#C>>O=C(OC)C=CCCC1=C[C]=C2C=CC=CC2=[C]1",
+            "mapped_rxn": "[CH3:1][O:2][C:3](=[O:4])[CH:5]=[CH:6][CH2:7][CH2:8][C:9]#[C:10][c:11]1[cH:12][cH:13][cH:14][cH:15][c:16]1[C:17]#[CH:18]>>[CH3:1][O:2][C:3](=[O:4])[CH:5]=[CH:6][CH2:7][CH2:8][c:9]1[c:10][c:11]2[cH:12][cH:13][cH:14][cH:15][c:16]2[c:17][cH:18]1",
+            "confidence": 0.9256314587147463
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "O=C(OC)C=CCCC1=C[C]=C2C=CC=CC2=[C]1>>COC(=O)[CH]C1CCc2c[c]c3ccccc3c21",
+            "mapped_rxn": "[CH3:1][O:2][C:3](=[O:4])[CH:5]=[CH:6][CH2:7][CH2:8][c:9]1[cH:10][c:11][c:12]2[cH:13][cH:14][cH:15][cH:16][c:17]2[c:18]1>>[CH3:1][O:2][C:3](=[O:4])[CH:5][CH:6]1[CH2:7][CH2:8][c:9]2[cH:10][c:11][c:12]3[cH:13][cH:14][cH:15][cH:16][c:17]3[c:18]21",
+            "confidence": 0.892687453698963
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "COC(=O)[CH]C1CCc2c[c]c3ccccc3c21.C1C=CCC=C1>>COC(=O)[CH]C1CCc2ccc3ccccc3c21.[CH]1C=CCC=C1",
+            "mapped_rxn": "[CH2:19]1[CH:20]=[CH:21][CH2:22][CH:23]=[CH:24]1.[CH3:1][O:2][C:3](=[O:4])[CH:5][CH:6]1[CH2:7][CH2:8][c:9]2[cH:10][c:11][c:12]3[cH:13][cH:14][cH:15][cH:16][c:17]3[c:18]21>>[CH3:1][O:2][C:3](=[O:4])[CH:5][CH:6]1[CH2:7][CH2:8][c:9]2[cH:10][cH:11][c:12]3[cH:13][cH:14][cH:15][cH:16][c:17]3[c:18]21.[CH:19]1[CH:20]=[CH:21][CH2:22][CH:23]=[CH:24]1",
+            "confidence": 0.3188718932621614
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "COC(=O)[CH]C1CCc2ccc3ccccc3c21.[CH]1C=CCC=C1>>COC(=O)CC1CCc2ccc3ccccc3c21.c1ccccc1",
+            "mapped_rxn": "[CH3:1][O:2][C:3](=[O:4])[CH:5][CH:6]1[CH2:7][CH2:8][c:9]2[cH:10][cH:11][c:12]3[cH:13][cH:14][cH:15][cH:16][c:17]3[c:18]21.[CH:19]1=[CH:20][CH2:21][CH:22]=[CH:23][CH:24]1>>[CH3:1][O:2][C:3](=[O:4])[CH2:5][CH:6]1[CH2:7][CH2:8][c:9]2[cH:10][cH:11][c:12]3[cH:13][cH:14][cH:15][cH:16][c:17]3[c:18]21.[cH:19]1[cH:20][cH:21][cH:22][cH:23][cH:24]1",
+            "confidence": 0.2240472675071378
+        }
+    ]
+}

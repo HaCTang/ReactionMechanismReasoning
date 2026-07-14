@@ -1,0 +1,20 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "COC(=O)CCCC(=O)Cl.[CH2-][N+]#N>>COC(=O)CCCC(=O)C[N+]#N.[Cl-]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "COC(=O)CCCC(=O)C[N+]#N.[CH2-][N+]#N>>COC(=O)CCCC(=O)C=[N+]=[N-].C[N+]#N"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "COC(=O)CCCC(=O)C=[N+]=[N-].Br>>COC(=O)CCCC(=O)C[N+]#N.[Br-]"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "COC(=O)CCCC(=O)C[N+]#N.[Br-]>>COC(=O)CCCC(=O)CBr.N#N"
+        }
+    ]
+}

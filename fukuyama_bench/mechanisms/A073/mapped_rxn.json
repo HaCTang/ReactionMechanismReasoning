@@ -1,0 +1,34 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CC(=O)C1CCCCC1=O.[H-]>>CC(=O)C1=C([O-])CCCC1.[H][H]",
+            "mapped_rxn": "[CH3:1][C:2](=[O:3])[CH:4]1[C:5](=[O:6])[CH2:7][CH2:8][CH2:9][CH2:10]1.[H-:11]>>[CH3:1][C:2](=[O:3])[C:4]1=[C:5]([O-:6])[CH2:7][CH2:8][CH2:9][CH2:10]1.[H:11][H:12]",
+            "confidence": 0.9746644767936494
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CC(=O)C1=C([O-])CCCC1.Cl[Se]c1ccccc1>>CC(=O)C1(CCCCC1=O)[Se]c2ccccc2.[Cl-]",
+            "mapped_rxn": "[CH3:1][C:2](=[O:3])[C:4]1=[C:16]([O-:17])[CH2:15][CH2:14][CH2:13][CH2:12]1.[Se:5]([c:6]1[cH:7][cH:8][cH:9][cH:10][cH:11]1)[Cl:18]>>[CH3:1][C:2](=[O:3])[C:4]1([Se:5][c:6]2[cH:7][cH:8][cH:9][cH:10][cH:11]2)[CH2:12][CH2:13][CH2:14][CH2:15][C:16]1=[O:17].[Cl-:18]",
+            "confidence": 0.8792668971099259
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CC(=O)C1(CCCCC1=O)[Se]c2ccccc2.OO>>CC(=O)C1(CCCCC1=O)[Se+](O)c2ccccc2.[OH-]",
+            "mapped_rxn": "[CH3:1][C:2](=[O:3])[C:4]1([Se:5][c:7]2[cH:8][cH:9][cH:10][cH:11][cH:12]2)[CH2:13][CH2:14][CH2:15][CH2:16][C:17]1=[O:18].[OH:6][OH:19]>>[CH3:1][C:2](=[O:3])[C:4]1([Se+:5]([OH:6])[c:7]2[cH:8][cH:9][cH:10][cH:11][cH:12]2)[CH2:13][CH2:14][CH2:15][CH2:16][C:17]1=[O:18].[OH-:19]",
+            "confidence": 0.6712319620171108
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CC(=O)C1(CCCCC1=O)[Se+](O)c2ccccc2.[OH-]>>CC(=O)C1(CCCCC1=O)[Se](=O)c2ccccc2.O",
+            "mapped_rxn": "[CH3:1][C:2](=[O:3])[C:4]1([Se+:5]([OH:6])[c:7]2[cH:8][cH:9][cH:10][cH:11][cH:12]2)[CH2:13][CH2:14][CH2:15][CH2:16][C:17]1=[O:18].[OH-:19]>>[CH3:1][C:2](=[O:3])[C:4]1([Se:5](=[O:6])[c:7]2[cH:8][cH:9][cH:10][cH:11][cH:12]2)[CH2:13][CH2:14][CH2:15][CH2:16][C:17]1=[O:18].[OH2:19]",
+            "confidence": 0.9135809051815446
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CC(=O)C1(CCCCC1=O)[Se](=O)c2ccccc2>>CC(=O)C1=CCCCC1=O.O[Se]c1ccccc1",
+            "mapped_rxn": "[CH3:1][C:2](=[O:3])[C:4]1([Se:12](=[O:11])[c:13]2[cH:14][cH:15][cH:16][cH:17][cH:18]2)[CH2:5][CH2:6][CH2:7][CH2:8][C:9]1=[O:10]>>[CH3:1][C:2](=[O:3])[C:4]1=[CH:5][CH2:6][CH2:7][CH2:8][C:9]1=[O:10].[OH:11][Se:12][c:13]1[cH:14][cH:15][cH:16][cH:17][cH:18]1",
+            "confidence": 0.9008513123437515
+        }
+    ]
+}

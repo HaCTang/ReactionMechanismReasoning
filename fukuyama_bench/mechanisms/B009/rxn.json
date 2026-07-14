@@ -1,0 +1,24 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "COC(=O)CCC(=O)OC.C[O-]>>COC(=O)C/C=C(\\OC)[O-].CO"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "COC(=O)C/C=C(\\OC)[O-].O=Cc1ccccc1>>COC(=O)CC(C(=O)OC)C([O-])c1ccccc1"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "COC(=O)CC(C(=O)OC)C([O-])c1ccccc1>>COC(=O)C1CC(=O)OC1c1ccccc1.C[O-]"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "COC(=O)C1CC(=O)OC1c1ccccc1.C[O-]>>COC(=O)/C(=C/c1ccccc1)CC(=O)[O-].CO"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "COC(=O)/C(=C/c1ccccc1)CC(=O)[O-].[H+]>>COC(=O)/C(=C/c1ccccc1)CC(=O)O"
+        }
+    ]
+}

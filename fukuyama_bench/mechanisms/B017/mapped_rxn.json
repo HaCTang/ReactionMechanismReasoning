@@ -1,0 +1,28 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C#CCC[C@@H]1C[C@@H](CC(C)(C)CI)C=C1C.CCCC[Sn](CCCC)CCCC>>C#CCC[C@@H]1C[C@@H](CC(C)(C)[CH2])C=C1C.CCCC[Sn](I)(CCCC)CCCC",
+            "mapped_rxn": "[CH:1]#[C:2][CH2:3][CH2:4][C@@H:5]1[CH2:6][C@@H:7]([CH2:8][C:9]([CH3:10])([CH3:11])[CH2:12][I:21])[CH:13]=[C:14]1[CH3:15].[CH3:16][CH2:17][CH2:18][CH2:19][Sn:20]([CH2:22][CH2:23][CH2:24][CH3:25])[CH2:26][CH2:27][CH2:28][CH3:29]>>[CH:1]#[C:2][CH2:3][CH2:4][C@@H:5]1[CH2:6][C@@H:7]([CH2:8][C:9]([CH2:10])([CH3:11])[CH3:12])[CH:13]=[C:14]1[CH3:15].[CH3:16][CH2:17][CH2:18][CH2:19][Sn:20]([I:21])([CH2:22][CH2:23][CH2:24][CH3:25])[CH2:26][CH2:27][CH2:28][CH3:29]",
+            "confidence": 0.3924685378809086
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "C#CCC[C@@H]1C[C@@H](CC(C)(C)[CH2])C=C1C>>[H][C@]12CC(C)(C)C[C@@]1([H])[C](C)[C@@H](CCC#C)C2",
+            "mapped_rxn": "[CH:1]#[C:2][CH2:3][CH2:4][C@@H:5]1[CH2:6][C@@H:7]([CH2:8][C:9]([CH2:10])([CH3:11])[CH3:12])[CH:13]=[C:14]1[CH3:15]>>[CH:1]#[C:2][CH2:3][CH2:4][C@H:5]1[CH2:6][C@H:7]2[CH2:8][C:9]([CH3:10])([CH3:11])[CH2:12][C@H:13]2[C:14]1[CH3:15]",
+            "confidence": 0.520575382337595
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "[H][C@]12CC(C)(C)C[C@@]1([H])[C](C)[C@@H](CCC#C)C2>>[H][C@]12CC(C)(C)C[C@@]1([H])[C@]1(C)C(=[CH])CC[C@]1([H])C2",
+            "mapped_rxn": "[CH:1]#[C:2][CH2:3][CH2:4][C@H:5]1[CH2:6][C@H:7]2[CH2:8][C:9]([CH3:10])([CH3:11])[CH2:12][C@H:13]2[C:14]1[CH3:15]>>[CH:1]=[C:2]1[CH2:3][CH2:4][C@@H:5]2[CH2:6][C@H:7]3[CH2:8][C:9]([CH3:10])([CH3:11])[CH2:12][C@H:13]3[C@:14]12[CH3:15]",
+            "confidence": 0.7715959985909959
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "[H][C@]12CC(C)(C)C[C@@]1([H])[C@]1(C)C(=[CH])CC[C@]1([H])C2.CCCC[SnH](CCCC)CCCC>>[H][C@]12CC(C)(C)C[C@@]1([H])[C@]1(C)C(=C)CC[C@]1([H])C2.CCCC[Sn](CCCC)CCCC",
+            "mapped_rxn": "[CH3:16][CH2:17][CH2:18][CH2:19][SnH:20]([CH2:21][CH2:22][CH2:23][CH3:24])[CH2:25][CH2:26][CH2:27][CH3:28].[CH:1]=[C:2]1[CH2:3][CH2:4][C@@H:5]2[CH2:6][C@H:7]3[CH2:8][C:9]([CH3:10])([CH3:11])[CH2:12][C@H:13]3[C@:14]12[CH3:15]>>[CH2:1]=[C:2]1[CH2:3][CH2:4][C@@H:5]2[CH2:6][C@H:7]3[CH2:8][C:9]([CH3:10])([CH3:11])[CH2:12][C@H:13]3[C@:14]12[CH3:15].[CH3:16][CH2:17][CH2:18][CH2:19][Sn:20]([CH2:21][CH2:22][CH2:23][CH3:24])[CH2:25][CH2:26][CH2:27][CH3:28]",
+            "confidence": 0.5088830708396213
+        }
+    ]
+}

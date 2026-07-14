@@ -1,0 +1,115 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "OC/C=C/C#CC#C/C=C/CO",
+                    "label": "None",
+                    "electron_number": 62,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "H2",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "catalyst",
+                    "text": "Lindlar catalyst",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "quinoline",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "solvent",
+                    "text": "CH2Cl2-MeOH",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "temperature",
+                    "text": "25 °C",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[H][C@@]12C=CC=C[C@]1([H])[C@@H](CO)[C@@H]2CO",
+                    "label": "None",
+                    "electron_number": 66,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "OC/C=C/C#CC#C/C=C/CO",
+                    "label": "substrate",
+                    "electron_number": 62,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[H][H].[H][H]",
+                    "label": "reagent",
+                    "electron_number": 4,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "OC/C=C/C=C\\C=C/C=C/CO",
+                    "label": "intermediate",
+                    "electron_number": 66,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "OC/C=C/C=C\\C=C/C=C/CO",
+                    "label": "intermediate",
+                    "electron_number": 66,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "OC[C@H]1C=CC=CC=C[C@@H]1CO",
+                    "label": "intermediate",
+                    "electron_number": 66,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "OC[C@H]1C=CC=CC=C[C@@H]1CO",
+                    "label": "intermediate",
+                    "electron_number": 66,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[H][C@@]12C=CC=C[C@]1([H])[C@@H](CO)[C@@H]2CO",
+                    "label": "product",
+                    "electron_number": 66,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

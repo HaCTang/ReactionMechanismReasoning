@@ -1,0 +1,40 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "O=C1CC2CCC1C2.C1CCNC1>>OC1(N2CCCC2)CC3CCC1C3",
+            "mapped_rxn": "[NH:3]1[CH2:4][CH2:5][CH2:6][CH2:7]1.[O:1]=[C:2]1[CH2:8][CH:9]2[CH2:10][CH2:11][CH:12]1[CH2:13]2>>[OH:1][C:2]1([N:3]2[CH2:4][CH2:5][CH2:6][CH2:7]2)[CH2:8][CH:9]2[CH2:10][CH2:11][CH:12]1[CH2:13]2",
+            "confidence": 0.6511834820795638
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "OC1(N2CCCC2)CC3CCC1C3>>C1(=[N+]2CCCC2)CC3CCC1C3.[OH-]",
+            "mapped_rxn": "[CH2:1]1[CH2:2][CH2:3][N:4]([C:5]2([OH:13])[CH2:6][CH:7]3[CH2:8][CH2:9][CH:10]2[CH2:11]3)[CH2:12]1>>[CH2:1]1[CH2:2][CH2:3][N+:4](=[C:5]2[CH2:6][CH:7]3[CH2:8][CH2:9][CH:10]2[CH2:11]3)[CH2:12]1.[OH-:13]",
+            "confidence": 0.7239325471609085
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "C1(=[N+]2CCCC2)CC3CCC1C3>>C1(=CC2CCC1C2)N3CCCC3.[H+]",
+            "mapped_rxn": "[CH2:1]1[C:2](=[N+:3]2[CH2:4][CH2:5][CH2:6][CH2:7]2)[CH:8]2[CH2:9][CH2:10][CH:11]1[CH2:12]2>>[CH:1]1=[C:2]([N:3]2[CH2:4][CH2:5][CH2:6][CH2:7]2)[CH:8]2[CH2:9][CH2:10][CH:11]1[CH2:12]2.[H+:13]",
+            "confidence": 0.7123947892260052
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "C1(=CC2CCC1C2)N3CCCC3.c1cnncn1>>C12CC(C3(N4CCCC4)C2C5N=NC3C=N5)CC1",
+            "mapped_rxn": "[C:7]1([N:8]2[CH2:9][CH2:10][CH2:11][CH2:12]2)=[CH:18][CH:16]2[CH2:15][CH2:14][CH:13]1[CH2:17]2.[cH:1]1[n:2][cH:3][n:4][n:5][cH:6]1>>[CH:1]1=[N:2][CH:3]2[N:4]=[N:5][CH:6]1[C:7]1([N:8]3[CH2:9][CH2:10][CH2:11][CH2:12]3)[CH:13]3[CH2:14][CH2:15][CH:16]([CH2:17]3)[CH:18]21",
+            "confidence": 0.5831541662785532
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "C12CC(C3(N4CCCC4)C2C5N=NC3C=N5)CC1>>C12CC(CC2)C3(C1C=NC=C3)N4CCCC4.N#N",
+            "mapped_rxn": "[CH:1]1=[N:16][CH:15]2[CH:14]3[C:3]([N:4]4[CH2:5][CH2:6][CH2:7][CH2:8]4)([CH:2]1[N:18]=[N:17]2)[CH:9]1[CH2:10][CH2:11][CH:12]3[CH2:13]1>>[CH:1]1=[CH:2][C:3]2([N:4]3[CH2:5][CH2:6][CH2:7][CH2:8]3)[CH:9]3[CH2:10][CH2:11][CH:12]([CH2:13]3)[CH:14]2[CH:15]=[N:16]1.[N:17]#[N:18]",
+            "confidence": 0.620630728193044
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "C12CC(CC2)C3(C1C=NC=C3)N4CCCC4>>c1cc2c(cn1)C1CCC2C1.C1CCNC1",
+            "mapped_rxn": "[CH2:1]1[CH2:2][CH2:3][N:4]([C:8]23[CH:7]=[CH:6][N:11]=[CH:10][CH:9]2[CH:12]2[CH2:13][CH2:14][CH:15]3[CH2:16]2)[CH2:5]1>>[CH2:1]1[CH2:2][CH2:3][NH:4][CH2:5]1.[cH:6]1[cH:7][c:8]2[c:9]([cH:10][n:11]1)[CH:12]1[CH2:13][CH2:14][CH:15]2[CH2:16]1",
+            "confidence": 0.6271365003482368
+        }
+    ]
+}

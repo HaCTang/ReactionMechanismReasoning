@@ -1,0 +1,28 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "[N-]=[N+]=NCCC12CCc3ccccc3C1O2.FB(F)F>>[N-]=[N+]=NCCC12CCc3ccccc3C1[O+]2[B-](F)(F)F"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[N-]=[N+]=NCCC12CCc3ccccc3C1[O+]2[B-](F)(F)F>>[N-]=[N+]=NCCC1(CCc2ccccc2[CH+]1)O[B-](F)(F)F"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "[N-]=[N+]=NCCC1(CCc2ccccc2[CH+]1)O[B-](F)(F)F>>N#[N+]N1CC[C@@]2(O[B-](F)(F)F)CCc3c([C@@H]21)cccc3"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "N#[N+]N1CC[C@@]2(O[B-](F)(F)F)CCc3c([C@@H]21)cccc3>>F[B-](F)(F)O[C@@]12CCN3[C@H]1[C@]43C=C[CH+]C=C4CC2.N#N"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "F[B-](F)(F)O[C@@]12CCN3[C@H]1[C@]43C=C[CH+]C=C4CC2>>F[B-](F)(F)O[C@@]1(CCc2c3cccc2)CC[N@]3[CH+]1"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "F[B-](F)(F)O[C@@]1(CCc2c3cccc2)CC[N@]3[CH+]1>>O=C1CCN2c3ccccc3CCC12.FB(F)F"
+        }
+    ]
+}

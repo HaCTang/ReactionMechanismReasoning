@@ -1,0 +1,56 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CCCCC=C.B>>CCCCCCB"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CCCCCCB.CCCCC=C>>CCCCCCBCCCCCC"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CCCCCCBCCCCCC.CCCCC=C>>CCCCCCB(CCCCCC)CCCCCC"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "OO.[OH-]>>[O-]O.O"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CCCCCCB(CCCCCC)CCCCCC.[O-]O>>CCCCCC[B-](OO)(CCCCCC)CCCCCC"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "CCCCCC[B-](OO)(CCCCCC)CCCCCC>>CCCCCCOB(CCCCCC)CCCCCC.[OH-]"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "CCCCCCOB(CCCCCC)CCCCCC.[O-]O>>CCCCCC[B-](OO)(OCCCCCC)CCCCCC"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "CCCCCC[B-](OO)(OCCCCCC)CCCCCC>>CCCCCCOB(OCCCCCC)CCCCCC.[OH-]"
+        },
+        {
+            "step": "9",
+            "rxn_smiles": "CCCCCCOB(OCCCCCC)CCCCCC.[O-]O>>CCCCCC[B-](OO)(OCCCCCC)OCCCCCC"
+        },
+        {
+            "step": "10",
+            "rxn_smiles": "CCCCCC[B-](OO)(OCCCCCC)OCCCCCC>>CCCCCCOB(OCCCCCC)OCCCCCC.[OH-]"
+        },
+        {
+            "step": "11",
+            "rxn_smiles": "CCCCCCOB(OCCCCCC)OCCCCCC.[OH-]>>CCCCCCO[B-](O)(OCCCCCC)OCCCCCC"
+        },
+        {
+            "step": "12",
+            "rxn_smiles": "CCCCCCO[B-](O)(OCCCCCC)OCCCCCC>>OB(OCCCCCC)OCCCCCC.CCCCCCO[O-]"
+        },
+        {
+            "step": "13",
+            "rxn_smiles": "CCCCCC[O-].O>>CCCCCCO.[OH-]"
+        }
+    ]
+}

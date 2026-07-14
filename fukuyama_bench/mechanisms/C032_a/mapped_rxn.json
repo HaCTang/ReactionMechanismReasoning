@@ -1,0 +1,16 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CC/C=C/COc1ccc(C)cc1>>C=CC(CC)C1C(=O)C=CC(C)=C1",
+            "mapped_rxn": "[CH2:1](/[CH:2]=[CH:3]/[CH2:4][CH3:5])[O:13][c:12]1[cH:6][cH:7][c:8]([CH3:9])[cH:10][cH:11]1>>[CH2:1]=[CH:2][CH:3]([CH2:4][CH3:5])[CH:6]1[CH:7]=[C:8]([CH3:9])[CH:10]=[CH:11][C:12]1=[O:13]",
+            "confidence": 0.880693149667098
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "C=CC(CC)C1C(=O)C=CC(C)=C1>>C=CC(c1cc(C)ccc1O)CC",
+            "mapped_rxn": "[CH2:1]=[CH:2][CH:3]([CH2:4][CH3:5])[CH:6]1[CH:7]=[C:8]([CH3:9])[CH:10]=[CH:11][C:12]1=[O:13]>>[CH2:1]=[CH:2][CH:3]([CH2:4][CH3:5])[c:6]1[cH:7][c:8]([CH3:9])[cH:10][cH:11][c:12]1[OH:13]",
+            "confidence": 0.9780775433075827
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "O=CC=Cc1ccco1.FB(F)F>>F[B-](F)([O+]=CC=Cc1occc1)F"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "COC(=O)Cc1[nH]c2ccccc2c1CCNCc1ccccc1.F[B-](F)([O+]=CC=Cc1occc1)F>>COC(=O)Cc1[nH]c2ccccc2c1CC[N+](Cc1ccccc1)=CC=Cc1ccco1.O[B-](F)(F)F"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "COC(=O)Cc1[nH]c2ccccc2c1CC[N+](Cc1ccccc1)=CC=Cc1ccco1>>COC(CC1=[NH+]c2c([C@@]13CCN([C@H]3C=Cc4occc4)Cc5ccccc5)cccc2)=O"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "COC(CC1=[NH+]c2c([C@@]13CCN([C@H]3C=Cc4occc4)Cc5ccccc5)cccc2)=O>>COC(C=C1Nc2c([C@@]13CCN([C@H]3C=Cc4occc4)Cc5ccccc5)cccc2)=O.[H+]"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "COC(C=C1Nc2c([C@@]13CCN([C@H]3C=Cc4occc4)Cc5ccccc5)cccc2)=O>>COC(C(C(c1ccco1)/C=C/2)C3=C(CCN2Cc4ccccc4)c5ccccc5N3)=O"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "COC(C(C(c1ccco1)/C=C/2)C3=C(CCN2Cc4ccccc4)c5ccccc5N3)=O.[H+]>>COC(C1C2=C(CC[N+](Cc3ccccc3)=CCC1c4ccco4)c5ccccc5N2)=O"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "COC(C1C2=C(CC[N+](Cc3ccccc3)=CCC1c4ccco4)c5ccccc5N2)=O>>COC(C([C@H](c1ccco1)C[C@@H]23)C4=[NH+]c5ccccc5[C@@]43CCN2Cc6ccccc6)=O"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "COC(C([C@H](c1ccco1)C[C@@H]23)C4=[NH+]c5ccccc5[C@@]43CCN2Cc6ccccc6)=O>>COC(=O)C1=C2Nc3ccccc3[C@@]23CCN(Cc2ccccc2)[C@H]3C[C@H]1c1ccco1.[H+]"
+        }
+    ]
+}

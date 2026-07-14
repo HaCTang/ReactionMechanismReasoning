@@ -1,0 +1,56 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "[H]C(=O)c1cn(C(c2ccccc2)(c3ccccc3)c4ccccc4)cn1.C=C[Mg]Br>>Br[Mg]OC(C=C)c1cn(C(c2ccccc2)(c3ccccc3)c4ccccc4)cn1"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "Br[Mg]OC(C=C)c1cn(C(c2ccccc2)(c3ccccc3)c4ccccc4)cn1.[H+]>>OC(C=C)c1cn(C(c2ccccc2)(c3ccccc3)c4ccccc4)cn1.Br[Mg+]"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "OC(C=C)c1cn(C(c2ccccc2)(c3ccccc3)c4ccccc4)cn1.N1=C2N(CCCCC2)CCC1>>[O-]C(C=C)c1cn(C(c2ccccc2)(c3ccccc3)c4ccccc4)cn1.[NH+]1=C2N(CCCCC2)CCC1"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "[O-]C(C=C)c1cn(C(c2ccccc2)(c3ccccc3)c4ccccc4)cn1.N#CC(Cl)(Cl)Cl>>ClC(Cl)(Cl)C(=[N-])OC(C=C)c1cn(C(c2ccccc2)(c3ccccc3)c4ccccc4)cn1"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "ClC(Cl)(Cl)C(=[N-])OC(C=C)c1cn(C(c2ccccc2)(c3ccccc3)c4ccccc4)cn1.[NH+]1=C2N(CCCCC2)CCC1>>ClC(Cl)(Cl)C(=N)OC(C=C)c1cn(C(c2ccccc2)(c3ccccc3)c4ccccc4)cn1.N1=C2N(CCCCC2)CCC1"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "ClC(Cl)(Cl)C(=N)OC(C=C)c1cn(C(c2ccccc2)(c3ccccc3)c4ccccc4)cn1>>ClC(Cl)(Cl)C(=O)NC/C=C/c1cn(C(c2ccccc2)(c3ccccc3)c4ccccc4)cn1"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "ClC(Cl)(Cl)C(=O)NC/C=C/c1cn(C(c2ccccc2)(c3ccccc3)c4ccccc4)cn1.Cl[O-]>>ClC(Cl)(Cl)C([O-])=NC/C=C/c1cn(C(c2ccccc2)(c3ccccc3)c4ccccc4)cn1.ClO"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "ClC(Cl)(Cl)C([O-])=NC/C=C/c1cn(C(c2ccccc2)(c3ccccc3)c4ccccc4)cn1.ClO>>ClC(Cl)(Cl)C1=NCC(Cl)C(c2cn(C(c3ccccc3)(c4ccccc4)c5ccccc5)cn2)O1.[OH-]"
+        },
+        {
+            "step": "9",
+            "rxn_smiles": "ClC(Cl)(Cl)C1=NCC(Cl)C(c2cn(C(c3ccccc3)(c4ccccc4)c5ccccc5)cn2)O1.[H+]>>ClC(Cl)(Cl)C1=[NH+]CC(Cl)C(c2cn(C(c3ccccc3)(c4ccccc4)c5ccccc5)cn2)O1"
+        },
+        {
+            "step": "10",
+            "rxn_smiles": "ClC(Cl)(Cl)C1=[NH+]CC(Cl)C(c2cn(C(c3ccccc3)(c4ccccc4)c5ccccc5)cn2)O1.O>>ClC(Cl)(Cl)C1(O)[NH2+]CC(Cl)C(c2cn(C(c3ccccc3)(c4ccccc4)c5ccccc5)cn2)O1"
+        },
+        {
+            "step": "11",
+            "rxn_smiles": "ClC(Cl)(Cl)C1(O)[NH2+]CC(Cl)C(c2cn(C(c3ccccc3)(c4ccccc4)c5ccccc5)cn2)O1>>[NH3+]CC(Cl)C(c1cn(C(c2ccccc2)(c3ccccc3)c4ccccc4)cn1)OC(=O)C(Cl)(Cl)Cl"
+        },
+        {
+            "step": "12",
+            "rxn_smiles": "[NH3+]CC(Cl)C(c1cn(C(c2ccccc2)(c3ccccc3)c4ccccc4)cn1)OC(=O)C(Cl)(Cl)Cl.O>>[NH3+]CC(Cl)C(O)c1cn(C(c2ccccc2)(c3ccccc3)c4ccccc4)cn1.OC(=O)C(Cl)(Cl)Cl"
+        },
+        {
+            "step": "13",
+            "rxn_smiles": "[NH3+]CC(Cl)C(O)c1cn(C(c2ccccc2)(c3ccccc3)c4ccccc4)cn1>>NCC(Cl)C(O)c1cn(C(c2ccccc2)(c3ccccc3)c4ccccc4)cn1.[H+]"
+        }
+    ]
+}

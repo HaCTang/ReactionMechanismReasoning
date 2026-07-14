@@ -1,0 +1,20 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "[Pt].CC1(C)C(C)(C)OB(B2OC(C)(C)C(C)(C)O2)O1>>CC1(C)C(C)(C)OB([Pt]B2OC(C)(C)C(C)(C)O2)O1"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CC1(C)C(C)(C)OB([Pt]B2OC(C)(C)C(C)(C)O2)O1.CC#Cc1ccccc1>>CC1=C(c2ccccc2)[Pt]1(B3OC(C)(C)C(C)(C)O3)B4OC(C)(C)C(C)(C)O4"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CC1=C(c2ccccc2)[Pt]1(B3OC(C)(C)C(C)(C)O3)B4OC(C)(C)C(C)(C)O4>>CC1(C)C(C)(C)OB(/C(C)=C(/c2ccccc2)[Pt]B3OC(C)(C)C(C)(C)O3)O1"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CC1(C)C(C)(C)OB(/C(C)=C(/c2ccccc2)[Pt]B3OC(C)(C)C(C)(C)O3)O1>>CC1(C)C(C)(C)OB(/C(C)=C(/c2ccccc2)B3OC(C)(C)C(C)(C)O3)O1.[Pt]"
+        }
+    ]
+}

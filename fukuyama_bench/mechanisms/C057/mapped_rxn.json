@@ -1,0 +1,22 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "OC/C=C/C#CC#C/C=C/CO.[H][H].[H][H]>>OC/C=C/C=C\\C=C/C=C/CO",
+            "mapped_rxn": "[OH:1][CH2:2]/[CH:3]=[CH:4]/[C:5]#[C:6][C:7]#[C:8]/[CH:9]=[CH:10]/[CH2:11][OH:12].[H][H].[H][H]>>[OH:1][CH2:2]/[CH:3]=[CH:4]/[CH:5]=[CH:6]\\[CH:7]=[CH:8]/[CH:9]=[CH:10]/[CH2:11][OH:12]",
+            "confidence": 0.8058631413114146
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "OC/C=C/C=C\\C=C/C=C/CO>>OC[C@H]1C=CC=CC=C[C@@H]1CO",
+            "mapped_rxn": "[OH:1][CH2:2]/[CH:3]=[CH:4]/[CH:5]=[CH:6]\\[CH:7]=[CH:8]/[CH:9]=[CH:10]/[CH2:11][OH:12]>>[OH:1][CH2:2][C@H:3]1[CH:4]=[CH:5][CH:6]=[CH:7][CH:8]=[CH:9][C@@H:10]1[CH2:11][OH:12]",
+            "confidence": 0.7193791356036345
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "OC[C@H]1C=CC=CC=C[C@@H]1CO>>[H][C@@]12C=CC=C[C@]1([H])[C@@H](CO)[C@@H]2CO",
+            "mapped_rxn": "[OH:1][CH2:2][C@H:3]1[CH:4]=[CH:5][CH:6]=[CH:7][CH:8]=[CH:9][C@@H:10]1[CH2:11][OH:12]>>[OH:1][CH2:2][C@@H:3]1[C@@H:4]2[CH:5]=[CH:6][CH:7]=[CH:8][C@@H:9]2[C@H:10]1[CH2:11][OH:12]",
+            "confidence": 0.8524528013926385
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "O=C1CCCO1.[CH-](Br)Br>>[O-]C1(C(Br)Br)CCCO1"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[O-]C1(C(Br)Br)CCCO1.[CH2-]CCC>>[O-]C(CCC[O-])=C(Br)Br.CCCC"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "[O-]C(CCC[O-])=C(Br)Br.[CH2-]CCC>>[O-]C(CCC[O-])=[C].BrCCCC.[Br-]"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "[O-]C(CCC[O-])=[C]>>[O-]CCCC#C[O-]"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "[O-]CCCC#C[O-].Cl[Si](C(C)C)(C(C)C)C(C)C.Cl[Si](C(C)C)(C(C)C)C(C)C>>CC(C)[Si](C(C)C)(C(C)C)OCCCC#CO[Si](C(C)C)(C(C)C)C(C)C.[Cl-].[Cl-]"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "[N-]=[N+]=CC(=O)c1ccco1>>[CH]C(=O)c1ccco1.N#N"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "[CH]C(=O)c1ccco1>>O=C=Cc1ccco1"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "O=C=Cc1ccco1.CC(C)[Si](C(C)C)(C(C)C)OCCCC#CO[Si](C(C)C)(C(C)C)C(C)C>>O=C1C(c2occc2)C(O[Si](C(C)C)(C(C)C)C(C)C)=C1CCCO[Si](C(C)C)(C(C)C)C(C)C"
+        },
+        {
+            "step": "9",
+            "rxn_smiles": "O=C1C(c2occc2)C(O[Si](C(C)C)(C(C)C)C(C)C)=C1CCCO[Si](C(C)C)(C(C)C)C(C)C>>O=C=C(CCCO[Si](C(C)C)(C(C)C)C(C)C)C(O[Si](C(C)C)(C(C)C)C(C)C)=Cc1occc1"
+        },
+        {
+            "step": "10",
+            "rxn_smiles": "O=C=C(CCCO[Si](C(C)C)(C(C)C)C(C)C)C(O[Si](C(C)C)(C(C)C)C(C)C)=Cc1occc1>>CCC[Si](CCC)(OC(C=C1OC=CC12)=C(CCCO[Si](CCC)(CCC)CCC)C2=O)CCC"
+        },
+        {
+            "step": "11",
+            "rxn_smiles": "CCC[Si](CCC)(OC(C=C1OC=CC12)=C(CCCO[Si](CCC)(CCC)CCC)C2=O)CCC>>CCC[Si](CCC)(CCC)Oc1cc2occc2c(O)c1CCCO[Si](CCC)(CCC)CCC"
+        }
+    ]
+}

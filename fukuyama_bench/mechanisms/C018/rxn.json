@@ -1,0 +1,20 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "COc1cc(O)c(C(O)CC(C)C)c(OC)c1.[CH2-]C>>COc1cc([O-])c(C(O)CC(C)C)c(OC)c1.CC"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "COc1cc([O-])c(C(O)CC(C)C)c(OC)c1>>COC1=CC(=O)C(=CCC(C)C)C(OC)=C1.[OH-]"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "COC1=CC(=O)C(=CCC(C)C)C(OC)=C1>>COc1cc(O)c(C=CC(C)C)c(OC)c1"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "COC1=CC(=O)C(=CCC(C)C)C(OC)=C1.COc1cc(O)c(C=CC(C)C)c(OC)c1>>COc1cc(OC)c([C@H]2Oc3c([C@H]([C@@H]2C(C)C)CC(C)C)c(OC)cc(OC)c3)c(O)c1"
+        }
+    ]
+}

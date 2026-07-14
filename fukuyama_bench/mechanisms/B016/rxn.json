@@ -1,0 +1,12 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "[H][C@]12CCCC[C@]1(O)CCC[C@@H]2OS(=O)(=O)c1ccc(C)cc1.CC(C)(C)[O-]>>[H][C@]12CCCC[C@]1([O-])CCC[C@@H]2OS(=O)(=O)c1ccc(C)cc1.CC(C)(C)O"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[H][C@]12CCCC[C@]1([O-])CCC[C@@H]2OS(=O)(=O)c1ccc(C)cc1>>O=C1CCC/C=C/CCCC1.Cc1ccc(S(=O)(=O)[O-])cc1"
+        }
+    ]
+}

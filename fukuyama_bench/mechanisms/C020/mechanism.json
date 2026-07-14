@@ -1,0 +1,418 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C=CC[C@@H](CC(=O)OCC)O[Si](C)(C)C(C)(C)C",
+                    "label": "None",
+                    "electron_number": 106,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "Ti(OPr)4",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "i-PrMgCl (2 eq)",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "solvent",
+                    "text": "Et2O",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "FeCl3",
+                    "reaction_step": "2"
+                },
+                {
+                    "role": "reagent",
+                    "text": "pyridine, DMF",
+                    "reaction_step": "2"
+                },
+                {
+                    "role": "reagent",
+                    "text": "NaOAc, MeOH",
+                    "reaction_step": "3"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(C)(C)[Si](C)(C)O[C@H]1CC=CC(=O)C1",
+                    "label": "None",
+                    "electron_number": 86,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "CC(C)O[Ti](OC(C)C)(OC(C)C)OC(C)C",
+                    "label": "reagent",
+                    "electron_number": 104,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CC(C)[Mg]Cl",
+                    "label": "reagent",
+                    "electron_number": 28,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CC(C)[Mg]Cl",
+                    "label": "reagent",
+                    "electron_number": 28,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(C)O[Ti](OC(C)C)(C(C)C)C(C)C",
+                    "label": "intermediate",
+                    "electron_number": 92,
+                    "charge": 0
+                },
+                {
+                    "smiles": "Cl[Mg]OC(C)C",
+                    "label": "leaving",
+                    "electron_number": 34,
+                    "charge": 0
+                },
+                {
+                    "smiles": "Cl[Mg]OC(C)C",
+                    "label": "leaving",
+                    "electron_number": 34,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "CC(C)O[Ti](OC(C)C)(C(C)C)C(C)C",
+                    "label": "intermediate",
+                    "electron_number": 92,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(C)O[Ti]1(OC(C)C)CC(C)1",
+                    "label": "reagent",
+                    "electron_number": 72,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CCC",
+                    "label": "leaving",
+                    "electron_number": 20,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "C=CC[C@@H](CC(=O)OCC)O[Si](C)(C)C(C)(C)C",
+                    "label": "substrate",
+                    "electron_number": 106,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CC(C)O[Ti]1(OC(C)C)CC(C)1",
+                    "label": "reagent",
+                    "electron_number": 72,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(C)O[Ti]1(OC(C)C)C[C@@H]1C[C@@H](CC(=O)OCC)O[Si](C)(C)C(C)(C)C",
+                    "label": "intermediate",
+                    "electron_number": 160,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CC=C",
+                    "label": "leaving",
+                    "electron_number": 18,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "CC(C)O[Ti]1(OC(C)C)C[C@@H]1C[C@@H](CC(=O)OCC)O[Si](C)(C)C(C)(C)C",
+                    "label": "intermediate",
+                    "electron_number": 160,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC([Si](O[C@H]1CC2C[Ti](OC(C)C)(OC(C)C)OC2(C1)OCC)(C)C)(C)C",
+                    "label": "intermediate",
+                    "electron_number": 160,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "5",
+            "reactants": [
+                {
+                    "smiles": "CC([Si](O[C@H]1CC2C[Ti](OC(C)C)(OC(C)C)OC2(C1)OCC)(C)C)(C)C",
+                    "label": "intermediate",
+                    "electron_number": 160,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC([Si](O[C@H]3CC4C[Ti](OC(C)C)(OC(C)C)[O+]=C4C3)(C)C)(C)C",
+                    "label": "intermediate",
+                    "electron_number": 140,
+                    "charge": 1
+                },
+                {
+                    "smiles": "[O-]CC",
+                    "label": "intermediate",
+                    "electron_number": 20,
+                    "charge": -1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "6",
+            "reactants": [
+                {
+                    "smiles": "CC(C)(C)[Si](C)(C)O[C@H]1CC2C[Ti](OC(C)C)([O+]=C2C1)OC(C)C",
+                    "label": "intermediate",
+                    "electron_number": 140,
+                    "charge": 1
+                },
+                {
+                    "smiles": "[O-]CC",
+                    "label": "intermediate",
+                    "electron_number": 20,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(C)(C)[Si](C)(C)O[C@H]1CC(C(C1)=O)C[Ti](OC(C)C)(OCC)OC(C)C",
+                    "label": "intermediate",
+                    "electron_number": 160,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "7",
+            "reactants": [
+                {
+                    "smiles": "CC(C)(C)[Si](C)(C)O[C@H]1CC(C(C1)=O)C[Ti](OC(C)C)(OCC)OC(C)C",
+                    "label": "intermediate",
+                    "electron_number": 160,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(C)(C)[Si](C)(C)O[C@H]2CC3CC3(C2)O[Ti](OC(C)C)(OCC)OC(C)C",
+                    "label": "intermediate",
+                    "electron_number": 160,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "8",
+            "reactants": [
+                {
+                    "smiles": "CC(C)(C)[Si](C)(C)O[C@H]2CC3CC3(C2)O[Ti](OC(C)C)(OCC)OC(C)C",
+                    "label": "intermediate",
+                    "electron_number": 160,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[H+]",
+                    "label": "reagent",
+                    "electron_number": 0,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(C)(C)[Si](C)(C)O[C@H]3CC4CC4(C3)O",
+                    "label": "intermediate",
+                    "electron_number": 88,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CC(C)O[Ti+](OCC)OC(C)C",
+                    "label": "leaving",
+                    "electron_number": 72,
+                    "charge": 1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "9",
+            "reactants": [
+                {
+                    "smiles": "CC(C)(C)[Si](C)(C)O[C@H]3CC4CC4(C3)O",
+                    "label": "intermediate",
+                    "electron_number": 88,
+                    "charge": 0
+                },
+                {
+                    "smiles": "Cl[Fe](Cl)Cl",
+                    "label": "reagent",
+                    "electron_number": 29,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(C)([Si](C)(O[C@H]1CC2CC2(O[Fe](Cl)Cl)C1)C)C",
+                    "label": "product",
+                    "electron_number": 109,
+                    "charge": 0
+                },
+                {
+                    "smiles": "Cl",
+                    "label": "leaving",
+                    "electron_number": 8,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "10",
+            "reactants": [
+                {
+                    "smiles": "CC(C)([Si](C)(O[C@H]1CC2CC2(O[Fe](Cl)Cl)C1)C)C",
+                    "label": "intermediate",
+                    "electron_number": 109,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(C)([Si](C)(O[C@H]1C[CH]CC(C1)=O)C)C",
+                    "label": "intermediate",
+                    "electron_number": 87,
+                    "charge": 0
+                },
+                {
+                    "smiles": "Cl[Fe]Cl",
+                    "label": "leaving",
+                    "electron_number": 22,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "11",
+            "reactants": [
+                {
+                    "smiles": "CC(C)([Si](C)(O[C@H]1C[CH]CC(C1)=O)C)C",
+                    "label": "intermediate",
+                    "electron_number": 87,
+                    "charge": 0
+                },
+                {
+                    "smiles": "Cl[Fe](Cl)Cl",
+                    "label": "reagent",
+                    "electron_number": 29,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(C)(C)[Si](C)(C)O[C@H]1CC(=O)CC(Cl)C1",
+                    "label": "intermediate",
+                    "electron_number": 94,
+                    "charge": 0
+                },
+                {
+                    "smiles": "Cl[Fe]Cl",
+                    "label": "leaving",
+                    "electron_number": 22,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "12",
+            "reactants": [
+                {
+                    "smiles": "CC(C)(C)[Si](C)(C)O[C@H]1CC(=O)CC(Cl)C1",
+                    "label": "intermediate",
+                    "electron_number": 94,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CC(=O)[O-]",
+                    "label": "reagent",
+                    "electron_number": 24,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(C)(C)[Si](C)(C)O[C@H]1CC(Cl)C=C([O-])C1",
+                    "label": "intermediate",
+                    "electron_number": 94,
+                    "charge": -1
+                },
+                {
+                    "smiles": "CC(=O)O",
+                    "label": "leaving",
+                    "electron_number": 24,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "13",
+            "reactants": [
+                {
+                    "smiles": "CC(C)(C)[Si](C)(C)O[C@H]1CC(Cl)C=C([O-])C1",
+                    "label": "intermediate",
+                    "electron_number": 94,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(C)(C)[Si](C)(C)O[C@H]1CC=CC(=O)C1",
+                    "label": "product",
+                    "electron_number": 86,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Cl-]",
+                    "label": "leaving",
+                    "electron_number": 8,
+                    "charge": -1
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,284 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "Cc1ccccc1[N+](=O)[O-]",
+                    "label": "substrate",
+                    "electron_number": 52,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "C=C[Mg]Br",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "solvent",
+                    "text": "THF",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "temperature",
+                    "text": "-40 °C",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "Cc1cccc2cc[nH]c12",
+                    "label": "product",
+                    "electron_number": 50,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "Cc1ccccc1[N+](=O)[O-]",
+                    "label": "substrate",
+                    "electron_number": 52,
+                    "charge": 0
+                },
+                {
+                    "smiles": "C=C[Mg]Br",
+                    "label": "reagent",
+                    "electron_number": 20,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C=CON([O-])c1ccccc1C",
+                    "label": "intermediate",
+                    "electron_number": 64,
+                    "charge": -1
+                },
+                {
+                    "smiles": "[Mg+]Br",
+                    "label": "intermediate",
+                    "electron_number": 8,
+                    "charge": 1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "C=CON([O-])c1ccccc1C",
+                    "label": "intermediate",
+                    "electron_number": 64,
+                    "charge": -1
+                },
+                {
+                    "smiles": "[Mg+]Br",
+                    "label": "intermediate",
+                    "electron_number": 8,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "Cc1ccccc1N=O",
+                    "label": "intermediate",
+                    "electron_number": 46,
+                    "charge": 0
+                },
+                {
+                    "smiles": "C=CO[Mg]Br",
+                    "label": "leaving",
+                    "electron_number": 26,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "Cc1ccccc1N=O",
+                    "label": "intermediate",
+                    "electron_number": 46,
+                    "charge": 0
+                },
+                {
+                    "smiles": "C=C[Mg]Br",
+                    "label": "reagent",
+                    "electron_number": 20,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C=CON([Mg]Br)c1ccccc1C",
+                    "label": "intermediate",
+                    "electron_number": 66,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "C=CON([Mg]Br)c1ccccc1C",
+                    "label": "intermediate",
+                    "electron_number": 66,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC1=CC=CC(CC=O)C1=N[Mg]Br",
+                    "label": "intermediate",
+                    "electron_number": 66,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "5",
+            "reactants": [
+                {
+                    "smiles": "CC1=CC=CC(CC=O)C1=N[Mg]Br",
+                    "label": "intermediate",
+                    "electron_number": 66,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC1=CC=CC2CC(O[Mg]Br)N=C12",
+                    "label": "intermediate",
+                    "electron_number": 66,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "6",
+            "reactants": [
+                {
+                    "smiles": "CC1=CC=CC2CC(O[Mg]Br)N=C12",
+                    "label": "intermediate",
+                    "electron_number": 66,
+                    "charge": 0
+                },
+                {
+                    "smiles": "C=C[Mg]Br",
+                    "label": "reagent",
+                    "electron_number": 20,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "Cc1c2c(CC(O[Mg]Br)[N-]2)ccc1",
+                    "label": "intermediate",
+                    "electron_number": 66,
+                    "charge": -1
+                },
+                {
+                    "smiles": "C=C",
+                    "label": "leaving",
+                    "electron_number": 12,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Mg+2]",
+                    "label": "leaving",
+                    "electron_number": 0,
+                    "charge": 2
+                },
+                {
+                    "smiles": "[Br-]",
+                    "label": "leaving",
+                    "electron_number": 8,
+                    "charge": -1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "7",
+            "reactants": [
+                {
+                    "smiles": "Cc1c2c(CC(O[Mg]Br)[N-]2)ccc1",
+                    "label": "intermediate",
+                    "electron_number": 66,
+                    "charge": -1
+                },
+                {
+                    "smiles": "C=C[Mg]Br",
+                    "label": "reagent",
+                    "electron_number": 20,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "Cc1cccc2ccn([Mg]Br)c12",
+                    "label": "product",
+                    "electron_number": 58,
+                    "charge": 0
+                },
+                {
+                    "smiles": "C=C",
+                    "label": "leaving",
+                    "electron_number": 12,
+                    "charge": 0
+                },
+                {
+                    "smiles": "Br[Mg][O-]",
+                    "label": "leaving",
+                    "electron_number": 16,
+                    "charge": -1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "8",
+            "reactants": [
+                {
+                    "smiles": "Cc1cccc2ccn([Mg]Br)c12",
+                    "label": "intermediate",
+                    "electron_number": 58,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[H+]",
+                    "label": "reagent",
+                    "electron_number": 0,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "Cc1cccc2cc[nH]c12",
+                    "label": "product",
+                    "electron_number": 50,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Mg+2]",
+                    "label": "leaving",
+                    "electron_number": 0,
+                    "charge": 2
+                },
+                {
+                    "smiles": "[Br-]",
+                    "label": "leaving",
+                    "electron_number": 8,
+                    "charge": -1
+                }
+            ]
+        }
+    ]
+}

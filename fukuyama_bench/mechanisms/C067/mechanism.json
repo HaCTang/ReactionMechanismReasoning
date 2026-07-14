@@ -1,0 +1,165 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "CC=CCN1CCOCC1",
+                    "label": "None",
+                    "electron_number": 58,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CCC(=O)Cl",
+                    "label": "None",
+                    "electron_number": 30,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "catalyst",
+                    "text": "TiCl4-(THF)2 (cat)",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "i-Pr2NEt",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "solvent",
+                    "text": "CH2Cl2",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "temperature",
+                    "text": "rt",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C=C[C@H](C)[C@@H](C)C(=O)N1CCOCC1",
+                    "label": "None",
+                    "electron_number": 80,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "CCC(=O)Cl",
+                    "label": "substrate",
+                    "electron_number": 30,
+                    "charge": 0
+                },
+                {
+                    "smiles": "Cl[Ti](Cl)(Cl)Cl",
+                    "label": "reagent",
+                    "electron_number": 32,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CCN(C(C)C)C(C)C",
+                    "label": "reagent",
+                    "electron_number": 56,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC=C=[O+][Ti-](Cl)(Cl)(Cl)Cl",
+                    "label": "intermediate",
+                    "electron_number": 54,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CC[NH+](C(C)C)C(C)C",
+                    "label": "leaving",
+                    "electron_number": 56,
+                    "charge": 1
+                },
+                {
+                    "smiles": "[Cl-]",
+                    "label": "leaving",
+                    "electron_number": 8,
+                    "charge": -1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "CC=C=[O+][Ti-](Cl)(Cl)(Cl)Cl",
+                    "label": "intermediate",
+                    "electron_number": 54,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CC=CCN1CCOCC1",
+                    "label": "reagent",
+                    "electron_number": 58,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C/C=C/C[N+]1(CCOCC1)C(=CC)[O][Ti-](Cl)(Cl)(Cl)Cl",
+                    "label": "intermediate",
+                    "electron_number": 112,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "C/C=C/C[N+]1(CCOCC1)C(=CC)[O][Ti-](Cl)(Cl)(Cl)Cl",
+                    "label": "intermediate",
+                    "electron_number": 112,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C=C[C@H](C)[C@@H](C)C(=[N+]1CCOCC1)[O][Ti-](Cl)(Cl)(Cl)Cl",
+                    "label": "intermediate",
+                    "electron_number": 112,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "C=C[C@H](C)[C@@H](C)C(=[N+]1CCOCC1)[O][Ti-](Cl)(Cl)(Cl)Cl",
+                    "label": "intermediate",
+                    "electron_number": 112,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C=C[C@H](C)[C@@H](C)C(=O)N1CCOCC1",
+                    "label": "product",
+                    "electron_number": 80,
+                    "charge": 0
+                },
+                {
+                    "smiles": "Cl[Ti](Cl)(Cl)Cl",
+                    "label": "leaving",
+                    "electron_number": 32,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

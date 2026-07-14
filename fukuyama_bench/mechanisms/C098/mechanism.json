@@ -1,0 +1,131 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "N#CC=CCCCC(=O)CCCC=CC#N",
+                    "label": "None",
+                    "electron_number": 84,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "NH2OH·HCl",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "NaOAc",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "solvent",
+                    "text": "MeOH",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "temperature",
+                    "text": "rt",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "sealed tube",
+                    "reaction_step": "2"
+                },
+                {
+                    "role": "solvent",
+                    "text": "toluene",
+                    "reaction_step": "2"
+                },
+                {
+                    "role": "temperature",
+                    "text": "160 °C",
+                    "reaction_step": "2"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "N#CC[C@@H]1CCC[C@]23CCCC(ON12)C3C#N",
+                    "label": "None",
+                    "electron_number": 90,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "N#CC=CCCCC(=O)CCCC=CC#N",
+                    "label": "substrate",
+                    "electron_number": 84,
+                    "charge": 0
+                },
+                {
+                    "smiles": "ON",
+                    "label": "reagent",
+                    "electron_number": 14,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "N#CC=CCCCC(=NO)CCCC=CC#N",
+                    "label": "intermediate",
+                    "electron_number": 90,
+                    "charge": 0
+                },
+                {
+                    "smiles": "O",
+                    "label": "leaving",
+                    "electron_number": 8,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "N#CC=CCCCC(=NO)CCCC=CC#N",
+                    "label": "intermediate",
+                    "electron_number": 90,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[O-][N+]1=C(CCCC=CC#N)CCCC1CC#N",
+                    "label": "intermediate",
+                    "electron_number": 90,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "[O-][N+]1=C(CCCC=CC#N)CCCC1CC#N",
+                    "label": "intermediate",
+                    "electron_number": 90,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "N#CC[C@@H]1CCC[C@]23CCCC(ON12)C3C#N",
+                    "label": "product",
+                    "electron_number": 90,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "OC(C1CCCCC1)C1CC1.[H+]>>[OH2+]C(C1CCCCC1)C1CC1"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[OH2+]C(C1CCCCC1)C1CC1>>[CH+](C1CCCCC1)C1CC1.O"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "[CH+](C1CCCCC1)C1CC1.[Br-]>>BrCC/C=C/C1CCCCC1"
+        }
+    ]
+}

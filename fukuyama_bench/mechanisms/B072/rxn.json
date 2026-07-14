@@ -1,0 +1,32 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "O=S(=O)(Br)CBr>>[Br].[S](=O)(=O)CBr"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CC1=CCCCC1.[S](=O)(=O)CBr>>C[C]1(CCCCC1S(=O)(=O)CBr)"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "C[C]1(CCCCC1S(=O)(=O)CBr).O=S(=O)(Br)CBr>>Br[C@]1(C)CCCC[C@H]1S(=O)(=O)CBr.[S](=O)(=O)CBr"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "Br[C@]1(C)CCCC[C@H]1S(=O)(=O)CBr.CC(C)(C)[O-]>>CC1=C(CCCC1)S(=O)(=O)CBr.CC(C)(C)O.[Br-]"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CC1=C(CCCC1)S(=O)(=O)CBr.CC(C)(C)[O-]>>[CH2-]C1=C(CCCC1)S(=O)(=O)CBr.CC(C)(C)O"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "[CH2-]C1=C(CCCC1)S(=O)(=O)CBr>>C=C1CCCCC12CS2(=O)=O.[Br-]"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "C=C1CCCCC12CS2(=O)=O>>C=C1CCCCC1=C.O=S=O"
+        }
+    ]
+}

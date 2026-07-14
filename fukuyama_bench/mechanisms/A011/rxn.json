@@ -1,0 +1,72 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CC=O.[H+]>>CC=[OH+]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CC=[OH+].N>>CC(O)[NH3+]"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CC(O)[NH3+]>>CC(O)N.[H+]"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CC(O)N.[H+]>>CC([OH2+])N"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CC([OH2+])N>>CC=[NH2+].O"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "CC=[NH2+].[C-]#N>>CC(N)C#N"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "CC(N)C#N.[H+]>>CC([NH3+])C#N"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "CC([NH3+])C#N.[H+]>>CC([NH3+])C#[NH+]"
+        },
+        {
+            "step": "9",
+            "rxn_smiles": "CC([NH3+])C#[NH+].O>>CC([NH3+])C(=N)[OH2+]"
+        },
+        {
+            "step": "10",
+            "rxn_smiles": "CC([NH3+])C(=N)[OH2+]>>CC([NH3+])C(=N)O.[H+]"
+        },
+        {
+            "step": "11",
+            "rxn_smiles": "CC([NH3+])C(=N)O>>CC([NH3+])C(=O)N"
+        },
+        {
+            "step": "12",
+            "rxn_smiles": "CC([NH3+])C(=O)N.[H+]>>CC([NH3+])C(=[OH+])N"
+        },
+        {
+            "step": "13",
+            "rxn_smiles": "CC([NH3+])C(=[OH+])N.O>>CC([NH3+])C(O)([OH2+])N"
+        },
+        {
+            "step": "14",
+            "rxn_smiles": "CC([NH3+])C(O)([OH2+])N>>CC([NH3+])C(O)(O)N.[H+]"
+        },
+        {
+            "step": "15",
+            "rxn_smiles": "CC([NH3+])C(O)(O)N.[H+]>>CC([NH3+])C(O)(O)[NH3+]"
+        },
+        {
+            "step": "16",
+            "rxn_smiles": "CC([NH3+])C(O)(O)[NH3+]>>CC([NH3+])C(=[OH+])O.N"
+        },
+        {
+            "step": "17",
+            "rxn_smiles": "CC([NH3+])C(=[OH+])O>>CC([NH3+])C(=O)O.[H+]"
+        }
+    ]
+}

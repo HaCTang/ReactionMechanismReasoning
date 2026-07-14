@@ -1,0 +1,143 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "ClC1(Cl)[C@]2(O[Si](C)(C)C)CCC[C@@H](O[Si](C)(C)C)[C@@H]3CCCC[C@@]321",
+                    "label": "None",
+                    "electron_number": 186,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Ag+]",
+                    "label": "None",
+                    "electron_number": 46,
+                    "charge": 1
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "AgNO3",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "acetone-H2O",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C12=C(Cl)[C@]3(O[Si](C)(C)C)CCC[C@@H](O3)[C@@H]1CCCC2",
+                    "label": "None",
+                    "electron_number": 137,
+                    "charge": 0
+                },
+                {
+                    "smiles": "C[Si+](C)C",
+                    "label": "None",
+                    "electron_number": 31,
+                    "charge": 1
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "ClC1(Cl)[C@]2(O[Si](C)(C)C)CCC[C@@H](O[Si](C)(C)C)[C@@H]3CCCC[C@@]321",
+                    "label": "None",
+                    "electron_number": 186,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Ag+]",
+                    "label": "None",
+                    "electron_number": 46,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "Cl[C+]1[C@]2(O[Si](C)(C)C)CCC[C@@H](O[Si](C)(C)C)[C@@H]3CCCC[C@@]321",
+                    "label": "None",
+                    "electron_number": 168,
+                    "charge": 1
+                },
+                {
+                    "smiles": "Cl[Ag]",
+                    "label": "None",
+                    "electron_number": 64,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "Cl[C+]1[C@]2(O[Si](C)(C)C)CCC[C@@H](O[Si](C)(C)C)[C@@H]3CCCC[C@@]321",
+                    "label": "None",
+                    "electron_number": 168,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C12=C(Cl)[C+](O[Si](C)(C)C)CCC[C@@H](O[Si](C)(C)C)[C@@H]1CCCC2",
+                    "label": "None",
+                    "electron_number": 168,
+                    "charge": 1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "C12=C(Cl)[C+](O[Si](C)(C)C)CCC[C@@H](O[Si](C)(C)C)[C@@H]1CCCC2",
+                    "label": "None",
+                    "electron_number": 168,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C12=C(Cl)[C@]3(O[Si](C)(C)C)CCC[C@@H]([O+]3[Si](C)(C)C)[C@@H]1CCCC2",
+                    "label": "None",
+                    "electron_number": 168,
+                    "charge": 1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "C12=C(Cl)[C@]3(O[Si](C)(C)C)CCC[C@@H]([O+]3[Si](C)(C)C)[C@@H]1CCCC2",
+                    "label": "None",
+                    "electron_number": 168,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C12=C(Cl)[C@]3(O[Si](C)(C)C)CCC[C@@H](O3)[C@@H]1CCCC2",
+                    "label": "None",
+                    "electron_number": 137,
+                    "charge": 0
+                },
+                {
+                    "smiles": "C[Si+](C)C",
+                    "label": "None",
+                    "electron_number": 31,
+                    "charge": 1
+                }
+            ]
+        }
+    ]
+}

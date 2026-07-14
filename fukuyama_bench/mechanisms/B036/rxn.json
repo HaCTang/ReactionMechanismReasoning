@@ -1,0 +1,24 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "COP(=O)(C=[N+]=[N-])OC.CC(C)(C)[O-]>>COP(=O)([C-]=[N+]=[N-])OC.CC(C)(C)O"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CO[C@@H]1C[C@@H](CC[C@H]1O[Si](C(C)C)(C(C)C)C(C)C)C=O.COP(=O)([C-]=[N+]=[N-])OC>>CO[C@@H]1C[C@@H](CC[C@H]1O[Si](C(C)C)(C(C)C)C(C)C)[CH]([O-])C(P(=O)(OC)OC)=[N+]=[N-]"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CO[C@@H]1C[C@@H](CC[C@H]1O[Si](C(C)C)(C(C)C)C(C)C)[CH]([O-])C(P(=O)(OC)OC)=[N+]=[N-]>>CO[C@@H]1C[C@@H](CC[C@H]1O[Si](C(C)C)(C(C)C)C(C)C)C=C=[N+]=[N-].COP(=O)([O-])OC"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CO[C@@H]1C[C@@H](CC[C@H]1O[Si](C(C)C)(C(C)C)C(C)C)C=C=[N+]=[N-]>>CO[C@@H]1C[C@@H](CC[C@H]1O[Si](C(C)C)(C(C)C)C(C)C)C=[C].N#N"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CO[C@@H]1C[C@@H](CC[C@H]1O[Si](C(C)C)(C(C)C)C(C)C)C=[C]>>C#C[C@@H]1CC[C@@H](O[Si](C(C)C)(C(C)C)C(C)C)[C@H](OC)C1"
+        }
+    ]
+}

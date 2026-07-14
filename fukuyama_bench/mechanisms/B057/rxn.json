@@ -1,0 +1,28 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CC(C)=C1CC[C@@H](C)CC1=O.BrBr>>CC1(C)[Br+]C12C(=O)C[C@@H](C)CC2.[Br-]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CC1(C)[Br+]C12C(=O)C[C@@H](C)CC2.[Br-]>>CC(C)(Br)[C@@]1(Br)C(=O)C[C@@H](C)CC1"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CC(C)(Br)[C@@]1(Br)C(=O)C[C@@H](C)CC1.CC[O-]>>CC(C)(Br)[C@@]1(Br)C([O-])=C[C@@H](C)CC1.CCO"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CC(C)(Br)[C@@]1(Br)C([O-])=C[C@@H](C)CC1>>O=C1C2(C(Br)(C)C)CCC(C)C21.[Br-]"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "O=C1C2(C(Br)(C)C)CCC(C)C21.CC[O-]>>CCOC([O-])1C2(C(Br)(C)C)CCC(C)C21"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "CCOC([O-])1C2(C(Br)(C)C)CCC(C)C21>>CCOC(=O)[C@@H]1C(=C(C)C)CC[C@H]1C.[Br-]"
+        }
+    ]
+}

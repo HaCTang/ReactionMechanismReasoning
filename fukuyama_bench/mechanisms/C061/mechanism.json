@@ -1,0 +1,179 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C=C(C)CCCC#CCCOCC(=C)Br",
+                    "label": "None",
+                    "electron_number": 84,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "Pd(OAc)2",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "Ph3P, Ag2CO3",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "solvent",
+                    "text": "MeCN",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "temperature",
+                    "text": "130 °C",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C[C@@]12CCC=C1[C@]13CCOC[C@@]1(C2)C3",
+                    "label": "None",
+                    "electron_number": 76,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C=C(C)CCCC#CCCOCC(=C)Br",
+                    "label": "substrate",
+                    "electron_number": 84,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Pd]",
+                    "label": "reagent",
+                    "electron_number": 10,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(=C)CCCC#CCCOCC(=C)[Pd]Br",
+                    "label": "intermediate",
+                    "electron_number": 94,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "CC(=C)CCCC#CCCOCC(=C)[Pd]Br",
+                    "label": "intermediate",
+                    "electron_number": 94,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(=C)CCCC([Pd]Br)=C1CCOCC1=C",
+                    "label": "intermediate",
+                    "electron_number": 94,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "CC(=C)CCCC([Pd]Br)=C1CCOCC1=C",
+                    "label": "intermediate",
+                    "electron_number": 94,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "Br[Pd]CC1(C)CCCC1=C2CCOCC2=C",
+                    "label": "intermediate",
+                    "electron_number": 94,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "Br[Pd]CC1(C)CCCC1=C2CCOCC2=C",
+                    "label": "intermediate",
+                    "electron_number": 94,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C[C@@]12CCCC1=C3CCOC[C@]3(C[Pd]Br)C2",
+                    "label": "intermediate",
+                    "electron_number": 94,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "5",
+            "reactants": [
+                {
+                    "smiles": "C[C@@]12CCCC1=C3CCOC[C@]3(C[Pd]Br)C2",
+                    "label": "intermediate",
+                    "electron_number": 94,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C[C@@]12CCCC([Pd]Br)1[C@]13CCOC[C@@]1(C2)C3",
+                    "label": "intermediate",
+                    "electron_number": 94,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "6",
+            "reactants": [
+                {
+                    "smiles": "C[C@@]12CCCC([Pd]Br)1[C@]13CCOC[C@@]1(C2)C3",
+                    "label": "intermediate",
+                    "electron_number": 94,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C[C@@]12CCC=C1[C@]13CCOC[C@@]1(C2)C3",
+                    "label": "product",
+                    "electron_number": 76,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Pd]",
+                    "label": "leaving",
+                    "electron_number": 10,
+                    "charge": 0
+                },
+                {
+                    "smiles": "Br",
+                    "label": "leaving",
+                    "electron_number": 8,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CCC(=O)Cl.Cl[Ti](Cl)(Cl)Cl.CCN(C(C)C)C(C)C>>CC=C=[O+][Ti-](Cl)(Cl)(Cl)Cl.CC[NH+](C(C)C)C(C)C.[Cl-]",
+            "mapped_rxn": "[CH3:1][CH2:2][C:3](=[O:4])[Cl:19].[CH3:10][CH2:11][N:12]([CH:13]([CH3:14])[CH3:15])[CH:16]([CH3:17])[CH3:18].[Ti:5]([Cl:6])([Cl:7])([Cl:8])[Cl:9]>>[CH3:1][CH:2]=[C:3]=[O+:4][Ti-:5]([Cl:6])([Cl:7])([Cl:8])[Cl:9].[CH3:10][CH2:11][NH+:12]([CH:13]([CH3:14])[CH3:15])[CH:16]([CH3:17])[CH3:18].[Cl-:19]",
+            "confidence": 0.04190930961323078
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CC=C=[O+][Ti-](Cl)(Cl)(Cl)Cl.CC=CCN1CCOCC1>>C/C=C/C[N+]1(CCOCC1)C(=CC)[O][Ti-](Cl)(Cl)(Cl)Cl",
+            "mapped_rxn": "[CH3:1][CH:2]=[C:3]=[O+:4][Ti-:5]([Cl:6])([Cl:7])([Cl:8])[Cl:9].[N:10]1([CH2:11][CH:12]=[CH:13][CH3:14])[CH2:15][CH2:16][O:17][CH2:18][CH2:19]1>>[CH3:1][CH:2]=[C:3]([O:4][Ti-:5]([Cl:6])([Cl:7])([Cl:8])[Cl:9])[N+:10]1([CH2:11]/[CH:12]=[CH:13]/[CH3:14])[CH2:15][CH2:16][O:17][CH2:18][CH2:19]1",
+            "confidence": 0.145521875610186
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "C/C=C/C[N+]1(CCOCC1)C(=CC)[O][Ti-](Cl)(Cl)(Cl)Cl>>C=C[C@H](C)[C@@H](C)C(=[N+]1CCOCC1)[O][Ti-](Cl)(Cl)(Cl)Cl",
+            "mapped_rxn": "[CH3:4]/[CH:3]=[CH:2]/[CH2:1][N+:14]1([C:7](=[CH:5][CH3:6])[O:8][Ti-:9]([Cl:10])([Cl:11])([Cl:12])[Cl:13])[CH2:15][CH2:16][O:17][CH2:18][CH2:19]1>>[CH2:1]=[CH:2][C@H:3]([CH3:4])[C@@H:5]([CH3:6])[C:7]([O:8][Ti-:9]([Cl:10])([Cl:11])([Cl:12])[Cl:13])=[N+:14]1[CH2:15][CH2:16][O:17][CH2:18][CH2:19]1",
+            "confidence": 0.10783482839451673
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "C=C[C@H](C)[C@@H](C)C(=[N+]1CCOCC1)[O][Ti-](Cl)(Cl)(Cl)Cl>>C=C[C@H](C)[C@@H](C)C(=O)N1CCOCC1.Cl[Ti](Cl)(Cl)Cl",
+            "mapped_rxn": "[CH2:1]=[CH:2][C@H:3]([CH3:4])[C@@H:5]([CH3:6])[C:7]([O:8][Ti-:16]([Cl:15])([Cl:17])([Cl:18])[Cl:19])=[N+:9]1[CH2:10][CH2:11][O:12][CH2:13][CH2:14]1>>[CH2:1]=[CH:2][C@H:3]([CH3:4])[C@@H:5]([CH3:6])[C:7](=[O:8])[N:9]1[CH2:10][CH2:11][O:12][CH2:13][CH2:14]1.[Cl:15][Ti:16]([Cl:17])([Cl:18])[Cl:19]",
+            "confidence": 0.18440790707993177
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CCOC1=CC(=O)CCC1.C[Mg]Br>>CCOC1=CC(C)([O-])CCC1.Br[Mg+]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CCOC1=CC(C)([O-])CCC1.[H+]>>CCOC1=CC(C)(O)CCC1"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CCOC1=CC(C)(O)CCC1.[H+]>>CCOC1=CC(C)([OH2+])CCC1"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CCOC1=CC(C)([OH2+])CCC1>>CC[O+]=C1C=C(C)CCC1.O"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CC[O+]=C1C=C(C)CCC1.O>>CCOC1([OH2+])C=C(C)CCC1"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "CCOC1([OH2+])C=C(C)CCC1>>CC[OH+]C1(O)C=C(C)CCC1"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "CC[OH+]C1(O)C=C(C)CCC1>>[OH+]=C1C=C(C)CCC1.CCO"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "[OH+]=C1C=C(C)CCC1>>CC1=CC(=O)CCC1.[H+]"
+        }
+    ]
+}

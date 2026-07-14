@@ -1,0 +1,20 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CCC(=O)Cl.Cl[Ti](Cl)(Cl)Cl.CCN(C(C)C)C(C)C>>CC=C=[O+][Ti-](Cl)(Cl)(Cl)Cl.CC[NH+](C(C)C)C(C)C.[Cl-]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CC=C=[O+][Ti-](Cl)(Cl)(Cl)Cl.CC=CCN1CCOCC1>>C/C=C/C[N+]1(CCOCC1)C(=CC)[O][Ti-](Cl)(Cl)(Cl)Cl"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "C/C=C/C[N+]1(CCOCC1)C(=CC)[O][Ti-](Cl)(Cl)(Cl)Cl>>C=C[C@H](C)[C@@H](C)C(=[N+]1CCOCC1)[O][Ti-](Cl)(Cl)(Cl)Cl"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "C=C[C@H](C)[C@@H](C)C(=[N+]1CCOCC1)[O][Ti-](Cl)(Cl)(Cl)Cl>>C=C[C@H](C)[C@@H](C)C(=O)N1CCOCC1.Cl[Ti](Cl)(Cl)Cl"
+        }
+    ]
+}

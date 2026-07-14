@@ -1,0 +1,28 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "O=[Se]=O.O>>O[Se](=O)O"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CC(=O)OC/C=C(\\C)CC/C=C(\\C)CCC=C(C)C.O[Se](=O)O>>CC(=O)OC/C=C(\\C)CC/C=C(\\C)CCC([Se](O)(O)O)C(=C)C"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CC(=O)OC/C=C(\\C)CC/C=C(\\C)CCC([Se](O)(O)O)C(=C)C>>CC(=O)OC/C=C(\\C)CC/C=C(\\C)CCC([Se](=O)O)C(=C)C.O"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CC(=O)OC/C=C(\\C)CC/C=C(\\C)CCC([Se](=O)O)C(=C)C>>CC(=O)OC/C=C(\\C)CC/C=C(\\C)CC/C=C(\\C)CO[Se]O"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CC(=O)OC/C=C(\\C)CC/C=C(\\C)CC/C=C(\\C)CO[Se]O>>CC(=O)OC/C=C(\\C)CC/C=C(\\C)CC/C=C(\\C)CO.[Se]=O"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "[Se]=O.CC(C)(C)OO>>O=[Se]=O.CC(C)(C)O"
+        }
+    ]
+}

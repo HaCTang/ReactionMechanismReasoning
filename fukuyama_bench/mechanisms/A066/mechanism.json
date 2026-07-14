@@ -1,0 +1,100 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "Cc1ccccc1C(=O)Cl",
+                    "label": "None",
+                    "electron_number": 52,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "temperature",
+                    "text": "630 °C",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "pressure",
+                    "text": "12 mmHg",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=C1Cc2ccccc21",
+                    "label": "None",
+                    "electron_number": 44,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "Cc1ccccc1C(=O)Cl",
+                    "label": "substrate",
+                    "electron_number": 52,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "OC(Cl)=C1C=CC=CC1=C",
+                    "label": "intermediate",
+                    "electron_number": 52,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "OC(Cl)=C1C=CC=CC1=C",
+                    "label": "intermediate",
+                    "electron_number": 52,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=C=C1C=CC=CC1=C",
+                    "label": "intermediate",
+                    "electron_number": 44,
+                    "charge": 0
+                },
+                {
+                    "smiles": "Cl",
+                    "label": "leaving",
+                    "electron_number": 8,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "O=C=C1C=CC=CC1=C",
+                    "label": "intermediate",
+                    "electron_number": 44,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=C1Cc2ccccc21",
+                    "label": "product",
+                    "electron_number": 44,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

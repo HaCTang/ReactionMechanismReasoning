@@ -1,0 +1,153 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "COC(=O)c1cccc([N+](=O)[O-])c1",
+                    "label": "None",
+                    "electron_number": 68,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "NaOH",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "solvent",
+                    "text": "H2O",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "temperature",
+                    "text": "reflux",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "aq HCl",
+                    "reaction_step": "2"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=C(O)c1cccc([N+](=O)[O-])c1",
+                    "label": "None",
+                    "electron_number": 62,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "COC(=O)c1cccc([N+](=O)[O-])c1",
+                    "label": "substrate",
+                    "electron_number": 68,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[OH-]",
+                    "label": "reagent",
+                    "electron_number": 8,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "COC([O-])(O)c1cccc([N+](=O)[O-])c1",
+                    "label": "intermediate",
+                    "electron_number": 76,
+                    "charge": -1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "COC([O-])(O)c1cccc([N+](=O)[O-])c1",
+                    "label": "intermediate",
+                    "electron_number": 76,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "OC(=O)c1cccc([N+](=O)[O-])c1",
+                    "label": "intermediate",
+                    "electron_number": 62,
+                    "charge": 0
+                },
+                {
+                    "smiles": "C[O-]",
+                    "label": "leaving",
+                    "electron_number": 14,
+                    "charge": -1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "OC(=O)c1cccc([N+](=O)[O-])c1",
+                    "label": "intermediate",
+                    "electron_number": 62,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[OH-]",
+                    "label": "reagent",
+                    "electron_number": 8,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[O-]C(=O)c1cccc([N+](=O)[O-])c1",
+                    "label": "intermediate",
+                    "electron_number": 62,
+                    "charge": -1
+                },
+                {
+                    "smiles": "O",
+                    "label": "leaving",
+                    "electron_number": 8,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "[O-]C(=O)c1cccc([N+](=O)[O-])c1",
+                    "label": "intermediate",
+                    "electron_number": 62,
+                    "charge": -1
+                },
+                {
+                    "smiles": "[H+]",
+                    "label": "reagent",
+                    "electron_number": 0,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=C(O)c1cccc([N+](=O)[O-])c1",
+                    "label": "product",
+                    "electron_number": 62,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

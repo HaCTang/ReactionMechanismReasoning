@@ -1,0 +1,129 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C1=CC2OC2C1",
+                    "label": "None",
+                    "electron_number": 32,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "COC(=O)CC(=O)OC",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "catalyst",
+                    "text": "Pd(PPh3)4",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "solvent",
+                    "text": "THF",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "COC(=O)C(C(=O)OC)[C@H]1C=C[C@@H](O)C1",
+                    "label": "None",
+                    "electron_number": 84,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C1=CC2OC2C1",
+                    "label": "substrate",
+                    "electron_number": 32,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Pd]",
+                    "label": "reagent",
+                    "electron_number": 10,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[O-][C@H]1CC=C[C@@H]1[Pd+]",
+                    "label": "intermediate",
+                    "electron_number": 42,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "[O-][C@H]1CC=C[C@@H]1[Pd+]",
+                    "label": "intermediate",
+                    "electron_number": 42,
+                    "charge": 0
+                },
+                {
+                    "smiles": "COC(=O)CC(=O)OC",
+                    "label": "reagent",
+                    "electron_number": 52,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O[C@H]1CC=C[C@@H]1[Pd+]",
+                    "label": "intermediate",
+                    "electron_number": 42,
+                    "charge": 1
+                },
+                {
+                    "smiles": "COC(=O)[CH-]C(=O)OC",
+                    "label": "intermediate",
+                    "electron_number": 52,
+                    "charge": -1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "O[C@H]1CC=C[C@@H]1[Pd+]",
+                    "label": "intermediate",
+                    "electron_number": 42,
+                    "charge": 1
+                },
+                {
+                    "smiles": "COC(=O)[CH-]C(=O)OC",
+                    "label": "intermediate",
+                    "electron_number": 52,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "COC(=O)C(C(=O)OC)[C@H]1C=C[C@@H](O)C1",
+                    "label": "product",
+                    "electron_number": 84,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Pd]",
+                    "label": "leaving",
+                    "electron_number": 10,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

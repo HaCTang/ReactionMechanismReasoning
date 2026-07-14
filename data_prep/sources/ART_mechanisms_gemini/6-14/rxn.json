@@ -1,0 +1,36 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C#CCOCC#CCOCC#C.[Ru]=Cc1ccccc1>>[Ru]1C(c2ccccc2)C=C1COCC#CCOCC#C"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[Ru]1C(c2ccccc2)C=C1COCC#CCOCC#C>>[Ru]=C(COCC#CCOCC#C)/C=C/c1ccccc1"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "[Ru]=C(COCC#CCOCC#C)/C=C/c1ccccc1>>C12(/C=C/c3ccccc3)[Ru]C(COCC#C)=C1COC2"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "C12(/C=C/c3ccccc3)[Ru]C(COCC#C)=C1COC2>>[Ru]=C(COCC#C)C1=C(/C=C/c2ccccc2)COC1"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "[Ru]=C(COCC#C)C1=C(/C=C/c2ccccc2)COC1>>C12=C[Ru]C(C3=C(COC3)/C=C/c4ccccc4)1COC2"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "C12=C[Ru]C(C3=C(COC3)/C=C/c4ccccc4)1COC2>>[Ru]=CC1=C(C2=C(/C=C/c3ccccc3)COC2)COC1"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "[Ru]=CC1=C(C2=C(/C=C/c3ccccc3)COC2)COC1>>C12C(C(C3=CC=CC=C3)[Ru]2)C4=C(COC4)C5=C1COC5"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "C12C(C(C3=CC=CC=C3)[Ru]2)C4=C(COC4)C5=C1COC5>>c1cc2c(c3c1COC3)COC2.[Ru]=Cc1ccccc1"
+        }
+    ]
+}

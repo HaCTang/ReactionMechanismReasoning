@@ -1,0 +1,32 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CC(C)O[Ti](OC(C)C)(OC(C)C)OC(C)C.Cl[Mg]C1CCCC1.Cl[Mg]C1CCCC1>>CC(C)O[Ti](OC(C)C)(C1CCCC1)C2CCCC2.CC(C)O[Mg]Cl.CC(C)O[Mg]Cl"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CC(C)O[Ti](OC(C)C)(C1CCCC1)C2CCCC2>>CC(C)O[Ti]1(OC(C)C)C2CCCC12.C1CCCC1"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CC(C)O[Ti]1(OC(C)C)C2CCCC12.C=CCCCCC(=O)N(CC)CC>>CC(C)O[Ti]1(OC(C)C)CC1CCCCC(=O)N(CC)CC.C1=CCCC1"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CC(C)O[Ti]1(OC(C)C)CC1CCCCC(=O)N(CC)CC>>CC(O[Ti]1(CC2CCCCC(N(CC)CC)2O1)OC(C)C)C"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CC(O[Ti]1(CC2CCCCC(N(CC)CC)2O1)OC(C)C)C>>CC(C)O[Ti]([O-])(OC(C)C)CC1CCCCC1=[N+](CC)CC"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "CC(C)O[Ti]([O-])(OC(C)C)CC1CCCCC1=[N+](CC)CC>>CCN(CC)C12CCCCC1C2.CC(C)O[Ti](=O)OC(C)C"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "CC(C)O[Ti](=O)OC(C)C.Cl[Mg]C1CCCC1.Cl[Mg]C1CCCC1>>CC(C)O[Ti](OC(C)C)(C1CCCC1)C2CCCC2.Cl[Mg]O[Mg]Cl"
+        }
+    ]
+}

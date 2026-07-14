@@ -1,0 +1,107 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "N#Cc1cnncc1C#N",
+                    "label": "None",
+                    "electron_number": 64,
+                    "charge": 0
+                },
+                {
+                    "smiles": "C1CC=CCCC=C1",
+                    "label": "None",
+                    "electron_number": 48,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "110 °C",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C1C3C4CCC2C(C3C(C#N)=C(C#N)C24)C1",
+                    "label": "None",
+                    "electron_number": 98,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "N#Cc1cnncc1C#N",
+                    "label": "None",
+                    "electron_number": 64,
+                    "charge": 0
+                },
+                {
+                    "smiles": "C1CC=CCCC=C1",
+                    "label": "None",
+                    "electron_number": 48,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C1C=CCCC2C(C3C(C#N)=C(C#N)C2N=N3)C1",
+                    "label": "None",
+                    "electron_number": 112,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "C1C=CCCC2C(C3C(C#N)=C(C#N)C2N=N3)C1",
+                    "label": "None",
+                    "electron_number": 112,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C1C=CCCC2C(C=C(C#N)C(C#N)=C2)C1",
+                    "label": "None",
+                    "electron_number": 98,
+                    "charge": 0
+                },
+                {
+                    "smiles": "N#N",
+                    "label": "None",
+                    "electron_number": 14,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "C1C=CCCC2C(C=C(C#N)C(C#N)=C2)C1",
+                    "label": "None",
+                    "electron_number": 98,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C1C3C4CCC2C(C3C(C#N)=C(C#N)C24)C1",
+                    "label": "None",
+                    "electron_number": 98,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

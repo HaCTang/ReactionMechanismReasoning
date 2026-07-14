@@ -1,0 +1,138 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "[Pt]",
+                    "label": "None",
+                    "electron_number": 78,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CC1(C)C(C)(C)OB(B2OC(C)(C)C(C)(C)O2)O1",
+                    "label": "None",
+                    "electron_number": 114,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "[Pt]0",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC1(C)C(C)(C)OB(/C(C)=C(/c2ccccc2)B3OC(C)(C)C(C)(C)O3)O1",
+                    "label": "None",
+                    "electron_number": 168,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Pt]",
+                    "label": "None",
+                    "electron_number": 78,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "[Pt]",
+                    "label": "None",
+                    "electron_number": 78,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CC1(C)C(C)(C)OB(B2OC(C)(C)C(C)(C)O2)O1",
+                    "label": "None",
+                    "electron_number": 114,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC1(C)C(C)(C)OB([Pt]B2OC(C)(C)C(C)(C)O2)O1",
+                    "label": "None",
+                    "electron_number": 192,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "CC1(C)C(C)(C)OB([Pt]B2OC(C)(C)C(C)(C)O2)O1",
+                    "label": "None",
+                    "electron_number": 192,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CC#Cc1ccccc1",
+                    "label": "None",
+                    "electron_number": 54,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC1=C(c2ccccc2)[Pt]1(B3OC(C)(C)C(C)(C)O3)B4OC(C)(C)C(C)(C)O4",
+                    "label": "None",
+                    "electron_number": 246,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "CC1=C(c2ccccc2)[Pt]1(B3OC(C)(C)C(C)(C)O3)B4OC(C)(C)C(C)(C)O4",
+                    "label": "None",
+                    "electron_number": 246,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC1(C)C(C)(C)OB(/C(C)=C(/c2ccccc2)[Pt]B3OC(C)(C)C(C)(C)O3)O1",
+                    "label": "None",
+                    "electron_number": 246,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "CC1(C)C(C)(C)OB(/C(C)=C(/c2ccccc2)[Pt]B3OC(C)(C)C(C)(C)O3)O1",
+                    "label": "None",
+                    "electron_number": 246,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC1(C)C(C)(C)OB(/C(C)=C(/c2ccccc2)B3OC(C)(C)C(C)(C)O3)O1",
+                    "label": "None",
+                    "electron_number": 168,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Pt]",
+                    "label": "None",
+                    "electron_number": 78,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

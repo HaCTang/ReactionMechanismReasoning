@@ -1,0 +1,125 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C[S+](C)C",
+                    "label": "None",
+                    "electron_number": 33,
+                    "charge": 1
+                },
+                {
+                    "smiles": "[CH2-]CCC",
+                    "label": "None",
+                    "electron_number": 25,
+                    "charge": -1
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "BuLi",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=C1C2CC2(C)C3(CCC=C)CCCC13[Se]c4ccccc4",
+                    "label": "None",
+                    "electron_number": 162,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CSC",
+                    "label": "None",
+                    "electron_number": 28,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C[S+](C)C",
+                    "label": "None",
+                    "electron_number": 33,
+                    "charge": 1
+                },
+                {
+                    "smiles": "[CH2-]CCC",
+                    "label": "None",
+                    "electron_number": 25,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C[S+](C)[CH2-]",
+                    "label": "None",
+                    "electron_number": 34,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CCCC",
+                    "label": "None",
+                    "electron_number": 24,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "C[S+](C)[CH2-]",
+                    "label": "None",
+                    "electron_number": 34,
+                    "charge": 0
+                },
+                {
+                    "smiles": "O=C1C=C(C)C2(CCC=C)CCCC12[Se]c3ccccc3",
+                    "label": "None",
+                    "electron_number": 156,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[O-]C1=CC(C)(C[S+](C)C)C2(CCC=C)CCCC12[Se]c3ccccc3",
+                    "label": "None",
+                    "electron_number": 190,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "[O-]C1=CC(C)(C[S+](C)C)C2(CCC=C)CCCC12[Se]c3ccccc3",
+                    "label": "None",
+                    "electron_number": 190,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=C1C2CC2(C)C3(CCC=C)CCCC13[Se]c4ccccc4",
+                    "label": "None",
+                    "electron_number": 162,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CSC",
+                    "label": "None",
+                    "electron_number": 28,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

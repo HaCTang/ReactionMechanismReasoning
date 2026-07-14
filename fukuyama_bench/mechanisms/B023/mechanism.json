@@ -1,0 +1,106 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "CC1(C)CC(=O)C2OC2(C)C1",
+                    "label": "None",
+                    "electron_number": 62,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "BF3-Et2O",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "solvent",
+                    "text": "benzene",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC1(C)CC(=O)C(C)(C=O)C1",
+                    "label": "None",
+                    "electron_number": 62,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "CC1(C)CC(=O)C2OC2(C)C1",
+                    "label": "substrate",
+                    "electron_number": 62,
+                    "charge": 0
+                },
+                {
+                    "smiles": "FB(F)F",
+                    "label": "reagent",
+                    "electron_number": 24,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC1(C)CC(=O)C2[O+]([B-](F)(F)F)C2(C)C1",
+                    "label": "intermediate",
+                    "electron_number": 86,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "CC1(C)CC(=O)C2[O+]([B-](F)(F)F)C2(C)C1",
+                    "label": "intermediate",
+                    "electron_number": 86,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC1(C)CC(=O)C(O[B-](F)(F)F)[C+](C)C1",
+                    "label": "intermediate",
+                    "electron_number": 86,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "CC1(C)CC(=O)C(O[B-](F)(F)F)[C+](C)C1",
+                    "label": "intermediate",
+                    "electron_number": 86,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC1(C)CC(=O)C(C)(C=O)C1",
+                    "label": "product",
+                    "electron_number": 62,
+                    "charge": 0
+                },
+                {
+                    "smiles": "FB(F)F",
+                    "label": "leaving",
+                    "electron_number": 24,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

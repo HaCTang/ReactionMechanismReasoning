@@ -1,0 +1,44 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CCOC(=O)CC(=O)OCC.[O-]CCCC>>CCOC(=O)[CH-]C(=O)OCC.CCCCO"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CCOC(=O)[CH-]C(=O)OCC.CCCCCCCBr>>CCOC(=O)C(CCCCCCC)C(=O)OCC.[Br-]"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CCOC(=O)C(CCCCCCC)C(=O)OCC.[OH-]>>CCOC(=O)C(CCCCCCC)C([O-])(O)OCC"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CCOC(=O)C(CCCCCCC)C([O-])(O)OCC>>CCOC(=O)C(CCCCCCC)C(=O)O.[O-]CC"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CCOC(=O)C(CCCCCCC)C(=O)O.[OH-]>>CCOC(=O)C(CCCCCCC)C(=O)[O-].O"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "CCOC(=O)C(CCCCCCC)C(=O)[O-].[OH-]>>[O-]C(=O)C(CCCCCCC)C(=O)[O-].CCO"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "[O-]C(=O)C(CCCCCCC)C(=O)[O-].[H+].[H+]>>OC(=O)C(CCCCCCC)C(=O)O"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "OC(=O)C(CCCCCCC)C(=O)O>>CCCCCCCC=C(O)O.O=C=O"
+        },
+        {
+            "step": "9",
+            "rxn_smiles": "CCCCCCCC=C(O)O.[H+]>>CCCCCCCCC(=[OH+])O"
+        },
+        {
+            "step": "10",
+            "rxn_smiles": "CCCCCCCCC(=[OH+])O>>CCCCCCCCC(=O)O.[H+]"
+        }
+    ]
+}

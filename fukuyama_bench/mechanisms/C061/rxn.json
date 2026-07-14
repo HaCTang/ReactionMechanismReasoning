@@ -1,0 +1,28 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C=C(C)CCCC#CCCOCC(=C)Br.[Pd]>>CC(=C)CCCC#CCCOCC(=C)[Pd]Br"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CC(=C)CCCC#CCCOCC(=C)[Pd]Br>>CC(=C)CCCC([Pd]Br)=C1CCOCC1=C"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CC(=C)CCCC([Pd]Br)=C1CCOCC1=C>>Br[Pd]CC1(C)CCCC1=C2CCOCC2=C"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "Br[Pd]CC1(C)CCCC1=C2CCOCC2=C>>C[C@@]12CCCC1=C3CCOC[C@]3(C[Pd]Br)C2"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "C[C@@]12CCCC1=C3CCOC[C@]3(C[Pd]Br)C2>>C[C@@]12CCCC([Pd]Br)1[C@]13CCOC[C@@]1(C2)C3"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "C[C@@]12CCCC([Pd]Br)1[C@]13CCOC[C@@]1(C2)C3>>C[C@@]12CCC=C1[C@]13CCOC[C@@]1(C2)C3.[Pd].Br"
+        }
+    ]
+}

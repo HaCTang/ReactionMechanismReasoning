@@ -1,0 +1,16 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CC12CCC(CC1O)C2(C)CBr.[H+]>>CC12CCC(CC1[OH2+])C2(C)CBr"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CC12CCC(CC1[OH2+])C2(C)CBr>>C[C+]1C2CCC(C2)C1(C)CBr.O"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "C[C+]1C2CCC(C2)C1(C)CBr>>C=C1C2CCC(C2)C1(C)CBr.[H+]"
+        }
+    ]
+}

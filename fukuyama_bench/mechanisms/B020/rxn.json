@@ -1,0 +1,20 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "O=C(OC)CC1CCCC(CCCCC)N1C(OC)=O.C[Si](C)(C)I>>C[Si](C)(C)OC(OC)=[N+]1C(CCCCC)CCCC1CC(=O)OC.[I-]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "C[Si](C)(C)OC(OC)=[N+]1C(CCCCC)CCCC1CC(=O)OC.[I-]>>C[Si](C)(C)OC(=O)N1C(CCCCC)CCCC1CC(=O)OC.CI"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "C[Si](C)(C)OC(=O)N1C(CCCCC)CCCC1CC(=O)OC.CO>>OC(=O)N1C(CCCCC)CCCC1CC(=O)OC.CO[Si](C)(C)C"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "OC(=O)N1C(CCCCC)CCCC1CC(=O)OC>>O=C(OC)CC1CCCC(CCCCC)N1.O=C=O"
+        }
+    ]
+}

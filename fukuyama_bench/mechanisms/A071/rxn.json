@@ -1,0 +1,16 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "O=C1CCCCC1.CCOC(=O)CP(=O)(OCC)OCC.[H-]>>O=C1CCCCC1.CCOC(=O)[CH-]P(=O)(OCC)OCC.[H][H]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "O=C1CCCCC1.CCOC(=O)[CH-]P(=O)(OCC)OCC>>CCOC(=O)C(P(=O)(OCC)OCC)C1([O-])CCCCC1"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CCOC(=O)C(P(=O)(OCC)OCC)C1([O-])CCCCC1>>CCOC(=O)C=C1CCCCC1.CCOP(=O)([O-])OCC"
+        }
+    ]
+}

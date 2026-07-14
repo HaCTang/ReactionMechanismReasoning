@@ -1,0 +1,28 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "O=C(O)C1(c2ccccc2)CCCC1.CCN(CC)CC>>[O-]C(=O)C1(c2ccccc2)CCCC1.CC[NH+](CC)CC"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[O-]C(=O)C1(c2ccccc2)CCCC1.CCOC(=O)Cl>>CCOC([O-])(Cl)OC(=O)C1(c2ccccc2)CCCC1"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CCOC([O-])(Cl)OC(=O)C1(c2ccccc2)CCCC1>>CCOC(=O)OC(=O)C1(c2ccccc2)CCCC1.[Cl-]"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CCOC(=O)OC(=O)C1(c2ccccc2)CCCC1.[N-]=[N+]=[N-]>>CCOC(=O)OC([O-])(N=[N+]=[N-])C1(c2ccccc2)CCCC1"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CCOC(=O)OC([O-])(N=[N+]=[N-])C1(c2ccccc2)CCCC1>>O=C(N=[N+]=[N-])C1(c2ccccc2)CCCC1.CCOC(=O)[O-]"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "O=C(N=[N+]=[N-])C1(c2ccccc2)CCCC1>>O=C=NC1(c2ccccc2)CCCC1.N#N"
+        }
+    ]
+}

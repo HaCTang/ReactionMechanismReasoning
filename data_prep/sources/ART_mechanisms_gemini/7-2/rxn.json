@@ -1,0 +1,24 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "[*]NCCC1=CCCC[C@H]1[Si](C)(C)c1ccccc1.I[Zn-](I)[O+]=CCc1c(Br)ccnc1>>[*][NH+](C(Cc1cnccc1Br)O[Zn-](I)I)CCC2=CCCC[C@H]2[Si](C)(c3ccccc3)C"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[*][NH+](C(Cc1cnccc1Br)O[Zn-](I)I)CCC2=CCCC[C@H]2[Si](C)(c3ccccc3)C>>[*]N(CCC1=CCCC[C@H]1[Si](c2ccccc2)(C)C)C([OH+][Zn-](I)I)Cc3c(Br)ccnc3"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "[*]N(CCC1=CCCC[C@@H]1[Si](C)(C)c1ccccc1)C(Cc1c(Br)ccnc1)[OH+][Zn-](I)I>>[*][N+](CCC1=CCCC[C@H]1[Si](c2ccccc2)(C)C)=CCc3c(Br)ccnc3.O[Zn-](I)I"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "[*][N+](CCC1=CCCC[C@H]1[Si](c2ccccc2)(C)C)=CCc3c(Br)ccnc3>>[*]N(CC[C+]1C2CCC[C@H]1[Si](c3ccccc3)(C)C)C2Cc4c(Br)ccnc4"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "[*]N(CC[C+]1C2CCC[C@H]1[Si](c3ccccc3)(C)C)C2Cc4c(Br)ccnc4>>[*]N1CCC2=CCCC[C@@H]2C1Cc3cnccc3Br"
+        }
+    ]
+}

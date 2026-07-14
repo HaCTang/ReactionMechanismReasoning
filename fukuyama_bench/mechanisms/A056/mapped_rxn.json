@@ -1,0 +1,40 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "[H]C(=O)c1ccccc1O.[OH-]>>[H]C(=O)c1ccccc1[O-].O",
+            "mapped_rxn": "[O:2]=[CH:3][c:4]1[cH:5][cH:6][cH:7][cH:8][c:9]1[OH:10].[OH-:1]>>[OH2:1].[O:2]=[CH:3][c:4]1[cH:5][cH:6][cH:7][cH:8][c:9]1[O-:10]",
+            "confidence": 0.9649110782179317
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[H]C(=O)c1ccccc1[O-].[O-]O>>[O-]c1ccccc1C([H])([O-])OO",
+            "mapped_rxn": "[O-:1][c:2]1[cH:3][cH:4][cH:5][cH:6][c:7]1[CH:8]=[O:9].[O-:10][OH:11]>>[O-:1][c:2]1[cH:3][cH:4][cH:5][cH:6][c:7]1[CH:8]([O-:9])[O:10][OH:11]",
+            "confidence": 0.9343613237620032
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "[O-]c1ccccc1C([H])([O-])OO>>[O-]C1([H])OC21C(=O)C=CC=C2.[OH-]",
+            "mapped_rxn": "[O-:1][CH:2]([c:7]1[cH:6][cH:5][cH:4][cH:3][c:9]1[O-:10])[O:8][OH:11]>>[O:1]=[C:2]1[CH:3]=[CH:4][CH:5]=[CH:6][C:7]12[O:8][CH:9]2[O-:10].[OH-:11]",
+            "confidence": 0.6587444511874477
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "[O-]C1([H])OC21C(=O)C=CC=C2>>[O-]c1ccccc1OC=O",
+            "mapped_rxn": "[O:1]=[C:9]1[C:4]2([CH:2]([O-:10])[O:3]2)[CH:5]=[CH:6][CH:7]=[CH:8]1>>[O:1]=[CH:2][O:3][c:4]1[cH:5][cH:6][cH:7][cH:8][c:9]1[O-:10]",
+            "confidence": 0.7028120158419049
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "[O-]c1ccccc1OC=O.[OH-]>>[O-]c1ccccc1[O-].OC=O",
+            "mapped_rxn": "[O:1]=[CH:2][O:4][c:5]1[cH:6][cH:7][cH:8][cH:9][c:10]1[O-:11].[OH-:3]>>[O:1]=[CH:2][OH:3].[O-:4][c:5]1[cH:6][cH:7][cH:8][cH:9][c:10]1[O-:11]",
+            "confidence": 0.9301805075236755
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "[O-]c1ccccc1[O-].[H+].[H+]>>Oc1ccccc1O",
+            "mapped_rxn": "[H+].[H+].[O-:1][c:2]1[cH:3][cH:4][cH:5][cH:6][c:7]1[O-:8]>>[OH:1][c:2]1[cH:3][cH:4][cH:5][cH:6][c:7]1[OH:8]",
+            "confidence": 0.8654028752571578
+        }
+    ]
+}

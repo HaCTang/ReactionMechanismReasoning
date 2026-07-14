@@ -1,0 +1,148 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "COc1ccc2c(c1)c(S[C@H](C)C(=O)Cl)c(CC(C)(C)CC#N)n2Cc1ccc(Cl)cc1",
+                    "label": "None",
+                    "electron_number": 168,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "AlCl3",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "solvent",
+                    "text": "CH2Cl2",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "temperature",
+                    "text": "0 °C",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "COc1ccc2c3c1S[C@H](C)C(=O)c3c(CC(C)(C)CC#N)n2Cc1ccc(Cl)cc1",
+                    "label": "None",
+                    "electron_number": 160,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "COc1ccc2c(c1)c(S[C@H](C)C(=O)Cl)c(CC(C)(C)CC#N)n2Cc1ccc(Cl)cc1",
+                    "label": "substrate",
+                    "electron_number": 168,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "COc1ccc2c(c1)C3(S[C@H](C)C3=O)C(CC(C)(C)CC#N)=[N+]2Cc1ccc(Cl)cc1",
+                    "label": "intermediate",
+                    "electron_number": 160,
+                    "charge": 1
+                },
+                {
+                    "smiles": "[Cl-]",
+                    "label": "leaving",
+                    "electron_number": 8,
+                    "charge": -1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "COc1ccc2c(c1)C3(S[C@H](C)C3=O)C(CC(C)(C)CC#N)=[N+]2Cc1ccc(Cl)cc1",
+                    "label": "intermediate",
+                    "electron_number": 160,
+                    "charge": 1
+                },
+                {
+                    "smiles": "[Cl-]",
+                    "label": "reagent",
+                    "electron_number": 8,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "COc1ccc2c(c1)c(C(=O)[C@@H](C)SCl)c(CC(C)(C)CC#N)n2Cc1ccc(Cl)cc1",
+                    "label": "intermediate",
+                    "electron_number": 168,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "COc1ccc2c(c1)c(C(=O)[C@@H](C)SCl)c(CC(C)(C)CC#N)n2Cc1ccc(Cl)cc1",
+                    "label": "intermediate",
+                    "electron_number": 168,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C[O+]=C1C=Cc2c3C1S[C@H](C)C(=O)c3c(CC(C)(C)CC#N)n2Cc1ccc(Cl)cc1",
+                    "label": "intermediate",
+                    "electron_number": 160,
+                    "charge": 1
+                },
+                {
+                    "smiles": "[Cl-]",
+                    "label": "leaving",
+                    "electron_number": 8,
+                    "charge": -1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "C[O+]=C1C=Cc2c3C1S[C@H](C)C(=O)c3c(CC(C)(C)CC#N)n2Cc1ccc(Cl)cc1",
+                    "label": "intermediate",
+                    "electron_number": 160,
+                    "charge": 1
+                },
+                {
+                    "smiles": "[Cl-]",
+                    "label": "reagent",
+                    "electron_number": 8,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "COc1ccc2c3c1S[C@H](C)C(=O)c3c(CC(C)(C)CC#N)n2Cc1ccc(Cl)cc1",
+                    "label": "product",
+                    "electron_number": 160,
+                    "charge": 0
+                },
+                {
+                    "smiles": "Cl",
+                    "label": "leaving",
+                    "electron_number": 8,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

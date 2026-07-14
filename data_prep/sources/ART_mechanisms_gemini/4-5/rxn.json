@@ -1,0 +1,16 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "N#Cc1cnncc1C#N.C1CC=CCCC=C1>>C1C=CCCC2C(C3C(C#N)=C(C#N)C2N=N3)C1"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "C1C=CCCC2C(C3C(C#N)=C(C#N)C2N=N3)C1>>C1C=CCCC2C(C=C(C#N)C(C#N)=C2)C1.N#N"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "C1C=CCCC2C(C=C(C#N)C(C#N)=C2)C1>>C1C3C4CCC2C(C3C(C#N)=C(C#N)C24)C1"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "OCc1ccccc1.N1=C2N(CCCCC2)CCC1>>[O-]Cc1ccccc1.[NH+]1=C2N(CCCCC2)CCC1"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[O-]Cc1ccccc1.ClC(Cl)(Cl)C#N>>ClC(Cl)(Cl)C(=[N-])OCc1ccccc1"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "ClC(Cl)(Cl)C(=[N-])OCc1ccccc1.OCc1ccccc1>>ClC(Cl)(Cl)C(=N)OCc1ccccc1.[O-]Cc1ccccc1"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "ClC(Cl)(Cl)C(=N)OCc1ccccc1.[H+]>>ClC(Cl)(Cl)C(=[NH2+])OCc1ccccc1"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "ClC(Cl)(Cl)C(=[NH2+])OCc1ccccc1.COC(=O)C(C)CO>>COC(=O)C(C)C[OH+]Cc1ccccc1.NC(=O)C(Cl)(Cl)Cl"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "COC(=O)C(C)C[OH+]Cc1ccccc1>>COC(=O)C(C)COCc1ccccc1.[H+]"
+        }
+    ]
+}

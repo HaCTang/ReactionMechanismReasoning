@@ -1,0 +1,18 @@
+diff --git a/verl/utils/checkpoint/fsdp_checkpoint_manager.py b/verl/utils/checkpoint/fsdp_checkpoint_manager.py
+index 1730bd84..507fea0b 100644
+--- a/verl/utils/checkpoint/fsdp_checkpoint_manager.py
++++ b/verl/utils/checkpoint/fsdp_checkpoint_manager.py
+@@ -219,8 +219,11 @@ class FSDPCheckpointManager(BaseCheckpointManager):
+             )
+ 
+         # every rank will save its own model and optim shard
+-        state_dict_cfg = ShardedStateDictConfig(offload_to_cpu=True if is_cuda_available else False)
+-        optim_cfg = ShardedOptimStateDictConfig(offload_to_cpu=True if is_cuda_available else False)
++        # HiPerGator fix: offload_to_cpu=False keeps shards in GPU VRAM (already resident),
++        # avoiding 8×7.5GB=60GB CPU RAM spike that causes OOM on 256-320GB nodes.
++        # merge_fsdp_ckpt.py uses map_location="cpu" so loading still works correctly.
++        state_dict_cfg = ShardedStateDictConfig(offload_to_cpu=False)
++        optim_cfg = ShardedOptimStateDictConfig(offload_to_cpu=False)
+         with warnings.catch_warnings():
+             warnings.simplefilter("ignore")
+             with get_fsdp_state_ctx(self.model, StateDictType.SHARDED_STATE_DICT, state_dict_cfg, optim_cfg):

@@ -1,0 +1,150 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "[*]NCCC1=CCCC[C@H]1[Si](C)(C)c1ccccc1",
+                    "label": "None",
+                    "electron_number": 117,
+                    "charge": 0
+                },
+                {
+                    "smiles": "I[Zn-](I)[O+]=CCc1c(Br)ccnc1",
+                    "label": "None",
+                    "electron_number": 228,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "ZnI2",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "EtOH",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[*]N1CCC2=CCCC[C@@H]2C1Cc3cnccc3Br",
+                    "label": "None",
+                    "electron_number": 139,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "[*]NCCC1=CCCC[C@H]1[Si](C)(C)c1ccccc1",
+                    "label": "None",
+                    "electron_number": 117,
+                    "charge": 0
+                },
+                {
+                    "smiles": "I[Zn-](I)[O+]=CCc1c(Br)ccnc1",
+                    "label": "None",
+                    "electron_number": 228,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[*][NH+](C(Cc1cnccc1Br)O[Zn-](I)I)CCC2=CCCC[C@H]2[Si](C)(c3ccccc3)C",
+                    "label": "None",
+                    "electron_number": 345,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "[*][NH+](C(Cc1cnccc1Br)O[Zn-](I)I)CCC2=CCCC[C@H]2[Si](C)(c3ccccc3)C",
+                    "label": "None",
+                    "electron_number": 345,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[*]N(CCC1=CCCC[C@H]1[Si](c2ccccc2)(C)C)C([OH+][Zn-](I)I)Cc3c(Br)ccnc3",
+                    "label": "None",
+                    "electron_number": 345,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "[*]N(CCC1=CCCC[C@@H]1[Si](C)(C)c1ccccc1)C(Cc1c(Br)ccnc1)[OH+][Zn-](I)I",
+                    "label": "None",
+                    "electron_number": 345,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[*][N+](CCC1=CCCC[C@H]1[Si](c2ccccc2)(C)C)=CCc3c(Br)ccnc3",
+                    "label": "None",
+                    "electron_number": 200,
+                    "charge": 1
+                },
+                {
+                    "smiles": "O[Zn-](I)I",
+                    "label": "None",
+                    "electron_number": 145,
+                    "charge": -1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "[*][N+](CCC1=CCCC[C@H]1[Si](c2ccccc2)(C)C)=CCc3c(Br)ccnc3",
+                    "label": "None",
+                    "electron_number": 200,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[*]N(CC[C+]1C2CCC[C@H]1[Si](c3ccccc3)(C)C)C2Cc4c(Br)ccnc4",
+                    "label": "None",
+                    "electron_number": 200,
+                    "charge": 1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "5",
+            "reactants": [
+                {
+                    "smiles": "[*]N(CC[C+]1C2CCC[C@H]1[Si](c3ccccc3)(C)C)C2Cc4c(Br)ccnc4",
+                    "label": "None",
+                    "electron_number": 200,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[*]N1CCC2=CCCC[C@@H]2C1Cc3cnccc3Br",
+                    "label": "None",
+                    "electron_number": 139,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

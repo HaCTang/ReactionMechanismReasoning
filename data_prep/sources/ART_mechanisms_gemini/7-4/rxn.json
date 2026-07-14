@@ -1,0 +1,28 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "[*]C(C)=O.[CH2-]C(=O)c1ccccc1Br>>[*]/C(C)=C/C(=O)c1ccccc1Br"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[*]/C(C)=C/C(=O)c1ccccc1Br>>[*]C(=C)/C=C(\\[O-])c1ccccc1Br"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "[*]C(=C)/C=C(\\[O-])c1ccccc1Br>>[*]C(=C)/C=C(/[O-])c1ccccc1Br"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "[*]C(=C)/C=C(/[O-])c1ccccc1Br>>[*]C1=CC([O-])=C2C=CC=CC2(Br)C1"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "[*]C1=CC([O-])=C2C=CC=CC2(Br)C1>>[*]C1=CC(=O)c2ccccc2C1"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "[*]C1=CC(=O)c2ccccc2C1>>[*]c1cc(O)c2ccccc2c1[H]"
+        }
+    ]
+}

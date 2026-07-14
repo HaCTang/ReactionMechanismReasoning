@@ -1,0 +1,12 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "O=c1cccco1.COC(=O)C#CC(=O)OC>>COC(=O)C1=C(C(=O)OC)C2C=CC(OC2=O)1"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "COC(=O)C1=C(C(=O)OC)C2C=CC(OC2=O)1>>COC(=O)c1c(C(=O)OC)cccc1.O=C=O"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CCC(C)(O)c1ccccc1.[CH2-]CCC>>CCC(C)([O-])c1ccccc1.CCCC"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CCC(C)([O-])c1ccccc1.ClP(c1ccccc1)c1ccccc1>>CCC(C)(OP(c1ccccc1)c1ccccc1)c1ccccc1.[Cl-]"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CCC(C)(OP(c1ccccc1)c1ccccc1)c1ccccc1.CC1=CC(=O)C=C(C)C1=O>>[O-]c1c(C)cc(O[P+](c2ccccc2)(c2ccccc2)OC(C)(CC)c3ccccc3)cc1C"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "[O-]c1c(C)cc(O[P+](c2ccccc2)(c2ccccc2)OC(C)(CC)c3ccccc3)cc1C.OC(=O)c1ccccc1>>Oc1c(C)cc(O[P+](c2ccccc2)(c2ccccc2)OC(C)(CC)c3ccccc3)cc1C.[O-]C(=O)c1ccccc1"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "Oc1c(C)cc(O[P+](c2ccccc2)(c2ccccc2)OC(C)(CC)c3ccccc3)cc1C.[O-]C(=O)c1ccccc1>>CCC(C)(OC(=O)c1ccccc1)c1ccccc1.Oc1c(C)cc(OP(=O)(c2ccccc2)c2ccccc2)cc1C"
+        }
+    ]
+}

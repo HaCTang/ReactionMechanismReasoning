@@ -1,0 +1,148 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "[H][C@@]1(C#CC(=O)OC)CCC(=O)C1CCCC=C",
+                    "label": "None",
+                    "electron_number": 92,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "Cl[Ru](Cl)(=Cc1ccccc1)(P(C1CCCCC1)(C1CCCCC1)C1CCCCC1)(P(C1CCCCC1)(C1CCCCC1)C1CCCCC1)",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "solvent",
+                    "text": "CH2Cl2",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "temperature",
+                    "text": "reflux",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[H][C@@]12CCC(=O)C1CCCC=C2C(=C)C(=O)OC",
+                    "label": "None",
+                    "electron_number": 92,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "[H][C@@]1(C#CC(=O)OC)CCC(=O)C1CCCC=C",
+                    "label": "substrate",
+                    "electron_number": 92,
+                    "charge": 0
+                },
+                {
+                    "smiles": "Cl[Ru](Cl)(=Cc1ccccc1)([P](C1CCCCC1)(C1CCCCC1)C1CCCCC1)([P](C1CCCCC1)(C1CCCCC1)C1CCCCC1)",
+                    "label": "reagent",
+                    "electron_number": 276,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[H][C@@]1(C#CC(=O)OC)CCC(=O)C1CCCC=[Ru](Cl)(Cl)[P](C1CCCCC1)(C1CCCCC1)C1CCCCC1",
+                    "label": "intermediate",
+                    "electron_number": 218,
+                    "charge": 0
+                },
+                {
+                    "smiles": "C=Cc1ccccc1",
+                    "label": "leaving",
+                    "electron_number": 40,
+                    "charge": 0
+                },
+                {
+                    "smiles": "P(C1CCCCC1)(C1CCCCC1)C1CCCCC1",
+                    "label": "leaving",
+                    "electron_number": 110,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "[H][C@@]1(C#CC(=O)OC)CCC(=O)C1CCCC=[Ru](Cl)(Cl)[P](C1CCCCC1)(C1CCCCC1)C1CCCCC1",
+                    "label": "intermediate",
+                    "electron_number": 218,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[H][C@@]1(C2=C(C(=O)OC)[Ru](Cl)(Cl)([P](C3CCCCC3)(C3CCCCC3)C3CCCCC3)4)CCC(=O)C1CCCC42",
+                    "label": "intermediate",
+                    "electron_number": 218,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "[H][C@@]1(C2=C(C(=O)OC)[Ru](Cl)(Cl)([P](C3CCCCC3)(C3CCCCC3)C3CCCCC3)4)CCC(=O)C1CCCC42",
+                    "label": "intermediate",
+                    "electron_number": 218,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[H][C@@]1(C(C(=[Ru](Cl)(Cl)[P](C2CCCCC2)(C2CCCCC2)C2CCCCC2)C(=O)OC)=CCCC3)CCC(=O)C13",
+                    "label": "intermediate",
+                    "electron_number": 218,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "[H][C@@]1(C(C(=[Ru](Cl)(Cl)[P](C2CCCCC2)(C2CCCCC2)C2CCCCC2)C(=O)OC)=CCCC3)CCC(=O)C13",
+                    "label": "intermediate",
+                    "electron_number": 218,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[H][C@@]1(C#CC(=O)OC)CCC(=O)C1CCCC=C",
+                    "label": "substrate",
+                    "electron_number": 92,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[H][C@@]12CCC(=O)C1CCCC=C2C(=C)C(=O)OC",
+                    "label": "product",
+                    "electron_number": 92,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[H][C@@]1(C#CC(=O)OC)CCC(=O)C1CCCC=[Ru](Cl)(Cl)[P](C1CCCCC1)(C1CCCCC1)C1CCCCC1",
+                    "label": "intermediate",
+                    "electron_number": 218,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

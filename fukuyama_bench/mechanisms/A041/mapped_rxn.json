@@ -1,0 +1,16 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CC(C)CO.P(Br)(Br)Br>>CC(C)C[OH+]P(Br)Br.[Br-]",
+            "mapped_rxn": "[P:6]([Br:7])([Br:8])[Br:9].[CH3:1][CH:2]([CH3:3])[CH2:4][OH:5]>>[CH3:1][CH:2]([CH3:3])[CH2:4][OH+:5][P:6]([Br:7])[Br:8].[Br-:9]",
+            "confidence": 0.24635881453506758
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CC(C)C[OH+]P(Br)Br.[Br-]>>CC(C)CBr.[OH]P(Br)Br",
+            "mapped_rxn": "[CH3:1][CH:2]([CH3:3])[CH2:4][OH+:6][P:7]([Br:8])[Br:9].[Br-:5]>>[CH3:1][CH:2]([CH3:3])[CH2:4][Br:5].[OH:6][P:7]([Br:8])[Br:9]",
+            "confidence": 0.23949869055148323
+        }
+    ]
+}

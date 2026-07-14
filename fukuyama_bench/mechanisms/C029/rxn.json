@@ -1,0 +1,44 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "COc1cccc(C(C)C(=O)Cl)c1.CN=C1COC(C)(C)OC1>>COc1cccc(C(C)C(=O)[N+](C)=C2COC(C)(C)OC2)c1.[Cl-]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "COc1cccc(C(C)C(=O)[N+](C)=C2COC(C)(C)OC2)c1.N(CC)(CC)CC>>COc1cccc(C(C)C(=O)N(C)C2=COC(C)(C)OC2)c1.[NH+](CC)(CC)CC"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "COc1cccc(C(C)C(=O)N(C)C2=COC(C)(C)OC2)c1.C[Al](Cl)Cl>>COc1cccc(C(C)C(=O)N(C)C(=C)C=[O+][Al-](C)(Cl)Cl)c1.CC(C)=O"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "COc1cccc(C(C)C(=O)N(C)C(=C)C=[O+][Al-](C)(Cl)Cl)c1>>C[O+]=C1C=C2C(CC(N(C(C2C)=O)C)=CO[Al-](Cl)(Cl)C)C=C1"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "C[O+]=C1C=C2C(CC(N(C(C2C)=O)C)=CO[Al-](Cl)(Cl)C)C=C1>>COc1cc2c(cc1)CC(C=O)N(C)C(=O)C2C.C[Al](Cl)(Cl)"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "COc1cc2c(cc1)CC(C=O)N(C)C(=O)C2C.[BH4-]>>COc1cc2c(cc1)CC(C[O-])N(C)C(=O)C2C.B"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "COc1cc2c(cc1)CC(C[O-])N(C)C(=O)C2C.[H+]>>COc1cc2c(cc1)CC(CO)N(C)C(=O)C2C"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "COc1cc2c(cc1)CC(CO)N(C)C(=O)C2C.CS(=O)(=O)Cl.N(CC)(CC)CC>>COc1cc2c(cc1)CC(COS(C)(=O)=O)N(C)C(=O)C2C.[NH+](CC)(CC)CC.[Cl-]"
+        },
+        {
+            "step": "9",
+            "rxn_smiles": "COc1cc2c(cc1)CC(COS(C)(=O)=O)N(C)C(=O)C2C.[O-]C(C)(C)C>>COc1cc2c(cc1)CC(COS(C)(=O)=O)N(C)C(=O)[C-]2C.OC(C)(C)C"
+        },
+        {
+            "step": "10",
+            "rxn_smiles": "COc1cc2c(cc1)CC(COS(C)(=O)=O)N(C)C(=O)[C-]2C>>COc1cc2c(cc1)C[C@@H]3N(C)C(=O)[C@@]2(C)C3.[O-]S(C)(=O)=O"
+        }
+    ]
+}

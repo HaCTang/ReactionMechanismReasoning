@@ -1,0 +1,159 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C/C=C/CBr",
+                    "label": "substrate",
+                    "electron_number": 30,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "PhCHO",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "CrCl2 (2 eq)",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "solvent",
+                    "text": "THF",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "temperature",
+                    "text": "0 °C to rt",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C=C[C@H](C)[C@@H](O)c1ccccc1",
+                    "label": "product",
+                    "electron_number": 64,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C/C=C/CBr",
+                    "label": "substrate",
+                    "electron_number": 30,
+                    "charge": 0
+                },
+                {
+                    "smiles": "Cl[Cr]Cl",
+                    "label": "reagent",
+                    "electron_number": 20,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[CH2]/C=C/C",
+                    "label": "intermediate",
+                    "electron_number": 23,
+                    "charge": 0
+                },
+                {
+                    "smiles": "Cl[Cr](Cl)Br",
+                    "label": "leaving",
+                    "electron_number": 27,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "[CH2]/C=C/C",
+                    "label": "intermediate",
+                    "electron_number": 23,
+                    "charge": 0
+                },
+                {
+                    "smiles": "Cl[Cr]Cl",
+                    "label": "reagent",
+                    "electron_number": 20,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C/C=C/C[Cr](Cl)Cl",
+                    "label": "intermediate",
+                    "electron_number": 43,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "C/C=C/C[Cr](Cl)Cl",
+                    "label": "intermediate",
+                    "electron_number": 43,
+                    "charge": 0
+                },
+                {
+                    "smiles": "O=Cc1ccccc1",
+                    "label": "reagent",
+                    "electron_number": 40,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C=C[C@H](C)[C@@H](O[Cr](Cl)Cl)c1ccccc1",
+                    "label": "intermediate",
+                    "electron_number": 83,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "C=C[C@H](C)[C@@H](O[Cr](Cl)Cl)c1ccccc1",
+                    "label": "intermediate",
+                    "electron_number": 83,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[H+]",
+                    "label": "reagent",
+                    "electron_number": 0,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C=C[C@H](C)[C@@H](O)c1ccccc1",
+                    "label": "product",
+                    "electron_number": 64,
+                    "charge": 0
+                },
+                {
+                    "smiles": "Cl[Cr+](Cl)",
+                    "label": "leaving",
+                    "electron_number": 19,
+                    "charge": 1
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "O=C1CCCCC1Cl.C[O-]>>[O-]C1=CCCCC1Cl.CO"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[O-]C1=CCCCC1Cl>>O=C1C2CCCC12.[Cl-]"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "O=C1C2CCCC12.C[O-]>>COC1([O-])C2CCCC12"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "COC1([O-])C2CCCC12.CO>>COC(=O)C1CCCC1.C[O-]"
+        }
+    ]
+}

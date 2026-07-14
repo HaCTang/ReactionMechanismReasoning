@@ -1,0 +1,20 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "[H][C@]12CCCC[C@]1(O)CCCC2.BrBr.[Ag+]>>[H][C@]12CCCC[C@]1(OBr)CCCC2.[Ag]Br.[H+]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[H][C@]12CCCC[C@]1(OBr)CCCC2>>[H][C@]12CCCC[C@]1([O])CCCC2.[Br]"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "[H][C@]12CCCC[C@]1([O])CCCC2>>O=C1CCCC[CH]CCCC1"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "O=C1CCCC[CH]CCCC1.[H][C@]12CCCC[C@]1(OBr)CCCC2>>O=C1CCCC[CH](Br)CCCC1.[H][C@]12CCCC[C@]1([O])CCCC2"
+        }
+    ]
+}

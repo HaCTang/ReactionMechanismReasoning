@@ -1,0 +1,24 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "ClCCC#N.NC(N)=S>>NC(=[NH2+])SCCC#N.[Cl-]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "NC(=[NH2+])SCCC#N.O>>NC(=N)SCCC#N.[OH3+]"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "NC(=N)SCCC#N.[OH-]>>NC(O)([NH-])SCCC#N"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "NC(O)([NH-])SCCC#N>>[S-]CCC#N.NC(N)=O"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "[S-]CCC#N.[H+]>>SCCC#N"
+        }
+    ]
+}

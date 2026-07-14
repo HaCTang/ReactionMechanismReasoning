@@ -1,0 +1,203 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "O=C1CC2CCC1C2",
+                    "label": "None",
+                    "electron_number": 44,
+                    "charge": 0
+                },
+                {
+                    "smiles": "c1cnncn1",
+                    "label": "None",
+                    "electron_number": 30,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "C1CCNC1",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "solvent",
+                    "text": "toluene",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "MS 4A",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "temperature",
+                    "text": "reflux",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "c1cc2c(cn1)C1CCC2C1",
+                    "label": "None",
+                    "electron_number": 56,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "O=C1CC2CCC1C2",
+                    "label": "substrate",
+                    "electron_number": 44,
+                    "charge": 0
+                },
+                {
+                    "smiles": "C1CCNC1",
+                    "label": "reagent",
+                    "electron_number": 30,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "OC1(N2CCCC2)CC3CCC1C3",
+                    "label": "intermediate",
+                    "electron_number": 74,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "OC1(N2CCCC2)CC3CCC1C3",
+                    "label": "intermediate",
+                    "electron_number": 74,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C1(=[N+]2CCCC2)CC3CCC1C3",
+                    "label": "intermediate",
+                    "electron_number": 66,
+                    "charge": 1
+                },
+                {
+                    "smiles": "[OH-]",
+                    "label": "leaving",
+                    "electron_number": 8,
+                    "charge": -1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "C1(=[N+]2CCCC2)CC3CCC1C3",
+                    "label": "intermediate",
+                    "electron_number": 66,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C1(=CC2CCC1C2)N3CCCC3",
+                    "label": "intermediate",
+                    "electron_number": 66,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[H+]",
+                    "label": "leaving",
+                    "electron_number": 0,
+                    "charge": 1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "C1(=CC2CCC1C2)N3CCCC3",
+                    "label": "intermediate",
+                    "electron_number": 66,
+                    "charge": 0
+                },
+                {
+                    "smiles": "c1cnncn1",
+                    "label": "reagent",
+                    "electron_number": 30,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C12CC(C3(N4CCCC4)C2C5N=NC3C=N5)CC1",
+                    "label": "intermediate",
+                    "electron_number": 96,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "5",
+            "reactants": [
+                {
+                    "smiles": "C12CC(C3(N4CCCC4)C2C5N=NC3C=N5)CC1",
+                    "label": "intermediate",
+                    "electron_number": 96,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C12CC(CC2)C3(C1C=NC=C3)N4CCCC4",
+                    "label": "intermediate",
+                    "electron_number": 86,
+                    "charge": 0
+                },
+                {
+                    "smiles": "N#N",
+                    "label": "leaving",
+                    "electron_number": 10,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "6",
+            "reactants": [
+                {
+                    "smiles": "C12CC(CC2)C3(C1C=NC=C3)N4CCCC4",
+                    "label": "intermediate",
+                    "electron_number": 86,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "c1cc2c(cn1)C1CCC2C1",
+                    "label": "product",
+                    "electron_number": 56,
+                    "charge": 0
+                },
+                {
+                    "smiles": "C1CCNC1",
+                    "label": "leaving",
+                    "electron_number": 30,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

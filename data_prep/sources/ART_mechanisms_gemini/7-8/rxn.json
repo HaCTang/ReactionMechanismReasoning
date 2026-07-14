@@ -1,0 +1,20 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CC(O)C=C(C)CCC=C1C=CC=C1.[AlH4-]>>[c-]1(cccc1)CCCC(=CC(C)O)C.[AlH3]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[c-]1(cccc1)CCCC(=CC(C)O)C>>C1(CCCC(=CC(C)O)C)=CC=CC1"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "C1(CCCC(=CC(C)O)C)=CC=CC1.CC(=O)C>>C1(CCCC(=CC(C)=O)C)=CC=CC1.CC(O)C"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "C1(CCCC(=CC(C)=O)C)=CC=CC1>>CC(C1C2(C)CCCC32C=CC1C3)=O"
+        }
+    ]
+}

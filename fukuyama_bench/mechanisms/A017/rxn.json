@@ -1,0 +1,32 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CC1=C[C@]2(C)CCC[C@@]23[C@H](C)CC(=O)[C@@]13C.NN>>CC1=C[C@]2(C)CCC[C@@]23[C@H](C)CC([O-])([NH2+]N)[C@@]13C"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CC1=C[C@]2(C)CCC[C@@]23[C@H](C)CC([O-])([NH2+]N)[C@@]13C>>CC1=C[C@]2(C)CCC[C@@]23[C@H](C)CC(O)(NN)[C@@]13C"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CC1=C[C@]2(C)CCC[C@@]23[C@H](C)CC(O)(NN)[C@@]13C>>CC1=C[C@]2(C)CCC[C@@]23[C@H](C)CC(=NN)[C@@]13C.O"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CC1=C[C@]2(C)CCC[C@@]23[C@H](C)CC(=NN)[C@@]13C.[OH-]>>CC1=C[C@]2(C)CCC[C@@]23[C@H](C)CC(=N[NH-])[C@@]13C.O"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CC1=C[C@]2(C)CCC[C@@]23[C@H](C)CC(=N[NH-])[C@@]13C.O>>CC1=C[C@]2(C)CCC[C@@]23[C@H](C)CC(N=N)[C@@]13C.[OH-]"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "CC1=C[C@]2(C)CCC[C@@]23[C@H](C)CC(N=N)[C@@]13C.[OH-]>>CC1=C[C@]2(C)CCC[C@@]23[C@H](C)C[CH-][C@@]13C.N#N.O"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "CC1=C[C@]2(C)CCC[C@@]23[C@H](C)C[CH-][C@@]13C.O>>CC1=C[C@]2(C)CCC[C@@]23[C@H](C)CC[C@@]13C.[OH-]"
+        }
+    ]
+}

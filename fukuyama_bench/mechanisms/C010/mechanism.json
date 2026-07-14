@@ -1,0 +1,215 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C(#Cc1ccccc1)c1ccccc1",
+                    "label": "substrate",
+                    "electron_number": 66,
+                    "charge": 0
+                },
+                {
+                    "smiles": "Ic1ccccc1",
+                    "label": "substrate",
+                    "electron_number": 36,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "PhI",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "catalyst",
+                    "text": "Pd(OAc)2 (cat)",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "NaOAc, LiCl",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "solvent",
+                    "text": "DMF",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "temperature",
+                    "text": "100 °C",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C(=C1c2ccccc2-c2ccccc21)c1ccccc1",
+                    "label": "product",
+                    "electron_number": 94,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "Ic1ccccc1",
+                    "label": "substrate",
+                    "electron_number": 36,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Pd]",
+                    "label": "catalyst",
+                    "electron_number": 10,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[Pd](I)c1ccccc1",
+                    "label": "intermediate",
+                    "electron_number": 46,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "[Pd](I)c1ccccc1",
+                    "label": "intermediate",
+                    "electron_number": 46,
+                    "charge": 0
+                },
+                {
+                    "smiles": "C(#Cc1ccccc1)c1ccccc1",
+                    "label": "substrate",
+                    "electron_number": 66,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "I[Pd]1(C(c2ccccc2)=C1c3ccccc3)c4ccccc4",
+                    "label": "intermediate",
+                    "electron_number": 112,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "I[Pd]1(C(c2ccccc2)=C1c3ccccc3)c4ccccc4",
+                    "label": "intermediate",
+                    "electron_number": 112,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "I[Pd]C(=C(c1ccccc1)c1ccccc1)c1ccccc1",
+                    "label": "intermediate",
+                    "electron_number": 112,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "I[Pd]C(=C(c1ccccc1)c1ccccc1)c1ccccc1",
+                    "label": "intermediate",
+                    "electron_number": 112,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[H][Pd]1(I)C(c2ccccc2)=C(c2ccccc2)c2ccccc21",
+                    "label": "intermediate",
+                    "electron_number": 112,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "5",
+            "reactants": [
+                {
+                    "smiles": "[H][Pd]1(I)C(c2ccccc2)=C(c2ccccc2)c2ccccc21",
+                    "label": "intermediate",
+                    "electron_number": 112,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "I[Pd]c1ccccc1C(c1ccccc1)=Cc1ccccc1",
+                    "label": "intermediate",
+                    "electron_number": 112,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "6",
+            "reactants": [
+                {
+                    "smiles": "I[Pd]c1ccccc1C(c1ccccc1)=Cc1ccccc1",
+                    "label": "intermediate",
+                    "electron_number": 112,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "I[Pd]1([H])c2c(C(c3c1cccc3)=Cc4ccccc4)cccc2",
+                    "label": "intermediate",
+                    "electron_number": 112,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "7",
+            "reactants": [
+                {
+                    "smiles": "I[Pd]1([H])c2c(C(c3c1cccc3)=Cc4ccccc4)cccc2",
+                    "label": "intermediate",
+                    "electron_number": 112,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C(=C1c2ccccc2-c2ccccc21)c1ccccc1",
+                    "label": "product",
+                    "electron_number": 94,
+                    "charge": 0
+                },
+                {
+                    "smiles": "I",
+                    "label": "leaving",
+                    "electron_number": 8,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Pd]",
+                    "label": "intermediate",
+                    "electron_number": 10,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

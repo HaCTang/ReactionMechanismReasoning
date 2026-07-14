@@ -1,0 +1,24 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C#CCCC#CC(CCC#CCCC=CC)(CCC=C)O[Si](C)(C)C(C)(C)C.[Ru]=Cc1ccccc1>>[Ru]=CCCC(C#CCCC#C)(CCC#CCCC=CC)O[Si](C)(C)C(C)(C)C.C=Cc1ccccc1"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[Ru]=CCCC(C#CCCC#C)(CCC#CCCC=CC)O[Si](C)(C)C(C)(C)C>>[Ru]=C(CCC#C)C1=CCCC1(CCC#CCCC=CC)O[Si](C)(C)C(C)(C)C"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "[Ru]=C(CCC#C)C1=CCCC1(CCC#CCCC=CC)O[Si](C)(C)C(C)(C)C>>C#CCCC1=C(C(CCC=CC)=[Ru])CC[C@@]2(O[Si](C)(C(C)(C)C)C)CCC=C12"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "C#CCCC1=C(C(CCC=CC)=[Ru])CC[C@@]2(O[Si](C)(C(C)(C)C)C)CCC=C12>>CC=CCCC1=C(C=[Ru])CCC2=C1CC[C@@]3(O[Si](C)(C(C)(C)C)C)CCC=C23"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CC=CCCC1=C(C=[Ru])CCC2=C1CC[C@@]3(O[Si](C)(C(C)(C)C)C)CCC=C23>>CC(C)(C)[Si](C)(C)OC12CCC=C1C1=C(CC2)C2=C(C=CCC2)CC1.CC=[Ru]"
+        }
+    ]
+}

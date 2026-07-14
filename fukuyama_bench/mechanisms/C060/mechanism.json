@@ -1,0 +1,188 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C#CC1(C)CO1",
+                    "label": "None",
+                    "electron_number": 32,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "Pd2(dba)3-CHCl3 (2.5 mol%)",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "DPPE",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "MECOCH2CO2Me",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "solvent",
+                    "text": "THF",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "temperature",
+                    "text": "rt",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "silica gel",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "COC(=O)c1c(C)oc(C)c1C",
+                    "label": "None",
+                    "electron_number": 66,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C#CC1(C)CO1",
+                    "label": "substrate",
+                    "electron_number": 32,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Pd]",
+                    "label": "reagent",
+                    "electron_number": 10,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[O-]CC(C)=C=C[Pd+]",
+                    "label": "intermediate",
+                    "electron_number": 42,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "[O-]CC(C)=C=C[Pd+]",
+                    "label": "intermediate",
+                    "electron_number": 42,
+                    "charge": 0
+                },
+                {
+                    "smiles": "COC(=O)CC(C)=O",
+                    "label": "reagent",
+                    "electron_number": 46,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "OCC(C)=C=C[Pd+]",
+                    "label": "intermediate",
+                    "electron_number": 42,
+                    "charge": 1
+                },
+                {
+                    "smiles": "COC(=O)[CH-]C(C)=O",
+                    "label": "intermediate",
+                    "electron_number": 46,
+                    "charge": -1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "OCC(C)=C=C[Pd+]",
+                    "label": "intermediate",
+                    "electron_number": 42,
+                    "charge": 1
+                },
+                {
+                    "smiles": "COC(=O)[CH-]C(C)=O",
+                    "label": "intermediate",
+                    "electron_number": 46,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[O-]C(C)=C(C(C[Pd+])=C(CO)C)C(OC)=O",
+                    "label": "intermediate",
+                    "electron_number": 88,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "[O-]C(C)=C(C(C[Pd+])=C(CO)C)C(OC)=O",
+                    "label": "intermediate",
+                    "electron_number": 88,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(OC1(C)CO)=C(C(OC)=O)C1=C.[Pd]",
+                    "label": "intermediate",
+                    "electron_number": 88,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "5",
+            "reactants": [
+                {
+                    "smiles": "CC(OC1(C)CO)=C(C(OC)=O)C1=C.[Pd]",
+                    "label": "intermediate",
+                    "electron_number": 88,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "COC(=O)c1c(C)oc(C)c1C",
+                    "label": "product",
+                    "electron_number": 66,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Pd]",
+                    "label": "leaving",
+                    "electron_number": 10,
+                    "charge": 0
+                },
+                {
+                    "smiles": "C=O",
+                    "label": "leaving",
+                    "electron_number": 12,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

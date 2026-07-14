@@ -1,0 +1,32 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "COC(C(CCCI)(COCC=C)C)=O.I[Sm]I>>[CH2]CCC(C)(COCC=C)C(=O)OC.I[Sm](I)I"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[CH2]CCC(C)(COCC=C)C(=O)OC.I[Sm]I>>COC(C(CCC[Sm](I)I)(COCC=C)C)=O"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "COC(C(CCC[Sm](I)I)(COCC=C)C)=O>>C=CCOC[C@@]1(C)CCCC1=O.CO[Sm](I)I"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "C=CCOC[C@@]1(C)CCCC1=O.I[Sm]I>>[Sm](I)(I)O[C]1(CCCC1(C)COCC=C)"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "[Sm](I)(I)O[C]1(CCCC1(C)COCC=C)>>[CH2]C1COC[C@@]2(C)CCC[C@@]12(O[Sm](I)I)"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "[CH2]C1COC[C@@]2(C)CCC[C@@]12(O[Sm](I)I).I[Sm]I>>I[Sm](I)CC1COC[C@@]2(C)CCC[C@@]12(O[Sm](I)I)"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "I[Sm](I)CC1COC[C@@]2(C)CCC[C@@]12(O[Sm](I)I).[H+].[H+]>>C[C@@H]1COC[C@]2(C)CCC[C@]12O.[Sm+](I)I.[Sm+](I)I"
+        }
+    ]
+}

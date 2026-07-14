@@ -1,0 +1,20 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C1C2CC3CC1CC(C2)C3.C[C+](C)(C)>>[C+]12CC3CC(CC(C3)C1)C2.CC(C)C"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[C+]12CC3CC(CC(C3)C1)C2.[C-]#[O+]>>[O+]#CC12CC3CC(CC(C3)C1)C2"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "[O+]#CC12CC3CC(CC(C3)C1)C2.O>>O=C([OH2+])C12CC3CC(CC(C3)C1)C2"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "O=C([OH2+])C12CC3CC(CC(C3)C1)C2>>O=C(O)C12CC3CC(CC(C3)C1)C2.[H+]"
+        }
+    ]
+}

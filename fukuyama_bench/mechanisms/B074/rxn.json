@@ -1,0 +1,28 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C=CCCCN(CCCC)C(=O)On1ccccc1=S>>CCCCN(CCCC=C)C(=O)[O].S=C1[N]C=CC=C1"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CCCCN(CCCC=C)C(=O)[O]>>CCCC[N](CCCC=C).O=C=O"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CCCC[N](CCCC=C).FB(F)F>>C=CCCC[N+](CCCC)[B-](F)(F)F"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "C=CCCC[N+](CCCC)[B-](F)(F)F>>CCCC[N+]1(CCCC1[CH2])[B-](F)(F)F"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CCCC[N+]1(CCCC1[CH2])[B-](F)(F)F.C=CCCCN(CCCC)C(=O)On1ccccc1=S>>CCCC[N+]1(CCCC1CSc1ccccn1)[B-](F)(F)F.CCCCN(CCCC=C)C(=O)[O]"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "CCCC[N+]1(CCCC1CSc1ccccn1)[B-](F)(F)F>>CCCCN1CCCC1CSc1ccccn1.FB(F)F"
+        }
+    ]
+}

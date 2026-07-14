@@ -1,0 +1,64 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CC1C(=O)CCCC1=O.[OH-]>>CC1=C([O-])CCCC1=O.[OH2]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CC1=C([O-])CCCC1=O.C=CC(C)=O>>CC1(CC=C([O-])C)C(CCCC1=O)=O"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CC1(CC=C([O-])C)C(CCCC1=O)=O.CO>>CC(=O)CCC1(C)C(=O)CCCC1=O.C[O-]"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CC(=O)CCC1(C)C(=O)CCCC1=O.C1CCNC1>>CC(CCC1(C(CCCC1=O)=O)C)([NH+]2CCCC2)[O-]"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CC(CCC1(C(CCCC1=O)=O)C)([NH+]2CCCC2)[O-]>>CC(CCC1(C(CCCC1=O)=O)C)(N2CCCC2)O"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "CC(CCC1(C(CCCC1=O)=O)C)(N2CCCC2)O>>CC(CCC1(C(CCCC1=O)=O)C)=[N+]2CCCC2.[OH-]"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "CC(CCC1(C(CCCC1=O)=O)C)=[N+]2CCCC2.[OH-]>>C=C(N1CCCC1)CCC2(C(CCCC2=O)=O)C.[OH2]"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "C=C(N1CCCC1)CCC2(C(CCCC2=O)=O)C>>CC12CCC(CC1([O-])CCCC2=O)=[N+]3CCCC3"
+        },
+        {
+            "step": "9",
+            "rxn_smiles": "CC12CCC(CC1([O-])CCCC2=O)=[N+]3CCCC3>>CC12CCC(N3CCCC3)=CC1(O)CCCC2=O"
+        },
+        {
+            "step": "10",
+            "rxn_smiles": "CC12CCC(N3CCCC3)=CC1(O)CCCC2=O>>CC12CCC(C=C1CCCC2=O)=[N+]3CCCC3.[OH-]"
+        },
+        {
+            "step": "11",
+            "rxn_smiles": "CC12CCC(C=C1CCCC2=O)=[N+]3CCCC3.[OH-]>>CC12CC=C(N3CCCC3)C=C1CCCC2=O.[OH2]"
+        },
+        {
+            "step": "12",
+            "rxn_smiles": "CC12CC=C(N3CCCC3)C=C1CCCC2=O.[H+]>>CC12CCC(C=C1CCCC2=O)=[N+]3CCCC3"
+        },
+        {
+            "step": "13",
+            "rxn_smiles": "CC12CCC(C=C1CCCC2=O)=[N+]3CCCC3.[OH2]>>CC12CCC([NH+]3CCCC3)(O)C=C1CCCC2=O"
+        },
+        {
+            "step": "14",
+            "rxn_smiles": "CC12CCC([NH+]3CCCC3)(O)C=C1CCCC2=O>>CC12CCC(C=C1CCCC2=O)=[OH+].C1CCNC1"
+        },
+        {
+            "step": "15",
+            "rxn_smiles": "CC12CCC(C=C1CCCC2=O)=[OH+]>>CC12CCC(=O)C=C1CCCC2=O.[H+]"
+        }
+    ]
+}

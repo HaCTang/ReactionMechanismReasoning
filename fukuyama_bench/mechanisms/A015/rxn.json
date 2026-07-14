@@ -1,0 +1,44 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "COC1CCCCCC/C1=N/O.ClP(Cl)(Cl)(Cl)Cl>>COC1CCCCCC/C1=N/[OH+]P(Cl)(Cl)(Cl)Cl.[Cl-]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "COC1CCCCCC/C1=N/[OH+]P(Cl)(Cl)(Cl)Cl>>COC1CCCCCC/C1=N/OP(Cl)(Cl)(Cl)Cl.[H+]"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "COC1CCCCCC/C1=N/OP(Cl)(Cl)(Cl)Cl>>C[O+]=CCCCCCCC#N.ClP(=O)(Cl)Cl.[Cl-]"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "C[O+]=CCCCCCCC#N.[Cl-]>>COC(Cl)CCCCCCC#N"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "COC(Cl)CCCCCCC#N>>C[O+]=CCCCCCCC#N.[Cl-]"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "C[O+]=CCCCCCCC#N.O>>COC([OH2+])CCCCCCC#N"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "COC([OH2+])CCCCCCC#N>>COC(O)CCCCCCC#N.[H+]"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "COC(O)CCCCCCC#N.[H+]>>C[OH+]C(O)CCCCCCC#N"
+        },
+        {
+            "step": "9",
+            "rxn_smiles": "C[OH+]C(O)CCCCCCC#N>>[OH+]=CCCCCCCC#N.CO"
+        },
+        {
+            "step": "10",
+            "rxn_smiles": "[OH+]=CCCCCCCC#N>>[H]C(=O)CCCCCCC#N.[H+]"
+        }
+    ]
+}

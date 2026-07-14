@@ -1,0 +1,32 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CC1=CCCCC1.CC(=O)O[Hg]OC(C)=O>>CC(=O)O[Hg+]1[C@@]2(C)CCCC[C@H]12.CC(=O)[O-]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CC(=O)O[Hg+]1[C@@]2(C)CCCC[C@H]12.O>>C[C@@]1([OH2+])CCCC[C@@H]1[Hg]OC(C)=O"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "C[C@@]1([OH2+])CCCC[C@@H]1[Hg]OC(C)=O.CC(=O)[O-]>>C[C@@]1(O)CCCC[C@@H]1[Hg]OC(C)=O.CC(=O)O"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "C[C@@]1(O)CCCC[C@@H]1[Hg]OC(C)=O.[H-]>>C[C@@]1(O)CCCC[C@@H]1[Hg][H].CC(=O)[O-]"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "C[C@@]1(O)CCCC[C@@H]1[Hg][H].[CH3]>>C[C@@]1(O)CCCC[C@@H]1[Hg].C"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "C[C@@]1(O)CCCC[C@@H]1[Hg]>>C[C@@]1(O)CCCC[CH]1.[Hg]"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "C[C@@]1(O)CCCC[CH]1.C[C@@]1(O)CCCC[C@@H]1[HgH]>>CC1(O)CCCCC1.C[C@@]1(O)CCCC[C@@H]1[Hg]"
+        }
+    ]
+}

@@ -1,0 +1,99 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "CC(C)CO",
+                    "label": "None",
+                    "electron_number": 32,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "PBr3",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "temperature",
+                    "text": "0 °C to rt",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(C)CBr",
+                    "label": "None",
+                    "electron_number": 32,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "CC(C)CO",
+                    "label": "substrate",
+                    "electron_number": 32,
+                    "charge": 0
+                },
+                {
+                    "smiles": "P(Br)(Br)Br",
+                    "label": "reagent",
+                    "electron_number": 26,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(C)C[OH+]P(Br)Br",
+                    "label": "intermediate",
+                    "electron_number": 50,
+                    "charge": 1
+                },
+                {
+                    "smiles": "[Br-]",
+                    "label": "intermediate",
+                    "electron_number": 8,
+                    "charge": -1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "CC(C)C[OH+]P(Br)Br",
+                    "label": "intermediate",
+                    "electron_number": 50,
+                    "charge": 1
+                },
+                {
+                    "smiles": "[Br-]",
+                    "label": "intermediate",
+                    "electron_number": 8,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(C)CBr",
+                    "label": "product",
+                    "electron_number": 32,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[OH]P(Br)Br",
+                    "label": "leaving",
+                    "electron_number": 26,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

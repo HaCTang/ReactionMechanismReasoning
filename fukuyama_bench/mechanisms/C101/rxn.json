@@ -1,0 +1,20 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "COc1ccc(/C=C\\c2cccs2)cc1>>COC(C=C1)=C[C@@H]2C1=CC=C3SC=C[C@H]23"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "COC(C=C1)=C[C@@H]2C1=CC=C3SC=C[C@H]23>>COC1=CC=C2[C@H](c3c(C=C2)scc3)C1"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "COC1=CC=C2[C@H](c3c(C=C2)scc3)C1>>C=C(OC)/C=C\\c1ccc2sccc2c1"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "C=C(OC)/C=C\\c1ccc2sccc2c1>>C=C(OC)/C=C/c1ccc2sccc2c1"
+        }
+    ]
+}

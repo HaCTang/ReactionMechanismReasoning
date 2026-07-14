@@ -1,0 +1,36 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C1=C(N2CCCC2)CCCC1.CC1=CC=C(S(=O)(SCCCSS(=O)(C2=CC=C(C=C2)C)=O)=O)C=C1>>CC1=CC=C(C=C1)S(=O)(=O)SCCCSC2CCCCC2=[N+]3CCCC3.CC1=CC=C(C=C1)S(=O)[O-]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CC1=CC=C(C=C1)S(=O)(=O)SCCCSC2CCCCC2=[N+]3CCCC3.CCN(CC)CC>>CC1=CC=C(C=C1)S(=O)(=O)SCCCSC2=C(N3CCCC3)CCCC2.CC[NH+](CC)CC"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CC1=CC=C(C=C1)S(=O)(=O)SCCCSC2=C(N3CCCC3)CCCC2>>[N+]1(CCCC1)=C2CCCCC23SCCCS3.CC1=CC=C(C=C1)S(=O)[O-]"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "[N+]1(CCCC1)=C2CCCCC23SCCCS3.CCN(CC)CC>>C1CCN(C1)C2=CCCCC23SCCCS3.CC[NH+](CC)CC"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "C1CCN(C1)C2=CCCCC23SCCCS3.[H+]>>[N+]1(CCCC1)=C2CCCCC23SCCCS3"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "[N+]1(CCCC1)=C2CCCCC23SCCCS3.O>>[OH2+]C1(N2CCCC2)CCCCC13SCCCS3"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "[OH2+]C1(N2CCCC2)CCCCC13SCCCS3>>OC1(CCCCC12SCCCS2)[NH+]3CCCC3"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "OC1(CCCCC12SCCCS2)[NH+]3CCCC3>>O=C1CCCCC12SCCCS2.C1CCNC1.[H+]"
+        }
+    ]
+}

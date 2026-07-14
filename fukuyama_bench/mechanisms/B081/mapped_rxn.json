@@ -1,0 +1,46 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C[C@H](N)C(=O)O.O=NON=O>>C[C@H]([NH]N=[OH+])C(=O)O.O=N[O-]",
+            "mapped_rxn": "[CH3:1][C@H:2]([NH2:3])[C:6](=[O:7])[OH:8].[N:4](=[O:5])[O:11][N:10]=[O:9]>>[CH3:1][C@H:2]([NH:3][N:4]=[OH+:5])[C:6](=[O:7])[OH:8].[O:9]=[N:10][O-:11]",
+            "confidence": 0.6737976111652633
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "C[C@H]([NH]N=[OH+])C(=O)O>>C[C@H](N=NO)C(=O)O.[H+]",
+            "mapped_rxn": "[CH3:1][C@H:2]([NH:3][N:4]=[OH+:5])[C:6](=[O:7])[OH:8]>>[CH3:1][C@H:2]([N:3]=[N:4][OH:5])[C:6](=[O:7])[OH:8].[H+:9]",
+            "confidence": 0.9880668954371009
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "C[C@H](N=NO)C(=O)O.[H+]>>C[C@H](N=N[OH2+])C(=O)O",
+            "mapped_rxn": "[CH3:1][C@H:2]([N:3]=[N:4][OH:5])[C:6](=[O:7])[OH:8].[H+]>>[CH3:1][C@H:2]([N:3]=[N:4][OH2+:5])[C:6](=[O:7])[OH:8]",
+            "confidence": 0.9863722920379917
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "C[C@H](N=N[OH2+])C(=O)O>>C[C@H]([N+]#N)C(=O)O.[OH2]",
+            "mapped_rxn": "[CH3:1][C@H:2]([N:3]=[N:4][OH2+:8])[C:5](=[O:6])[OH:7]>>[CH3:1][C@H:2]([N+:3]#[N:4])[C:5](=[O:6])[OH:7].[OH2:8]",
+            "confidence": 0.985254413919819
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "C[C@H]([N+]#N)C(=O)O>>C[C@@H]1C(O1)=O.N#N.[H+]",
+            "mapped_rxn": "[CH3:1][C@@H:2]([C:4]([OH:5])=[O:3])[N+:7]#[N:6]>>[CH3:1][C@H:2]1[O:3][C:4]1=[O:5].[N:6]#[N:7].[H+:8]",
+            "confidence": 0.8896226015396044
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "C[C@@H]1C(O1)=O.[Cl-]>>C[C@H](Cl)C(=O)[O-]",
+            "mapped_rxn": "[CH3:1][C@@H:2]1[C:4](=[O:5])[O:6]1.[Cl-:3]>>[CH3:1][C@H:2]([Cl:3])[C:4](=[O:5])[O-:6]",
+            "confidence": 0.9575734171482004
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "C[C@H](Cl)C(=O)[O-].[H+]>>C[C@H](Cl)C(=O)O",
+            "mapped_rxn": "[CH3:1][C@H:2]([Cl:3])[C:4](=[O:5])[O-:6].[H+]>>[CH3:1][C@H:2]([Cl:3])[C:4](=[O:5])[OH:6]",
+            "confidence": 0.935313346088742
+        }
+    ]
+}

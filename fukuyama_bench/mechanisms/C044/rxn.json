@@ -1,0 +1,40 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "[H][C@@]12CCc3cc(OC)ccc3[C@@]1([H])CC[C@]1(C)C(OC(C)=O)C(COS(=O)(=O)c3ccc(C)cc3)C[C@@]21[H].C[O-]>>[H][C@@]12CCc3cc(OC)ccc3[C@@]1([H])CC[C@]1(C)C([O-])C(COS(=O)(=O)c3ccc(C)cc3)C[C@@]21[H].CC(=O)OC"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[H][C@@]12CCc3cc(OC)ccc3[C@@]1([H])CC[C@]1(C)C([O-])C(COS(=O)(=O)c3ccc(C)cc3)C[C@@]21[H]>>[H][C@@]12CCc3cc(OC)ccc3[C@@]1([H])CC[C@](C)(C=O)[C@@]2([H])CC=C.Cc1ccc(S(=O)(=O)[O-])cc1"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "[H][C@@]12CCc3cc(OC)ccc3[C@@]1([H])CC[C@](C)(C=O)[C@@]2([H])CC=C.[NH3+]CCN>>[H][C@@]12CCc3cc(OC)ccc3[C@@]1([H])CC[C@](C)(C=[NH+]CCN)[C@@]2([H])CC=C.O"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "[H][C@@]12CCc3cc(OC)ccc3[C@@]1([H])CC[C@](C)(C=[NH+]CCN)[C@@]2([H])CC=C.CC1(C)OC(=O)[CH-]C(=O)O1>>[H][C@@]12CCc3cc(OC)ccc3[C@@]1([H])CC[C@](C)(C(C4C(=O)OC(C)(C)OC4=O)NCCN)[C@@]2([H])CC=C"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "[H][C@@]12CCc3cc(OC)ccc3[C@@]1([H])CC[C@](C)(C(C4C(=O)OC(C)(C)OC4=O)NCCN)[C@@]2([H])CC=C>>[H][C@@]12CCc3cc(OC)ccc3[C@@]1([H])CC[C@](C)(C=C3C(=O)OC(C)(C)OC3=O)[C@@]2([H])CC=C.NCCN"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "[H][C@@]12CCc3cc(OC)ccc3[C@@]1([H])CC[C@](C)(C=C3C(=O)OC(C)(C)OC3=O)[C@@]2([H])CC=C>>[H][C@]12[C@]3([H])C[C@H](C[C@@H]4[C@@]3(C)CC[C@]1([H])c5ccc(OC)cc5CC2)OC(OC(C)(O6)C)=C4C6=O"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "[H][C@]12[C@]3([H])C[C@H](C[C@@H]4[C@@]3(C)CC[C@]1([H])c5ccc(OC)cc5CC2)OC(OC(C)(O6)C)=C4C6=O>>[H][C@]12[C@]3([H])C[C@H](C[C@@H]4[C@@]3(C)CC[C@]1([H])c5ccc(OC)cc5CC2)OC(C4=C=O)=O.CC(C)=O"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "[H][C@]12[C@]3([H])C[C@H](C[C@@H]4[C@@]3(C)CC[C@]1([H])c5ccc(OC)cc5CC2)OC(C4=C=O)=O.O>>[H][C@]12[C@]3([H])C[C@H](C[C@@H]4[C@@]3(C)CC[C@]1([H])c5ccc(OC)cc5CC2)OC(C4C(O)=O)=O"
+        },
+        {
+            "step": "9",
+            "rxn_smiles": "[H][C@]12[C@]3([H])C[C@H](C[C@@H]4[C@@]3(C)CC[C@]1([H])c5ccc(OC)cc5CC2)OC(C4C(O)=O)=O>>[H][C@@]1([C@@]2(C[C@@H](O3)C[C@H]4CC3=O)[H])CCc5c([C@]1(CC[C@@]24C)[H])ccc(OC)c5.O=C=O"
+        }
+    ]
+}

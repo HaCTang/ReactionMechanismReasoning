@@ -1,0 +1,16 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "COC(=O)OC1CCCC=C1[*].[*]OP(c1ccccc1)(c1ccccc1)[Pd]P(c1ccccc1)(c1ccccc1)O[*]>>[*]C1=CCCCC1[Pd+](P(c2ccccc2)(c3ccccc3)O[*])P(c4ccccc4)(c5ccccc5)O[*].[O-]C.O=C=O"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[*]C1=CCCCC1[Pd+](P(c2ccccc2)(c3ccccc3)O[*])P(c4ccccc4)(c5ccccc5)O[*].CC1=CC=C(S(=O)(=O)NCC=C)C=C1>>[*]C1=CCCCC1[NH+](CC=C)S(=O)(=O)c2ccc(C)cc2.[*]OP(c1ccccc1)(c1ccccc1)[Pd]P(c1ccccc1)(c1ccccc1)O[*]"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "[*]C1=CCCCC1[NH+](CC=C)S(=O)(=O)c2ccc(C)cc2>>[*]C1=CCCCC1N(CC=C)S(=O)(=O)c2ccc(C)cc2.[H+]"
+        }
+    ]
+}

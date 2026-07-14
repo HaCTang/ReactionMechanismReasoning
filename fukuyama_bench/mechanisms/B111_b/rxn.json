@@ -1,0 +1,24 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CC(=O)CCCCCC(N=[N+]=[N-])c1ccccc1.[H+]>>CC(=O)CCCCCC(N[N+]#N)c1ccccc1"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CC(=O)CCCCCC(N[N+]#N)c1ccccc1>>CC(=O)CCCCCC=[NH+]c1ccccc1.N#N"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CC(=O)CCCCCC=[NH+]c1ccccc1>>CC(O)=CCCCCC=[NH+]c1ccccc1"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CC(O)=CCCCCC=[NH+]c1ccccc1>>CC(=[OH+])C1CCCCC1Nc1ccccc1"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CC(=[OH+])C1CCCCC1Nc1ccccc1>>CC(=O)C1CCCCC1Nc1ccccc1.[H+]"
+        }
+    ]
+}

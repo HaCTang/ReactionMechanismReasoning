@@ -1,0 +1,32 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CCOC(=O)/C=C/C(=O)O.C1(CCCCC1)N=C=NC2CCCCC2>>CCOC(=O)/C=C/C(=O)[O-].C1(CCCCC1)[NH+]=C=NC2CCCCC2"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CCOC(=O)/C=C/C(=O)[O-].C1(CCCCC1)[NH+]=C=NC2CCCCC2>>CCOC(=O)/C=C/C(=O)OC(=NC1CCCCC1)NC1CCCCC1"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CCOC(=O)/C=C/C(=O)OC(=NC1CCCCC1)NC1CCCCC1.CN(C)c1ccncc1>>CCOC(=O)/C=C/C([O-])([n+]1ccc(N(C)C)cc1)OC(=NC1CCCCC1)NC1CCCCC1"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CCOC(=O)/C=C/C([O-])([n+]1ccc(N(C)C)cc1)OC(=NC1CCCCC1)NC1CCCCC1>>CCOC(=O)/C=C/C(=O)[n+]1ccc(N(C)C)cc1.C1(CCCCC1)[N-]C(=O)NC1CCCCC1"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "C1(CCCCC1)[N-]C(=O)NC1CCCCC1.CC(C)(C)O>>C1(CCCCC1)NC(=O)NC1CCCCC1.CC(C)(C)[O-]"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "CCOC(=O)/C=C/C(=O)[n+]1ccc(N(C)C)cc1.CC(C)(C)[O-]>>CCOC(=O)/C=C/C([O-])(OC(C)(C)C)[n+]1ccc(N(C)C)cc1"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "CCOC(=O)/C=C/C([O-])(OC(C)(C)C)[n+]1ccc(N(C)C)cc1>>CCOC(=O)/C=C/C(=O)OC(C)(C)C.CN(C)c1ccncc1"
+        }
+    ]
+}

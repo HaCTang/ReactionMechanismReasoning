@@ -1,0 +1,28 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CCCC[C@]12CC[C@@H](OC(=S)n3ccnc3)[C@H]1O2.CCCC[Sn](CCCC)CCCC>>CCCC[C@]12CC[C@@H](O[C](n3ccnc3)S[Sn](CCCC)(CCCC)CCCC)[C@H]1O2"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CCCC[C@]12CC[C@@H](O[C](n3ccnc3)S[Sn](CCCC)(CCCC)CCCC)[C@H]1O2>>CCCC[C@]12O[C@H]1[CH]CC2.O=C(n1ccnc1)S[Sn](CCCC)(CCCC)CCCC"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CCCC[C@]12O[C@H]1[CH]CC2>>CCCC[C@]1([O])C=CCC1"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CCCC[C@]1([O])C=CCC1>>C[CH]CC[C@]1(O)C=CCC1"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "C[CH]CC[C@]1(O)C=CCC1>>O[C@@]12CC[CH][C@@]1(C(CC2)C)[H]"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "O[C@@]12CC[CH][C@@]1(C(CC2)C)[H].CCCC[SnH](CCCC)CCCC>>[H][C@]12CCC[C@@]1(O)CCC2C.CCCC[Sn](CCCC)CCCC"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "COC(=O)C(=[N+]=[N-])C(C)=O.[Rh]>>COC(=O)C(=[Rh])C(C)=O.N#N"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "COC(=O)C(=[Rh])C(C)=O.C/C=C/C(C)O>>O=C(OC)C([OH+]C(/C=C/C)C)([Rh-])C(C)=O"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "O=C(OC)C([OH+]C(/C=C/C)C)([Rh-])C(C)=O>>C/C(O)=C(\\C(=O)OC)OC(C)/C=C/C.[Rh]"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "C/C(O)=C(\\C(=O)OC)OC(C)/C=C/C>>COC(=O)C(=O)C(O)(C)C(C)/C=C/C"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "COC(=O)C(=O)C(O)(C)C(C)/C=C/C>>COC(=O)C(O)(C(C)=O)C(C)/C=C/C"
+        }
+    ]
+}

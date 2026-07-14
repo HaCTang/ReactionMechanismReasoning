@@ -1,0 +1,28 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C(Br)(Br)Br.CC(C)(C)[O-]>>[C-](Br)(Br)Br.CC(C)(C)O"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[C-](Br)(Br)Br>>[C](Br)Br.[Br-]"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "C1=CCCCCCC1.[C](Br)Br>>BrC1(Br)C2C1CCCCCC2"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "BrC1(Br)C2C1CCCCCC2.[CH3-]>>Br[C-]1C2C1CCCCCC2.CBr"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "Br[C-]1C2C1CCCCCC2>>[C]1C2C1CCCCCC2.[Br-]"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "[C]1C2C1CCCCCC2>>C1CCC=C=CCCC1"
+        }
+    ]
+}

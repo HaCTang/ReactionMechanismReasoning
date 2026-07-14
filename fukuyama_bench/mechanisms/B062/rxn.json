@@ -1,0 +1,28 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "NC(=O)c1ccc[n+]([O-])c1.ClP(Cl)(Cl)(Cl)Cl>>NC(=O)c1ccc[n+](OP(Cl)(Cl)(Cl)Cl)c1.[Cl-]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "NC(=O)c1ccc[n+](OP(Cl)(Cl)(Cl)Cl)c1.[Cl-]>>NC(=O)C1=CC=CN(OP(Cl)(Cl)(Cl)Cl)C1Cl"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "NC(=O)C1=CC=CN(OP(Cl)(Cl)(Cl)Cl)C1Cl>>NC(=O)c1c(Cl)nccc1.ClP(=O)(Cl)Cl.Cl"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "NC(=O)c1c(Cl)nccc1.ClP(Cl)(Cl)(Cl)Cl>>[NH2+]=C(OP(Cl)(Cl)(Cl)Cl)c1c(Cl)nccc1.[Cl-]"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "[NH2+]=C(OP(Cl)(Cl)(Cl)Cl)c1c(Cl)nccc1.[Cl-]>>[NH]=C(OP(Cl)(Cl)(Cl)Cl)c1c(Cl)nccc1.Cl"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "[NH]=C(OP(Cl)(Cl)(Cl)Cl)c1c(Cl)nccc1>>N#Cc1cccnc1Cl.ClP(=O)(Cl)Cl.Cl"
+        }
+    ]
+}

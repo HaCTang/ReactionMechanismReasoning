@@ -1,0 +1,2 @@
+1 mol% Pd2(dba)3.CHCl3
+5 mol% dppf

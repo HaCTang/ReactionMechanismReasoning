@@ -1,0 +1,16 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C=CC1C=CC1=O>>C=CC=CC=C=O"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "C=CC=CC=C=O>>O=C1C=CC=CC1"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "O=C1C=CC=CC1>>Oc1ccccc1"
+        }
+    ]
+}

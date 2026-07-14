@@ -1,0 +1,24 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C[S+](C)[O-].ClC(=O)C(=O)Cl>>C[S+](C)OC(=O)C(=O)Cl.[Cl-]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "C[S+](C)OC(=O)C(=O)Cl.[Cl-]>>C[S+](C)Cl.O=C=O.[C-]#[O+].[Cl-]"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "C[S+](C)Cl.CC(C)=CCC/C(C)=C/CO>>CC(C)=CCC/C(C)=C/CO[S+](C)C.[H+].[Cl-]"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CC(C)=CCC/C(C)=C/CO[S+](C)C.CCN(CC)CC>>CC(C)=CCC/C(C)=C/CO[S+](C)[CH2-].CC[NH+](CC)CC"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CC(C)=CCC/C(C)=C/CO[S+](C)[CH2-]>>CC(C)=CCC/C(C)=C/C=O.CSC"
+        }
+    ]
+}

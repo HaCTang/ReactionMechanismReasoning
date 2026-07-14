@@ -1,0 +1,68 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C=CCc1ccccc1",
+                    "label": "None",
+                    "electron_number": 46,
+                    "charge": 0
+                },
+                {
+                    "smiles": "O=C1C=CC(=O)O1",
+                    "label": "None",
+                    "electron_number": 36,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "solvent",
+                    "text": "o-C6H4Cl2",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "temperature",
+                    "text": "reflux",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=C1CC(C/C=C/c2ccccc2)C(=O)O1",
+                    "label": "None",
+                    "electron_number": 82,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C=CCc1ccccc1",
+                    "label": "substrate",
+                    "electron_number": 46,
+                    "charge": 0
+                },
+                {
+                    "smiles": "O=C1C=CC(=O)O1",
+                    "label": "reagent",
+                    "electron_number": 36,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=C1CC(C/C=C/c2ccccc2)C(=O)O1",
+                    "label": "product",
+                    "electron_number": 82,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

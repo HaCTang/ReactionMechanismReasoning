@@ -1,0 +1,166 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "[H][C@]1(C)S[C@@]1([H])C",
+                    "label": "None",
+                    "electron_number": 30,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "MeI",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "solvent",
+                    "text": "acetone",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "temperature",
+                    "text": "reflux",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C/C=C\\C",
+                    "label": "None",
+                    "electron_number": 24,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "[H][C@]1(C)S[C@@]1([H])C",
+                    "label": "substrate",
+                    "electron_number": 30,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CI",
+                    "label": "reagent",
+                    "electron_number": 14,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C[C@@]1([H])[S+](C)[C@@]1([H])C",
+                    "label": "intermediate",
+                    "electron_number": 36,
+                    "charge": 1
+                },
+                {
+                    "smiles": "[I-]",
+                    "label": "intermediate",
+                    "electron_number": 8,
+                    "charge": -1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "C[C@@]1([H])[S+](C)[C@@]1([H])C",
+                    "label": "intermediate",
+                    "electron_number": 36,
+                    "charge": 1
+                },
+                {
+                    "smiles": "[I-]",
+                    "label": "intermediate",
+                    "electron_number": 8,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C[C@H](I)[C@@H](SC)C",
+                    "label": "intermediate",
+                    "electron_number": 44,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "C[C@H](I)[C@@H](SC)C",
+                    "label": "intermediate",
+                    "electron_number": 44,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CI",
+                    "label": "reagent",
+                    "electron_number": 14,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C[C@H](I)[C@@H]([S+](C)C)C",
+                    "label": "intermediate",
+                    "electron_number": 50,
+                    "charge": 1
+                },
+                {
+                    "smiles": "[I-]",
+                    "label": "intermediate",
+                    "electron_number": 8,
+                    "charge": -1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "C[C@H](I)[C@@H]([S+](C)C)C",
+                    "label": "intermediate",
+                    "electron_number": 50,
+                    "charge": 1
+                },
+                {
+                    "smiles": "[I-]",
+                    "label": "intermediate",
+                    "electron_number": 8,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C/C=C\\C",
+                    "label": "product",
+                    "electron_number": 24,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CSC",
+                    "label": "leaving",
+                    "electron_number": 20,
+                    "charge": 0
+                },
+                {
+                    "smiles": "II",
+                    "label": "leaving",
+                    "electron_number": 14,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CCCCCC=CC(C)=O.[Li+].[N-](C(C)C)C(C)C>>CCCCCC=CC(=C)[O-].[Li+].N(C(C)C)C(C)C"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CCCCCC=CC(=C)[O-].CC(C)(C)[Si](C)(C)C(=O)C=C[Si](C)(C)C>>CCCCCC=CC(=O)CC([O-])([Si](C)(C)C(C)(C)C)C=C[Si](C)(C)C"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CCCCCC=CC(=O)CC([O-])([Si](C)(C)C(C)(C)C)C=C[Si](C)(C)C>>CCCCCC=CC(=O)C([C-](O[Si](C)(C)C(C)(C)C)C=C[Si](C)(C)C)"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CCCCCC=CC(=O)C([C-](O[Si](C)(C)C(C)(C)C)C=C[Si](C)(C)C)>>CCCCCC=CC1(CC(C=C[Si](C)(C)C)1O[Si](C)(C(C)(C)C)C)[O-]"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CCCCCC=CC1(CC(C=C[Si](C)(C)C)1O[Si](C)(C(C)(C)C)C)[O-]>>[O-]C1=CC(C(C=C(C1)O[Si](C)(C(C)(C)C)C)[Si](C)(C)C)CCCCC"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "[O-]C1=CC(C(C=C(C1)O[Si](C)(C(C)(C)C)C)[Si](C)(C)C)CCCCC.[H+]>>CCCCC[C@H]1CC(=O)CC(O[Si](C)(C)C(C)(C)C)=C[C@H]1[Si](C)(C)C"
+        }
+    ]
+}

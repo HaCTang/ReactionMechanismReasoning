@@ -1,0 +1,88 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "O=c1cccco1",
+                    "label": "substrate",
+                    "electron_number": 36,
+                    "charge": 0
+                },
+                {
+                    "smiles": "COC(=O)C#CC(=O)OC",
+                    "label": "reagent",
+                    "electron_number": 54,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "temperature",
+                    "text": "200 °C",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "COC(=O)c1c(C(=O)OC)cccc1",
+                    "label": "product",
+                    "electron_number": 74,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "O=c1cccco1",
+                    "label": "substrate",
+                    "electron_number": 36,
+                    "charge": 0
+                },
+                {
+                    "smiles": "COC(=O)C#CC(=O)OC",
+                    "label": "reagent",
+                    "electron_number": 54,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "COC(=O)C1=C(C(=O)OC)C2C=CC(OC2=O)1",
+                    "label": "intermediate",
+                    "electron_number": 90,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "COC(=O)C1=C(C(=O)OC)C2C=CC(OC2=O)1",
+                    "label": "intermediate",
+                    "electron_number": 90,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "COC(=O)c1c(C(=O)OC)cccc1",
+                    "label": "product",
+                    "electron_number": 74,
+                    "charge": 0
+                },
+                {
+                    "smiles": "O=C=O",
+                    "label": "leaving",
+                    "electron_number": 16,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

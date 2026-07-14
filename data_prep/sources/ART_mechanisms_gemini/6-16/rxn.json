@@ -1,0 +1,20 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C[Ti](C)(C1=CC=CC1)C2=CC=CC2>>C=[Ti](C1=CC=CC1)C2=CC=CC2.C"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "C=C[C@@H]1C[C@H]([C@@H](C)COCc2ccccc2)OC(=O)O1.C=[Ti](C1=CC=CC1)C2=CC=CC2>>C=C[C@@H]1C[C@H]([C@@H](C)COCc2ccccc2)OC2(O1)C[Ti](C3=CC=CC3)(C4=CC=CC4)O2"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "C=C[C@@H]1C[C@H]([C@@H](C)COCc2ccccc2)OC2(O1)C[Ti](C3=CC=CC3)(C4=CC=CC4)O2>>C=C[C@@H]1C[C@H]([C@@H](C)COCc2ccccc2)OC(=C)O1.O=[Ti](C1=CC=CC1)C2=CC=CC2"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "C=C[C@@H]1C[C@H]([C@@H](C)COCc2ccccc2)OC(=C)O1>>O1C(=O)CC/C=C\\C[C@@H]([C@@H](C)COCc2ccccc2)1"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "Cc1ccccc1C.[Na]>>CC1=C(C)[CH-]C=C[CH]1.[Na+]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CC1=C(C)[CH-]C=C[CH]1.CCO>>CC1=C(C)CC=C[CH]1.CC[O-]"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CC1=C(C)CC=C[CH]1.[Na]>>CC1=C(C)CC=C[CH-]1.[Na+]"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CC1=C(C)CC=C[CH-]1.CCO>>CC1=C(C)CC=CC1.CC[O-]"
+        }
+    ]
+}

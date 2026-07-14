@@ -1,0 +1,24 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C=CCO[C@@H]1C=CC[C@H](C)C1.[CH2-]CCC>>C=C[CH-]O[C@@H]1C=CC[C@H](C)C1.CCCC"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "C=C[CH-]O[C@@H]1C=CC[C@H](C)C1>>C[C@@H]1CC=C[C@H](C1)[C@H]([O-])C=C"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "C[C@@H]1CC=C[C@H](C1)[C@H]([O-])C=C>>[O-]C=CC[C@H]1C=CC[C@H](C)C1"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "[O-]C=CC[C@@H]1C=CC[C@H](C)C1.[H+]>>OC=CC[C@@H]1C=CC[C@H](C)C1"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "OC=CC[C@@H]1C=CC[C@H](C)C1>>[H]C(=O)CC[C@@H]1C=CC[C@H](C)C1"
+        }
+    ]
+}

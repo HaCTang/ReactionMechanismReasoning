@@ -1,0 +1,40 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "BrC(Br)Br.CC(C)(C)[O-]>>[C-](Br)(Br)Br.CC(C)(C)O",
+            "mapped_rxn": "[Br:1][CH:2]([Br:3])[Br:4].[CH3:5][C:6]([CH3:7])([CH3:8])[O-:9]>>[Br:1][C-:2]([Br:3])[Br:4].[CH3:5][C:6]([CH3:7])([CH3:8])[OH:9]",
+            "confidence": 0.09031029859844669
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[C-](Br)(Br)Br>>Br[C](Br).[Br-]",
+            "mapped_rxn": "[Br:1][C-:2]([Br:3])[Br:4]>>[Br:1][C:2][Br:3].[Br-:4]",
+            "confidence": 0.27629756906832964
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CC1=C(C)CC=CC1.Br[C](Br)>>CC12C(Br)(Br)C1(C)CC=CC2",
+            "mapped_rxn": "[C:9]([Br:10])[Br:11].[CH3:1][C:2]1=[C:7]([CH3:8])[CH2:6][CH:5]=[CH:4][CH2:3]1>>[CH3:1][C:2]12[CH2:3][CH:4]=[CH:5][CH2:6][C:7]1([CH3:8])[C:9]2([Br:10])[Br:11]",
+            "confidence": 0.46502849977623584
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CC12C(Br)(Br)C1(C)CC=CC2.[CH3-]>>CC12[C-](Br)C1(C)CC=CC2.CBr",
+            "mapped_rxn": "[Br:2][C:11]1([Br:12])[C:4]2([CH3:3])[CH2:5][CH:6]=[CH:7][CH2:8][C:9]21[CH3:10].[CH3-:1]>>[CH3:1][Br:2].[CH3:3][C:4]12[CH2:5][CH:6]=[CH:7][CH2:8][C:9]1([CH3:10])[C-:11]2[Br:12]",
+            "confidence": 0.42338139102994793
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CC12[C-](Br)C1(C)CC=CC2>>CC12[C]C1(C)CC=CC2.[Br-]",
+            "mapped_rxn": "[CH3:1][C:2]12[C-:3]([Br:10])[C:4]1([CH3:5])[CH2:6][CH:7]=[CH:8][CH2:9]2>>[CH3:1][C:2]12[C:3][C:4]1([CH3:5])[CH2:6][CH:7]=[CH:8][CH2:9]2.[Br-:10]",
+            "confidence": 0.8131756972332692
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "CC12[C]C1(C)CC=CC2>>CC12C3(C)CC=CC1C32",
+            "mapped_rxn": "[CH3:1][C:2]12[CH2:3][CH:4]=[CH:5][CH2:6][C:8]1([CH3:9])[C:7]2>>[CH3:1][C:2]12[CH2:3][CH:4]=[CH:5][CH:6]3[CH:7]1[C:8]23[CH3:9]",
+            "confidence": 0.8061679212729179
+        }
+    ]
+}

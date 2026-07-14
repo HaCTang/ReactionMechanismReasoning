@@ -1,0 +1,34 @@
+{
+    "mechanism_rxn": [
+      {
+        "step": "1",
+        "rxn_smiles": "[H][Rh](C#O)([P](c1ccccc1)(c1ccccc1)c1ccccc1)[P](c1ccccc1)(c1ccccc1)c1ccccc1.C=CCCCC>>[H][Rh]1([P](c2ccccc2)(c3ccccc3)c4ccccc4)([P](c5ccccc5)(c6ccccc6)c7ccccc7)(CC1CCCC)C#O",
+        "mapped_rxn": "[H:2][Rh:1]([C:3]#[O:4])([P:5]([c:6]1[cH:7][cH:8][cH:9][cH:10][cH:11]1)([c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[c:18]3[cH:19][cH:20][cH:21][cH:22][cH:23]3)[P:24]([c:25]4[cH:26][cH:27][cH:28][cH:29][cH:30]4)([c:31]5[cH:32][cH:33][cH:34][cH:35][cH:36]5)[c:37]6[cH:38][cH:39][cH:40][cH:41][cH:42]6.[CH2:43]=[CH:44][CH2:45][CH2:46][CH2:47][CH3:48]>>[H:2][Rh:1]1([P:5]([c:6]2[cH:7][cH:8][cH:9][cH:10][cH:11]2)([c:12]3[cH:13][cH:14][cH:15][cH:16][cH:17]3)[c:18]4[cH:19][cH:20][cH:21][cH:22][cH:23]4)([P:24]([c:25]5[cH:26][cH:27][cH:28][cH:29][cH:30]5)([c:31]6[cH:32][cH:33][cH:34][cH:35][cH:36]6)[c:37]7[cH:38][cH:39][cH:40][cH:41][cH:42]7)([CH2:43][CH:44]1[CH2:45][CH2:46][CH2:47][CH3:48])[C:3]#[O:4]"
+      },
+      {
+        "step": "2",
+        "rxn_smiles": "[H][Rh]1([P](c2ccccc2)(c3ccccc3)c4ccccc4)([P](c5ccccc5)(c6ccccc6)c7ccccc7)(CC1CCCC)C#O>>[Rh](C#O)([P](c1ccccc1)(c1ccccc1)c1ccccc1)([P](c1ccccc1)(c1ccccc1)c1ccccc1)CCCCCC",
+        "mapped_rxn": "[H:2][Rh:1]1([P:5]([c:6]2[cH:7][cH:8][cH:9][cH:10][cH:11]2)([c:12]3[cH:13][cH:14][cH:15][cH:16][cH:17]3)[c:18]4[cH:19][cH:20][cH:21][cH:22][cH:23]4)([P:24]([c:25]5[cH:26][cH:27][cH:28][cH:29][cH:30]5)([c:31]6[cH:32][cH:33][cH:34][cH:35][cH:36]6)[c:37]7[cH:38][cH:39][cH:40][cH:41][cH:42]7)([CH2:43][CH:44]1[CH2:45][CH2:46][CH2:47][CH3:48])[C:3]#[O:4]>>[Rh:1]([C:3]#[O:4])([P:5]([c:6]1[cH:7][cH:8][cH:9][cH:10][cH:11]1)([c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[c:18]3[cH:19][cH:20][cH:21][cH:22][cH:23]3)([P:24]([c:25]4[cH:26][cH:27][cH:28][cH:29][cH:30]4)([c:31]5[cH:32][cH:33][cH:34][cH:35][cH:36]5)[c:37]6[cH:38][cH:39][cH:40][cH:41][cH:42]6)[CH2:43][CH:44][CH2:45][CH2:46][CH2:47][CH3:48]"
+      },
+      {
+        "step": "3",
+        "rxn_smiles": "[Rh](C#O)([P](c1ccccc1)(c1ccccc1)c1ccccc1)([P](c1ccccc1)(c1ccccc1)c1ccccc1)CCCCCC.[C-]#[O+]>>[Rh](C#O)(C#O)([P](c1ccccc1)(c1ccccc1)c1ccccc1)([P](c1ccccc1)(c1ccccc1)c1ccccc1)CCCCCC",
+        "mapped_rxn": "[Rh:1]([C:3]#[O:4])([P:5]([c:6]1[cH:7][cH:8][cH:9][cH:10][cH:11]1)([c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[c:18]3[cH:19][cH:20][cH:21][cH:22][cH:23]3)([P:24]([c:25]4[cH:26][cH:27][cH:28][cH:29][cH:30]4)([c:31]5[cH:32][cH:33][cH:34][cH:35][cH:36]5)[c:37]6[cH:38][cH:39][cH:40][cH:41][cH:42]6)[CH2:43][CH:44][CH2:45][CH2:46][CH2:47][CH3:48].[C:49]#[O:50]>>[Rh:1]([C:3]#[O:4])([C:49]#[O:50])([P:5]([c:6]1[cH:7][cH:8][cH:9][cH:10][cH:11]1)([c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[c:18]3[cH:19][cH:20][cH:21][cH:22][cH:23]3)([P:24]([c:25]4[cH:26][cH:27][cH:28][cH:29][cH:30]4)([c:31]5[cH:32][cH:33][cH:34][cH:35][cH:36]5)[c:37]6[cH:38][cH:39][cH:40][cH:41][cH:42]6)[CH2:43][CH:44][CH2:45][CH2:46][CH2:47][CH3:48]"
+      },
+      {
+        "step": "4",
+        "rxn_smiles": "[Rh](C#O)(C#O)([P](c1ccccc1)(c1ccccc1)c1ccccc1)([P](c1ccccc1)(c1ccccc1)c1ccccc1)CCCCCC>>[Rh](C#O)([P](c1ccccc1)(c1ccccc1)c1ccccc1)([P](c1ccccc1)(c1ccccc1)c1ccccc1)C(=O)CCCCCC",
+        "mapped_rxn": "[Rh:1]([C:3]#[O:4])([C:49]#[O:50])([P:5]([c:6]1[cH:7][cH:8][cH:9][cH:10][cH:11]1)([c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[c:18]3[cH:19][cH:20][cH:21][cH:22][cH:23]3)([P:24]([c:25]4[cH:26][cH:27][cH:28][cH:29][cH:30]4)([c:31]5[cH:32][cH:33][cH:34][cH:35][cH:36]5)[c:37]6[cH:38][cH:39][cH:40][cH:41][cH:42]6)[CH2:43][CH:44][CH2:45][CH2:46][CH2:47][CH3:48]>>[Rh:1]([C:3]#[O:4])([P:5]([c:6]1[cH:7][cH:8][cH:9][cH:10][cH:11]1)([c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[c:18]3[cH:19][cH:20][cH:21][cH:22][cH:23]3)([P:24]([c:25]4[cH:26][cH:27][cH:28][cH:29][cH:30]4)([c:31]5[cH:32][cH:33][cH:34][cH:35][cH:36]5)[c:37]6[cH:38][cH:39][cH:40][cH:41][cH:42]6)[C:49](=[O:50])[CH2:43][CH:44][CH2:45][CH2:46][CH2:47][CH3:48]"
+      },
+      {
+        "step": "5",
+        "rxn_smiles": "[Rh](C#O)([P](c1ccccc1)(c1ccccc1)c1ccccc1)([P](c1ccccc1)(c1ccccc1)c1ccccc1)C(=O)CCCCCC.[H][H]>>[H][Rh]([H])(C#O)([P](c1ccccc1)(c1ccccc1)c1ccccc1)([P](c1ccccc1)(c1ccccc1)c1ccccc1)C(=O)CCCCCC",
+        "mapped_rxn": "[Rh:1]([C:3]#[O:4])([P:5]([c:6]1[cH:7][cH:8][cH:9][cH:10][cH:11]1)([c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[c:18]3[cH:19][cH:20][cH:21][cH:22][cH:23]3)([P:24]([c:25]4[cH:26][cH:27][cH:28][cH:29][cH:30]4)([c:31]5[cH:32][cH:33][cH:34][cH:35][cH:36]5)[c:37]6[cH:38][cH:39][cH:40][cH:41][cH:42]6)[C:49](=[O:50])[CH2:43][CH:44][CH2:45][CH2:46][CH2:47][CH3:48].[H:51][H:52]>>[H:51][Rh:1]([C:3]#[O:4])([P:5]([c:6]1[cH:7][cH:8][cH:9][cH:10][cH:11]1)([c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[c:18]3[cH:19][cH:20][cH:21][cH:22][cH:23]3)([P:24]([c:25]4[cH:26][cH:27][cH:28][cH:29][cH:30]4)([c:31]5[cH:32][cH:33][cH:34][cH:35][cH:36]5)[c:37]6[cH:38][cH:39][cH:40][cH:41][cH:42]6)[C:49](=[O:50])[CH2:43][CH:44][CH2:45][CH2:46][CH2:47][CH3:48]"
+      },
+      {
+        "step": "6",
+        "rxn_smiles": "[H][Rh]([H])(C#O)([P](c1ccccc1)(c1ccccc1)c1ccccc1)([P](c1ccccc1)(c1ccccc1)c1ccccc1)C(=O)CCCCCC>>[H][Rh](C#O)([P](c1ccccc1)(c1ccccc1)c1ccccc1)[P](c1ccccc1)(c1ccccc1)c1ccccc1.CCCCCCC=O",
+        "mapped_rxn": "[H:51][Rh:1]([C:3]#[O:4])([P:5]([c:6]1[cH:7][cH:8][cH:9][cH:10][cH:11]1)([c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[c:18]3[cH:19][cH:20][cH:21][cH:22][cH:23]3)([P:24]([c:25]4[cH:26][cH:27][cH:28][cH:29][cH:30]4)([c:31]5[cH:32][cH:33][cH:34][cH:35][cH:36]5)[c:37]6[cH:38][cH:39][cH:40][cH:41][cH:42]6)[C:49](=[O:50])[CH2:43][CH:44][CH2:45][CH2:46][CH2:47][CH3:48]>>[H:51][Rh:1]([C:3]#[O:4])([P:5]([c:6]1[cH:7][cH:8][cH:9][cH:10][cH:11]1)([c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[c:18]3[cH:19][cH:20][cH:21][cH:22][cH:23]3)([P:24]([c:25]4[cH:26][cH:27][cH:28][cH:29][cH:30]4)([c:31]5[cH:32][cH:33][cH:34][cH:35][cH:36]5)[c:37]6[cH:38][cH:39][cH:40][cH:41][cH:42]6).[O:50]=[C:49][CH2:43][CH:44][CH2:45][CH2:46][CH2:47][CH3:48]"
+      }
+    ]
+  }

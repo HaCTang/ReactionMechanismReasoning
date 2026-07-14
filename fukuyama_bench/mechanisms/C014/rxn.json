@@ -1,0 +1,36 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CCCC[C@@H]1[C@@H](O)CCCC12CCCC2.ClN=O.n1ccccc1>>CCCC[C@@H]1[C@@H](ON=O)CCCC12CCCC2.[nH+]1ccccc1.[Cl-]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CCCC[C@@H]1[C@@H](ON=O)CCCC12CCCC2>>CCCC[C@@H]1[C@@H]([O])CCCC12CCCC2.[N]=O"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CCCC[C@@H]1[C@@H]([O])CCCC12CCCC2>>CCCC[C@@H]1[C@@H](O)CCCC12[CH]CCC2"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CCCC[C@@H]1[C@@H](O)CCCC12[CH]CCC2.[N]=O>>CCCC[C@@H]1[C@@H](O)CCCC12C(N=O)CCC2"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CCCC[C@@H]1[C@@H](O)CCCC12C(N=O)CCC2>>CCCC[C@@H]1[C@@H](O)CCCC12C(=NO)CCC2"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "CCCC[C@@H]1[C@@H](O)CCCC12C(=NO)CCC2.CC1=CC=C(S(Cl)(=O)=O)C=C1.n1ccccc1>>CCCC[C@@H]1[C@@H](O)CCCC12C(=NOS(=O)(=O)C3=CC=C(C)C=C3)CCC2.[nH+]1ccccc1.[Cl-]"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "CCCC[C@@H]1[C@@H](O)CCCC12C(=NOS(=O)(=O)C3=CC=C(C)C=C3)CCC2>>CCCC[C@@H]1[C@@H](O)CCCC12[N]=[C+]CCC2.CC1=CC=C(S(=O)(=O)[O-])C=C1"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "CCCC[C@@H]1[C@@H](O)CCCC12[N]=[C+]CCC2.O>>CCCC[C@@H]1[C@@H](O)CCC[C@]12CCCC(=O)N2.[H+]"
+        }
+    ]
+}

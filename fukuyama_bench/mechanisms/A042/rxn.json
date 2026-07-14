@@ -1,0 +1,20 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "O=[Cr](=O)=O.O>>O[Cr](=O)(=O)O"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "OC1CCCCCCC1.O[Cr](=O)(=O)O>>O([Cr](=O)(=O)O)C1CCCCCCC1.O"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "O([Cr](=O)(=O)O)C1CCCCCCC1.[H+]>>O([Cr](=O)(O)=[OH+])C1CCCCCCC1"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "O([Cr](=O)(O)=[OH+])C1CCCCCCC1>>O=C1CCCCCCC1.O=[Cr](O)O.[H+]"
+        }
+    ]
+}

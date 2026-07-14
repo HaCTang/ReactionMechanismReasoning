@@ -1,0 +1,226 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "COc1ccc(NN=CCc2ccccc2)cc1",
+                    "label": "None",
+                    "electron_number": 112,
+                    "charge": 0
+                },
+                {
+                    "smiles": "Cl[Zn]Cl",
+                    "label": "None",
+                    "electron_number": 64,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "ZnCl2",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "COc1ccc2[nH]cc(c3ccccc3)c2c1",
+                    "label": "None",
+                    "electron_number": 105,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[H+]",
+                    "label": "None",
+                    "electron_number": 0,
+                    "charge": 1
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "COc1ccc(NN=CCc2ccccc2)cc1",
+                    "label": "None",
+                    "electron_number": 112,
+                    "charge": 0
+                },
+                {
+                    "smiles": "Cl[Zn]Cl",
+                    "label": "None",
+                    "electron_number": 64,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "COc1ccc(N[N+](=CCc2ccccc2)[Zn-](Cl)Cl)cc1",
+                    "label": "None",
+                    "electron_number": 176,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "COc1ccc(N[N+](=CCc2ccccc2)[Zn-](Cl)Cl)cc1",
+                    "label": "None",
+                    "electron_number": 176,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "COc1ccc(NN([Zn-](Cl)Cl)C=Cc2ccccc2)cc1",
+                    "label": "None",
+                    "electron_number": 177,
+                    "charge": -1
+                },
+                {
+                    "smiles": "[H+]",
+                    "label": "None",
+                    "electron_number": 0,
+                    "charge": 1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "COc1ccc(NN([Zn-](Cl)Cl)C=Cc2ccccc2)cc1",
+                    "label": "None",
+                    "electron_number": 177,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "COC1=CC(C(c2ccccc2)C=N[Zn-](Cl)Cl)C(=N)C=C1",
+                    "label": "None",
+                    "electron_number": 177,
+                    "charge": -1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "COC1=CC(C(c2ccccc2)C=N[Zn-](Cl)Cl)C(=N)C=C1",
+                    "label": "None",
+                    "electron_number": 177,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "COc1ccc(N)c(C(c2ccccc2)C=N[Zn-](Cl)Cl)c1",
+                    "label": "None",
+                    "electron_number": 177,
+                    "charge": -1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "5",
+            "reactants": [
+                {
+                    "smiles": "COc1ccc(N)c(C(c2ccccc2)C=N[Zn-](Cl)Cl)c1",
+                    "label": "None",
+                    "electron_number": 177,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "COc1ccc2c(c1)C(c3ccccc3)C([N-][Zn-](Cl)Cl)[NH2+]2",
+                    "label": "None",
+                    "electron_number": 177,
+                    "charge": -1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "6",
+            "reactants": [
+                {
+                    "smiles": "COc1ccc2c(c1)C(c3ccccc3)C([N-][Zn-](Cl)Cl)[NH2+]2",
+                    "label": "None",
+                    "electron_number": 177,
+                    "charge": -1
+                },
+                {
+                    "smiles": "[H+]",
+                    "label": "None",
+                    "electron_number": 0,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "COc1ccc2c(c1)C(c3ccccc3)C([NH2+][Zn-](Cl)Cl)N2",
+                    "label": "None",
+                    "electron_number": 176,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "7",
+            "reactants": [
+                {
+                    "smiles": "COc1ccc2c(c1)C(c3ccccc3)C([NH2+][Zn-](Cl)Cl)N2",
+                    "label": "None",
+                    "electron_number": 176,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "COc1ccc2c(c1)C(c3ccccc3)C=[NH+]2",
+                    "label": "None",
+                    "electron_number": 104,
+                    "charge": 1
+                },
+                {
+                    "smiles": "N[Zn-](Cl)Cl",
+                    "label": "None",
+                    "electron_number": 72,
+                    "charge": -1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "8",
+            "reactants": [
+                {
+                    "smiles": "COc1ccc2c(c1)C(c3ccccc3)C=[NH+]2",
+                    "label": "None",
+                    "electron_number": 104,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "COc1ccc2[nH]cc(c3ccccc3)c2c1",
+                    "label": "None",
+                    "electron_number": 105,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[H+]",
+                    "label": "None",
+                    "electron_number": 0,
+                    "charge": 1
+                }
+            ]
+        }
+    ]
+}

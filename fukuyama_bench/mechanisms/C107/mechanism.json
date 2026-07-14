@@ -1,0 +1,131 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "ClC1(Cl)C2Cc3ccccc3SC21",
+                    "label": "None",
+                    "electron_number": 68,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "quinoline",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "temperature",
+                    "text": "210 °C",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "Clc1ccc2ccccc2c1",
+                    "label": "None",
+                    "electron_number": 54,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "ClC1(Cl)C2Cc3ccccc3SC21",
+                    "label": "substrate",
+                    "electron_number": 68,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "ClC(C=[S+]1)=CCc2c1cccc2",
+                    "label": "intermediate",
+                    "electron_number": 60,
+                    "charge": 1
+                },
+                {
+                    "smiles": "[Cl-]",
+                    "label": "leaving",
+                    "electron_number": 8,
+                    "charge": -1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "ClC(C=[S+]1)=CCc2c1cccc2",
+                    "label": "intermediate",
+                    "electron_number": 60,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "ClC1=Cc2ccccc2SC=C1",
+                    "label": "intermediate",
+                    "electron_number": 60,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[H+]",
+                    "label": "leaving",
+                    "electron_number": 0,
+                    "charge": 1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "ClC1=Cc2ccccc2SC=C1",
+                    "label": "intermediate",
+                    "electron_number": 60,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "ClC1=CC=C2C=CC=CC23SC13",
+                    "label": "intermediate",
+                    "electron_number": 60,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "ClC1=CC=C2C=CC=CC23SC13",
+                    "label": "intermediate",
+                    "electron_number": 60,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "Clc1ccc2ccccc2c1",
+                    "label": "product",
+                    "electron_number": 54,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[S]",
+                    "label": "leaving",
+                    "electron_number": 6,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

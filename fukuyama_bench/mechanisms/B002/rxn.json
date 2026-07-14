@@ -1,0 +1,16 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "O=C(c1ccccc1)c1ccccc1.CC(C)O[Al](OC(C)C)OC(C)C>>CC(C)O[Al-](OC(C)C)(OC(C)C)[O+]=C(c1ccccc1)c1ccccc1"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CC(C)O[Al-](OC(C)C)(OC(C)C)[O+]=C(c1ccccc1)c1ccccc1>>CC(C)O[Al](OC(C)C)OC(c1ccccc1)c1ccccc1.CC(C)=O"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CC(C)O[Al](OC(C)C)OC(c1ccccc1)c1ccccc1.[H+]>>OC(c1ccccc1)c1ccccc1.CC(C)O[Al+](OC(C)C)"
+        }
+    ]
+}

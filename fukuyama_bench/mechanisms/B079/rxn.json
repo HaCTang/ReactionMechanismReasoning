@@ -1,0 +1,32 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "c1ccccc1P(c2ccccc2)c3ccccc3.CCOC(=O)N=NC(=O)OCC>>CCOC([N-]N(C(OCC)=O)[P+](c1ccccc1)(c2ccccc2)c3ccccc3)=O"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CCOC([N-]N(C(OCC)=O)[P+](c1ccccc1)(c2ccccc2)c3ccccc3)=O.NNS(=O)(=O)c1ccccc1[N+](=O)[O-]>>CCOC(NN(C(OCC)=O)[P+](c1ccccc1)(c2ccccc2)c3ccccc3)=O.[NH2][N-]S(=O)(=O)c1ccccc1[N+](=O)[O-]"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "[H][C@@]12CCC3=C[C@@H](O)CC[C@]3(C)[C@@]1([H])CC[C@@]1(C)[C@@]2([H])CC[C@]1([H])[C@H](C)CCCC(C)C.CCOC(NN(C(OCC)=O)[P+](c1ccccc1)(c2ccccc2)c3ccccc3)=O>>[H][C@@]12CCC3=C[C@@H]([O+]([H])[P+](c4ccccc4)(c5ccccc5)c6ccccc6)CC[C@]3(C)[C@@]1([H])CC[C@@]1(C)[C@@]2([H])CC[C@]1([H])[C@H](C)CCCC(C)C.CCOC(=O)N[N-]C(=O)OCC"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "[H][C@@]12CCC3=C[C@@H]([O+]([H])[P+](c4ccccc4)(c5ccccc5)c6ccccc6)CC[C@]3(C)[C@@]1([H])CC[C@@]1(C)[C@@]2([H])CC[C@]1([H])[C@H](C)CCCC(C)C.CCOC(=O)N[N-]C(=O)OCC>>[H][C@@]12CCC3=C[C@@H](O[P+](c4ccccc4)(c5ccccc5)c6ccccc6)CC[C@]3(C)[C@@]1([H])CC[C@@]1(C)[C@@]2([H])CC[C@]1([H])[C@H](C)CCCC(C)C.CCOC(=O)NNC(=O)OCC"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "[H][C@@]12CCC3=C[C@@H](O[P+](c4ccccc4)(c5ccccc5)c6ccccc6)CC[C@]3(C)[C@@]1([H])CC[C@@]1(C)[C@@]2([H])CC[C@]1([H])[C@H](C)CCCC(C)C.[NH2][N-]S(=O)(=O)c1ccccc1[N+](=O)[O-]>>[H][C@@]12CCC3=C[C@H](N(S(=O)(c4c([N+]([O-])=O)cccc4)=O)N)CC[C@@]3([C@]1(CC[C@]5([C@]2(CC[C@@]5([C@@H](CCCC(C)C)C)[H])[H])C)[H])C.O=P(c1ccccc1)(c1ccccc1)c1ccccc1"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "[H][C@@]12CCC3=C[C@H](N(S(=O)(c4c([N+]([O-])=O)cccc4)=O)N)CC[C@@]3([C@]1(CC[C@]5([C@]2(CC[C@@]5([C@@H](CCCC(C)C)C)[H])[H])C)[H])C>>[H][C@@]12CCC3=C[C@H](N=N)CC[C@]3(C)[C@@]1([H])CC[C@@]1(C)[C@@]2([H])CC[C@]1([H])[C@H](C)CCCC(C)C.OS(=O)c1ccccc1[N+](=O)[O-]"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "[H][C@@]12CCC3=C[C@H](N=N)CC[C@]3(C)[C@@]1([H])CC[C@@]1(C)[C@@]2([H])CC[C@]1([H])[C@H](C)CCCC(C)C>>[H][C@@]12CC[C@@]3([H])C=CCC[C@]3(C)[C@@]1([H])CC[C@@]1(C)[C@@]2([H])CC[C@]1([H])[C@H](C)CCCC(C)C.N#N"
+        }
+    ]
+}

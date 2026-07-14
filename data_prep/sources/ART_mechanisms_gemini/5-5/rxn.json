@@ -1,0 +1,20 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "[H]C1(C(=O)c2ccccc2)C2CCC1C2>>[H]C1([C]([O])c2ccccc2)C2CCC1C2"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[H]C1([C]([O])c2ccccc2)C2CCC1C2>>[O]C(c1ccccc1)=CC2CC[CH]C2"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "[O]C(c1ccccc1)=CC2CC[CH]C2>>OC(c1ccccc1)=CC1C=CCC1"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "OC(c1ccccc1)=CC1C=CCC1>>O=C(c1ccccc1)CC1C=CCC1"
+        }
+    ]
+}

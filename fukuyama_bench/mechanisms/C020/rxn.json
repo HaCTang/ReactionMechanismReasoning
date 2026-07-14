@@ -1,0 +1,56 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CC(C)O[Ti](OC(C)C)(OC(C)C)OC(C)C.CC(C)[Mg]Cl.CC(C)[Mg]Cl>>CC(C)O[Ti](OC(C)C)(C(C)C)C(C)C.Cl[Mg]OC(C)C.Cl[Mg]OC(C)C"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CC(C)O[Ti](OC(C)C)(C(C)C)C(C)C>>CC(C)O[Ti]1(OC(C)C)CC(C)1.CCC"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "C=CC[C@@H](CC(=O)OCC)O[Si](C)(C)C(C)(C)C.CC(C)O[Ti]1(OC(C)C)CC(C)1>>CC(C)O[Ti]1(OC(C)C)C[C@@H]1C[C@@H](CC(=O)OCC)O[Si](C)(C)C(C)(C)C.CC=C"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CC(C)O[Ti]1(OC(C)C)C[C@@H]1C[C@@H](CC(=O)OCC)O[Si](C)(C)C(C)(C)C>>CC(C)([Si](C)(O[C@H]1CC(C2)C(O[Ti]2(OC(C)C)OC(C)C)(OCC)C1)C)C"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CC([Si](O[C@H]1CC2C[Ti](OC(C)C)(OC(C)C)OC2(C1)OCC)(C)C)(C)C>>CC([Si](O[C@H]3CC4C[Ti](OC(C)C)(OC(C)C)[O+]=C4C3)(C)C)(C)C.[O-]CC"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "CC(C)(C)[Si](C)(C)O[C@H]1CC2C[Ti](OC(C)C)([O+]=C2C1)OC(C)C.[O-]CC>>CC(C)(C)[Si](C)(C)O[C@H]3CC(C(C3)=O)C[Ti](OC(C)C)(OCC)OC(C)C"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "CC(C)(C)[Si](C)(C)O[C@H]1CC(C(C1)=O)C[Ti](OC(C)C)(OCC)OC(C)C>>CC(C)(C)[Si](C)(C)O[C@H]2CC3CC3(C2)O[Ti](OC(C)C)(OCC)OC(C)C"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "CC(C)(C)[Si](C)(C)O[C@H]1CC2CC2(C1)O[Ti](OC(C)C)(OCC)OC(C)C.[H+]>>CC(C)(C)[Si](C)(C)O[C@H]3CC4CC4(C3)O.CC(C)O[Ti+](OCC)OC(C)C"
+        },
+        {
+            "step": "9",
+            "rxn_smiles": "CC(C)(C)[Si](C)(C)O[C@H]3CC4CC4(C3)O.Cl[Fe](Cl)Cl>>CC(C)([Si](C)(O[C@H]1CC2CC2(O[Fe](Cl)Cl)C1)C)C.Cl"
+        },
+        {
+            "step": "10",
+            "rxn_smiles": "CC(C)([Si](C)(O[C@H]1CC2CC2(O[Fe](Cl)Cl)C1)C)C>>CC(C)([Si](C)(O[C@H]1C[CH]CC(C1)=O)C)C.Cl[Fe]Cl"
+        },
+        {
+            "step": "11",
+            "rxn_smiles": "CC(C)([Si](C)(O[C@H]1C[CH]CC(C1)=O)C)C.Cl[Fe](Cl)Cl>>CC(C)([Si](C)(O[C@H]1CC(Cl)CC(C1)=O)C)C.Cl[Fe]Cl"
+        },
+        {
+            "step": "12",
+            "rxn_smiles": "CC(C)(C)[Si](C)(C)O[C@H]1CC(=O)CC(Cl)C1.CC(=O)[O-]>>CC(C)(C)[Si](C)(C)O[C@H]1CC(Cl)C=C([O-])C1.CC(=O)O"
+        },
+        {
+            "step": "13",
+            "rxn_smiles": "CC(C)(C)[Si](C)(C)O[C@H]1CC(Cl)C=C([O-])C1>>CC(C)(C)[Si](C)(C)O[C@H]1CC=CC(=O)C1.[Cl-]"
+        }
+    ]
+}

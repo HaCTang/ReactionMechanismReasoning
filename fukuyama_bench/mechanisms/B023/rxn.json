@@ -1,0 +1,16 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CC1(C)CC(=O)C2OC2(C)C1.FB(F)F>>CC1(C)CC(=O)C2[O+]([B-](F)(F)F)C2(C)C1"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CC1(C)CC(=O)C2[O+]([B-](F)(F)F)C2(C)C1>>CC1(C)CC(=O)C(O[B-](F)(F)F)[C+](C)C1"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CC1(C)CC(=O)C(O[B-](F)(F)F)[C+](C)C1>>CC1(C)CC(=O)C(C)(C=O)C1.FB(F)F"
+        }
+    ]
+}

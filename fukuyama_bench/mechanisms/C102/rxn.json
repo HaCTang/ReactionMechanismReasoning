@@ -1,0 +1,36 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CCOC1(OCC)CCCCC1.FB(F)F>>CC[O+](C1(OCC)CCCCC1)[B-](F)(F)F"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CC[O+](C1(OCC)CCCCC1)[B-](F)(F)F>>CC[O+]=C1CCCCC1.CCO[B-](F)(F)F"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CC[O+]=C1CCCCC1.C[Si](C)(C)OC1=C(O[Si](C)(C)C)CC1>>C[Si](C)([O+]=C1CCC1(O[Si](C)(C)C)C2(CCCCC2)OCC)C"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "C[Si](C)([O+]=C1CCC1(O[Si](C)(C)C)C2(CCCCC2)OCC)C.[F-]>>C[Si](C)(C)OC1(CCC(=O)1)C2(OCC)CCCCC2.C[Si](C)(C)F"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "C[Si](C)(C)OC1(CCC(=O)1)C2(OCC)CCCCC2.OC(=O)C(F)(F)F>>C[Si](C)(C)OC1(CCC(=O)1)C2([OH+]CC)CCCCC2.[O-]C(=O)C(F)(F)F"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "C[Si](C)(C)OC1(CCC(=O)1)C2([OH+]CC)CCCCC2>>C[Si](C)(C)OC1([C+]2CCCCC2)CCC(=O)1.OCC"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "C[Si](C)(C)OC1([C+]2CCCCC2)CCC(=O)1>>C[Si](C)(C)[O+]=C1CCC(=O)C12CCCCC2"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "C[Si](C)(C)[O+]=C1CCC(=O)C12CCCCC2.O>>O=C1CCC(=O)C12CCCCC2.O[Si](C)(C)C.[H+]"
+        }
+    ]
+}

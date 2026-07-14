@@ -1,0 +1,202 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "CC(=O)OC/C=C(\\C)CC/C=C(\\C)CCC=C(C)C",
+                    "label": "None",
+                    "electron_number": 108,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "SeO2",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "t-BuOOH",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "H2O",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "solvent",
+                    "text": "CH2Cl2",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "temperature",
+                    "text": "0 °C",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(=O)OC/C=C(\\C)CC/C=C(\\C)CC/C=C(\\C)CO",
+                    "label": "None",
+                    "electron_number": 114,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "O=[Se]=O",
+                    "label": "reagent",
+                    "electron_number": 18,
+                    "charge": 0
+                },
+                {
+                    "smiles": "O",
+                    "label": "reagent",
+                    "electron_number": 8,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O[Se](=O)O",
+                    "label": "intermediate",
+                    "electron_number": 26,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "CC(=O)OC/C=C(\\C)CC/C=C(\\C)CCC=C(C)C",
+                    "label": "substrate",
+                    "electron_number": 108,
+                    "charge": 0
+                },
+                {
+                    "smiles": "O[Se](=O)O",
+                    "label": "intermediate",
+                    "electron_number": 26,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(=O)OC/C=C(\\C)CC/C=C(\\C)CCC([Se](O)(O)O)C(=C)C",
+                    "label": "intermediate",
+                    "electron_number": 134,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "CC(=O)OC/C=C(\\C)CC/C=C(\\C)CCC([Se](O)(O)O)C(=C)C",
+                    "label": "intermediate",
+                    "electron_number": 134,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(=O)OC/C=C(\\C)CC/C=C(\\C)CCC([Se](=O)O)C(=C)C",
+                    "label": "intermediate",
+                    "electron_number": 126,
+                    "charge": 0
+                },
+                {
+                    "smiles": "O",
+                    "label": "leaving",
+                    "electron_number": 8,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "CC(=O)OC/C=C(\\C)CC/C=C(\\C)CCC([Se](=O)O)C(=C)C",
+                    "label": "intermediate",
+                    "electron_number": 126,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(=O)OC/C=C(\\C)CC/C=C(\\C)CC/C=C(\\C)CO[Se]O",
+                    "label": "intermediate",
+                    "electron_number": 126,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "5",
+            "reactants": [
+                {
+                    "smiles": "CC(=O)OC/C=C(\\C)CC/C=C(\\C)CC/C=C(\\C)CO[Se]O",
+                    "label": "intermediate",
+                    "electron_number": 126,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(=O)OC/C=C(\\C)CC/C=C(\\C)CC/C=C(\\C)CO",
+                    "label": "product",
+                    "electron_number": 114,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Se]=O",
+                    "label": "leaving",
+                    "electron_number": 12,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "6",
+            "reactants": [
+                {
+                    "smiles": "[Se]=O",
+                    "label": "intermediate",
+                    "electron_number": 12,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CC(C)(C)OO",
+                    "label": "reagent",
+                    "electron_number": 38,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=[Se]=O",
+                    "label": "reagent",
+                    "electron_number": 18,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CC(C)(C)O",
+                    "label": "leaving",
+                    "electron_number": 32,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

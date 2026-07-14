@@ -1,0 +1,44 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "[H][C@@]12CC[C@H](C)[C@]1(CCC(C)=O)CCC2=O.FB(F)F>>[H][C@@]12CC[C@H](C)[C@]1(CCC(C)=O)CCC2=[O+][B-](F)(F)F"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[H][C@@]12CC[C@@H]([C@@]1(CCC2=[O+][B-](F)(F)F)CCC(C)=O)C>>[H][C@@]34CC[C@@H]([C@@]3(CC=C4O[B-](F)(F)F)CCC(C)=[OH+])C"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "[H][C@@]12CC[C@@H]([C@@]1(CC=C2O[B-](F)(F)F)CCC(C)=[OH+])C>>[H][C@@]34CC[C@H](C)[C@@]35CCC(O)(C(C5)C4=[O+][B-](F)(F)F)C"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "[H][C@@]12CC[C@H](C)[C@@]13CCC(O)(C(C3)C2=[O+][B-](F)(F)F)C.OCCO>>[H][C@@]45CC[C@H](C)[C@@]46CCC(O)(C(C6)C5(OCCO)[OH+][B-](F)(F)F)C"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "[H][C@@]12CC[C@H](C)[C@@]13CCC(O)(C(C3)C2(OCCO)[OH+][B-](F)(F)F)C>>O[B-](F)(F)F.[H][C@@]45CC[C@H](C)[C@@]46CCC(O)(C(C6)C5=[O+]CCO)C"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "[H][C@@]12CC[C@H](C)[C@@]13CCC(O)(C(C3)C2=[O+]CCO)C>>[H][C@@]45CC[C@H](C)[C@@]46CCC(O)(C(C6)C57OCCO7)C.[H+]"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "[H][C@@]12CC[C@H](C)[C@@]13CCC(O)(C(C3)C24OCCO4)C.[H+]>>[H][C@@]56CC[C@H](C)[C@@]57CCC([OH2+])(C(C7)C68OCCO8)C"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "[H][C@@]12CC[C@H](C)[C@@]13CCC([OH2+])(C(C3)C24OCCO4)C>>[H][C@@]56CC[C@H](C)[C@@]57CC[C+](C(C7)C68OCCO8)C.O"
+        },
+        {
+            "step": "9",
+            "rxn_smiles": "[H][C@@]12CC[C@H](C)[C@@]13CC[C+](C(C3)C24OCCO4)C>>[H][C@@]5(C6=[O+]CCO6)CC[C@H](C)[C@@]57CCC(C)=CC7"
+        },
+        {
+            "step": "10",
+            "rxn_smiles": "[H][C@@]1(C2=[O+]CCO2)CC[C@H](C)[C@@]13CCC(C)=CC3.O>>CC4=CC[C@]5([C@H](CC[C@H]5C(OCCO)=O)C)CC4.[H+]"
+        }
+    ]
+}

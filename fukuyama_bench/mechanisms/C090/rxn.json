@@ -1,0 +1,24 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "[H]N1CC(C2CC1C(C2)(O)C(c3ccccc3N4CN(C)C(N(C)C4)=O)=C)=CC.C=[OH+]>>[H][N+]1(CO)CC(C2CC1C(C2)(O)C(c3ccccc3N4CN(C)C(N(C)C4)=O)=C)=CC"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[H][N+]1(CO)CC(C2CC1C(C2)(O)C(c3ccccc3N4CN(C)C(N(C)C4)=O)=C)=CC>>[OH2+]CN1CC(C2CC1C(C2)(O)C(c3ccccc3N4CN(C)C(N(C)C4)=O)=C)=CC"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "[OH2+]CN1CC(C2CC1C(C2)(O)C(c3ccccc3N4CN(C)C(N(C)C4)=O)=C)=CC>>C=[N+]1CC(C2CC1C(C2)(O)C(c3ccccc3N4CN(C)C(N(C)C4)=O)=C)=CC.O"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "C=[N+]1CC(C2CC1C(C2)(O)C(c3ccccc3N4CN(C)C(N(C)C4)=O)=C)=CC>>OC(CC1C(C[N+](CC2)=CC1)=CC)=C2c3c(N4CN(C(N(C4)C)=O)C)cccc3"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "OC(CC1C(C[N+](CC2)=CC1)=CC)=C2c3c(N4CN(C(N(C4)C)=O)C)cccc3>>CC=C1CN2CCC3(c4c(N5CN(C)C(N(C)C5)=O)cccc4)C(CC1CC23)=O.[H+]"
+        }
+    ]
+}

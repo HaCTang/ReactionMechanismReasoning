@@ -1,0 +1,218 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "Nc1ccccc1",
+                    "label": "None",
+                    "electron_number": 36,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "NaNO2",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "solvent",
+                    "text": "aq HCl",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "temperature",
+                    "text": "0 °C",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "C=CC=C",
+                    "reaction_step": "2"
+                },
+                {
+                    "role": "reagent",
+                    "text": "CuCl2 (trace CuCl)",
+                    "reaction_step": "2"
+                },
+                {
+                    "role": "temperature",
+                    "text": "0 °C to rt",
+                    "reaction_step": "2"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "ClC/C=C/Cc1ccccc1",
+                    "label": "None",
+                    "electron_number": 58,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "Nc1ccccc1",
+                    "label": "substrate",
+                    "electron_number": 36,
+                    "charge": 0
+                },
+                {
+                    "smiles": "O=NO",
+                    "label": "reagent",
+                    "electron_number": 18,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[H+]",
+                    "label": "reagent",
+                    "electron_number": 0,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "c1ccccc1[N+]#N",
+                    "label": "intermediate",
+                    "electron_number": 38,
+                    "charge": 1
+                },
+                {
+                    "smiles": "O",
+                    "label": "leaving",
+                    "electron_number": 8,
+                    "charge": 0
+                },
+                {
+                    "smiles": "O",
+                    "label": "reagent",
+                    "electron_number": 8,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "c1ccccc1[N+]#N",
+                    "label": "intermediate",
+                    "electron_number": 38,
+                    "charge": 1
+                },
+                {
+                    "smiles": "[Cl-]",
+                    "label": "reagent",
+                    "electron_number": 8,
+                    "charge": -1
+                },
+                {
+                    "smiles": "[Cu]Cl",
+                    "label": "reagent",
+                    "electron_number": 18,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "c1ccccc1N=[N]",
+                    "label": "intermediate",
+                    "electron_number": 39,
+                    "charge": 0
+                },
+                {
+                    "smiles": "Cl[Cu]Cl",
+                    "label": "intermediate",
+                    "electron_number": 25,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "c1ccccc1N=[N]",
+                    "label": "intermediate",
+                    "electron_number": 39,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[c]1ccccc1",
+                    "label": "intermediate",
+                    "electron_number": 29,
+                    "charge": 0
+                },
+                {
+                    "smiles": "N#N",
+                    "label": "leaving",
+                    "electron_number": 10,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "[c]1ccccc1",
+                    "label": "intermediate",
+                    "electron_number": 29,
+                    "charge": 0
+                },
+                {
+                    "smiles": "C=CC=C",
+                    "label": "reagent",
+                    "electron_number": 22,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "c1ccccc1CC=C[CH2]",
+                    "label": "intermediate",
+                    "electron_number": 51,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "5",
+            "reactants": [
+                {
+                    "smiles": "c1ccccc1CC=C[CH2]",
+                    "label": "intermediate",
+                    "electron_number": 51,
+                    "charge": 0
+                },
+                {
+                    "smiles": "Cl[Cu]Cl",
+                    "label": "intermediate",
+                    "electron_number": 25,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "ClC/C=C/Cc1ccccc1",
+                    "label": "product",
+                    "electron_number": 58,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Cu]Cl",
+                    "label": "leaving",
+                    "electron_number": 18,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

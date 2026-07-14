@@ -1,0 +1,143 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "CN(c1ccccc1Br)C(=O)C1=CCCC1",
+                    "label": "None",
+                    "electron_number": 128,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Pd]",
+                    "label": "None",
+                    "electron_number": 46,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "[Pd] catalyst",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "base",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[Pd]",
+                    "label": "None",
+                    "electron_number": 46,
+                    "charge": 0
+                },
+                {
+                    "smiles": "Br",
+                    "label": "None",
+                    "electron_number": 35,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "CN(c1ccccc1Br)C(=O)C1=CCCC1",
+                    "label": "None",
+                    "electron_number": 128,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Pd]",
+                    "label": "None",
+                    "electron_number": 46,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CN(c1ccccc1[Pd]Br)C(=O)C1=CCCC1",
+                    "label": "None",
+                    "electron_number": 174,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "CN(c1ccccc1[Pd]Br)C(=O)C1=CCCC1",
+                    "label": "None",
+                    "electron_number": 174,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CN1C(=O)C2(c3ccccc13)C([Pd]Br)CCC2",
+                    "label": "None",
+                    "electron_number": 174,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "CN1C(=O)C2(c3ccccc13)C([Pd]Br)CCC2",
+                    "label": "None",
+                    "electron_number": 174,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CN1C(=O)C2(c3ccccc13)C=CCC2",
+                    "label": "None",
+                    "electron_number": 93,
+                    "charge": 0
+                },
+                {
+                    "smiles": "Br[PdH]",
+                    "label": "None",
+                    "electron_number": 81,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "Br[PdH]",
+                    "label": "None",
+                    "electron_number": 81,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[Pd]",
+                    "label": "None",
+                    "electron_number": 46,
+                    "charge": 0
+                },
+                {
+                    "smiles": "Br",
+                    "label": "None",
+                    "electron_number": 35,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

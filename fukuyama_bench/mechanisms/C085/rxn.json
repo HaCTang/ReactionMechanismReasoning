@@ -1,0 +1,36 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CC(=C)CCC(C)(C)C=O.[Li]C=C>>C=CC([O-])C(C)(C)CCC(=C)C.[Li+]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "C=CC([O-])C(C)(C)CCC(=C)C.[H+]>>C=CC(O)C(C)(C)CCC(=C)C"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "C=CC(O)C(C)(C)CCC(=C)C.ClS(=O)Cl>>C=CC(OS(=O)Cl)C(C)(C)CCC(=C)C.[H+].[Cl-]"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "C=CC(OS(=O)Cl)C(C)(C)CCC(=C)C.[Cl-]>>ClC/C=C/C(C)(C)CCC(=C)C.O=S=O.[Cl-]"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "ClC/C=C/C(C)(C)CCC(=C)C.[Mg]>>[Cl][Mg]C/C=C/C(C)(C)CCC(=C)C"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "[Cl][Mg]C/C=C/C(C)(C)CCC(=C)C>>[H][C@]1(C=C)C(C)(C)CC[C@@]1(C)C[Mg]Cl"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "[H][C@]1(C=C)C(C)(C)CC[C@@]1(C)C[Mg]Cl.C=CC=O>>[H][C@]1(C=C)C(C)(C)CC[C@@]1(C)CC(C=C)O[Mg]Cl"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "[H][C@]1(C=C)C(C)(C)CC[C@@]1(C)CC(C=C)O[Mg]Cl.[H+]>>[H][C@]1(C=C)C(C)(C)CC[C@@]1(C)CC(O)C=C.[Mg+]Cl"
+        }
+    ]
+}

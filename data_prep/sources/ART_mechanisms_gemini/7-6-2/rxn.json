@@ -1,0 +1,16 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C/C=C/C[C@@](C)(O)C(=O)C(=O)OC.FB(F)F>>C/C=C/C[C@@](C)(O)C(=[O+][B-](F)(F)F)C(=O)OC"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "C/C=C/C[C@@](C)(O)C(=[O+][B-](F)(F)F)C(=O)OC>>C/C=C/C[C@](O[B-](F)(F)F)(C(=[OH+])C)C(=O)OC"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "C/C=C/C[C@](O[B-](F)(F)F)(C(=[OH+])C)C(=O)OC>>C/C=C/C[C@](O)(C(=O)C)C(=O)OC.FB(F)F"
+        }
+    ]
+}

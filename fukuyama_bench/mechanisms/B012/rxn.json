@@ -1,0 +1,20 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "N#CCCc1ccccc1Cl.[NH2-]>>N#C[CH-]Cc1ccccc1Cl.N"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "N#C[CH-]Cc1ccccc1Cl.[NH2-]>>N#C[CH-]Cc1c#cccc1.[Cl-].N"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "N#C[CH-]Cc1c#cccc1>>N#CC1Cc2ccc[c-]c21"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "N#CC1Cc2ccc[c-]c21.N>>N#CC1Cc2ccccc21.[NH2-]"
+        }
+    ]
+}

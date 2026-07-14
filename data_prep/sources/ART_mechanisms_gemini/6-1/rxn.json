@@ -1,0 +1,28 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C=CCC(C(C)C)O[SiH](c1ccccc1)c1ccccc1.[Rh]>>C=CCC(C(C)C)O[Si]([RhH])(c1ccccc1)c1ccccc1"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "C=CCC(C(C)C)O[Si]([RhH])(c1ccccc1)c1ccccc1>>CC(C1CC2C[RhH]2[Si](c3ccccc3)(O1)c4ccccc4)C"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CC(C1CC2C[RhH]2[Si](c3ccccc3)(O1)c4ccccc4)C>>CC(C1CC([Si](c2ccccc2)(O1)c3ccccc3)C[RhH])C"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CC(C1CC([Si](c2ccccc2)(O1)c3ccccc3)C[RhH])C.[C-]#[O+]>>CC(C1CC([Si](c2ccccc2)(O1)c3ccccc3)C[RhH]C#O)C"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CC(C1CC([Si](c2ccccc2)(O1)c3ccccc3)C[RhH]C#O)C>>CC(C)C1CC(CC([RhH])=O)[Si](O1)(c2ccccc2)c3ccccc3"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "CC(C)C1CC(CC([RhH])=O)[Si](O1)(c2ccccc2)c3ccccc3>>O=CCC1CC(C(C)C)O[Si]1(c1ccccc1)c1ccccc1.[Rh]"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "O=C(O)CCCCCCCCCCCCO.CC(=O)C#CN(C)C>>[O-]C(=O)CCCCCCCCCCCCO.C/C(O)=C=C=[N+](/C)C"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[O-]C(=O)CCCCCCCCCCCCO.C/C(O)=C=C=[N+](/C)C>>CC(O)=C=C(N(C)C)OC(=O)CCCCCCCCCCCCO"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CC(O)=C=C(N(C)C)OC(=O)CCCCCCCCCCCCO>>CC(=O)C=C(N(C)C)OC(=O)CCCCCCCCCCCCO"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CC(=O)C=C(N(C)C)OC(=O)CCCCCCCCCCCCO>>CC(OC(=O)CCCCCCCCCCCCO)=CC(=O)N(C)C"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CC(OC(=O)CCCCCCCCCCCCO)=CC(=O)N(C)C.[H+]>>CC(OC(=O)CCCCCCCCCCCCO)=CC(O)=[N+](C)C"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "CC(OC(=O)CCCCCCCCCCCCO)=CC(O)=[N+](C)C>>O=C1CCCCCCCCCCCCO1.CC(=O)/C=C(\\O)N(C)C.[H+]"
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C=CC(O)C=C.[CH2-]CCC>>C=CC([O-])C=C.CCCC"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "C=CC([O-])C=C.ClSc1ccccc1>>C=CC(OSc1ccccc1)C=C.[Cl-]"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "C=CC(OSc1ccccc1)C=C>>C=CC=CC[S+]([O-])c1ccccc1"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "C=CC=CC[S+]([O-])c1ccccc1.[CH2-]CCC>>C=CC=C[CH-][S+]([O-])c1ccccc1.CCCC"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "C=CC=C[CH-][S+]([O-])c1ccccc1.[H][C@@]12O[C@@H](CC)[C@](C)(O)[C@]1(C)[C@@H](C=O)OC(C)(C)O2>>[H][C@@]12O[C@@H](CC)[C@](C)(O)[C@]1(C)[C@@H](C([O-])C(C=CC=C)[S+]([O-])c1ccccc1)OC(C)(C)O2"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "[H][C@@]12O[C@@H](CC)[C@](C)(O)[C@]1(C)[C@@H](C([O-])C(C=CC=C)[S+]([O-])c1ccccc1)OC(C)(C)O2.[NH4+]>>[H][C@@]12O[C@@H](CC)[C@](C)(O)[C@]1(C)[C@@H](C(O)C(C=CC=C)[S+]([O-])c1ccccc1)OC(C)(C)O2.N"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "[H][C@@]12O[C@@H](CC)[C@](C)(O)[C@]1(C)[C@@H](C(O)C(C=CC=C)[S+]([O-])c1ccccc1)OC(C)(C)O2>>[H][C@@]12O[C@@H](CC)[C@](C)(O)[C@]1(C)[C@@H](C(O)C=CC(OSc1ccccc1)C=C)OC(C)(C)O2"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "[H][C@@]12O[C@@H](CC)[C@](C)(O)[C@]1(C)[C@@H](C(O)C=CC(OSc1ccccc1)C=C)OC(C)(C)O2>>[H][C@@]12O[C@@H](CC)[C@](C)(O)[C@]1(C)[C@@]([H])(C(O)/C=C/C=C/C[S+]([O-])c1ccccc1)OC(C)(C)O2"
+        }
+    ]
+}

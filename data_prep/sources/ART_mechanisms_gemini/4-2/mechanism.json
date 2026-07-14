@@ -1,0 +1,157 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C12C(OS(=O)(=O)C3=CC=C(C)C=C3)C(OS(=O)(=O)C4=CC=C(C)C=C4)C(OS(=O)(=O)C5=CC=C(C)C=C5)C(O2)CO1",
+                    "label": "None",
+                    "electron_number": 298,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[O-]C",
+                    "label": "None",
+                    "electron_number": 15,
+                    "charge": -1
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "NaOMe",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C12C(C(=O)OC)CC(O2)CO1",
+                    "label": "None",
+                    "electron_number": 74,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C12C(OS(=O)(=O)C3=CC=C(C)C=C3)C(OS(=O)(=O)C4=CC=C(C)C=C4)C(OS(=O)(=O)C5=CC=C(C)C=C5)C(O2)CO1",
+                    "label": "None",
+                    "electron_number": 298,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[O-]C",
+                    "label": "None",
+                    "electron_number": 15,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C12C=C(OS(=O)(=O)C3=CC=C(C)C=C3)C(OS(=O)(=O)C4=CC=C(C)C=C4)C(O2)CO1",
+                    "label": "None",
+                    "electron_number": 216,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "C12C=C(OS(=O)(=O)C3=CC=C(C)C=C3)C(OS(=O)(=O)C4=CC=C(C)C=C4)C(O2)CO1",
+                    "label": "None",
+                    "electron_number": 216,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[O-]C",
+                    "label": "None",
+                    "electron_number": 15,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C12C=C([O-])C(OS(=O)(=O)C3=CC=C(C)C=C3)C(O2)CO1",
+                    "label": "None",
+                    "electron_number": 143,
+                    "charge": -1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "C12C=C([O-])C(OS(=O)(=O)C3=CC=C(C)C=C3)C(O2)CO1",
+                    "label": "None",
+                    "electron_number": 143,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C12C3C(=O)C3C(O2)CO1",
+                    "label": "None",
+                    "electron_number": 60,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "C12C3C(=O)C3C(O2)CO1",
+                    "label": "None",
+                    "electron_number": 60,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[O-]C",
+                    "label": "None",
+                    "electron_number": 15,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C12C3C([O-])(OC)C3C(O2)CO1",
+                    "label": "None",
+                    "electron_number": 75,
+                    "charge": -1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "5",
+            "reactants": [
+                {
+                    "smiles": "C12C3C([O-])(OC)C3C(O2)CO1",
+                    "label": "None",
+                    "electron_number": 75,
+                    "charge": -1
+                },
+                {
+                    "smiles": "CO",
+                    "label": "None",
+                    "electron_number": 14,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C12C(C(=O)OC)CC(O2)CO1",
+                    "label": "None",
+                    "electron_number": 74,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

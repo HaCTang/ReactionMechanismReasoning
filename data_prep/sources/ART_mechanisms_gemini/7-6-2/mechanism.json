@@ -1,0 +1,113 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C/C=C/C[C@@](C)(O)C(=O)C(=O)OC",
+                    "label": "None",
+                    "electron_number": 86,
+                    "charge": 0
+                },
+                {
+                    "smiles": "FB(F)F",
+                    "label": "None",
+                    "electron_number": 32,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "BF3.OEt2",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C/C=C/C[C@](O)(C(=O)C)C(=O)OC",
+                    "label": "None",
+                    "electron_number": 86,
+                    "charge": 0
+                },
+                {
+                    "smiles": "FB(F)F",
+                    "label": "None",
+                    "electron_number": 32,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C/C=C/C[C@@](C)(O)C(=O)C(=O)OC",
+                    "label": "None",
+                    "electron_number": 86,
+                    "charge": 0
+                },
+                {
+                    "smiles": "FB(F)F",
+                    "label": "None",
+                    "electron_number": 32,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C/C=C/C[C@@](C)(O)C(=[O+][B-](F)(F)F)C(=O)OC",
+                    "label": "None",
+                    "electron_number": 118,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "C/C=C/C[C@@](C)(O)C(=[O+][B-](F)(F)F)C(=O)OC",
+                    "label": "None",
+                    "electron_number": 118,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C/C=C/C[C@](O[B-](F)(F)F)(C(=[OH+])C)C(=O)OC",
+                    "label": "None",
+                    "electron_number": 118,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "C/C=C/C[C@](O[B-](F)(F)F)(C(=[OH+])C)C(=O)OC",
+                    "label": "None",
+                    "electron_number": 118,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C/C=C/C[C@](O)(C(=O)C)C(=O)OC",
+                    "label": "None",
+                    "electron_number": 86,
+                    "charge": 0
+                },
+                {
+                    "smiles": "FB(F)F",
+                    "label": "None",
+                    "electron_number": 32,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

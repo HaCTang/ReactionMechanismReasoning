@@ -1,0 +1,28 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CC(C)=CCCC(C)CC=O.[N-](C(C)C)C(C)C>>CC(C)=CCCC(C)C=C[O-].N(C(C)C)C(C)C"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CC(C)=CCCC(C)C=C[O-].CC(C)(C)[Si](C)(C)Cl>>CC(C)=CCCC(C)C=CO[Si](C)(C)C(C)(C)C.[Cl-]"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CC(C)=CCCC(C)C=CO[Si](C)(C)C(C)(C)C.[O-][O+]=O>>CC(C)=CCCC(C)C1OOOC1O[Si](C)(C)C(C)(C)C"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CC(C)=CCCC(C)C1OOOC1O[Si](C)(C)C(C)(C)C>>CC(C)=CCCC(C)C=[O+][O-].O=CO[Si](C)(C)C(C)(C)C"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CC(C)=CCCC(C)C=[O+][O-]>>C1CC(C)C2C1C(C)(C)OO2"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "C1CC(C)C2C1C(C)(C)OO2.[H][H]>>C[C@@H]1CC[C@@H](C(C)(C)O)[C@H]1O"
+        }
+    ]
+}

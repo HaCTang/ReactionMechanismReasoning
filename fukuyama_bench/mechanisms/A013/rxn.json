@@ -1,0 +1,40 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C=O.[H+]>>C=[OH+]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "C=[OH+].CNC>>C[NH+](C)CO"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "C[NH+](C)CO>>CN(C)CO.[H+]"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CN(C)CO.[H+]>>CN(C)C[OH2+]"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CN(C)C[OH2+]>>C=[N+](C)C.O"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "CC(=O)c1ccccc1.[H+]>>CC(=[OH+])c1ccccc1"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "CC(=[OH+])c1ccccc1>>C=C(O)c1ccccc1.[H+]"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "C=C(O)c1ccccc1.C=[N+](C)C>>CN(C)CCC(=[OH+])c1ccccc1"
+        },
+        {
+            "step": "9",
+            "rxn_smiles": "CN(C)CCC(=[OH+])c1ccccc1>>CN(C)CCC(=O)c1ccccc1.[H+]"
+        }
+    ]
+}

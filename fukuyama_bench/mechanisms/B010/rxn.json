@@ -1,0 +1,12 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CC(CC(=O)O)c1ccccc1.[CH2-][N+]#N>>CC(CC(=O)[O-])c1ccccc1.C[N+]#N"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CC(CC(=O)[O-])c1ccccc1.C[N+]#N>>COC(=O)CC(C)c1ccccc1.N#N"
+        }
+    ]
+}

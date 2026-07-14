@@ -1,0 +1,34 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C=C(c1c(OC)cc(C)cc1C1OCCCO1)C1(O)c2cccc(OCc3ccccc3)c2C1(OC)OC>>COc1c(C(C(O)=C2C(C(OCc3ccccc3)=CC=C2)=C(OC)OC)=C)c(C4OCCCO4)cc(C)c1",
+            "mapped_rxn": "[CH2:1]=[C:2]([C:3]1([OH:4])[c:5]2[cH:6][cH:7][cH:8][c:9]([O:10][CH2:11][c:12]3[cH:13][cH:14][cH:15][cH:16][cH:17]3)[c:18]2[C:19]1([O:20][CH3:21])[O:22][CH3:23])[c:24]1[c:25]([O:26][CH3:27])[cH:28][c:29]([CH3:30])[cH:31][c:32]1[CH:33]1[O:34][CH2:35][CH2:36][CH2:37][O:38]1>>[CH2:1]=[C:2]([C:3]([OH:4])=[c:5]1[cH:6][cH:7][cH:8][c:9]([O:10][CH2:11][c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[c:18]1=[C:19]([O:20][CH3:21])[O:22][CH3:23])[c:24]1[c:25]([O:26][CH3:27])[cH:28][c:29]([CH3:30])[cH:31][c:32]1[CH:33]1[O:34][CH2:35][CH2:36][CH2:37][O:38]1",
+            "confidence": 0.5798329306751656
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "COc1c(C(C(O)=C2C(C(OCc3ccccc3)=CC=C2)=C(OC)OC)=C)c(C4OCCCO4)cc(C)c1>>OC1=C(CC(OC)(c2c1cccc2OCc3ccccc3)OC)c4c(C5OCCCO5)cc(C)cc4OC",
+            "mapped_rxn": "[CH3:1][O:2][c:3]1[cH:4][c:5]([CH3:6])[cH:7][c:8]([CH:9]2[O:10][CH2:11][CH2:12][CH2:13][O:14]2)[c:15]1[C:16]([C:17]([OH:18])=[c:19]1[cH:20][cH:21][cH:22][c:23]([O:24][CH2:25][c:26]2[cH:27][cH:28][cH:29][cH:30][cH:31]2)[c:32]1=[C:33]([O:34][CH3:35])[O:36][CH3:37])=[CH2:38]>>[CH3:1][O:2][c:3]1[cH:4][c:5]([CH3:6])[cH:7][c:8]([CH:9]2[O:10][CH2:11][CH2:12][CH2:13][O:14]2)[c:15]1[C:16]1=[C:17]([OH:18])[c:19]2[cH:20][cH:21][cH:22][c:23]([O:24][CH2:25][c:26]3[cH:27][cH:28][cH:29][cH:30][cH:31]3)[c:32]2[C:33]([O:34][CH3:35])([O:36][CH3:37])[CH2:38]1",
+            "confidence": 0.5337451967566673
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "OC1=C(CC(OC)(c2c1cccc2OCc3ccccc3)OC)c4c(C5OCCCO5)cc(C)cc4OC>>O=C1C(CC(OC)(c2c1cccc2OCc3ccccc3)OC)c4c(C5OCCCO5)cc(C)cc4OC",
+            "mapped_rxn": "[CH3:1][O:2][c:3]1[cH:4][c:5]([CH3:6])[cH:7][c:8]([CH:9]2[O:10][CH2:11][CH2:12][CH2:13][O:14]2)[c:15]1[C:16]1=[C:37]([OH:38])[c:36]2[c:23]([c:24]([O:25][CH2:26][c:27]3[cH:28][cH:29][cH:30][cH:31][cH:32]3)[cH:33][cH:34][cH:35]2)[C:18]([O:19][CH3:20])([O:21][CH3:22])[CH2:17]1>>[CH3:1][O:2][c:3]1[cH:4][c:5]([CH3:6])[cH:7][c:8]([CH:9]2[O:10][CH2:11][CH2:12][CH2:13][O:14]2)[c:15]1[CH:16]1[CH2:17][C:18]([O:19][CH3:20])([O:21][CH3:22])[c:23]2[c:24]([O:25][CH2:26][c:27]3[cH:28][cH:29][cH:30][cH:31][cH:32]3)[cH:33][cH:34][cH:35][c:36]2[C:37]1=[O:38]",
+            "confidence": 0.5311751247442124
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "O=C1C(CC(OC)(c2c1cccc2OCc3ccccc3)OC)c4c(C5OCCCO5)cc(C)cc4OC.[H+]>>O=C1C(CC(c2c1cccc2OCc3ccccc3)=[O+]C)c4c(C5OCCCO5)cc(C)cc4OC.CO",
+            "mapped_rxn": "[CH3:1][O:2][C:20]1([O:21][CH3:22])[CH2:19][CH:18]([c:17]2[c:5]([O:4][CH3:3])[cH:6][c:7]([CH3:8])[cH:9][c:10]2[CH:11]2[O:12][CH2:13][CH2:14][CH2:15][O:16]2)[C:37](=[O:38])[c:36]2[c:23]1[c:24]([O:25][CH2:26][c:27]1[cH:28][cH:29][cH:30][cH:31][cH:32]1)[cH:33][cH:34][cH:35]2.[H+]>>[CH3:1][OH:2].[CH3:3][O:4][c:5]1[cH:6][c:7]([CH3:8])[cH:9][c:10]([CH:11]2[O:12][CH2:13][CH2:14][CH2:15][O:16]2)[c:17]1[CH:18]1[CH2:19][C:20](=[O+:21][CH3:22])[c:23]2[c:24]([O:25][CH2:26][c:27]3[cH:28][cH:29][cH:30][cH:31][cH:32]3)[cH:33][cH:34][cH:35][c:36]2[C:37]1=[O:38]",
+            "confidence": 0.6019675789889912
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "O=C1C(CC(c2c1cccc2OCc3ccccc3)=[O+]C)c4c(C5OCCCO5)cc(C)cc4OC>>COc1cc(C)cc(C2OCCCO2)c1-c1cc(OC)c2c(OCc3ccccc3)cccc2c1O.[H+]",
+            "mapped_rxn": "[CH3:1][O:2][c:3]1[cH:4][c:5]([CH3:6])[cH:7][c:8]([CH:9]2[O:10][CH2:11][CH2:12][CH2:13][O:14]2)[c:15]1[CH:16]1[CH2:17][C:18](=[O+:19][CH3:20])[c:21]2[c:22]([O:23][CH2:24][c:25]3[cH:26][cH:27][cH:28][cH:29][cH:30]3)[cH:31][cH:32][cH:33][c:34]2[C:35]1=[O:36]>>[CH3:1][O:2][c:3]1[cH:4][c:5]([CH3:6])[cH:7][c:8]([CH:9]2[O:10][CH2:11][CH2:12][CH2:13][O:14]2)[c:15]1-[c:16]1[cH:17][c:18]([O:19][CH3:20])[c:21]2[c:22]([O:23][CH2:24][c:25]3[cH:26][cH:27][cH:28][cH:29][cH:30]3)[cH:31][cH:32][cH:33][c:34]2[c:35]1[OH:36].[H+:37]",
+            "confidence": 0.8157218366820136
+        }
+    ]
+}

@@ -1,0 +1,161 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "Brc1c(C[C@@H]2[C@@H]3C(=CCCC3)CCN2[*])cncc1",
+                    "label": "None",
+                    "electron_number": 139,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Pd]",
+                    "label": "None",
+                    "electron_number": 46,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "cat. (Ph3P)2Pd(O2CCF3)2",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "i-Pr2NEt",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[Pd]",
+                    "label": "None",
+                    "electron_number": 46,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CC[NH+](C(C)C)C(C)C",
+                    "label": "None",
+                    "electron_number": 54,
+                    "charge": 1
+                },
+                {
+                    "smiles": "[Br-]",
+                    "label": "None",
+                    "electron_number": 36,
+                    "charge": -1
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "Brc1c(C[C@@H]2[C@@H]3C(=CCCC3)CCN2[*])cncc1",
+                    "label": "None",
+                    "electron_number": 139,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Pd]",
+                    "label": "None",
+                    "electron_number": 46,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "Br[Pd]c1c(C[C@@H]2[C@@H]3C(=CCCC3)CCN2[*])cncc1",
+                    "label": "None",
+                    "electron_number": 185,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "Br[Pd]c1c(C[C@@H]2[C@@H]3C(=CCCC3)CCN2[*])cncc1",
+                    "label": "None",
+                    "electron_number": 185,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[*]N1CCC2(c3c(C[C@@H]1[C@@H]42)cncc3)C([Pd]Br)CCC4",
+                    "label": "None",
+                    "electron_number": 185,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "[*]N1CCC2(c3c(C[C@@H]1[C@@H]42)cncc3)C([Pd]Br)CCC4",
+                    "label": "None",
+                    "electron_number": 185,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[*]N1CCC2(c3c(C[C@@H]1[C@@H]42)cncc3)C=CCC4",
+                    "label": "None",
+                    "electron_number": 104,
+                    "charge": 0
+                },
+                {
+                    "smiles": "Br[PdH]",
+                    "label": "None",
+                    "electron_number": 81,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "Br[PdH]",
+                    "label": "None",
+                    "electron_number": 81,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CCN(C(C)C)C(C)C",
+                    "label": "None",
+                    "electron_number": 55,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[Pd]",
+                    "label": "None",
+                    "electron_number": 46,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CC[NH+](C(C)C)C(C)C",
+                    "label": "None",
+                    "electron_number": 54,
+                    "charge": 1
+                },
+                {
+                    "smiles": "[Br-]",
+                    "label": "None",
+                    "electron_number": 36,
+                    "charge": -1
+                }
+            ]
+        }
+    ]
+}

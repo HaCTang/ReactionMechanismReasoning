@@ -1,0 +1,28 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "O=C1CCCCC1.C[Si](C)(C)[CH2-]>>C[Si](C)(C)CC1(CCCCC1)[O-]",
+            "mapped_rxn": "[C:6]1(=[O:7])[CH2:8][CH2:9][CH2:10][CH2:11][CH2:12]1.[CH2-:5][Si:2]([CH3:3])([CH3:4])[CH3:1]>>[CH3:1][Si:2]([CH3:3])([CH3:4])[CH2:5][C:6]1([O-:7])[CH2:8][CH2:9][CH2:10][CH2:11][CH2:12]1",
+            "confidence": 0.32535118314060263
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "C[Si](C)(C)CC1(CCCCC1)[O-].[H+]>>C[Si](C)(C)CC1(CCCCC1)O",
+            "mapped_rxn": "[CH3:1][Si:2]([CH3:3])([CH3:4])[CH2:5][C:6]1([O-:7])[CH2:8][CH2:9][CH2:10][CH2:11][CH2:12]1.[H+]>>[CH3:1][Si:2]([CH3:3])([CH3:4])[CH2:5][C:6]1([OH:7])[CH2:8][CH2:9][CH2:10][CH2:11][CH2:12]1",
+            "confidence": 0.4923363554911528
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "C[Si](C)(C)CC1(CCCCC1)O.[H-]>>C[Si](C)(C)CC1(CCCCC1)[O-].[HH]",
+            "mapped_rxn": "[CH3:1][Si:2]([CH3:3])([CH3:4])[CH2:5][C:6]1([OH:7])[CH2:8][CH2:9][CH2:10][CH2:11][CH2:12]1.[H-:13]>>[CH3:1][Si:2]([CH3:3])([CH3:4])[CH2:5][C:6]1([O-:7])[CH2:8][CH2:9][CH2:10][CH2:11][CH2:12]1.[HH:13]",
+            "confidence": 0.5175945064743775
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "C[Si](C)(C)CC1(CCCCC1)[O-]>>C=C1CCCCC1.C[Si](C)(C)[O-]",
+            "mapped_rxn": "[CH2:1]([C:2]1([O-:12])[CH2:3][CH2:4][CH2:5][CH2:6][CH2:7]1)[Si:9]([CH3:8])([CH3:10])[CH3:11]>>[CH2:1]=[C:2]1[CH2:3][CH2:4][CH2:5][CH2:6][CH2:7]1.[CH3:8][Si:9]([CH3:10])([CH3:11])[O-:12]",
+            "confidence": 0.588296385334759
+        }
+    ]
+}

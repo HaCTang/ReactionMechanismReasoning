@@ -1,0 +1,24 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C#CC1(C)CO1.[Pd]>>[O-]CC(C)=C=C[Pd+]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[O-]CC(C)=C=C[Pd+].COC(=O)CC(C)=O>>OCC(C)=C=C[Pd+].COC(=O)[CH-]C(C)=O"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "OCC(C)=C=C[Pd+].COC(=O)[CH-]C(C)=O>>[O-]C(C)=C(C(C[Pd+])=C(CO)C)C(OC)=O"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "[O-]C(C)=C(C(C[Pd+])=C(CO)C)C(OC)=O>>CC(OC1(C)CO)=C(C(OC)=O)C1=C.[Pd]"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CC(OC1(C)CO)=C(C(OC)=O)C1=C.[Pd]>>COC(=O)c1c(C)oc(C)c1C.[Pd].C=O"
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C=CC(C)(C)CCCC1(C#N)Cc2ccccc21",
+                    "label": "None",
+                    "electron_number": 94,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "o-dichlorobenzene",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "temperature",
+                    "text": "180 °C",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[H][C@]12CCC3=C([C@]1(CCCC2(C)C)C#N)C=CC=C3",
+                    "label": "None",
+                    "electron_number": 94,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C=CC(C)(C)CCCC1(C#N)Cc2ccccc21",
+                    "label": "substrate",
+                    "electron_number": 94,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C=C1C(=C(C#N)CCCC(C)(C)C=C)C=CC=C1",
+                    "label": "intermediate",
+                    "electron_number": 94,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "C=C1C(=C(C#N)CCCC(C)(C)C=C)C=CC=C1",
+                    "label": "intermediate",
+                    "electron_number": 94,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[H][C@]12CCC3=C([C@]1(CCCC2(C)C)C#N)C=CC=C3",
+                    "label": "product",
+                    "electron_number": 94,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CCCCCCCCC(O)CC=C.CCC=O>>CCCCCCCCC(CC=C)OC(O)CC"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CCCCCCCCC(CC=C)OC(O)CC.CC(=O)O[Hg]OC(=O)C>>CCCCCCCCC1CC(C[Hg-](OC(=O)C)OC(=O)C)[OH+]C(CC)O1"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CCCCCCCCC1CC(C[Hg-](OC(=O)C)OC(=O)C)[OH+]C(CC)O1>>CCCCCCCCC1CC(C[Hg]OC(=O)C)OC(CC)O1.CC(=O)O"
+        }
+    ]
+}

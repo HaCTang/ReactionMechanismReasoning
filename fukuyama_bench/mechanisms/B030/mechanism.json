@@ -1,0 +1,81 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "COC(=O)C1(C)c2nc(Cl)c(C)cc2CS1(=O)=O",
+                    "label": "None",
+                    "electron_number": 98,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "o-dichlorobenzene",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "temperature",
+                    "text": "200 °C",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C=C(C(=O)OC)c1nc(Cl)c(C)cc1C",
+                    "label": "None",
+                    "electron_number": 80,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "COC(=O)C1(C)c2nc(Cl)c(C)cc2CS1(=O)=O",
+                    "label": "substrate",
+                    "electron_number": 98,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=S=O",
+                    "label": "leaving",
+                    "electron_number": 18,
+                    "charge": 0
+                },
+                {
+                    "smiles": "COC(=O)C(C)=C1C(=C)C=C(C)C(Cl)=N1",
+                    "label": "intermediate",
+                    "electron_number": 80,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "COC(=O)C(C)=C1C(=C)C=C(C)C(Cl)=N1",
+                    "label": "intermediate",
+                    "electron_number": 80,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C=C(C(=O)OC)c1nc(Cl)c(C)cc1C",
+                    "label": "product",
+                    "electron_number": 80,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

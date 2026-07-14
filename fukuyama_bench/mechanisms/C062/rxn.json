@@ -1,0 +1,44 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "O=C1CCCC/C1=C/O.[H+]>>O=C1CCCCC1C=[OH+]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "O=C1CCCCC1C=[OH+].C[Si](C)(C)C=CCO>>O=C1CCCCC1C(O)OCC=C[Si](C)(C)C.[H+]"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "O=C1CCCCC1C(O)OCC=C[Si](C)(C)C.[H+]>>O=C1CCCCC1C([OH2+])OCC=C[Si](C)(C)C"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "O=C1CCCCC1C([OH2+])OCC=C[Si](C)(C)C>>O=C1CCCCC1C=[O+]CC=C[Si](C)(C)C.O"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "O=C1CCCCC1C=[O+]CC=C[Si](C)(C)C>>O=C1CCCC/C1=C/OCC=C[Si](C)(C)C.[H+]"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "O=C1CCCC/C1=C/OCC=C[Si](C)(C)C>>O=CC1(C(C=C)[Si](C)(C)C)CCCCC1=O"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "O=CC1(C(C=C)[Si](C)(C)C)CCCCC1=O.CC[Al](Cl)Cl>>CC[Al-](Cl)(Cl)[O+]=CC1(C(C=C)[Si](C)(C)C)CCCCC1=O"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "CC[Al-](Cl)(Cl)[O+]=CC1(C(C=C)[Si](C)(C)C)CCCCC1=O>>CC[Al-](Cl)(Cl)OC1C[CH+]C([Si](C)(C)C)C12CCCCC2=O"
+        },
+        {
+            "step": "9",
+            "rxn_smiles": "CC[Al-](Cl)(Cl)OC1C[CH+]C([Si](C)(C)C)C12CCCCC2=O>>CC[Al](Cl)OC1CC=CC12CCCCC2=O.C[Si](C)(C)Cl"
+        },
+        {
+            "step": "10",
+            "rxn_smiles": "CC[Al](Cl)OC1CC=CC12CCCCC2=O.O>>[H][C@@]1(O)CC=CC12CCCCC2=O.CC[Al](Cl)O"
+        }
+    ]
+}

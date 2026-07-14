@@ -1,0 +1,32 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C=CCCC12CCCC(C(C3CC32C)=O)1[Se]c4ccccc4.CCCC[Sn](CCCC)CCCC>>C=CCCC12CCC[C]1C(C3CC32C)=O.CCCC[Sn](CCCC)(CCCC)[Se]c1ccccc1"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "C=CCCC12CCC[C]1C(C3CC32C)=O>>[CH2]C1CCC23CCCC21C(C4CC43C)=O"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "[CH2]C1CCC23CCCC21C(C4CC43C)=O.CCCC[SnH](CCCC)CCCC>>CC1CCC23CCCC21C(C4CC43C)=O.CCCC[Sn](CCCC)CCCC"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CC1CCC23CCCC21C(C4CC43C)=O.CCCC[Sn](CCCC)CCCC>>CC1CCC23CCCC21[C](C4CC43C)O[Sn](CCCC)(CCCC)CCCC"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CC1CCC23CCCC21[C](C4CC43C)O[Sn](CCCC)(CCCC)CCCC>>CC1CCC23CCCC21C(O[Sn](CCCC)(CCCC)CCCC)=CC(C)3[CH2]"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "CC1CCC23CCCC21C(O[Sn](CCCC)(CCCC)CCCC)=CC(C)3[CH2].CCCC[SnH](CCCC)CCCC>>CC1CCC23CCCC21C(O[Sn](CCCC)(CCCC)CCCC)=CC(C)3C.CCCC[Sn](CCCC)CCCC"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "CC1CCC23CCCC21C(O[Sn](CCCC)(CCCC)CCCC)=CC(C)3C>>CC1CCC23CCCC2(C1)C(=O)CC(C)(C)3"
+        }
+    ]
+}

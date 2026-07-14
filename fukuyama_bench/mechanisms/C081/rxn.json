@@ -1,0 +1,16 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C=C(C)[C@@H]1CC=C(C)C(=O)C1.Cl[Ti](Cl)(Cl)Cl>>C=C(C)[C@@H]1CC=C(C)C(=[O+][Ti-](Cl)(Cl)(Cl)Cl)C1"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "C=C(C)[C@@H]1CC=C(C)C(=[O+][Ti-](Cl)(Cl)(Cl)Cl)C1.C=C=C(C)[Si](C)(C)C>>C=C([C@@H]1CC(CC2=C([Si+](C)(C)2C)C)C(C)=C(C1)O[Ti-](Cl)(Cl)(Cl)Cl)C"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "C=C([C@@H]1CC(CC2=C([Si+](C)(C)2C)C)C(C)=C(C1)O[Ti-](Cl)(Cl)(Cl)Cl)C>>[H][C@]12CC([Si](C)(C)C)=C(C)[C@@]1(C)C(=O)C[C@H](C(=C)C)C2.Cl[Ti](Cl)(Cl)Cl"
+        }
+    ]
+}

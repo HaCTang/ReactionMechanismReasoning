@@ -1,0 +1,32 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "Ic1ccccc1.[Pd]>>[Pd](I)c1ccccc1"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[Pd](I)c1ccccc1.C(#Cc1ccccc1)c1ccccc1>>I[Pd]1(C(c2ccccc2)=C1c3ccccc3)c4ccccc4"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "I[Pd]1(C(c2ccccc2)=C1c3ccccc3)c4ccccc4>>I[Pd]C(=C(c1ccccc1)c1ccccc1)c1ccccc1"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "I[Pd]C(=C(c1ccccc1)c1ccccc1)c1ccccc1>>[H][Pd]1(I)C(c2ccccc2)=C(c2ccccc2)c2ccccc21"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "[H][Pd]1(I)C(c2ccccc2)=C(c2ccccc2)c2ccccc21>>I[Pd]c1ccccc1C(c1ccccc1)=Cc1ccccc1"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "I[Pd]c1ccccc1C(c1ccccc1)=Cc1ccccc1>>I[Pd]1([H])c2c(C(c3c1cccc3)=Cc4ccccc4)cccc2"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "I[Pd]1([H])c2c(C(c3c1cccc3)=Cc4ccccc4)cccc2>>C(=C1c2ccccc2-c2ccccc21)c1ccccc1.I.[Pd]"
+        }
+    ]
+}

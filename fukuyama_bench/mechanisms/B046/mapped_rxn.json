@@ -1,0 +1,70 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "COC(CC(C)=O)OC.CNC>>C[NH+](C)C([O-])(C)CC(OC)OC",
+            "mapped_rxn": "[NH:8]([CH3:9])[CH3:10].[CH3:1][O:2][CH:3]([CH2:4][C:5]([CH3:6])=[O:7])[O:11][CH3:12]>>[CH3:1][O:2][CH:3]([CH2:4][C:5]([CH3:6])([O-:7])[NH+:8]([CH3:9])[CH3:10])[O:11][CH3:12]",
+            "confidence": 0.5292463445422341
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "C[NH+](C)C([O-])(C)CC(OC)OC>>CN(C)C(O)(C)CC(OC)OC",
+            "mapped_rxn": "[CH3:1][O:2][CH:3]([CH2:4][C:5]([CH3:6])([O-:7])[NH+:8]([CH3:9])[CH3:10])[O:11][CH3:12]>>[CH3:1][O:2][CH:3]([CH2:4][C:5]([CH3:6])([OH:7])[N:8]([CH3:9])[CH3:10])[O:11][CH3:12]",
+            "confidence": 0.5829962576309714
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CN(C)C(O)(C)CC(OC)OC>>C[N+](C)=C(C)CC(OC)OC.[OH-]",
+            "mapped_rxn": "[CH3:1][O:2][CH:3]([CH2:4][C:5]([CH3:6])([N:7]([CH3:8])[CH3:9])[OH:12])[O:10][CH3:11]>>[CH3:1][O:2][CH:3]([CH2:4][C:5]([CH3:6])=[N+:7]([CH3:8])[CH3:9])[O:10][CH3:11].[OH-:12]",
+            "confidence": 0.520013397273764
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "C[N+](C)=C(C)CC(OC)OC.[OH-]>>CN(C)C(C)=CC(OC)OC.O",
+            "mapped_rxn": "[CH3:1][O:2][CH:3]([CH2:4][C:5]([CH3:6])=[N+:7]([CH3:8])[CH3:9])[O:10][CH3:11].[OH-:12]>>[CH3:1][O:2][CH:3]([CH:4]=[C:5]([CH3:6])[N:7]([CH3:8])[CH3:9])[O:10][CH3:11].[OH2:12]",
+            "confidence": 0.5052991755780767
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CN(C)C(C)=CC(OC)OC>>C[N+](C)=C(C)C=COC.C[O-]",
+            "mapped_rxn": "[CH3:1][O:2][CH:3]([CH:4]=[C:5]([CH3:6])[N:7]([CH3:8])[CH3:9])[O:11][CH3:10]>>[CH3:1][O:2][CH:3]=[CH:4][C:5]([CH3:6])=[N+:7]([CH3:8])[CH3:9].[CH3:10][O-:11]",
+            "confidence": 0.44685127657780915
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "C[N+](C)=C(C)C=COC.CNC>>COC([NH+](C)C)C=C(N(C)C)C",
+            "mapped_rxn": "[NH:10]([CH3:11])[CH3:12].[CH3:1][O:2][CH:3]=[CH:4][C:5]([CH3:6])=[N+:7]([CH3:8])[CH3:9]>>[CH3:1][O:2][CH:3]([CH:4]=[C:5]([CH3:6])[N:7]([CH3:8])[CH3:9])[NH+:10]([CH3:11])[CH3:12]",
+            "confidence": 0.43009144727443094
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "COC([NH+](C)C)C=C(N(C)C)C.C[O-]>>COC(N(C)C)C=C(N(C)C)C.CO",
+            "mapped_rxn": "[CH3:3][O:4][CH:5]([CH:6]=[C:7]([CH3:8])[N:9]([CH3:10])[CH3:11])[NH+:12]([CH3:13])[CH3:14].[CH3:1][O-:2]>>[CH3:1][OH:2].[CH3:3][O:4][CH:5]([CH:6]=[C:7]([CH3:8])[N:9]([CH3:10])[CH3:11])[N:12]([CH3:13])[CH3:14]",
+            "confidence": 0.5016852182051034
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "COC(N(C)C)C=C(N(C)C)C>>CN(C)C=CC(=[N+](C)C)C.C[O-]",
+            "mapped_rxn": "[CH3:1][C:2](=[CH:3][CH:4]([N:5]([CH3:6])[CH3:7])[O:12][CH3:11])[N:8]([CH3:9])[CH3:10]>>[CH3:1][C:2]([CH:3]=[CH:4][N:5]([CH3:6])[CH3:7])=[N+:8]([CH3:9])[CH3:10].[CH3:11][O-:12]",
+            "confidence": 0.29528719503543766
+        },
+        {
+            "step": "9",
+            "rxn_smiles": "CN(C)C=CC(=[N+](C)C)C.O>>CN(C)C=CC(C)(N(C)C)[OH2+]",
+            "mapped_rxn": "[CH3:1][N:2]([CH3:3])[CH:4]=[CH:5][C:6]([CH3:7])=[N+:9]([CH3:10])[CH3:11].[OH2:8]>>[CH3:1][N:2]([CH3:3])[CH:4]=[CH:5][C:6]([CH3:7])([OH2+:8])[N:9]([CH3:10])[CH3:11]",
+            "confidence": 0.48830611098534066
+        },
+        {
+            "step": "10",
+            "rxn_smiles": "CN(C)C=CC(C)(N(C)C)[OH2+]>>CN(C)C=CC(C)([NH+](C)C)O",
+            "mapped_rxn": "[CH3:1][N:2]([CH3:3])[CH:4]=[CH:5][C:6]([CH3:7])([OH2+:8])[N:9]([CH3:10])[CH3:11]>>[CH3:1][N:2]([CH3:3])[CH:4]=[CH:5][C:6]([CH3:7])([OH:8])[NH+:9]([CH3:10])[CH3:11]",
+            "confidence": 0.6553165303468566
+        },
+        {
+            "step": "11",
+            "rxn_smiles": "CN(C)C=CC(C)([NH+](C)C)O>>CN(C)C=CC(C)=O.CNC.[H+]",
+            "mapped_rxn": "[CH3:1][C:2]([OH:3])([CH:4]=[CH:5][N:6]([CH3:7])[CH3:8])[NH+:10]([CH3:9])[CH3:11]>>[CH3:1][C:2](=[O:3])[CH:4]=[CH:5][N:6]([CH3:7])[CH3:8].[CH3:9][NH:10][CH3:11].[H+:12]",
+            "confidence": 0.4290125270973295
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "ClC1(Cl)C2Cc3ccccc3SC21>>ClC(C=[S+]1)=CCc2c1cccc2.[Cl-]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "ClC(C=[S+]1)=CCc2c1cccc2>>ClC1=CSc2ccccc2C=C1.[H+]"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "ClC1=CSc2ccccc2C=C1>>ClC1=CC=C2C=CC=CC23SC13"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "ClC1=CC=C2C=CC=CC23SC13>>Clc1ccc2ccccc2c1.[S]"
+        }
+    ]
+}

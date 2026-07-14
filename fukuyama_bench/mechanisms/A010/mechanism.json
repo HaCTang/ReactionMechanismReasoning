@@ -1,0 +1,198 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C1CCC2(CC1)OCCO2",
+                    "label": "None",
+                    "electron_number": 58,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "Br2",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "HBr, (cat)",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "temperature",
+                    "text": "0°C",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "BrC1CCCCC12OCCO2",
+                    "label": "None",
+                    "electron_number": 64,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C1CCC2(CC1)OCCO2",
+                    "label": "substrate",
+                    "electron_number": 58,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[H+]",
+                    "label": "reagent",
+                    "electron_number": 0,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C1CCC2(CC1)OCC[OH+]2",
+                    "label": "intermediate",
+                    "electron_number": 58,
+                    "charge": 1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "C1CCC2(CC1)OCC[OH+]2",
+                    "label": "intermediate",
+                    "electron_number": 58,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "OCC[O+]=C1CCCCC1",
+                    "label": "intermediate",
+                    "electron_number": 58,
+                    "charge": 1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "OCC[O+]=C1CCCCC1",
+                    "label": "intermediate",
+                    "electron_number": 58,
+                    "charge": 1
+                },
+                {
+                    "smiles": "[Br-]",
+                    "label": "reagent",
+                    "electron_number": 8,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "OCCOC1=CCCCC1",
+                    "label": "intermediate",
+                    "electron_number": 58,
+                    "charge": 0
+                },
+                {
+                    "smiles": "Br",
+                    "label": "leaving",
+                    "electron_number": 8,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "OCCOC1=CCCCC1",
+                    "label": "intermediate",
+                    "electron_number": 58,
+                    "charge": 0
+                },
+                {
+                    "smiles": "BrBr",
+                    "label": "reagent",
+                    "electron_number": 14,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "OCC[O+]=C1C(Br)CCCC1",
+                    "label": "intermediate",
+                    "electron_number": 64,
+                    "charge": 1
+                },
+                {
+                    "smiles": "[Br-]",
+                    "label": "leaving",
+                    "electron_number": 8,
+                    "charge": -1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "5",
+            "reactants": [
+                {
+                    "smiles": "OCC[O+]=C1C(Br)CCCC1",
+                    "label": "intermediate",
+                    "electron_number": 64,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C1CCC2(C(Br)C1)OCC[OH+]2",
+                    "label": "intermediate",
+                    "electron_number": 64,
+                    "charge": 1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "6",
+            "reactants": [
+                {
+                    "smiles": "C1CCC2(C(Br)C1)OCC[OH+]2",
+                    "label": "intermediate",
+                    "electron_number": 64,
+                    "charge": 1
+                },
+                {
+                    "smiles": "[Br-]",
+                    "label": "reagent",
+                    "electron_number": 8,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C1CCC2(C(Br)C1)OCCO2",
+                    "label": "product",
+                    "electron_number": 64,
+                    "charge": 0
+                },
+                {
+                    "smiles": "Br",
+                    "label": "leaving",
+                    "electron_number": 8,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

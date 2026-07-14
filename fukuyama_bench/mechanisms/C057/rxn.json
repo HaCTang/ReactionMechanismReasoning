@@ -1,0 +1,16 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "OC/C=C/C#CC#C/C=C/CO.[H][H].[H][H]>>OC/C=C/C=C\\C=C/C=C/CO"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "OC/C=C/C=C\\C=C/C=C/CO>>OC[C@H]1C=CC=CC=C[C@@H]1CO"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "OC[C@H]1C=CC=CC=C[C@@H]1CO>>[H][C@@]12C=CC=C[C@]1([H])[C@@H](CO)[C@@H]2CO"
+        }
+    ]
+}

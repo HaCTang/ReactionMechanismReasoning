@@ -1,0 +1,136 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C=CCN(CC=C)C(=O)OC(C)(C)C",
+                    "label": "None",
+                    "electron_number": 80,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "*.Cl[Ru](Cl)(=Cc1ccccc1)P(C1CCCCC1)(C1CCCCC1)C1CCCCC1",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "solvent",
+                    "text": "CH2Cl2",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "temperature",
+                    "text": "reflux",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(C)(C)OC(=O)N1CC=CC1",
+                    "label": "None",
+                    "electron_number": 68,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C=CCN(CC=C)C(=O)OC(C)(C)C",
+                    "label": "substrate",
+                    "electron_number": 80,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Ru]=Cc1ccccc1",
+                    "label": "reagent",
+                    "electron_number": 42,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[Ru]1C(c2ccccc2)CC1CN(CC=C)C(=O)OC(C)(C)C",
+                    "label": "intermediate",
+                    "electron_number": 122,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "[Ru]1C(c2ccccc2)CC1CN(CC=C)C(=O)OC(C)(C)C",
+                    "label": "intermediate",
+                    "electron_number": 122,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "c1ccccc1C=C",
+                    "label": "leaving",
+                    "electron_number": 40,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Ru]=CCN(CC=C)C(=O)OC(C)(C)C",
+                    "label": "intermediate",
+                    "electron_number": 82,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "[Ru]=CCN(CC=C)C(=O)OC(C)(C)C",
+                    "label": "intermediate",
+                    "electron_number": 82,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[Ru]1CC2C1CN(C(=O)OC(C)(C)C)C2",
+                    "label": "intermediate",
+                    "electron_number": 82,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "[Ru]1CC2C1CN(C(=O)OC(C)(C)C)C2",
+                    "label": "intermediate",
+                    "electron_number": 82,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(C)(C)OC(=O)N1CC=CC1",
+                    "label": "product",
+                    "electron_number": 68,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Ru]=C",
+                    "label": "leaving",
+                    "electron_number": 14,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

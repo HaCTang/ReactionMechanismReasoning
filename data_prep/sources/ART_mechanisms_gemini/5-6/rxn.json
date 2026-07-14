@@ -1,0 +1,28 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "O=C1CCCCCCC1.I[Sm]I>>I[Sm](I)O[C]1CCCCCCC1"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "I[Sm](I)O[C]1CCCCCCC1.C=CC(=O)OCC>>I[Sm](I)OC1(C[CH]C(=O)OCC)CCCCCCC1"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "I[Sm](I)OC1(C[CH]C(=O)OCC)CCCCCCC1.I[Sm]I>>I[Sm](I)OC1(CC=C(OCC)O[Sm](I)I)CCCCCCC1"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "I[Sm](I)OC1(CC=C(OCC)O[Sm](I)I)CCCCCCC1>>CCOC(=O)CCC1([O-])CCCCCCC1"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CCOC(=O)CCC1([O-])CCCCCCC1>>CCOC1([O-])CCC2(CCCCCCC2)O1"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "CCOC1([O-])CCC2(CCCCCCC2)O1>>O=C1CCC2(CCCCCCC2)O1.CC[O-]"
+        }
+    ]
+}

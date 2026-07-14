@@ -1,0 +1,34 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CC(=O)c1ccccc1.[OH-]>>[CH2]=C([O-])c1ccccc1.O",
+            "mapped_rxn": "[CH3:1][C:2](=[O:3])[c:4]1[cH:5][cH:6][cH:7][cH:8][cH:9]1.[OH-:10]>>[CH2:1]=[C:2]([O-:3])[c:4]1[cH:5][cH:6][cH:7][cH:8][cH:9]1.[OH2:10]",
+            "confidence": 0.8679190086693271
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[CH2]=C([O-])c1ccccc1.O=Cc1ccccc1>>[O-]C(CC(=O)c1ccccc1)c1ccccc1",
+            "mapped_rxn": "[O-:1][C:2](=[CH2:3])[c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1.[CH:4](=[O:5])[c:6]1[cH:7][cH:8][cH:9][cH:10][cH:11]1>>[O:1]=[C:2]([CH2:3][CH:4]([O-:5])[c:6]1[cH:7][cH:8][cH:9][cH:10][cH:11]1)[c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1",
+            "confidence": 0.8207646798069045
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "[O-]C(CC(=O)c1ccccc1)c1ccccc1.O>>OC(CC(=O)c1ccccc1)c1ccccc1.[OH-]",
+            "mapped_rxn": "[OH2:18].[O:1]=[C:2]([CH2:3][CH:4]([O-:5])[c:6]1[cH:7][cH:8][cH:9][cH:10][cH:11]1)[c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1>>[O:1]=[C:2]([CH2:3][CH:4]([OH:5])[c:6]1[cH:7][cH:8][cH:9][cH:10][cH:11]1)[c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1.[OH-:18]",
+            "confidence": 0.8680913427988622
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "OC(CC(=O)c1ccccc1)c1ccccc1.[OH-]>>[O-]C(c1ccccc1)=CC(O)c1ccccc1.O",
+            "mapped_rxn": "[O:2]=[C:3]([CH2:4][CH:5]([OH:6])[c:7]1[cH:8][cH:9][cH:10][cH:11][cH:12]1)[c:13]1[cH:14][cH:15][cH:16][cH:17][cH:18]1.[OH-:1]>>[OH2:1].[O-:2][C:3](=[CH:4][CH:5]([OH:6])[c:7]1[cH:8][cH:9][cH:10][cH:11][cH:12]1)[c:13]1[cH:14][cH:15][cH:16][cH:17][cH:18]1",
+            "confidence": 0.8934025735759481
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "[O-]C(c1ccccc1)=CC(O)c1ccccc1>>O=C(/C=C/c1ccccc1)c1ccccc1.[OH-]",
+            "mapped_rxn": "[O-:1][C:2](=[CH:3][CH:4]([c:5]1[cH:6][cH:7][cH:8][cH:9][cH:10]1)[OH:17])[c:11]1[cH:12][cH:13][cH:14][cH:15][cH:16]1>>[O:1]=[C:2](/[CH:3]=[CH:4]/[c:5]1[cH:6][cH:7][cH:8][cH:9][cH:10]1)[c:11]1[cH:12][cH:13][cH:14][cH:15][cH:16]1.[OH-:17]",
+            "confidence": 0.8289348820802706
+        }
+    ]
+}

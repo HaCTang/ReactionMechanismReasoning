@@ -1,0 +1,36 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "COc1ccc(C(N)=O)cc1OC.[OH-]>>COc1ccc(C([NH-])=O)cc1OC.O"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "COc1ccc(C([NH-])=O)cc1OC.OCl>>COc1ccc(C(NCl)=O)cc1OC.[OH-]"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "COc1ccc(C(NCl)=O)cc1OC.[OH-]>>COc1ccc(C([N-]Cl)=O)cc1OC.O"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "COc1ccc(C([N-]Cl)=O)cc1OC>>COc1ccc(N=C=O)cc1OC.[Cl-]"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "COc1ccc(N=C=O)cc1OC.[OH-]>>COc1ccc(N=C(O)[O-])cc1OC"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "COc1ccc(N=C(O)[O-])cc1OC.O>>COc1ccc(NC(=O)O)cc1OC.[OH-]"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "COc1ccc(NC(=O)O)cc1OC.[OH-]>>COc1ccc(NC(=O)[O-])cc1OC.O"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "COc1ccc(NC(=O)[O-])cc1OC.O>>COc1ccc(N)cc1OC.O=C=O.[OH-]"
+        }
+    ]
+}

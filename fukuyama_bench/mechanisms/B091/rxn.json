@@ -1,0 +1,36 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CC(OCC)(OCC)OCC.[H+]>>CC(OCC)(OCC)[OH+]CC"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CC(OCC)(OCC)[OH+]CC>>CC(=[O+]CC)OCC.CCO"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CC(=[O+]CC)OCC.C=C(C)CCC(O)C(=C)C>>C=C(C)CCC([OH+]C(C)(OCC)OCC)C(=C)C"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "C=C(C)CCC([OH+]C(C)(OCC)OCC)C(=C)C>>C=C(C)CCC(OC(C)(OCC)OCC)C(=C)C.[H+]"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "C=C(C)CCC(OC(C)(OCC)OCC)C(=C)C.[H+]>>C=C(C)CCC(OC(C)(OCC)[OH+]CC)C(=C)C"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "C=C(C)CCC(OC(C)(OCC)[OH+]CC)C(=C)C>>C=C(C)CCC(OC(=[O+]CC)C)C(=C)C.CCO"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "C=C(C)CCC(OC(=[O+]CC)C)C(=C)C>>C=C(C)CCC(OC(=C)OCC)C(=C)C.[H+]"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "C=C(C)CCC(OC(=C)OCC)C(=C)C>>C=C(C)CC/C=C(\\C)CCC(=O)OCC"
+        }
+    ]
+}

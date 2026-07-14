@@ -1,0 +1,16 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "N#CC=CCCCC(=O)CCCC=CC#N.ON>>N#CC=CCCCC(=NO)CCCC=CC#N.O"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "N#CC=CCCCC(=NO)CCCC=CC#N>>[O-][N+]1=C(CCCC=CC#N)CCCC1CC#N"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "[O-][N+]1=C(CCCC=CC#N)CCCC1CC#N>>N#CC[C@@H]1CCC[C@]23CCCC(ON12)C3C#N"
+        }
+    ]
+}

@@ -1,0 +1,190 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "COCCOCOC/C=C/C=C/C(C)(C)C(O)c1ccco1",
+                    "label": "None",
+                    "electron_number": 124,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "t-BuOOH, VO(acac)2",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "solvent",
+                    "text": "CH2Cl2",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "temperature",
+                    "text": "-30 °C",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "solvent",
+                    "text": "toluene",
+                    "reaction_step": "2"
+                },
+                {
+                    "role": "temperature",
+                    "text": "110 °C",
+                    "reaction_step": "2"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "COCCOCOC[C@H]1C=C[C@@]2([H])C(C)(C)[C@@H](O)C(=O)[C@@]2([H])[C@H]1C=O",
+                    "label": "None",
+                    "electron_number": 130,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "COCCOCOC/C=C/C=C/C(C)(C)C(O)c1ccco1",
+                    "label": "substrate",
+                    "electron_number": 124,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CC(C)(C)OO",
+                    "label": "reagent",
+                    "electron_number": 38,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "COCCOCOC/C=C/C=C/C(C)(C)[C@H](O)[C@]12O[C@@H]2C=CO1",
+                    "label": "intermediate",
+                    "electron_number": 130,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CC(C)(C)O",
+                    "label": "leaving",
+                    "electron_number": 32,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "COCCOCOC/C=C/C=C/C(C)(C)[C@H](O)[C@]12O[C@@H]2C=CO1",
+                    "label": "intermediate",
+                    "electron_number": 130,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[H+]",
+                    "label": "reagent",
+                    "electron_number": 0,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "COCCOCOC/C=C/C=C/C(C)(C)[C@H](O)[C@]12[OH+][C@@H]2C=CO1",
+                    "label": "intermediate",
+                    "electron_number": 130,
+                    "charge": 1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "COCCOCOC/C=C/C=C/C(C)(C)[C@H](O)[C@]12[OH+][C@@H]2C=CO1",
+                    "label": "intermediate",
+                    "electron_number": 130,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "COCCOCOC/C=C/C=C/C([C@H](O)C(/C=C\\C=O)=O)(C)C",
+                    "label": "intermediate",
+                    "electron_number": 130,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[H+]",
+                    "label": "leaving",
+                    "electron_number": 0,
+                    "charge": 1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "COCCOCOC/C=C/C=C/C([C@H](O)C(/C=C\\C=O)=O)(C)C",
+                    "label": "intermediate",
+                    "electron_number": 130,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "COCCOCOC/C=C/C=C/C(C)(C)[C@@H]1C(=O)C=C[C@@H](O)O1",
+                    "label": "intermediate",
+                    "electron_number": 130,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "5",
+            "reactants": [
+                {
+                    "smiles": "COCCOCOC/C=C/C=C/C(C)(C)[C@@H]1C(=O)C=C[C@@H](O)O1",
+                    "label": "intermediate",
+                    "electron_number": 130,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC1(C)[C@]2([H])C=C[C@H](COCOCCOC)[C@@](C(O)OC31)([H])[C@]2([H])C3=O",
+                    "label": "intermediate",
+                    "electron_number": 130,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "6",
+            "reactants": [
+                {
+                    "smiles": "CC1(C)[C@]2([H])C=C[C@H](COCOCCOC)[C@@](C(O)OC31)([H])[C@]2([H])C3=O",
+                    "label": "intermediate",
+                    "electron_number": 130,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "COCCOCOC[C@H]1C=C[C@@]2([H])C(C)(C)[C@@H](O)C(=O)[C@@]2([H])[C@H]1C=O",
+                    "label": "product",
+                    "electron_number": 130,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

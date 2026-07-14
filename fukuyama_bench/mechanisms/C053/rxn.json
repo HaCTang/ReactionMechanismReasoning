@@ -1,0 +1,24 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "O=CCCc1ccccc1.C[Si](C)(C)OS(=O)(=O)C(F)(F)F>>C[Si](C)(C)[O+]=CCCc1ccccc1.[O-]S(=O)(=O)C(F)(F)F"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "C[Si](C)(C)[O+]=CCCc1ccccc1.C=C[C@@H]([C@H](O)CCc1ccccc1)[Si](C)(C)C>>C[Si](C)(C)OC(CCc1ccccc1)[OH+][C@@H](CCc1ccccc1)[C@@H](C=C)[Si](C)(C)C"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "C[Si](C)(C)OC(CCc1ccccc1)[OH+][C@@H](CCc1ccccc1)[C@@H](C=C)[Si](C)(C)C>>C[Si](C)(C)[OH+]C(CCc1ccccc1)O[C@@H](CCc1ccccc1)[C@@H](C=C)[Si](C)(C)C"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "C[Si](C)(C)[OH+]C(CCc1ccccc1)O[C@@H](CCc1ccccc1)[C@@H](C=C)[Si](C)(C)C>>C[Si](C)(C)[C@@H](C=C)[C@@H](CCc1ccccc1)[O+]=C(CCc1ccccc1).O[Si](C)(C)C"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "C[Si](C)(C)[C@@H](C=C)[C@@H](CCc1ccccc1)[O+]=C(CCc1ccccc1)>>C1=C[C@@H](CCc2ccccc2)O[C@@H](CCc2ccccc2)C1.[Si+](C)(C)C"
+        }
+    ]
+}

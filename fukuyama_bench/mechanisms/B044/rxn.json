@@ -1,0 +1,20 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "[H][C@]1(C)S[C@@]1([H])C.CI>>C[C@@]1([H])[S+](C)[C@@]1([H])C.[I-]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "C[C@@]1([H])[S+](C)[C@@]1([H])C.[I-]>>C[C@H](I)[C@@H](SC)C"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "C[C@H](I)[C@@H](SC)C.CI>>C[C@H](I)[C@@H]([S+](C)C)C.[I-]"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "C[C@H](I)[C@@H]([S+](C)C)C.[I-]>>C/C=C\\C.CSC.II"
+        }
+    ]
+}

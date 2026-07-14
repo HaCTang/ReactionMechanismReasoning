@@ -1,0 +1,16 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CCOC(=O)CBr.CCOP(OCC)OCC>>CCOC(=O)C[P+](OCC)(OCC)OCC.[Br-]",
+            "mapped_rxn": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][Br:17].[P:7]([O:8][CH2:9][CH3:10])([O:11][CH2:12][CH3:13])[O:14][CH2:15][CH3:16]>>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][P+:7]([O:8][CH2:9][CH3:10])([O:11][CH2:12][CH3:13])[O:14][CH2:15][CH3:16].[Br-:17]",
+            "confidence": 0.35180267106350904
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CCOC(=O)C[P+](OCC)(OCC)OCC.[Br-]>>CCOC(=O)C[P](=O)(OCC)OCC.CCBr",
+            "mapped_rxn": "[CH3:1][CH2:2][O:11][P+:10]([CH2:9][C:7]([O:6][CH2:5][CH3:4])=[O:8])([O:12][CH2:13][CH3:14])[O:15][CH2:16][CH3:17].[Br-:3]>>[CH3:1][CH2:2][Br:3].[CH3:4][CH2:5][O:6][C:7](=[O:8])[CH2:9][P:10](=[O:11])([O:12][CH2:13][CH3:14])[O:15][CH2:16][CH3:17]",
+            "confidence": 0.30803577311736474
+        }
+    ]
+}

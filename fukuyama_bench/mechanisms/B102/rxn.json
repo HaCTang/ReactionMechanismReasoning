@@ -1,0 +1,24 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "[H][C@@]1(c2ccccc2)O[C@@]1([H])c1ccccc1.[H+]>>[H][C@@]1(c2ccccc2)[OH+][C@@]1([H])c1ccccc1"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[H][C@@]1(c2ccccc2)[OH+][C@@]1([H])c1ccccc1.c1ccccc1P(=[Se])(c1ccccc1)c1ccccc1>>[H][C@@](O)(c1ccccc1)[C@]([H])([Se][P+](c1ccccc1)(c1ccccc1)c1ccccc1)c1ccccc1"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "[H][C@@](O)(c1ccccc1)[C@]([H])([Se][P+](c1ccccc1)(c1ccccc1)c1ccccc1)c1ccccc1>>[H][C@@]([O][P+](c1ccccc1)(c1ccccc1)c1ccccc1)(c1ccccc1)[C@]([H])([SeH])c1ccccc1"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "[H][C@@]([O][P+](c1ccccc1)(c1ccccc1)c1ccccc1)(c1ccccc1)[C@]([H])([SeH])c1ccccc1>>[H][C@@]1(c2ccccc2)[Se][C@@]1([H])c1ccccc1.O=P(c1ccccc1)(c1ccccc1)c1ccccc1.[H+]"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "[H][C@@]1(c2ccccc2)[Se][C@@]1([H])c1ccccc1>>C(=Cc1ccccc1)c1ccccc1.[Se]"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CC(=O)[C@](O)(C/C=C/C)C(=O)OC.[O-][O+]=O>>CC(=O)[C@](O)(CC1OOOC1C)C(=O)OC"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CC(=O)[C@](O)(CC1OOOC1C)C(=O)OC>>CC(=O)[C@](O)(CC=[O+][O-])C(=O)OC.CC=O"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CC(=O)[C@](O)(CC=[O+][O-])C(=O)OC.CC=O>>CC(=O)[C@](O)(CC1OOC(C)O1)C(=O)OC"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CC(=O)[C@](O)(CC1OOC(C)O1)C(=O)OC.CSC>>CC(=O)[C@](O)(CC([O-])OC(C)O[S+](C)C)C(=O)OC"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CC(=O)[C@](O)(CC([O-])OC(C)O[S+](C)C)C(=O)OC>>CC(=O)[C@](O)(CC=O)C(=O)OC.CC=O.C[S+]([O-])C"
+        }
+    ]
+}

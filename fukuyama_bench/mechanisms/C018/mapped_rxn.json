@@ -1,0 +1,28 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "COc1cc(O)c(C(O)CC(C)C)c(OC)c1.[CH2-]C>>COc1cc([O-])c(C(O)CC(C)C)c(OC)c1.CC",
+            "mapped_rxn": "[CH3:3][O:4][c:5]1[cH:6][c:7]([OH:8])[c:9]([CH:10]([OH:11])[CH2:12][CH:13]([CH3:14])[CH3:15])[c:16]([O:17][CH3:18])[cH:19]1.[CH3:1][CH2-:2]>>[CH3:1][CH3:2].[CH3:3][O:4][c:5]1[cH:6][c:7]([O-:8])[c:9]([CH:10]([OH:11])[CH2:12][CH:13]([CH3:14])[CH3:15])[c:16]([O:17][CH3:18])[cH:19]1",
+            "confidence": 0.6966981467709421
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "COc1cc([O-])c(C(O)CC(C)C)c(OC)c1>>COC1=CC(=O)C(=CCC(C)C)C(OC)=C1.[OH-]",
+            "mapped_rxn": "[CH3:1][O:2][c:3]1[cH:4][c:13]([O:14][CH3:15])[c:7]([CH:8]([OH:17])[CH2:9][CH:10]([CH3:11])[CH3:12])[c:5]([O-:6])[cH:16]1>>[CH3:1][O:2][C:3]1=[CH:4][C:5](=[O:6])[C:7](=[CH:8][CH2:9][CH:10]([CH3:11])[CH3:12])[C:13]([O:14][CH3:15])=[CH:16]1.[OH-:17]",
+            "confidence": 0.5112323420253351
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "COC1=CC(=O)C(=CCC(C)C)C(OC)=C1>>COc1cc(O)c(C=CC(C)C)c(OC)c1",
+            "mapped_rxn": "[CH3:1][O:2][C:3]1=[CH:4][C:5](=[O:6])[C:7](=[CH:8][CH2:9][CH:10]([CH3:11])[CH3:12])[C:13]([O:14][CH3:15])=[CH:16]1>>[CH3:1][O:2][c:3]1[cH:4][c:5]([OH:6])[c:7]([CH:8]=[CH:9][CH:10]([CH3:11])[CH3:12])[c:13]([O:14][CH3:15])[cH:16]1",
+            "confidence": 0.6343524353649694
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "COC1=CC(=O)C(=CCC(C)C)C(OC)=C1.COc1cc(O)c(C=CC(C)C)c(OC)c1>>COc1cc(OC)c([C@H]2Oc3c([C@H]([C@@H]2C(C)C)CC(C)C)c(OC)cc(OC)c3)c(O)c1",
+            "mapped_rxn": "[CH3:1][O:2][C:3]1=[CH:10][C:9](=[O:11])[C:8](=[CH:28][CH2:29][CH:30]([CH3:31])[CH3:32])[C:5]([O:6][CH3:7])=[CH:4]1.[CH:12]([c:13]1[c:14]([OH:15])[cH:16][c:17]([O:18][CH3:19])[cH:20][c:21]1[O:22][CH3:23])=[CH:24][CH:25]([CH3:26])[CH3:27]>>[CH3:1][O:2][c:3]1[cH:4][c:5]([O:6][CH3:7])[c:8]2[c:9]([cH:10]1)[O:11][C@H:12]([c:13]1[c:14]([OH:15])[cH:16][c:17]([O:18][CH3:19])[cH:20][c:21]1[O:22][CH3:23])[C@@H:24]([CH:25]([CH3:26])[CH3:27])[C@@H:28]2[CH2:29][CH:30]([CH3:31])[CH3:32]",
+            "confidence": 0.33050226863183196
+        }
+    ]
+}

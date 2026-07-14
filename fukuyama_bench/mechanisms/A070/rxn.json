@@ -1,0 +1,12 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CCOC(=O)CBr.CCOP(OCC)OCC>>CCOC(=O)C[P+](OCC)(OCC)OCC.[Br-]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CCOC(=O)C[P+](OCC)(OCC)OCC.[Br-]>>CCOC(=O)C[P](=O)(OCC)OCC.CCBr"
+        }
+    ]
+}

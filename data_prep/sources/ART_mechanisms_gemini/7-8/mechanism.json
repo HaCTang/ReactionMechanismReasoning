@@ -1,0 +1,143 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "CC(O)C=C(C)CCC=C1C=CC=C1",
+                    "label": "None",
+                    "electron_number": 86,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[AlH4-]",
+                    "label": "None",
+                    "electron_number": 14,
+                    "charge": -1
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "1) LiAlH4",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "2) Al(O-i-Pr)3, acetone",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(C1C2(C)CCCC32C=CC1C3)=O",
+                    "label": "None",
+                    "electron_number": 86,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "CC(O)C=C(C)CCC=C1C=CC=C1",
+                    "label": "None",
+                    "electron_number": 86,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[AlH4-]",
+                    "label": "None",
+                    "electron_number": 14,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[c-]1(cccc1)CCCC(=CC(C)O)C",
+                    "label": "None",
+                    "electron_number": 87,
+                    "charge": -1
+                },
+                {
+                    "smiles": "[AlH3]",
+                    "label": "None",
+                    "electron_number": 13,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "[c-]1(cccc1)CCCC(=CC(C)O)C",
+                    "label": "None",
+                    "electron_number": 87,
+                    "charge": -1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C1(CCCC(=CC(C)O)C)=CC=CC1",
+                    "label": "None",
+                    "electron_number": 86,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "C1(CCCC(=CC(C)O)C)=CC=CC1",
+                    "label": "None",
+                    "electron_number": 86,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CC(=O)C",
+                    "label": "None",
+                    "electron_number": 26,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C1(CCCC(=CC(C)=O)C)=CC=CC1",
+                    "label": "None",
+                    "electron_number": 86,
+                    "charge": 0
+                },
+                {
+                    "smiles": "CC(O)C",
+                    "label": "None",
+                    "electron_number": 26,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "C1(CCCC(=CC(C)=O)C)=CC=CC1",
+                    "label": "None",
+                    "electron_number": 86,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(C1C2(C)CCCC32C=CC1C3)=O",
+                    "label": "None",
+                    "electron_number": 86,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

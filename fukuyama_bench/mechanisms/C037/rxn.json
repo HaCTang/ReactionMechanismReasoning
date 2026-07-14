@@ -1,0 +1,40 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CC(C)(Cl)C#[C-]>>CC(C)=C=[C].[Cl-]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CSCC=C(C)C.CC(C)=C=[C]>>CC(C)=C=[C-][S+](C)CC=C(C)C"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CC(C)=C=[C-][S+](C)CC=C(C)C>>C=CC(C)(C)C(SC)=C=C(C)C"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "C=CC(C)(C)C(SC)=C=C(C)C.Cl[Hg]Cl>>C=CC(C)(C)C(=[S+](C))C([Hg]Cl)=C(C)C.[Cl-]"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "C=CC(C)(C)C(=[S+](C))C([Hg]Cl)=C(C)C.O>>C=CC(C)(C)C([OH2+])(SC)C([Hg]Cl)=C(C)C"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "C=CC(C)(C)C([OH2+])(SC)C([Hg]Cl)=C(C)C>>C=CC(C)(C)C(O)(SC)C([Hg]Cl)=C(C)C.[H+]"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "C=CC(C)(C)C(O)(SC)C([Hg]Cl)=C(C)C.[H+]>>C=CC(C)(C)C(O)([SH+]C)C([Hg]Cl)=C(C)C"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "C=CC(C)(C)C(O)([SH+]C)C([Hg]Cl)=C(C)C>>C=CC(C)(C)C(=O)C([Hg]Cl)=C(C)C.CS.[H+]"
+        },
+        {
+            "step": "9",
+            "rxn_smiles": "C=CC(C)(C)C(=O)C([Hg]Cl)=C(C)C.[H+].[Cl-]>>C=CC(C)(C)C(=O)C=C(C)C.Cl[Hg]Cl"
+        }
+    ]
+}

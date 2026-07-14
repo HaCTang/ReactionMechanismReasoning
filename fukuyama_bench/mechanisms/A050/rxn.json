@@ -1,0 +1,20 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CC(C)(C#N)/N=N/C(C)(C)(C#N)>>N#N.C[C](C)C#N.C[C](C)C#N"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "C[C](C)C#N.CCCC[SnH](CCCC)CCCC>>CC(C)C#N.CCCC[Sn](CCCC)CCCC"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "[H][C@@]12CCCC(=O)[C@@]1([H])CCC[C@H]2Br.CCCC[Sn](CCCC)CCCC>>[H][C@@]12CCCC(=O)[C@@]1([H])CCC[CH]2.CCCC[Sn](Br)(CCCC)CCCC"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "[H][C@@]12CCCC(=O)[C@@]1([H])CCC[CH]2.CCCC[SnH](CCCC)CCCC>>[H][C@]12CCCC[C@]1([H])C(=O)CCC2.CCCC[Sn](CCCC)CCCC"
+        }
+    ]
+}

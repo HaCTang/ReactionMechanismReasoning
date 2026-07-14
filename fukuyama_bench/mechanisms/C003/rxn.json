@@ -1,0 +1,20 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CC=C(CC)C(=O)/C(C)=C/CC/C(C)=C/CCc1ccccc1.Cl[Ti](Cl)(Cl)Cl>>CC=C(CC)C(=[O+][Ti-](Cl)(Cl)(Cl)Cl)/C(C)=C/CC/C(C)=C/CCc1ccccc1"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CC=C(CC)C(=[O+][Ti-](Cl)(Cl)(Cl)Cl)/C(C)=C/CC/C(C)=C/CCc1ccccc1>>Cl[Ti-](Cl)(Cl)(Cl)OC1=C(CC)[C@@H](C)[C@H](CC/C(C)=C/CCc2ccccc2)[C+]1C"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "Cl[Ti-](Cl)(Cl)(Cl)OC1=C(CC)[C@@H](C)[C@H](CC/C(C)=C/CCc2ccccc2)[C+]1C>>Cl[Ti-](Cl)(Cl)(OC1=C([C@H]([C@]2(CC[C@@]3(C4(C=C[CH+]C=C4CC[C@]3([C@]12C)[H])[H])C)[H])C)CC)Cl"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "Cl[Ti-](Cl)(Cl)(OC1=C([C@H]([C@]2(CC[C@@]3(C4(C=C[CH+]C=C4CC[C@]3([C@]12C)[H])[H])C)[H])C)CC)Cl>>[H][C@]12CCc3ccccc3[C@]1(C)CC[C@]1([H])[C@@H](C)C(CC)C(=O)[C@]21C.Cl[Ti](Cl)(Cl)Cl"
+        }
+    ]
+}

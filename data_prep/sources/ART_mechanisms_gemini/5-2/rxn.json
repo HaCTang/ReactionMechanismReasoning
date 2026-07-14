@@ -1,0 +1,16 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "O1C2(CC2)C[C@@H]3[C@H](OCc4ccccc4)[C@@H](OCc5ccccc5)CN31>>[O]C1(CC1)C[C@@H]2[C@H](OCc3ccccc3)[C@@H](OCc4ccccc4)C[N]2"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[O]C1(CC1)C[C@@H]2[C@H](OCc3ccccc3)[C@@H](OCc4ccccc4)C[N]2>>[CH2]CC(=O)C[C@@H]1[C@H](OCc2ccccc2)[C@@H](OCc3ccccc3)C[N]1"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "[CH2]CC(=O)C[C@@H]1[C@H](OCc2ccccc2)[C@@H](OCc3ccccc3)C[N]1>>O=C1CCN2C[C@H](OCc3ccccc3)[C@@H](OCc4ccccc4)[C@@H]2C1"
+        }
+    ]
+}

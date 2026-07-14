@@ -1,0 +1,28 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C(=Cc1ccccc1)COC/C=C\\CCC1(/C=N\\N2CC2c2ccccc2)CO1>>C(=Cc1ccccc1)COC/C=C\\CCC1(C=[N+]=[N-])CO1.C=Cc1ccccc1"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "C(=Cc1ccccc1)COC/C=C\\CCC1(C=[N+]=[N-])CO1>>C(=Cc1ccccc1)COC/C=C\\CCC(=C[N+]#N)C[O-]"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "C(=Cc1ccccc1)COC/C=C\\CCC(=C[N+]#N)C[O-]>>C(=Cc1ccccc1)COC/C=C\\CCC(=[C])CO.N#N"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "C(=Cc1ccccc1)COC/C=C\\CCC(=[C])CO>>OCC1=C2[C@@H](CC1)C2COCC=Cc3ccccc3"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "OCC1=C2[C@@H](CC1)C2COCC=Cc3ccccc3>>OCC1=C([CH]COCC=Cc2ccccc2)[CH]CC1"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "OCC1=C([CH]COCC=Cc2ccccc2)[CH]CC1>>[H][C@@]12COC[C@]1([H])C1=C(CO)CC[C@@]1([H])[C@H]2c1ccccc1"
+        }
+    ]
+}

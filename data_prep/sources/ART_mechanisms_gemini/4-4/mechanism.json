@@ -1,0 +1,139 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C[C@H]1C[C@@H](NO)[C@@H]2CC=CC[C@@H]2C1",
+                    "label": "None",
+                    "electron_number": 81,
+                    "charge": 0
+                },
+                {
+                    "smiles": "C=O",
+                    "label": "None",
+                    "electron_number": 14,
+                    "charge": 0
+                }
+            ],
+            "conditions": [],
+            "products": [
+                {
+                    "smiles": "C[C@H]1C[C@H]2[N@@](C3)OC4C3C[C@@H]2[C@@H](C1)C4",
+                    "label": "None",
+                    "electron_number": 87,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "C[C@H]1C[C@@H](NO)[C@@H]2CC=CC[C@@H]2C1",
+                    "label": "None",
+                    "electron_number": 81,
+                    "charge": 0
+                },
+                {
+                    "smiles": "C=O",
+                    "label": "None",
+                    "electron_number": 14,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C[C@H]1C[C@@H]([NH+](O)C[O-])[C@@H]2CC=CC[C@@H]2C1",
+                    "label": "None",
+                    "electron_number": 95,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "C[C@H]1C[C@@H]([NH+](O)C[O-])[C@@H]2CC=CC[C@@H]2C1",
+                    "label": "None",
+                    "electron_number": 95,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C[C@H]1C[C@@H](N(O)CO)[C@@H]2CC=CC[C@@H]2C1",
+                    "label": "None",
+                    "electron_number": 95,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "C[C@H]1C[C@@H](N(O)CO)[C@@H]2CC=CC[C@@H]2C1",
+                    "label": "None",
+                    "electron_number": 95,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C[C@H]1C[C@@H]([N+](O)=C)[C@@H]2CC=CC[C@@H]2C1",
+                    "label": "None",
+                    "electron_number": 86,
+                    "charge": 1
+                },
+                {
+                    "smiles": "[OH-]",
+                    "label": "None",
+                    "electron_number": 9,
+                    "charge": -1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "C[C@H]1C[C@@H]([N+](O)=C)[C@@H]2CC=CC[C@@H]2C1",
+                    "label": "None",
+                    "electron_number": 86,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C[C@H]1C[C@@H]([N+]([O-])=C)[C@@H]2CC=CC[C@@H]2C1",
+                    "label": "None",
+                    "electron_number": 87,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "5",
+            "reactants": [
+                {
+                    "smiles": "C[C@H]1C[C@@H]([N+]([O-])=C)[C@@H]2CC=CC[C@@H]2C1",
+                    "label": "None",
+                    "electron_number": 87,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C[C@H]1C[C@H]2[N@@](C3)OC4C3C[C@@H]2[C@@H](C1)C4",
+                    "label": "None",
+                    "electron_number": 87,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C1(CCC/C=C(\\C[Si](C)(C)C)C(C)(C)OC(=O)C(F)(F)F)=CC=CC1.Cl[Zn]Cl>>C1(CCC/C=C(\\C[Si](C)(C)C)C(C)(C)OC(C(F)(F)F)=[O+][Zn-](Cl)Cl)=CC=CC1"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "C1(CCC/C=C(\\C[Si](C)(C)C)C(C)(C)OC(C(F)(F)F)=[O+][Zn-](Cl)Cl)=CC=CC1>>C1(CCC/C=C(\\C[Si](C)(C)C)[C+](C)C)=CC=CC1.O=C(O[Zn-](Cl)Cl)C(F)(F)F"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "C1(CCC/C=C(\\C[Si](C)(C)C)[C+](C)C)=CC=CC1>>C12(CCC3)C3[C+](C[Si](C)(C)C)C(C)(C)C(C1)C=C2"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "C12(CCC3)C3[C+](C[Si](C)(C)C)C(C)(C)C(C1)C=C2>>C12(CCC3)C3C(=C)C(C)(C)C(C1)C=C2.C[Si+](C)C"
+        }
+    ]
+}

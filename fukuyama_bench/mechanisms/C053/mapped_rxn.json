@@ -1,0 +1,34 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "O=CCCc1ccccc1.C[Si](C)(C)OS(=O)(=O)C(F)(F)F>>C[Si](C)(C)[O+]=CCCc1ccccc1.[O-]S(=O)(=O)C(F)(F)F",
+            "mapped_rxn": "[CH3:1][Si:2]([CH3:3])([CH3:4])[O:18][S:16](=[O:15])(=[O:17])[C:19]([F:20])([F:21])[F:22].[O:5]=[CH:6][CH2:7][CH2:8][c:9]1[cH:10][cH:11][cH:12][cH:13][cH:14]1>>[CH3:1][Si:2]([CH3:3])([CH3:4])[O+:5]=[CH:6][CH2:7][CH2:8][c:9]1[cH:10][cH:11][cH:12][cH:13][cH:14]1.[O:15]=[S:16](=[O:17])([O-:18])[C:19]([F:20])([F:21])[F:22]",
+            "confidence": 0.04089630283269689
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "C[Si](C)(C)[O+]=CCCc1ccccc1.C=C[C@@H]([C@H](O)CCc1ccccc1)[Si](C)(C)C>>C[Si](C)(C)OC(CCc1ccccc1)[OH+][C@@H](CCc1ccccc1)[C@@H](C=C)[Si](C)(C)C",
+            "mapped_rxn": "[CH2:1]=[CH:2][C@@H:3]([C@@H:4]([CH2:5][CH2:6][c:7]1[cH:8][cH:9][cH:10][cH:11][cH:12]1)[OH:13])[Si:28]([CH3:29])([CH3:30])[CH3:31].[CH:14]([CH2:15][CH2:16][c:17]1[cH:18][cH:19][cH:20][cH:21][cH:22]1)=[O+:23][Si:24]([CH3:25])([CH3:26])[CH3:27]>>[CH2:1]=[CH:2][C@H:3]([C@H:4]([CH2:5][CH2:6][c:7]1[cH:8][cH:9][cH:10][cH:11][cH:12]1)[OH+:13][CH:14]([CH2:15][CH2:16][c:17]1[cH:18][cH:19][cH:20][cH:21][cH:22]1)[O:23][Si:24]([CH3:25])([CH3:26])[CH3:27])[Si:28]([CH3:29])([CH3:30])[CH3:31]",
+            "confidence": 0.21389103167513526
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "C[Si](C)(C)OC(CCc1ccccc1)[OH+][C@@H](CCc1ccccc1)[C@@H](C=C)[Si](C)(C)C>>C[Si](C)(C)[OH+]C(CCc1ccccc1)O[C@@H](CCc1ccccc1)[C@@H](C=C)[Si](C)(C)C",
+            "mapped_rxn": "[CH2:1]=[CH:2][C@H:3]([C@H:4]([CH2:5][CH2:6][c:7]1[cH:8][cH:9][cH:10][cH:11][cH:12]1)[OH+:13][CH:14]([CH2:15][CH2:16][c:17]1[cH:18][cH:19][cH:20][cH:21][cH:22]1)[O:23][Si:24]([CH3:25])([CH3:26])[CH3:27])[Si:28]([CH3:29])([CH3:30])[CH3:31]>>[CH2:1]=[CH:2][C@H:3]([C@H:4]([CH2:5][CH2:6][c:7]1[cH:8][cH:9][cH:10][cH:11][cH:12]1)[O:13][CH:14]([CH2:15][CH2:16][c:17]1[cH:18][cH:19][cH:20][cH:21][cH:22]1)[OH+:23][Si:24]([CH3:25])([CH3:26])[CH3:27])[Si:28]([CH3:29])([CH3:30])[CH3:31]",
+            "confidence": 0.16873921109258688
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "C[Si](C)(C)[OH+]C(CCc1ccccc1)O[C@@H](CCc1ccccc1)[C@@H](C=C)[Si](C)(C)C>>C[Si](C)(C)[C@@H](C=C)[C@@H](CCc1ccccc1)[O+]=C(CCc1ccccc1).O[Si](C)(C)C",
+            "mapped_rxn": "[CH2:1]=[CH:2][C@H:3]([C@H:4]([CH2:5][CH2:6][c:7]1[cH:8][cH:9][cH:10][cH:11][cH:12]1)[O:13][CH:14]([CH2:15][CH2:16][c:17]1[cH:18][cH:19][cH:20][cH:21][cH:22]1)[OH+:31][Si:28]([CH3:27])([CH3:29])[CH3:30])[Si:23]([CH3:24])([CH3:25])[CH3:26]>>[CH2:1]=[CH:2][C@@H:3]([C@@H:4]([CH2:5][CH2:6][c:7]1[cH:8][cH:9][cH:10][cH:11][cH:12]1)[O+:13]=[CH:14][CH2:15][CH2:16][c:17]1[cH:18][cH:19][cH:20][cH:21][cH:22]1)[Si:23]([CH3:24])([CH3:25])[CH3:26].[CH3:27][Si:28]([CH3:29])([CH3:30])[OH:31]",
+            "confidence": 0.2162090876844802
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "C[Si](C)(C)[C@@H](C=C)[C@@H](CCc1ccccc1)[O+]=C(CCc1ccccc1)>>C1=C[C@@H](CCc2ccccc2)O[C@@H](CCc2ccccc2)C1.[Si+](C)(C)C",
+            "mapped_rxn": "[CH:1](=[CH2:2])[C@@H:22]([C@H:13]([O+:12]=[CH:3][CH2:4][CH2:5][c:6]1[cH:7][cH:8][cH:9][cH:10][cH:11]1)[CH2:14][CH2:15][c:16]1[cH:17][cH:18][cH:19][cH:20][cH:21]1)[Si:24]([CH3:23])([CH3:25])[CH3:26]>>[CH:1]1[CH:2][C@@H:3]([CH2:4][CH2:5][c:6]2[cH:7][cH:8][cH:9][cH:10][cH:11]2)[O:12][C@@H:13]([CH2:14][CH2:15][c:16]2[cH:17][cH:18][cH:19][cH:20][cH:21]2)[CH2:22]=1.[CH3:23][Si+:24]([CH3:25])[CH3:26]",
+            "confidence": 0.30765680216537655
+        }
+    ]
+}

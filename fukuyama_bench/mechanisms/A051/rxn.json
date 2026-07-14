@@ -1,0 +1,28 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "[H][C@]12CCCN(C(=O)c3ccccc3)[C@@]1([H])CCC[C@H]2O.[H-]>>[H][C@]12CCCN(C(=O)c3ccccc3)[C@@]1([H])CCC[C@H]2[O-].[H][H]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[H][C@]12CCCN(C(=O)c3ccccc3)[C@@]1([H])CCC[C@H]2[O-].S=C=S>>[H][C@]12CCCN(C(=O)c3ccccc3)[C@@]1([H])CCC[C@H]2OC(=S)[S-]"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "[H][C@]12CCCN(C(=O)c3ccccc3)[C@@]1([H])CCC[C@H]2OC(=S)[S-].C[I]>>[H][C@]12CCCN(C(=O)c3ccccc3)[C@@]1([H])CCC[C@H]2OC(=S)SC.[I-]"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "[H][C@]12CCCN(C(=O)c3ccccc3)[C@@]1([H])CCC[C@H]2OC(=S)SC.CCCC[Sn](CCCC)CCCC>>[H][C@]12CCCN(C(=O)c3ccccc3)[C@@]1([H])CCC[C@H]2O[C](SC)(S[Sn](CCCC)(CCCC)CCCC)"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "[H][C@]12CCCN(C(=O)c3ccccc3)[C@@]1([H])CCC[C@H]2O[C](SC)(S[Sn](CCCC)(CCCC)CCCC)>>[H][C@]12CCCN(C(=O)c3ccccc3)[C@@]1([H])CCC[CH]2.O=C(SC)S[Sn](CCCC)(CCCC)CCCC"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "[H][C@]12CCCN(C(=O)c3ccccc3)[C@@]1([H])CCC[CH]2.CCCC[SnH](CCCC)CCCC>>[H][C@@]12CCCC[C@]1([H])N(C(=O)c1ccccc1)CCC2.CCCC[Sn](CCCC)CCCC"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CC12CC=CCC1(C)O2.BrBr>>CC12CC3C(CC1(C)O2)[Br+]3.[Br-]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CC12CC3C(CC1(C)O2)[Br+]3.[Br-]>>CC12CC(Br)C(Br)CC1(C)O2"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CC12CC(Br)C(Br)CC1(C)O2.CC(C)(C)[O-].CC(C)(C)[O-]>>CC12C=CC=CC1(C)O2.CC(C)(C)O.CC(C)(C)O.[Br-].[Br-]"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CC12C=CC=CC1(C)O2>>CC1=CC=CC=C(C)O1"
+        }
+    ]
+}

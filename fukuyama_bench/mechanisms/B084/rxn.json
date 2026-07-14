@@ -1,0 +1,72 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CC(=O)c1ccc(CC(C)C)cc1.[H+]>>CC(C)Cc1ccc(C(C)=[OH+])cc1"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CC(C)Cc1ccc(C(C)=[OH+])cc1.CO>>CC(C)Cc1ccc(C(C)(O)[O+](C)[H])cc1"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CC(C)Cc1ccc(C(C)(O)[O+](C)[H])cc1>>CC(C)Cc1ccc(C(C)(OC)[OH2+])cc1"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CC(C)Cc1ccc(C(C)(OC)[OH2+])cc1>>CC(C)Cc1ccc(C(C)=[O+]C)cc1.O"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CC(C)Cc1ccc(C(C)=[O+]C)cc1>>CC(C)Cc1ccc(C(OC)=C)cc1.[H+]"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "CC(C)Cc1ccc(C(OC)=C)cc1.II>>CC(Cc1ccc(C(CI)=[O+]C)cc1)C.[I-]"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "CC(Cc1ccc(C(CI)=[O+]C)cc1)C.CO>>C[OH+]C(OC)(CI)c1ccc(CC(C)C)cc1"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "C[OH+]C(OC)(CI)c1ccc(CC(C)C)cc1>>COC(OC)(CI)c1ccc(CC(C)C)cc1.[H+]"
+        },
+        {
+            "step": "9",
+            "rxn_smiles": "COC(OC)(CI)c1ccc(CC(C)C)cc1.[Ag+]>>CC(C)C[C+]1C=CC2(C=C1)C(OC)(OC)C2.[Ag]I"
+        },
+        {
+            "step": "10",
+            "rxn_smiles": "CC(C)C[C+]1C=CC2(C=C1)C(OC)(OC)C2>>CC(Cc1ccc(CC(OC)=[O+]C)cc1)C"
+        },
+        {
+            "step": "11",
+            "rxn_smiles": "CC(Cc1ccc(CC(OC)=[O+]C)cc1)C.CO>>C[OH+]C(OC)(OC)Cc1ccc(CC(C)C)cc1"
+        },
+        {
+            "step": "12",
+            "rxn_smiles": "C[OH+]C(OC)(OC)Cc1ccc(CC(C)C)cc1>>COC(OC)(OC)Cc1ccc(CC(C)C)cc1.[H+]"
+        },
+        {
+            "step": "13",
+            "rxn_smiles": "COC(OC)(OC)Cc1ccc(CC(C)C)cc1.[H+]>>C[OH+]C(OC)(OC)Cc1ccc(CC(C)C)cc1"
+        },
+        {
+            "step": "14",
+            "rxn_smiles": "C[OH+]C(OC)(OC)Cc1ccc(CC(C)C)cc1>>C[O+]=C(OC)Cc1ccc(CC(C)C)cc1.CO"
+        },
+        {
+            "step": "15",
+            "rxn_smiles": "C[O+]=C(OC)Cc1ccc(CC(C)C)cc1.O>>COC(O)(Cc1ccc(CC(C)C)cc1)[OH+]C"
+        },
+        {
+            "step": "16",
+            "rxn_smiles": "COC(O)(Cc1ccc(CC(C)C)cc1)[OH+]C>>COC(=[OH+])Cc1ccc(CC(C)C)cc1.CO"
+        },
+        {
+            "step": "17",
+            "rxn_smiles": "COC(=[OH+])Cc1ccc(CC(C)C)cc1>>COC(=O)Cc1ccc(CC(C)C)cc1.[H+]"
+        }
+    ]
+}

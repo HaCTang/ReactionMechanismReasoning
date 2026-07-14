@@ -1,0 +1,24 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CC(=O)c1ccccc1.[OH-]>>[CH2]=C([O-])c1ccccc1.O"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[CH2]=C([O-])c1ccccc1.O=Cc1ccccc1>>[O-]C(CC(=O)c1ccccc1)c1ccccc1"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "[O-]C(CC(=O)c1ccccc1)c1ccccc1.O>>OC(CC(=O)c1ccccc1)c1ccccc1.[OH-]"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "OC(CC(=O)c1ccccc1)c1ccccc1.[OH-]>>[O-]C(c1ccccc1)=CC(O)c1ccccc1.O"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "[O-]C(c1ccccc1)=CC(O)c1ccccc1>>O=C(/C=C/c1ccccc1)c1ccccc1.[OH-]"
+        }
+    ]
+}

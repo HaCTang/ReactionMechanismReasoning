@@ -1,0 +1,16 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "C=CCC1CCCCC1=O.Cl[Pd]Cl>>O=C1CCCCC1CC=C.Cl[Pd]Cl"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "O=C1CCCCC1CC=C.Cl[Pd]Cl.O>>Cl[Pd]CC(O)CC1CCCCC1=O.[H+].[Cl-]"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "Cl[Pd]CC(O)CC1CCCCC1=O>>CC(=O)CC1CCCCC1=O.[Pd].[H+].[Cl-]"
+        }
+    ]
+}

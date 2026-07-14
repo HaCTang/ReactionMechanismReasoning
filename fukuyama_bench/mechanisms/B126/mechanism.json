@@ -1,0 +1,136 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "CC(=O)OC1=CC=C(CCC(=O)C(C)=[N+]=[N-])C(C)=C1",
+                    "label": "None",
+                    "electron_number": 100,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "rhodium(II) mandelate",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "solvent",
+                    "text": "CH2Cl2",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "temperature",
+                    "text": "reflux",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(=O)OC1=CC(C)=C2CCC(=O)C2(C)C=C1",
+                    "label": "None",
+                    "electron_number": 90,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "CC(=O)OC1=CC=C(CCC(=O)C(C)=[N+]=[N-])C(C)=C1",
+                    "label": "substrate",
+                    "electron_number": 100,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Rh]",
+                    "label": "reagent",
+                    "electron_number": 9,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(=O)OC1=CC=C(CCC(=O)C(C)([N+]#N)[Rh-])C(C)=C1",
+                    "label": "intermediate",
+                    "electron_number": 109,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "CC(=O)OC1=CC=C(CCC(=O)C(C)([N+]#N)[Rh-])C(C)=C1",
+                    "label": "intermediate",
+                    "electron_number": 109,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(=O)OC1=CC=C(CCC(=O)C(C)=[Rh])C(C)=C1",
+                    "label": "intermediate",
+                    "electron_number": 99,
+                    "charge": 0
+                },
+                {
+                    "smiles": "N#N",
+                    "label": "leaving",
+                    "electron_number": 10,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "CC(=O)OC1=CC=C(CCC(=O)C(C)=[Rh])C(C)=C1",
+                    "label": "intermediate",
+                    "electron_number": 99,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(OC1=CC(C2(C(CC3)=O)C)C23C(C)=C1)=O",
+                    "label": "intermediate",
+                    "electron_number": 90,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Rh]",
+                    "label": "reagent",
+                    "electron_number": 9,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "CC(OC1=CC(C2(C(CC3)=O)C)C23C(C)=C1)=O",
+                    "label": "intermediate",
+                    "electron_number": 90,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "CC(=O)OC1=CC(C)=C2CCC(=O)C2(C)C=C1",
+                    "label": "product",
+                    "electron_number": 90,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "COc1ccc(NN=CCc2ccccc2)cc1.Cl[Zn]Cl>>COc1ccc(N[N+](=CCc2ccccc2)[Zn-](Cl)Cl)cc1"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "COc1ccc(N[N+](=CCc2ccccc2)[Zn-](Cl)Cl)cc1>>COc1ccc(NN([Zn-](Cl)Cl)C=Cc2ccccc2)cc1.[H+]"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "COc1ccc(NN([Zn-](Cl)Cl)C=Cc2ccccc2)cc1>>COC1=CC(C(c2ccccc2)C=N[Zn-](Cl)Cl)C(=N)C=C1"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "COC1=CC(C(c2ccccc2)C=N[Zn-](Cl)Cl)C(=N)C=C1>>COc1ccc(N)c(C(c2ccccc2)C=N[Zn-](Cl)Cl)c1"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "COc1ccc(N)c(C(c2ccccc2)C=N[Zn-](Cl)Cl)c1>>COc1ccc2c(c1)C(c3ccccc3)C([N-][Zn-](Cl)Cl)[NH2+]2"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "COc1ccc2c(c1)C(c3ccccc3)C([N-][Zn-](Cl)Cl)[NH2+]2.[H+]>>COc1ccc2c(c1)C(c3ccccc3)C([NH2+][Zn-](Cl)Cl)N2"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "COc1ccc2c(c1)C(c3ccccc3)C([NH2+][Zn-](Cl)Cl)N2>>COc1ccc2c(c1)C(c3ccccc3)C=[NH+]2.N[Zn-](Cl)Cl"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "COc1ccc2c(c1)C(c3ccccc3)C=[NH+]2>>COc1ccc2[nH]cc(c3ccccc3)c2c1.[H+]"
+        }
+    ]
+}

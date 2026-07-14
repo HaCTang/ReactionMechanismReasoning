@@ -1,0 +1,28 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "ON=C1CCCCC1.[H+]>>[OH2+]N=C1CCCCC1"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "[OH2+]N=C1CCCCC1>>[C+]1=NCCCCC1.O"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "[C+]1=NCCCCC1.O>>[OH2+]C1=NCCCCC1"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "[OH2+]C1=NCCCCC1>>OC1=NCCCCC1.[H+]"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "OC1=NCCCCC1.[H+]>>OC1=[NH+]CCCCC1"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "OC1=[NH+]CCCCC1>>O=C1CCCCCN1.[H+]"
+        }
+    ]
+}

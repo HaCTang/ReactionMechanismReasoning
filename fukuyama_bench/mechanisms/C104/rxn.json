@@ -1,0 +1,24 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CCOC(=O)/C(=C/C#Cc1ccc(OC)c(OC)c1)CC(=O)O.CC(=O)[O-]>>CCOC(=O)/C(=C/C#Cc1ccc(OC)c(OC)c1)CC(=O)[O-].CC(=O)O"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CCOC(=O)/C(=C/C#Cc1ccc(OC)c(OC)c1)CC(=O)[O-].CC(=O)OC(=O)C>>CCOC(=O)/C(=C/C#Cc1ccc(OC)c(OC)c1)CC(=O)OC(=O)C.CC(=O)[O-]"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CCOC(=O)/C(=C/C#Cc1ccc(OC)c(OC)c1)CC(=O)OC(=O)C.CC(=O)[O-]>>CCOC(/C(C=C=O)=C/C#Cc1cc(OC)c(OC)cc1)=O.CC(=O)O.CC(=O)[O-]"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CCOC(/C(C=C=O)=C/C#Cc1cc(OC)c(OC)cc1)=O.CC(=O)[O-]>>CCOC(C(C=C1[O-])=CC(OC(C)=O)=C1c2cc(OC)c(OC)cc2)=O"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CCOC(C(C=C1[O-])=CC(OC(C)=O)=C1c2cc(OC)c(OC)cc2)=O.CC(=O)OC(=O)C>>CCOC(=O)c1cc(OC(C)=O)c(-c2ccc(OC)c(OC)c2)c(OC(C)=O)c1.CC(=O)[O-]"
+        }
+    ]
+}

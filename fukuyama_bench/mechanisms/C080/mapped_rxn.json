@@ -1,0 +1,46 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "O=C(Cl)C1CCCCC1.CCN(CC)CC>>O=C=C1CCCCC1.CC[NH+](CC)CC.[Cl-]",
+            "mapped_rxn": "[CH3:1][CH2:2][N:3]([CH2:4][CH3:5])[CH2:6][CH3:7].[O:8]=[C:9]([CH:10]1[CH2:11][CH2:12][CH2:13][CH2:14][CH2:15]1)[Cl:16]>>[CH3:1][CH2:2][NH+:3]([CH2:4][CH3:5])[CH2:6][CH3:7].[O:8]=[C:9]=[C:10]1[CH2:11][CH2:12][CH2:13][CH2:14][CH2:15]1.[Cl-:16]",
+            "confidence": 0.2843433159004797
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "O=C=C1CCCCC1.O=C=C1CCCCC1>>O=C1C2(CCCCC2)C(=O)C12CCCCC2",
+            "mapped_rxn": "[O:1]=[C:2]=[C:3]1[CH2:4][CH2:5][CH2:6][CH2:7][CH2:8]1.[C:9](=[O:10])=[C:11]1[CH2:12][CH2:13][CH2:14][CH2:15][CH2:16]1>>[O:1]=[C:2]1[C:3]2([CH2:4][CH2:5][CH2:6][CH2:7][CH2:8]2)[C:9](=[O:10])[C:11]12[CH2:12][CH2:13][CH2:14][CH2:15][CH2:16]2",
+            "confidence": 0.3749093879354757
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "O=C1C2(CCCCC2)C(=O)C12CCCCC2>>O=[C]C1(CCCCC1)C(=O)[C]1CCCCC1",
+            "mapped_rxn": "[O:1]=[C:2]1[C:3]2([C:4](=[O:5])[C:6]13[CH2:7][CH2:8][CH2:9][CH2:10][CH2:11]3)[CH2:12][CH2:13][CH2:14][CH2:15][CH2:16]2>>[O:1]=[C:2][C:3]1([C:4](=[O:5])[C:6]2[CH2:7][CH2:8][CH2:9][CH2:10][CH2:11]2)[CH2:12][CH2:13][CH2:14][CH2:15][CH2:16]1",
+            "confidence": 0.5171811701300156
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "O=[C]C1(CCCCC1)C(=O)[C]1CCCCC1>>[C]1(CCCCC1)C(=O)[C]1CCCCC1.[C-]#[O+]",
+            "mapped_rxn": "[O:1]=[C:2]([C:3]1[CH2:4][CH2:5][CH2:6][CH2:7][CH2:8]1)[C:9]1([C:15]=[O:16])[CH2:10][CH2:11][CH2:12][CH2:13][CH2:14]1>>[O:1]=[C:2]([C:3]1[CH2:4][CH2:5][CH2:6][CH2:7][CH2:8]1)[C:9]1[CH2:10][CH2:11][CH2:12][CH2:13][CH2:14]1.[C-:15]#[O+:16]",
+            "confidence": 0.6967808761095347
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "[C]1(CCCCC1)C(=O)[C]1CCCCC1>>O=C1C2(CCCCC2)C12CCCCC2",
+            "mapped_rxn": "[O:1]=[C:2]([C:3]1[CH2:4][CH2:5][CH2:6][CH2:7][CH2:8]1)[C:9]1[CH2:10][CH2:11][CH2:12][CH2:13][CH2:14]1>>[O:1]=[C:2]1[C:3]2([CH2:4][CH2:5][CH2:6][CH2:7][CH2:8]2)[C:9]12[CH2:10][CH2:11][CH2:12][CH2:13][CH2:14]2",
+            "confidence": 0.4729470208510859
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "O=C1C2(CCCCC2)C12CCCCC2>>O=[C]C1(CCCCC1)[C]2(CCCCC2)",
+            "mapped_rxn": "[O:1]=[C:2]1[C:3]2([C:4]13[CH2:5][CH2:6][CH2:7][CH2:8][CH2:9]3)[CH2:10][CH2:11][CH2:12][CH2:13][CH2:14]2>>[O:1]=[C:2][C:3]1([C:4]2[CH2:5][CH2:6][CH2:7][CH2:8][CH2:9]2)[CH2:10][CH2:11][CH2:12][CH2:13][CH2:14]1",
+            "confidence": 0.42613684035034144
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "O=[C]C1(CCCCC1)[C]2(CCCCC2)>>C1CCC(=C2CCCCC2)CC1.[C-]#[O+]",
+            "mapped_rxn": "[CH2:1]1[CH2:2][CH2:3][C:4]([C:5]2([C:13]=[O:14])[CH2:6][CH2:7][CH2:8][CH2:9][CH2:10]2)[CH2:11][CH2:12]1>>[CH2:1]1[CH2:2][CH2:3][C:4](=[C:5]2[CH2:6][CH2:7][CH2:8][CH2:9][CH2:10]2)[CH2:11][CH2:12]1.[C-:13]#[O+:14]",
+            "confidence": 0.46918761096306794
+        }
+    ]
+}

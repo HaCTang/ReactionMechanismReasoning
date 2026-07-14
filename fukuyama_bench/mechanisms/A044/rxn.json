@@ -1,0 +1,20 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CC1(C)OC[C@H]([C@@H](O)[C@H](O)[C@H]2COC(C)(C)O2)O1.[O-][I](=O)(=O)=O>>CC1(C)OC[C@H]([C@@H](O)[C@H]([OH+][I](=O)(=O)([O-])[O-])[C@H]2COC(C)(C)O2)O1"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CC1(C)OC[C@H]([C@@H](O)[C@H]([OH+][I](=O)(=O)([O-])[O-])[C@H]2COC(C)(C)O2)O1>>CC1(C)OC[C@H]([C@@H](O)[C@H](O[I](=O)(=O)(O)[O-])[C@H]2COC(C)(C)O2)O1"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CC1(C)OC[C@H]([C@@H](O)[C@H](O[I](=O)(=O)(O)[O-])[C@H]2COC(C)(C)O2)O1>>CC1(C)OC[C@H]([C@@H]2O[I](=O)(=O)([O-])O[C@H]2[C@H]3COC(C)(C)O3)O1.O"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CC1(C)OC[C@H]([C@@H]2O[I](=O)(=O)([O-])O[C@H]2[C@H]3COC(C)(C)O3)O1>>CC1(C)OCC(C=O)O1.CC1(C)OCC(C=O)O1.[O-][I](=O)=O"
+        }
+    ]
+}

@@ -1,0 +1,138 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "O=C(CC=C)N(*)[C@H](C=C)CC1=CC=CC=C1",
+                    "label": "None",
+                    "electron_number": 99,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Ru]=CC=C(C1=CC=CC=C1)C2=CC=CC=C2",
+                    "label": "None",
+                    "electron_number": 134,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "5 mol% RuCl2(PCy3)2(=CHCH=CPh2)",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=C1CC=C[C@H](CC2=CC=CC=C2)N1*",
+                    "label": "None",
+                    "electron_number": 87,
+                    "charge": 0
+                },
+                {
+                    "smiles": "C=[Ru]",
+                    "label": "None",
+                    "electron_number": 50,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "O=C(CC=C)N(*)[C@H](C=C)CC1=CC=CC=C1",
+                    "label": "None",
+                    "electron_number": 99,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Ru]=CC=C(C1=CC=CC=C1)C2=CC=CC=C2",
+                    "label": "None",
+                    "electron_number": 134,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=C(CC1C(C=C(C2=CC=CC=C2)C3=CC=CC=C3)[Ru]C1)N(*)[C@H](C=C)CC4=CC=CC=C4",
+                    "label": "None",
+                    "electron_number": 233,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "O=C(CC1C(C=C(C2=CC=CC=C2)C3=CC=CC=C3)[Ru]C1)N(*)[C@H](C=C)CC4=CC=CC=C4",
+                    "label": "None",
+                    "electron_number": 233,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=C(CC=[Ru])N(*)[C@H](C=C)CC1=CC=CC=C1",
+                    "label": "None",
+                    "electron_number": 137,
+                    "charge": 0
+                },
+                {
+                    "smiles": "C=CC=C(C1=CC=CC=C1)C2=CC=CC=C2",
+                    "label": "None",
+                    "electron_number": 96,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "O=C(CC=[Ru])N(*)[C@H](C=C)CC1=CC=CC=C1",
+                    "label": "None",
+                    "electron_number": 137,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=C1CC2C([C@@H](N1[*])CC3=CC=CC=C3)C[Ru]2",
+                    "label": "None",
+                    "electron_number": 137,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "O=C1CC2C([C@@H](N1[*])CC3=CC=CC=C3)C[Ru]2",
+                    "label": "None",
+                    "electron_number": 137,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=C1CC=C[C@H](CC2=CC=CC=C2)N1*",
+                    "label": "None",
+                    "electron_number": 87,
+                    "charge": 0
+                },
+                {
+                    "smiles": "C=[Ru]",
+                    "label": "None",
+                    "electron_number": 50,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

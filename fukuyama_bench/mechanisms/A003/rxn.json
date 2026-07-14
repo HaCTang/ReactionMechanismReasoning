@@ -1,0 +1,20 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "CCCC(=O)O.ClS(=O)Cl>>CCCC(O)=[O+]S(=O)Cl.[Cl-]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CCCC(O)=[O+]S(=O)Cl.[Cl-]>>CCCC(O)(Cl)OS(=O)Cl"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CCCC(O)(Cl)OS(=O)Cl>>CCCC(=[OH+])Cl.O=S=O.[Cl-]"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "CCCC(=[OH+])Cl>>CCCC(=O)Cl.[H+]"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "ClC1(Cl)[C@]2(O[Si](C)(C)C)CCC[C@@H](O[Si](C)(C)C)[C@@H]3CCCC[C@@]321.[Ag+]>>Cl[C+]1[C@]2(O[Si](C)(C)C)CCC[C@@H](O[Si](C)(C)C)[C@@H]3CCCC[C@@]321.Cl[Ag]"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "Cl[C+]1[C@]2(O[Si](C)(C)C)CCC[C@@H](O[Si](C)(C)C)[C@@H]3CCCC[C@@]321>>C12=C(Cl)[C+](O[Si](C)(C)C)CCC[C@@H](O[Si](C)(C)C)[C@@H]1CCCC2"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "C12=C(Cl)[C+](O[Si](C)(C)C)CCC[C@@H](O[Si](C)(C)C)[C@@H]1CCCC2>>C12=C(Cl)[C@]3(O[Si](C)(C)C)CCC[C@@H]([O+]3[Si](C)(C)C)[C@@H]1CCCC2"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "C12=C(Cl)[C@]3(O[Si](C)(C)C)CCC[C@@H]([O+]3[Si](C)(C)C)[C@@H]1CCCC2>>C12=C(Cl)[C@]3(O[Si](C)(C)C)CCC[C@@H](O3)[C@@H]1CCCC2.C[Si+](C)C"
+        }
+    ]
+}

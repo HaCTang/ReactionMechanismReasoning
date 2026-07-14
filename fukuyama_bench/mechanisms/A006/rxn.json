@@ -1,0 +1,24 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "Br[Mg]c1ccccc1.CN(C)C=O>>CN(C)C([O-])c1ccccc1.[Mg+]Br"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "CN(C)C([O-])c1ccccc1.[H+]>>CN(C)C(O)c1ccccc1"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CN(C)C(O)c1ccccc1.[H+]>>C[NH+](C)C(O)c1ccccc1"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "C[NH+](C)C(O)c1ccccc1>>[H]C(=[OH+])c1ccccc1.CNC"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "[H]C(=[OH+])c1ccccc1>>[H]C(=O)c1ccccc1.[H+]"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "O=Cc1cc2ccccc2[nH]1.[H-]>>O=Cc1cc2ccccc2[n-]1.[H][H]",
+            "mapped_rxn": "[O:1]=[CH:2][c:3]1[cH:4][c:5]2[cH:6][cH:7][cH:8][cH:9][c:10]2[nH:11]1.[H-:12]>>[O:1]=[CH:2][c:3]1[cH:4][c:5]2[cH:6][cH:7][cH:8][cH:9][c:10]2[n-:11]1.[H:12][H:13]",
+            "confidence": 0.9939631710236663
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "O=Cc1cc2ccccc2[n-]1.C=C[P+](c1ccccc1)(c1ccccc1)c1ccccc1>>O=Cc1cc2ccccc2n1C[CH-][P+](c3ccccc3)(c3ccccc3)c3ccccc3",
+            "mapped_rxn": "[CH2:12]=[CH:13][P+:14]([c:15]1[cH:16][cH:17][cH:18][cH:19][cH:20]1)([c:21]1[cH:22][cH:23][cH:24][cH:25][cH:26]1)[c:27]1[cH:28][cH:29][cH:30][cH:31][cH:32]1.[O:1]=[CH:2][c:3]1[cH:4][c:5]2[cH:6][cH:7][cH:8][cH:9][c:10]2[n-:11]1>>[O:1]=[CH:2][c:3]1[cH:4][c:5]2[cH:6][cH:7][cH:8][cH:9][c:10]2[n:11]1[CH2:12][CH-:13][P+:14]([c:15]1[cH:16][cH:17][cH:18][cH:19][cH:20]1)([c:21]1[cH:22][cH:23][cH:24][cH:25][cH:26]1)[c:27]1[cH:28][cH:29][cH:30][cH:31][cH:32]1",
+            "confidence": 0.19346564528603089
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "O=Cc1cc2ccccc2n1C[CH-][P+](c3ccccc3)(c3ccccc3)c3ccccc3>>O1C2C(P1(c3ccccc3)(c4ccccc4)c5ccccc5)Cn6c2cc7ccccc67",
+            "mapped_rxn": "[cH:1]1[cH:2][cH:3][c:4]([P+:5]([c:6]2[cH:7][cH:8][cH:9][cH:10][cH:11]2)([c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[CH-:30][CH2:29][n:28]2[c:20]([CH:19]=[O:18])[cH:21][c:22]3[cH:23][cH:24][cH:25][cH:26][c:27]32)[cH:31][cH:32]1>>[cH:1]1[cH:2][cH:3][c:4]([P:5]2([c:6]3[cH:7][cH:8][cH:9][cH:10][cH:11]3)([c:12]3[cH:13][cH:14][cH:15][cH:16][cH:17]3)[O:18][CH:19]3[c:20]4[cH:21][c:22]5[cH:23][cH:24][cH:25][cH:26][c:27]5[n:28]4[CH2:29][CH:30]23)[cH:31][cH:32]1",
+            "confidence": 0.20289156336141212
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "O1C2C(P1(c3ccccc3)(c4ccccc4)c5ccccc5)Cn6c2cc7ccccc67>>c1ccc2c(c1)cc3n2CC=C3.O=P(c1ccccc1)(c1ccccc1)c1ccccc1",
+            "mapped_rxn": "[CH:1]12[CH:2]([c:3]3[cH:4][c:5]4[cH:6][cH:7][cH:8][cH:9][c:10]4[n:11]3[CH2:12]1)[O:13][P:14]2([c:15]1[cH:16][cH:17][cH:18][cH:19][cH:20]1)([c:21]1[cH:22][cH:23][cH:24][cH:25][cH:26]1)[c:27]1[cH:28][cH:29][cH:30][cH:31][cH:32]1>>[CH:1]1=[CH:2][c:3]2[cH:4][c:5]3[cH:6][cH:7][cH:8][cH:9][c:10]3[n:11]2[CH2:12]1.[O:13]=[P:14]([c:15]1[cH:16][cH:17][cH:18][cH:19][cH:20]1)([c:21]1[cH:22][cH:23][cH:24][cH:25][cH:26]1)[c:27]1[cH:28][cH:29][cH:30][cH:31][cH:32]1",
+            "confidence": 0.20702182064489946
+        }
+    ]
+}

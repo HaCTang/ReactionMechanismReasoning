@@ -1,0 +1,113 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "O=C1N(C(=O)Cc2cn(C)c3ccccc23)CCCC1(CC)C(=O)C(=[N+]=[N-])C(=O)OC",
+                    "label": "None",
+                    "electron_number": 200,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Rh]",
+                    "label": "None",
+                    "electron_number": 45,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "cat. Rh2(OAc)4",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=C(N1C23OC(C(C2(CCC1)CC)=O)4C(OC)=O)CC53C4N(c6c5cccc6)C",
+                    "label": "None",
+                    "electron_number": 186,
+                    "charge": 0
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "O=C1N(C(=O)Cc2cn(C)c3ccccc23)CCCC1(CC)C(=O)C(=[N+]=[N-])C(=O)OC",
+                    "label": "None",
+                    "electron_number": 200,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Rh]",
+                    "label": "None",
+                    "electron_number": 45,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=C1N(CCCC1(C(C(C(OC)=O)=[Rh])=O)CC)C(Cc(cn2C)c3c2cccc3)=O",
+                    "label": "None",
+                    "electron_number": 231,
+                    "charge": 0
+                },
+                {
+                    "smiles": "N#N",
+                    "label": "None",
+                    "electron_number": 14,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "O=C1N(CCCC1(C(C(C(OC)=O)=[Rh])=O)CC)C(Cc(cn2C)c3c2cccc3)=O",
+                    "label": "None",
+                    "electron_number": 231,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=C(Cc1cn(C)c2ccccc12)N3C4=[O+][C-](C(=O)OC)C(=O)C4(CC)CCC3",
+                    "label": "None",
+                    "electron_number": 186,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Rh]",
+                    "label": "None",
+                    "electron_number": 45,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "O=C(Cc1cn(C)c2ccccc12)N3C4=[O+][C-](C(=O)OC)C(=O)C4(CC)CCC3",
+                    "label": "None",
+                    "electron_number": 186,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=C(N1C23OC(C(C2(CCC1)CC)=O)4C(OC)=O)CC53C4N(c6c5cccc6)C",
+                    "label": "None",
+                    "electron_number": 186,
+                    "charge": 0
+                }
+            ]
+        }
+    ]
+}

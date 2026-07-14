@@ -1,0 +1,48 @@
+{
+    "mechanism_rxn": [
+        {
+            "step": "1",
+            "rxn_smiles": "COC(CC(C)=O)OC.CNC>>C[NH+](C)C([O-])(C)CC(OC)OC"
+        },
+        {
+            "step": "2",
+            "rxn_smiles": "C[NH+](C)C([O-])(C)CC(OC)OC>>CN(C)C(O)(C)CC(OC)OC"
+        },
+        {
+            "step": "3",
+            "rxn_smiles": "CN(C)C(O)(C)CC(OC)OC>>C[N+](C)=C(C)CC(OC)OC.[OH-]"
+        },
+        {
+            "step": "4",
+            "rxn_smiles": "C[N+](C)=C(C)CC(OC)OC.[OH-]>>CN(C)C(C)=CC(OC)OC.O"
+        },
+        {
+            "step": "5",
+            "rxn_smiles": "CN(C)C(C)=CC(OC)OC>>C[N+](C)=C(C)C=COC.C[O-]"
+        },
+        {
+            "step": "6",
+            "rxn_smiles": "C[N+](C)=C(C)C=COC.CNC>>COC([NH+](C)C)C=C(N(C)C)C"
+        },
+        {
+            "step": "7",
+            "rxn_smiles": "COC([NH+](C)C)C=C(N(C)C)C.C[O-]>>COC(N(C)C)C=C(N(C)C)C.CO"
+        },
+        {
+            "step": "8",
+            "rxn_smiles": "COC(N(C)C)C=C(N(C)C)C>>CN(C)C=CC(=[N+](C)C)C.C[O-]"
+        },
+        {
+            "step": "9",
+            "rxn_smiles": "CN(C)C=CC(=[N+](C)C)C.O>>CN(C)C=CC(C)(N(C)C)[OH2+]"
+        },
+        {
+            "step": "10",
+            "rxn_smiles": "CN(C)C=CC(C)(N(C)C)[OH2+]>>CN(C)C=CC(C)([NH+](C)C)O"
+        },
+        {
+            "step": "11",
+            "rxn_smiles": "CN(C)C=CC(C)([NH+](C)C)O>>CN(C)C=CC(C)=O.CNC.[H+]"
+        }
+    ]
+}

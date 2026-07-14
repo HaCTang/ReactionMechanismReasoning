@@ -1,0 +1,388 @@
+{
+    "reactions": [
+        {
+            "reaction_id": "1",
+            "reactants": [
+                {
+                    "smiles": "COC1=CC=CC=C1C(=O)O",
+                    "label": "None",
+                    "electron_number": 72,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Li]",
+                    "label": "None",
+                    "electron_number": 3,
+                    "charge": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "role": "reagent",
+                    "text": "3 Li",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "THF",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "liq. NH3",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "aq. HCl",
+                    "reaction_step": "1"
+                },
+                {
+                    "role": "reagent",
+                    "text": "reflux",
+                    "reaction_step": "1"
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=C1C(CCC)=CCCC1",
+                    "label": "None",
+                    "electron_number": 62,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[H+]",
+                    "label": "None",
+                    "electron_number": 0,
+                    "charge": 1
+                }
+            ]
+        }
+    ],
+    "mechanism": [
+        {
+            "mechanism_id": "1",
+            "reactants": [
+                {
+                    "smiles": "COC1=CC=CC=C1C(=O)O",
+                    "label": "None",
+                    "electron_number": 72,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[Li]",
+                    "label": "None",
+                    "electron_number": 3,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "COC1=CC=CC=C1C(=O)[O-]",
+                    "label": "None",
+                    "electron_number": 73,
+                    "charge": -1
+                },
+                {
+                    "smiles": "[Li+]",
+                    "label": "None",
+                    "electron_number": 2,
+                    "charge": 1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "2",
+            "reactants": [
+                {
+                    "smiles": "COC1=CC=CC=C1C(=O)[O-]",
+                    "label": "None",
+                    "electron_number": 73,
+                    "charge": -1
+                },
+                {
+                    "smiles": "[Li]",
+                    "label": "None",
+                    "electron_number": 3,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "COC1=C[CH-]C=C[C]1C([O-])=O",
+                    "label": "None",
+                    "electron_number": 74,
+                    "charge": -2
+                },
+                {
+                    "smiles": "[Li+]",
+                    "label": "None",
+                    "electron_number": 2,
+                    "charge": 1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "3",
+            "reactants": [
+                {
+                    "smiles": "COC1=C[CH-]C=C[C]1C([O-])=O",
+                    "label": "None",
+                    "electron_number": 74,
+                    "charge": -2
+                },
+                {
+                    "smiles": "N",
+                    "label": "None",
+                    "electron_number": 7,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "COC1=CCC=C[C]1C([O-])=O",
+                    "label": "None",
+                    "electron_number": 73,
+                    "charge": -1
+                },
+                {
+                    "smiles": "[NH2-]",
+                    "label": "None",
+                    "electron_number": 8,
+                    "charge": -1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "4",
+            "reactants": [
+                {
+                    "smiles": "COC1=CCC=C[C]1C([O-])=O",
+                    "label": "None",
+                    "electron_number": 73,
+                    "charge": -1
+                },
+                {
+                    "smiles": "[Li]",
+                    "label": "None",
+                    "electron_number": 3,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "COC1=CCC=C[C-]1C([O-])=O",
+                    "label": "None",
+                    "electron_number": 74,
+                    "charge": -2
+                },
+                {
+                    "smiles": "[Li+]",
+                    "label": "None",
+                    "electron_number": 2,
+                    "charge": 1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "5",
+            "reactants": [
+                {
+                    "smiles": "COC1=CCC=C[C-]1C([O-])=O",
+                    "label": "None",
+                    "electron_number": 74,
+                    "charge": -2
+                },
+                {
+                    "smiles": "CCCBr",
+                    "label": "None",
+                    "electron_number": 53,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "COC1=CCC=CC1(CCC)C(=O)[O-]",
+                    "label": "None",
+                    "electron_number": 91,
+                    "charge": -1
+                },
+                {
+                    "smiles": "[Br-]",
+                    "label": "None",
+                    "electron_number": 36,
+                    "charge": -1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "6",
+            "reactants": [
+                {
+                    "smiles": "COC1=CCC=CC1(CCC)C(=O)[O-]",
+                    "label": "None",
+                    "electron_number": 91,
+                    "charge": -1
+                },
+                {
+                    "smiles": "[H+]",
+                    "label": "None",
+                    "electron_number": 0,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C[O+]=C1CCC=CC1(C([O-])=O)CCC",
+                    "label": "None",
+                    "electron_number": 90,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "7",
+            "reactants": [
+                {
+                    "smiles": "C[O+]=C1CCC=CC1(C([O-])=O)CCC",
+                    "label": "None",
+                    "electron_number": 90,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "COC1=C(CCC)C=CCC1",
+                    "label": "None",
+                    "electron_number": 68,
+                    "charge": 0
+                },
+                {
+                    "smiles": "O=C=O",
+                    "label": "None",
+                    "electron_number": 22,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "8",
+            "reactants": [
+                {
+                    "smiles": "COC1=C(CCC)C=CCC1",
+                    "label": "None",
+                    "electron_number": 68,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[H+]",
+                    "label": "None",
+                    "electron_number": 0,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C[O+]=C1C(CCC)=CCCC1",
+                    "label": "None",
+                    "electron_number": 67,
+                    "charge": 1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "9",
+            "reactants": [
+                {
+                    "smiles": "C[O+]=C1C(CCC)=CCCC1",
+                    "label": "None",
+                    "electron_number": 67,
+                    "charge": 1
+                },
+                {
+                    "smiles": "O",
+                    "label": "None",
+                    "electron_number": 8,
+                    "charge": 0
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "COC1([OH2+])C(CCC)=CCCC1",
+                    "label": "None",
+                    "electron_number": 75,
+                    "charge": 1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "10",
+            "reactants": [
+                {
+                    "smiles": "COC1([OH2+])C(CCC)=CCCC1",
+                    "label": "None",
+                    "electron_number": 75,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "C[OH+]C1(O)C(CCC)=CCCC1",
+                    "label": "None",
+                    "electron_number": 75,
+                    "charge": 1
+                }
+            ]
+        },
+        {
+            "mechanism_id": "11",
+            "reactants": [
+                {
+                    "smiles": "C[OH+]C1(O)C(CCC)=CCCC1",
+                    "label": "None",
+                    "electron_number": 75,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "[OH+]=C1C(CCC)=CCCC1",
+                    "label": "None",
+                    "electron_number": 61,
+                    "charge": 1
+                },
+                {
+                    "smiles": "CO",
+                    "label": "None",
+                    "electron_number": 14,
+                    "charge": 0
+                }
+            ]
+        },
+        {
+            "mechanism_id": "12",
+            "reactants": [
+                {
+                    "smiles": "[OH+]=C1C(CCC)=CCCC1",
+                    "label": "None",
+                    "electron_number": 61,
+                    "charge": 1
+                }
+            ],
+            "products": [
+                {
+                    "smiles": "O=C1C(CCC)=CCCC1",
+                    "label": "None",
+                    "electron_number": 62,
+                    "charge": 0
+                },
+                {
+                    "smiles": "[H+]",
+                    "label": "None",
+                    "electron_number": 0,
+                    "charge": 1
+                }
+            ]
+        }
+    ]
+}
