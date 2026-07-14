@@ -1,6 +1,6 @@
 # ReactionMechanismReasoning
 
-Code and benchmark assets for **Learning Mechanistic Reasoning for Chemical Reactions with Large Language Models** (COLM 2026 submission).
+Code and benchmark assets for **Learning Mechanistic Reasoning for Chemical Reactions with Large Language Models**.
 
 Trimmed for reproducibility: FukuyamaBench (JSON), benchmark construction, annotation → SFT → GSPO (**paper recipe only**), and evaluation.
 
@@ -102,9 +102,9 @@ python annotation/annotate_reaction.py --input ... --output ... \
 python annotation/convert_to_train.py --input ... --output ...
 ```
 
-## Secrets
+## Keys
 
-Do not commit keys. Use env vars or local `*.key` files (gitignored):
+Use env vars or local `*.key` files (gitignored):
 
 - `GOOGLE_API_KEY` / `gemini.key`
 - `HF_TOKEN` / `hf_token.key`
@@ -112,4 +112,3 @@ Do not commit keys. Use env vars or local `*.key` files (gitignored):
 
 ## Citation
 
-Please cite the COLM 2026 paper *Learning Mechanistic Reasoning for Chemical Reactions with Large Language Models*.
