@@ -440,6 +440,7 @@ def compare_pathways_with_checkpoints(
         
         # Search through remaining predicted steps in order
         found = False
+        search_start = pred_idx
         while pred_idx < pred_length and not found:
             pred_products = get_product_smiles_from_step(pred_pathway[pred_idx])
             
@@ -462,6 +463,7 @@ def compare_pathways_with_checkpoints(
                 pred_idx += 1  # Try next predicted step
         
         if not found:
+            pred_idx = search_start  # restore: a failed checkpoint must not consume predicted steps
             ckpt_match["error"] = "checkpoint_not_found"
         
         checkpoint_matches.append(ckpt_match)
