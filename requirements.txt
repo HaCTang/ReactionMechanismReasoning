@@ -8,6 +8,7 @@ google-genai>=1.0.0
 gradio_client>=1.0.0
 openai>=1.40.0
 datasets>=3.0.0
+pytest>=7.0
 
 # Training: see train/requirements_hq_train_repro.txt for the pinned SFT stack.
 # RL additionally needs verl (submodule) + vLLM 0.14.x.

@@ -16,6 +16,16 @@ Checkpoint-based evaluation:
 - Each line in ckpt.txt is a checkpoint with comma-separated equivalent step IDs
 - Model predictions are evaluated by matching checkpoints in order
 - This handles cases where model predicts finer-grained steps than ground truth
+
+Label-aware matching (see matching.py):
+- A checkpoint's ground truth for a step is the full product set G, each
+  species carrying a label from mechanism.json (intermediate/product/leaving/...)
+- A prediction matches a step iff R subset-or-equal P subset-or-equal G, where
+  R (the required species) is: all "intermediate"-labeled species, else all
+  "product"-labeled species, else the single largest species by heavy-atom
+  count. This is stricter than "any nonempty subset of G" - a prediction that
+  reproduces only a byproduct (e.g. a leaving group) does not match.
+- --strict disables label logic and instead requires P == G exactly.
 """
 
 import os
@@ -26,7 +36,8 @@ import glob
 import math
 from typing import Dict, Optional, List, Tuple
 from datetime import datetime
-from rdkit import Chem
+
+from matching import match_step
 
 
 def pass_at_k(n: int, c: int, k: int) -> float:
@@ -116,23 +127,30 @@ def load_checkpoints(mechanisms_dir: str, case_id: str) -> Optional[List[List[in
     return checkpoints if checkpoints else None
 
 
-def get_checkpoint_products(gt_pathway: List[Dict], step_ids: List[int]) -> List[List[str]]:
+def get_checkpoint_products(
+    gt_pathway: List[Dict],
+    step_ids: List[int],
+    mechanism_labels: Optional[Dict[str, List[Dict]]] = None,
+) -> List[List[Dict]]:
     """
-    Get products from ground truth pathway for given step IDs.
-    
+    Get labeled products from ground truth pathway for given step IDs.
+
     Args:
         gt_pathway: Ground truth pathway steps
         step_ids: List of step IDs (1-indexed) that are equivalent for this checkpoint
-    
+        mechanism_labels: Optional fallback label lookup (see load_mechanism_labels)
+
     Returns:
-        List of product lists, one for each step ID
+        List of labeled product lists ([{"smiles":, "label":}, ...]), one
+        for each step ID. Each equivalent step is an independent candidate:
+        its own required species and complete product set are used, never
+        combined with another step's.
     """
     result = []
     for step_id in step_ids:
         idx = step_id - 1  # Convert to 0-indexed
         if 0 <= idx < len(gt_pathway):
-            products = gt_pathway[idx].get("products", [])
-            result.append(products)
+            result.append(get_step_products_with_labels(gt_pathway[idx], mechanism_labels))
     return result
 
 
@@ -225,92 +243,99 @@ def get_product_smiles_from_step(step: Dict) -> List[str]:
     return []
 
 
-def canonicalize_smiles(smiles: str) -> Optional[str]:
-    """Canonicalize SMILES using RDKit."""
-    if not smiles:
-        return None
-    try:
-        mol = Chem.MolFromSmiles(smiles)
-        if mol is None:
-            return None
-        return Chem.MolToSmiles(mol, canonical=True)
-    except Exception:
-        return None
+def load_mechanism_labels(mechanisms_dir: str, case_id: str) -> Optional[Dict[str, List[Dict]]]:
+    """
+    Load per-step product labels from a case's mechanism.json, keyed by
+    (string) mechanism_id.
 
-
-def canonicalize_smiles_set(smiles_list: List[str]) -> set:
-    """Canonicalize a list of SMILES and return as set."""
-    result = set()
-    for smi in smiles_list:
-        canon = canonicalize_smiles(smi)
-        if canon:
-            result.add(canon)
+    Used as a fallback source of label information for inference-result
+    files produced before label-aware matching, whose ground_truth_pathway
+    entries have no "product_labels" field.
+    """
+    mechanism_path = os.path.join(mechanisms_dir, case_id, "mechanism.json")
+    if not os.path.exists(mechanism_path):
+        return None
+    with open(mechanism_path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    result = {}
+    for step in data.get("mechanism", []):
+        step_id = str(step.get("mechanism_id"))
+        result[step_id] = [
+            {"smiles": p.get("smiles"), "label": p.get("label")}
+            for p in step.get("products", [])
+        ]
     return result
 
 
+def get_step_products_with_labels(
+    gt_step: Dict,
+    mechanism_labels: Optional[Dict[str, List[Dict]]]
+) -> List[Dict]:
+    """
+    Build the labeled product list ([{"smiles":, "label":}, ...]) for a
+    single ground-truth pathway step.
+
+    Prefers the "product_labels" list carried directly on the pathway step
+    (written by the current run_infer_pathway.py); falls back to labels
+    looked up from mechanism.json for older result files that lack it.
+    """
+    products = gt_step.get("products", [])
+    labels = gt_step.get("product_labels")
+    if labels is not None and len(labels) == len(products):
+        return [{"smiles": s, "label": l} for s, l in zip(products, labels)]
+
+    if mechanism_labels is not None:
+        step_id = str(gt_step.get("step_id"))
+        if step_id in mechanism_labels:
+            return mechanism_labels[step_id]
+
+    return [{"smiles": s, "label": None} for s in products]
+
+
 def compare_step_products(
-    pred_products: List[str], 
-    gt_products: List[str],
+    pred_products: List[str],
+    gt_products: List[Dict],
     lenient: bool = True
 ) -> Tuple[bool, str]:
     """
-    Compare predicted products with ground truth products.
-    
+    Compare predicted products with a ground-truth step's labeled products.
+
     Args:
-        pred_products: List of predicted SMILES
-        gt_products: List of ground truth SMILES
-        lenient: If True, prediction is correct if it's a subset of ground truth
-                 (i.e., model predicted main products but not leaving groups)
-    
+        pred_products: List of predicted SMILES.
+        gt_products: Labeled ground-truth products for the step, as
+                     [{"smiles":, "label":}, ...] (see
+                     get_step_products_with_labels).
+        lenient: If True, use label-aware matching: a prediction is correct
+                 if it contains at least the required species (see
+                 matching.select_required_species) and nothing outside the
+                 ground-truth product set. If False, require exact
+                 product-set equality (--strict), ignoring labels.
+
     Returns:
         Tuple of (is_match, error_type)
     """
-    pred_canon = canonicalize_smiles_set(pred_products)
-    gt_canon = canonicalize_smiles_set(gt_products)
-    
-    if not pred_canon and not gt_canon:
-        return False, 'both_invalid'
-    if not pred_canon:
-        return False, 'invalid_pred'
-    if not gt_canon:
-        return False, 'invalid_gt'
-    
-    # Check if predicted products match ground truth exactly
-    if pred_canon == gt_canon:
-        return True, None
-    
-    # Lenient mode: prediction is correct if it's a non-empty subset of ground truth
-    # This handles cases where model predicts main products but not leaving groups
-    if lenient and pred_canon.issubset(gt_canon) and len(pred_canon) > 0:
-        return True, 'subset_match'
-    
-    # Check if prediction is a superset (model predicted extra products)
-    if gt_canon.issubset(pred_canon):
-        return False, 'superset_match'
-    
-    # Partial overlap
-    if pred_canon & gt_canon:  # non-empty intersection
-        return False, 'partial_match'
-    
-    return False, 'mismatch'
+    return match_step(pred_products, gt_products, strict=not lenient)
 
 
 def compare_pathways(
     pred_pathway: List[Dict],
     gt_pathway: List[Dict],
     lenient: bool = True,
-    checkpoints: Optional[List[List[int]]] = None
+    checkpoints: Optional[List[List[int]]] = None,
+    mechanism_labels: Optional[Dict[str, List[Dict]]] = None,
 ) -> Dict:
     """
     Compare predicted pathway with ground truth pathway.
-    
+
     Args:
         pred_pathway: List of predicted step dictionaries
         gt_pathway: List of ground truth step dictionaries
-        lenient: If True, allow subset matching for products
+        lenient: If True, use label-aware matching (R subset P subset G);
+                 if False, require exact product-set equality (--strict)
         checkpoints: Optional list of checkpoints from ckpt.txt.
                     Each checkpoint is a list of equivalent step IDs.
-    
+        mechanism_labels: Optional fallback label lookup (see load_mechanism_labels)
+
     Returns:
         Dictionary with comparison metrics
     """
@@ -336,7 +361,7 @@ def compare_pathways(
     # Use checkpoint-based evaluation if checkpoints are provided
     if checkpoints:
         return compare_pathways_with_checkpoints(
-            pred_pathway, gt_pathway, checkpoints, lenient
+            pred_pathway, gt_pathway, checkpoints, lenient, mechanism_labels
         )
     
     # Fallback to step-by-step evaluation
@@ -362,9 +387,10 @@ def compare_pathways(
         else:
             pred_products = get_product_smiles_from_step(pred_pathway[i])
             gt_products = gt_pathway[i].get("products", [])
-            
-            is_match, error_type = compare_step_products(pred_products, gt_products, lenient)
-            
+            gt_products_labeled = get_step_products_with_labels(gt_pathway[i], mechanism_labels)
+
+            is_match, error_type = compare_step_products(pred_products, gt_products_labeled, lenient)
+
             step_matches.append({
                 "step": i + 1,
                 "match": is_match,
@@ -398,36 +424,42 @@ def compare_pathways_with_checkpoints(
     pred_pathway: List[Dict],
     gt_pathway: List[Dict],
     checkpoints: List[List[int]],
-    lenient: bool = True
+    lenient: bool = True,
+    mechanism_labels: Optional[Dict[str, List[Dict]]] = None,
 ) -> Dict:
     """
     Compare predicted pathway with ground truth using checkpoint-based evaluation.
-    
+
     This method allows model to predict finer-grained steps than ground truth.
     Each checkpoint can be satisfied by matching any of its equivalent step IDs.
     Checkpoints must be matched in order using the predicted steps in order.
-    
+    A checkpoint listing multiple step IDs represents alternatives: each
+    candidate step is matched independently against its own required
+    species and complete product set, never combined with another step's.
+
     Args:
         pred_pathway: List of predicted step dictionaries
         gt_pathway: List of ground truth step dictionaries
         checkpoints: List of checkpoints, each containing equivalent step IDs
-        lenient: If True, allow subset matching for products
-    
+        lenient: If True, use label-aware matching (R subset P subset G);
+                 if False, require exact product-set equality (--strict)
+        mechanism_labels: Optional fallback label lookup (see load_mechanism_labels)
+
     Returns:
         Dictionary with comparison metrics
     """
     num_checkpoints = len(checkpoints)
     pred_length = len(pred_pathway)
-    
+
     checkpoint_matches = []
     checkpoints_correct = 0
-    
+
     # Track which predicted step matched each checkpoint
     pred_idx = 0  # Current position in predicted pathway
-    
+
     for ckpt_idx, ckpt_step_ids in enumerate(checkpoints):
         # Get all possible products for this checkpoint (from equivalent GT steps)
-        possible_products_list = get_checkpoint_products(gt_pathway, ckpt_step_ids)
+        possible_products_list = get_checkpoint_products(gt_pathway, ckpt_step_ids, mechanism_labels)
         
         ckpt_match = {
             "checkpoint": ckpt_idx + 1,
@@ -453,7 +485,7 @@ def compare_pathways_with_checkpoints(
                     ckpt_match["matched_pred_step"] = pred_idx + 1
                     ckpt_match["matched_gt_step"] = gt_step_id
                     ckpt_match["pred_products"] = pred_products
-                    ckpt_match["gt_products"] = gt_products
+                    ckpt_match["gt_products"] = [p["smiles"] for p in gt_products]
                     checkpoints_correct += 1
                     found = True
                     pred_idx += 1  # Move to next predicted step
@@ -576,11 +608,13 @@ def evaluate_results(
         
         total_cases += 1
         
-        # Load checkpoints for this case
+        # Load checkpoints and label fallback info for this case
         checkpoints = None
+        mechanism_labels = None
         if mechanisms_dir:
             checkpoints = load_checkpoints(mechanisms_dir, case_id)
-        
+            mechanism_labels = load_mechanism_labels(mechanisms_dir, case_id)
+
         num_checkpoints = len(checkpoints) if checkpoints else len(gt_pathway)
         if checkpoints:
             cases_with_checkpoints += 1
@@ -641,7 +675,7 @@ def evaluate_results(
             n_valid += 1
 
             # Compare pathways with checkpoints
-            comparison = compare_pathways(pred_pathway, gt_pathway, lenient, checkpoints)
+            comparison = compare_pathways(pred_pathway, gt_pathway, lenient, checkpoints, mechanism_labels)
             k_eval["pathway_comparison"] = comparison
 
             # Track exact match
@@ -733,7 +767,7 @@ def generate_report(evaluations: List[Dict], output_path: str, lenient: bool = T
         top_k_values = [1, 3, 5, 8]
     
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    match_mode = "Lenient (subset match allowed)" if lenient else "Strict (exact match required)"
+    match_mode = "Label-aware (required species subset)" if lenient else "Strict (exact match required)"
     
     report_lines = [
         "=" * 100,
@@ -955,7 +989,12 @@ def main():
     parser.add_argument(
         "--strict",
         action="store_true",
-        help="Use strict matching (require exact product match, not subset)"
+        help="Use strict matching (require the predicted product set to equal the "
+             "ground-truth product set exactly, ignoring labels). Default is "
+             "label-aware matching: required species (intermediate > product > "
+             "largest-by-heavy-atom-count fallback) must be a subset of the "
+             "prediction, and the prediction must not go beyond the ground-truth "
+             "product set."
     )
     parser.add_argument(
         "--no_checkpoints",
@@ -1028,7 +1067,8 @@ def main():
     # Determine matching mode
     lenient = not args.strict
     if lenient:
-        print("Using lenient matching mode (subset of products is considered correct)")
+        print("Using label-aware matching mode (required species must be a subset of "
+              "the prediction, which must not go beyond the ground-truth products)")
     else:
         print("Using strict matching mode (exact product match required)")
     
