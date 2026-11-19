@@ -89,6 +89,17 @@ python eval/eval_infer_pathway.py \
   --result_file outputs/eval/pathway/<result>.json
 ```
 
+Checkpoint matching is label-aware: a predicted step matches a ground-truth
+step iff it contains at least the step's *required* species (its
+`intermediate`-labeled products, or `product`-labeled if none, or its
+largest product by heavy-atom count as a last resort) and nothing outside
+the step's full product set. Pass `--strict` to instead require exact
+product-set equality, ignoring labels. See `eval/matching.py`.
+
+```bash
+python -m pytest eval/test_matching.py -v
+```
+
 Primary metric: unbiased exact-match **pass@1**.
 
 ## Optional: rebuild mech-infer-train-v1

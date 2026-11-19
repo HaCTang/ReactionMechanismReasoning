@@ -172,13 +172,18 @@ def load_pathway_data(
         final_step = mechanism_steps[-1]
         final_products = final_step.get("products", [])
         
-        # Build ground truth pathway (list of intermediate products)
+        # Build ground truth pathway (list of intermediate products).
+        # "product_labels" is a parallel list of each product's mechanism.json
+        # label (e.g. "intermediate", "product", "leaving"), carried through so
+        # the evaluator can do label-aware checkpoint matching without having
+        # to re-read mechanism.json.
         ground_truth_pathway = []
         for step in mechanism_steps:
             step_products = step.get("products", [])
             ground_truth_pathway.append({
                 "step_id": step.get("mechanism_id"),
-                "products": [p.get("smiles") for p in step_products]
+                "products": [p.get("smiles") for p in step_products],
+                "product_labels": [p.get("label") for p in step_products]
             })
         
         # Get rxn_smiles from rxn.json (first step only for input)
