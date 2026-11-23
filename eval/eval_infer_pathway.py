@@ -741,7 +741,7 @@ def evaluate_results(
     valid_cases = 0
     for case_eval in case_evaluations:
         num_ckpts = case_eval["num_checkpoints"]
-        if num_ckpts > 0 and case_eval["best_checkpoints_correct"] > 0:
+        if num_ckpts > 0:
             total_checkpoint_accuracy += case_eval["best_checkpoints_correct"] / num_ckpts
             valid_cases += 1
 
