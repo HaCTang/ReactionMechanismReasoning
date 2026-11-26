@@ -13,6 +13,7 @@ train/              SFT (paper: SFT HQ)
 rl/                 GSPO v6 only (paper SOTA)
 eval/               Pathway inference + pass@k
 data_prep/          Build Haocheng1/mech-infer-train-v1 (+ seeds)
+results/sft/        SFT-only outputs + logs (SFT HQ, HQ v2)
 ```
 
 Case IDs encode partitions: **A**=78, **B**=131, **C**=110.

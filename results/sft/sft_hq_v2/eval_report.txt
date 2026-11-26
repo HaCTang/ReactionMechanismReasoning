@@ -1,0 +1,146 @@
+====================================================================================================
+Pathway Mechanism Prediction Evaluation Report (pass@k Analysis)
+Generated: 2026-03-20 04:41:22
+Match Mode: Lenient (subset match allowed)
+K Values: [1, 3, 5, 8]
+====================================================================================================
+
+NOTE: pass@k = 1 - C(n-c,k)/C(n,k) where n=total samples, c=correct samples
+      This is the unbiased estimator from the Codex/HumanEval paper.
+
+EXACT MATCH pass@k SUMMARY
+----------------------------------------------------------------------------------------------------
+Model                          Cases    pass@1     pass@3     pass@5     pass@8    
+----------------------------------------------------------------------------------------------------
+vllm                           78       2.4%       5.4%       7.7%       10.3%     
+----------------------------------------------------------------------------------------------------
+
+ANY CHECKPOINT CORRECT pass@k SUMMARY
+----------------------------------------------------------------------------------------------------
+Model                          Cases    pass@1     pass@3     pass@5     pass@8    
+----------------------------------------------------------------------------------------------------
+vllm                           78       14.3%      29.1%      36.6%      41.0%     
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+MODEL: vllm
+====================================================================================================
+Source: <PROJECT_DIR>/fukuyama_final/test_script/../test_result/pathway/vllm_hq_v2_A_s8_20260320_044120.json
+Sample Size: 8
+Total Cases: 78
+Cases with Checkpoints: 78
+
+pass@k METRICS:
+K     Exact Match     Any Ckpt Correct  
+----------------------------------------
+1     2.42%           14.31%            
+3     5.40%           29.09%            
+5     7.72%           36.59%            
+8     10.26%          41.03%            
+
+Average Best Checkpoint Accuracy: 49.12%
+
+--------------------------------------------------------------------------------
+
+================================================================================
+MODEL: vllm
+================================================================================
+Source: <PROJECT_DIR>/fukuyama_final/test_script/../test_result/pathway/vllm_hq_v2_A_s8_20260320_044120.json
+
+ERROR BREAKDOWN:
+  API errors:         0
+  Extraction errors:  101
+
+PER-CASE STATISTICS:
+  Format: Case ID: best_ckpts/total (acc%) | n=valid_samples, c_exact=exact_correct, c_any=any_ckpt_correct
+
+  A001: 2/2 (100%) | n=8, c_exact=1, c_any=1 [ckpt]
+  A002: 3/3 (100%) | n=7, c_exact=1, c_any=3 [ckpt]
+  A003: 1/3 (33%) | n=7, c_exact=0, c_any=1 [ckpt]
+  A004: 0/3 (0%) | n=8, c_exact=0, c_any=0 [ckpt]
+  A005: 1/3 (33%) | n=8, c_exact=0, c_any=2 [ckpt]
+  A006: 0/2 (0%) | n=4, c_exact=0, c_any=0 [ckpt]
+  A007: 0/4 (0%) | n=4, c_exact=0, c_any=0 [ckpt]
+  A008: 1/4 (25%) | n=8, c_exact=0, c_any=3 [ckpt]
+  A009: 0/3 (0%) | n=7, c_exact=0, c_any=0 [ckpt]
+  A010: 1/5 (20%) | n=7, c_exact=0, c_any=1 [ckpt]
+  A011: 0/7 (0%) | n=7, c_exact=0, c_any=0 [ckpt]
+  A012: 1/5 (20%) | n=4, c_exact=0, c_any=2 [ckpt]
+  A013: 0/4 (0%) | n=7, c_exact=0, c_any=0 [ckpt]
+  A014: 0/3 (0%) | n=7, c_exact=0, c_any=0 [ckpt]
+  A015: 1/4 (25%) | n=7, c_exact=0, c_any=3 [ckpt]
+  A016: 1/4 (25%) | n=8, c_exact=0, c_any=4 [ckpt]
+  A017: 0/3 (0%) | n=4, c_exact=0, c_any=0 [ckpt]
+  A018: 0/4 (0%) | n=6, c_exact=0, c_any=0 [ckpt]
+  A019: 0/6 (0%) | n=7, c_exact=0, c_any=0 [ckpt]
+  A020: 0/2 (0%) | n=8, c_exact=0, c_any=0 [ckpt]
+  A021: 0/3 (0%) | n=8, c_exact=0, c_any=0 [ckpt]
+  A022: 0/5 (0%) | n=4, c_exact=0, c_any=0 [ckpt]
+  A023: 0/6 (0%) | n=5, c_exact=0, c_any=0 [ckpt]
+  A024: 2/2 (100%) | n=7, c_exact=1, c_any=4 [ckpt]
+  A025: 0/7 (0%) | n=8, c_exact=0, c_any=0 [ckpt]
+  A026: 0/5 (0%) | n=5, c_exact=0, c_any=0 [ckpt]
+  A027: 0/4 (0%) | n=8, c_exact=0, c_any=0 [ckpt]
+  A028: 1/7 (14%) | n=7, c_exact=0, c_any=1 [ckpt]
+  A029: 0/4 (0%) | n=6, c_exact=0, c_any=0 [ckpt]
+  A030: 0/4 (0%) | n=7, c_exact=0, c_any=0 [ckpt]
+  A031: 0/4 (0%) | n=5, c_exact=0, c_any=0 [ckpt]
+  A032: 0/4 (0%) | n=7, c_exact=0, c_any=0 [ckpt]
+  A033: 0/3 (0%) | n=6, c_exact=0, c_any=0 [ckpt]
+  A034: 0/5 (0%) | n=7, c_exact=0, c_any=0 [ckpt]
+  A035: 1/6 (17%) | n=8, c_exact=0, c_any=8 [ckpt]
+  A036: 1/3 (33%) | n=7, c_exact=0, c_any=1 [ckpt]
+  A037: 0/4 (0%) | n=7, c_exact=0, c_any=0 [ckpt]
+  A038: 0/2 (0%) | n=7, c_exact=0, c_any=0 [ckpt]
+  A039: 1/4 (25%) | n=8, c_exact=0, c_any=1 [ckpt]
+  A040: 0/1 (0%) | n=8, c_exact=0, c_any=0 [ckpt]
+  A041: 1/1 (100%) | n=8, c_exact=6, c_any=6 [ckpt]
+  A042: 0/1 (0%) | n=3, c_exact=0, c_any=0 [ckpt]
+  A043: 0/4 (0%) | n=6, c_exact=0, c_any=0 [ckpt]
+  A044: 0/2 (0%) | n=8, c_exact=0, c_any=0 [ckpt]
+  A045: 0/2 (0%) | n=7, c_exact=0, c_any=0 [ckpt]
+  A046: 1/2 (50%) | n=8, c_exact=0, c_any=1 [ckpt]
+  A047: 2/2 (100%) | n=7, c_exact=1, c_any=4 [ckpt]
+  A048: 1/3 (33%) | n=7, c_exact=0, c_any=5 [ckpt]
+  A049: 2/4 (50%) | n=8, c_exact=0, c_any=6 [ckpt]
+  A050: 0/3 (0%) | n=6, c_exact=0, c_any=0 [ckpt]
+  A051: 1/5 (20%) | n=5, c_exact=0, c_any=1 [ckpt]
+  A052: 0/3 (0%) | n=6, c_exact=0, c_any=0 [ckpt]
+  A053: 1/7 (14%) | n=5, c_exact=0, c_any=1 [ckpt]
+  A054: 0/1 (0%) | n=5, c_exact=0, c_any=0 [ckpt]
+  A055: 1/3 (33%) | n=7, c_exact=0, c_any=2 [ckpt]
+  A056: 0/4 (0%) | n=8, c_exact=0, c_any=0 [ckpt]
+  A057: 3/3 (100%) | n=8, c_exact=1, c_any=3 [ckpt]
+  A058: 0/3 (0%) | n=6, c_exact=0, c_any=0 [ckpt]
+  A059: 1/3 (33%) | n=5, c_exact=0, c_any=1 [ckpt]
+  A060: 0/3 (0%) | n=8, c_exact=0, c_any=0 [ckpt]
+  A061: 0/3 (0%) | n=7, c_exact=0, c_any=0 [ckpt]
+  A062: 1/2 (50%) | n=8, c_exact=0, c_any=3 [ckpt]
+  A063: 1/2 (50%) | n=3, c_exact=0, c_any=1 [ckpt]
+  A064: 0/1 (0%) | n=7, c_exact=0, c_any=0 [ckpt]
+  A065: 0/2 (0%) | n=8, c_exact=0, c_any=0 [ckpt]
+  A066: 0/2 (0%) | n=8, c_exact=0, c_any=0 [ckpt]
+  A067: 0/1 (0%) | n=8, c_exact=0, c_any=0 [ckpt]
+  A068: 0/3 (0%) | n=6, c_exact=0, c_any=0 [ckpt]
+  A069: 1/2 (50%) | n=8, c_exact=0, c_any=1 [ckpt]
+  A070: 1/1 (100%) | n=6, c_exact=2, c_any=2 [ckpt]
+  A071: 0/1 (0%) | n=6, c_exact=0, c_any=0 [ckpt]
+  A072: 1/3 (33%) | n=6, c_exact=0, c_any=1 [ckpt]
+  A073: 0/3 (0%) | n=7, c_exact=0, c_any=0 [ckpt]
+  A074: 1/1 (100%) | n=8, c_exact=1, c_any=1 [ckpt]
+  A075: 1/3 (33%) | n=8, c_exact=0, c_any=3 [ckpt]
+  A076: 1/2 (50%) | n=7, c_exact=0, c_any=2 [ckpt]
+  A077: 0/1 (0%) | n=6, c_exact=0, c_any=0 [ckpt]
+  A078: 0/3 (0%) | n=7, c_exact=0, c_any=0 [ckpt]
+
+SAMPLE ERRORS (first 5 with errors):
+  [A002] k=1: extraction_error
+  [A003] k=8: extraction_error
+  [A006] k=1: extraction_error
+  [A007] k=1: extraction_error
+  [A009] k=6: extraction_error
+
+================================================================================
+END OF REPORT
+================================================================================
